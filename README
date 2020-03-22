@@ -1,0 +1,7 @@
+Hi,
+Those are the data set we are gonna use:
+  1. EU Data - should update daily from git
+  2. Johns Hopkins - should update daily from git
+  3. covid19_tests.csv - should update daily with this script: covid19_test_table_extract.py
+  4. quarantine_restrictions (1).xlsx - will be loaded manually (and update manually of necessary)
+  5. population per country - not ready yet. should be uploaded manually once 
