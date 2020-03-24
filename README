@@ -1,9 +1,12 @@
 Hi,
 These are the data sets we are gonna use:
+UPLOADED to DB:
   1. EU Data - should update daily from git
   2. Johns Hopkins - should update daily from git.
   3. Italian health ministry - includes data on tests, should update daily from git.
   4. Covid traking - take csv under link "States daily 4 pm ET", includes data about tests. should update daily.
+SHOULD BE UPLOADED:
   5. covid19_tests.csv - should update daily with this script: covid19_test_table_extract.py. Notice that from this csv dont take USA and italy.
   6. lockdown_table.csv - will be loaded manually (and update manually of necessary)
   7. population.csv - should be uploaded manually once 
+  8. Korean DB
