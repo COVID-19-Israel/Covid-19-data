@@ -19,7 +19,7 @@ Aditional data:
 * Total number of tests - see Other_data directory
 
 ## Website
-**add website url
+http://18.196.160.214/rest/
 
 ## Contact us:
 Found problams with the data? Have some good ideas and want to help?
