@@ -23,5 +23,5 @@ Aditional data:
 http://18.196.160.214/rest/
 
 ## Contact us:
-Found problams with the data? Have some good ideas and want to help?
+Found problems with the data? Have some good ideas and want to help?
 You can contact us at: iddo.waxman@gmail.com
