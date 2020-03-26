@@ -7,11 +7,11 @@ We update our data daily.
 ## How to use our data
 
 It is possible to download all of are information from our website (http://18.196.160.214/rest/), as csv files.
-Because we gather information from diffrent data sources - it may be inconsistent. We don't remove or solve these inconsistencies, we leave this job to the analysts to slove according to their understanding.
-A few recomendations:
-* Use the specific data base if they exsist - for example, if you want to find info about Italy, use COVID-19 Italia.
+Because we gather information from diffrent data sources - it may be inconsistent. We don't remove or solve these inconsistencies, we leave this job to the analysts to solve according to their understanding.
+A few recommendations:
+* Use the specific data base if they exist - for example, if you want to find info about Italy, use COVID-19 Italia.
 * Notice that some data appears more then once per each date - you can filter this using the update_time column.
-* In some countries we have a division into smaller regions. When suming info about that country, be sure to notice not to sum the diffrent regions with a row that allready includes the sum of the whole country.
+* In some countries we have a division into smaller regions. When summing info about that country, be sure to notice not to sum the diffrent regions with a row that already includes the sum of the whole country.
 
 ## Table's and Main column's
 
