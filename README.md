@@ -4,6 +4,15 @@ This is a data repository containing informatin about the Covid19 Coronavirus.
 Our goal is to gather as much information from diffrenet sources (not Israeli focused) to help analysts and resarchers.
 We update our data daily.
 
+## How to use our data
+
+It is possible to download all of are information from our website (http://18.196.160.214/rest/), as csv files.
+Because we gather information from diffrent data sources - it may be inconsistent. We don't remove or solve these inconsistencies, we leave this job to the analysts to slove according to their understanding.
+A few recomendations:
+* Use the specific data base if they exsist - for example, if you want to find info about Italy, use COVID-19 Italia.
+* Notice that some data appears more then once per each date - you can filter this using the update_time column.
+* In some countries we have a division into smaller regions. When suming info about that country, be sure to notice not to sum the diffrent regions with a row that allready includes the sum of the whole country.
+
 ## Table's and Main column's
 
 We have two main table's in our DB:
@@ -34,15 +43,6 @@ Population | The sum of total population.
 start_date | Date where the lockdown step was taken.
 lockdown_level | An integer indicating the severity of the social distancing. See Lockdown_directory for more details.
 Lockdown paramaters | Social distancing steps and a true/false indicator if it was taken or not. 
-
-## How to use our data
-
-It is possible to download all of are information from our website (http://18.196.160.214/rest/), as csv files.
-Because we gather information from diffrent data sources - it may be inconsistent. We don't remove or solve these inconsistencies, we leave this job to the analysts to slove according to their understanding.
-A few recomendations:
-* Use the specific data base if they exsist - for example, if you want to find info about Italy, use COVID-19 Italia.
-* Notice that some data appears more then once per each date - you can filter this using the update_time column.
-* In some countries we have a division into smaller regions. When suming info about that country, be sure to notice not to some the diffrent regigons with a row that allready includes the sum of the whole country.
 
 ## Data Sources
 
