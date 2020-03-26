@@ -10,7 +10,7 @@ Tabular data:
 * Johns Hopkins CSSE: https://github.com/CSSEGISandData/COVID-19
 * covid19-eu-data: https://github.com/covid19-eu-zh/covid19-eu-data
 * COVID-19 Italia - Monitoraggio situazione: https://github.com/pcm-dpc/COVID-19
-* The COVID Tracking Project: https://covidtracking.com/
+* The COVID Tracking Project (relevant to USA): https://covidtracking.com/
 * COVID19 Spain cases: https://github.com/victorvicpal/COVID19_es
 * COVID-19 South Korea: https://github.com/parksw3/COVID19-Korea
 
