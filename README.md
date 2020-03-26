@@ -1,7 +1,7 @@
 # COVID-19-Israel Data Repository
 
 This is a data repository containing informatin about the Covid19 Coronavirus.
-Our goal is to gather as much information from diffrenet sources (not Israeli focused) to help analysts and resarchers.
+Our goal is to gather as much information from diffrenet sources to help analysts and resarchers.
 We update our data daily.
 
 ## How to use our data
