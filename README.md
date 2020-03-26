@@ -7,15 +7,15 @@ We update our data daily.
 ## How to use our data
 
 It is possible to download all of our information from our website (http://covidil.hopto.org/dashboard), as csv files. Because we gather information from different data sources - it may be inconsistent. We don't remove or solve these inconsistencies, we leave this job to the analysts to solve according to their understanding. A few recommendations:
-•	Use the specific data base if they exist - for example, if you want to find info about Italy, use COVID-19 Italia.
-•	Notice that some data appears more than once per each date - you can filter this using the update_time column.
-•	In some countries we have a division into smaller regions. When summing info about that country, be sure to notice not to sum the different regions with a row that already includes the sum of the whole country.
+*	Use the specific data base if they exist - for example, if you want to find info about Italy, use COVID-19 Italia.
+*	Notice that some data appears more than once per each date - you can filter this using the update_time column.
+*	In some countries we have a division into smaller regions. When summing info about that country, be sure to notice not to sum the different regions with a row that already includes the sum of the whole country.
 
 
 ## Table's and Main column's
 
-•	Reports - Contains most of the information of the DB, divided by geographical area and date.
-•	Lockdown - Contains information about social distancing steps taken in different countries to fight the virus. See more documentation in Lockdown_directory.
+*	Reports - Contains most of the information of the DB, divided by geographical area and date.
+*	Lockdown - Contains information about social distancing steps taken in different countries to fight the virus. See more documentation in Lockdown_directory.
 
 
 ### Reports
