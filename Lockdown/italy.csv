@@ -1,0 +1,41 @@
+country,region,change_date,changed_field,changed_from,changed_to
+Italy,Lombardia,21/02/2020,unnecessary_business,0,1
+Italy,Lombardia,21/02/2020,educational_institutions,0,1
+Italy,Lombardia,21/02/2020,religious_institutions,0,1
+Italy,Lombardia,21/02/2020,public_transport_restriction,0,1
+Italy,Emilia Romagna,21/02/2020,educational_institutions,0,1
+Italy,Lombardia,23/02/2020,religious_institutions,0,1
+Italy,Lombardia,23/02/2020,educational_institutions,0,2
+Italy,Lombardia,23/02/2020,distance_saving_instructions,NONE,2
+Italy,Piemonte,23/02/2020,educational_institutions,1,2
+Italy,Basilicata,24/02/2020,enter_area_isolation,FALSE,TRUE
+Italy,Liguria,24/02/2020,educational_institutions,0,2
+Italy,Liguria,24/02/2020,enter_area_isolation,FALSE,TRUE
+Italy,Trento,24/02/2020,educational_institutions,0,1
+Italy,Piemonte,24/02/2020,religious_institutions,0,1
+Italy,Friuli Venezia Giulia,24/02/2020,educational_institutions,0,1
+Italy,Liguria,24/02/2020,unnecessary_business,0,1
+Italy,Sicilia,26/02/2020,educational_institutions,0,1
+Italy,Campania,26/02/2020,educational_institutions,0,1
+Italy,Veneto,27/02/2020,educational_institutions,0,2
+Italy,Veneto,27/02/2020,religious_institutions,0,2
+Italy,Trento,27/02/2020,educational_institutions,1,2
+Italy,Friuli Venezia Giulia,27/02/2020,religious_institutions,0,1
+Italy,Emilia Romagna,27/02/2020,educational_institutions,1,2
+Italy,Emilia Romagna,27/02/2020,religious_institutions,0,1
+Italy,Emilia Romagna,27/02/2020,unnecessary_business,0,1
+Italy,Puglia,27/02/2020,educational_institutions,0,1
+Italy,Puglia,27/02/2020,distance_saving_instructions,NONE,2
+Italy,Abruzzo,27/02/2020,educational_institutions,0,1
+Italy,Marche,27/02/2020,unnecessary_business,0,1
+Italy,Marche,27/02/2020,educational_institutions,0,2
+Italy,Sicilia,29/02/2020,educational_institutions,0,1
+Italy,all,04/03/2020,educational_institutions,0,2
+Italy,Lombardia,07/03/2020,partial_quarantine,FALSE,TRUE
+Italy,Lombardia,07/03/2020,religious_institutions,1,2
+Italy,Lombardia,07/03/2020,unnecessary_business,0,2
+Italy,all,07/03/2020,fines_and_incarceration,FALSE,TRUE
+Italy,all,07/03/2020,police_army_enforcement,FALSE,TRUE
+Italy,all,09/03/2020,unnecessary_business,0,2
+Italy,all,09/03/2020,partial_quarantine,FALSE,TRUE
+Italy,all,09/03/2020,religious_institutions,0,2
