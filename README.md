@@ -38,7 +38,7 @@ Lockdown paramaters | Social distancing steps and a true/false indicator if it w
 ## How to use our data
 
 It is possible to download all of are information from our website (http://18.196.160.214/rest/), as csv files.
-Because we gather information from diffrent data sources - it may be inconsistent. We don't remove or solve these inconsistencies, we leave this job to the analysts to slove according to there understanding.
+Because we gather information from diffrent data sources - it may be inconsistent. We don't remove or solve these inconsistencies, we leave this job to the analysts to slove according to their understanding.
 A few recomendations:
 * Use the specific data base if they exsist - for example, if you want to find info about Italy, use COVID-19 Italia.
 * Notice that some data appears more then once per each date - you can filter this using the update_time column.
