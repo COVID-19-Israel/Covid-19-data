@@ -6,7 +6,7 @@ We update our data daily.
 
 ## How to use our data
 
-It is possible to download all of are information from our website (http://covidil.hopto.org/dashboard), as csv files.
+It is possible to download all of are information from our website (http://covidil.hopto.org/csv-files), as csv files.
 Because we gather information from diffrent data sources - it may be inconsistent. We don't remove or solve these inconsistencies, we leave this job to the analysts to solve according to their understanding.
 A few recommendations:
 * Use the specific data base if they exist - for example, if you want to find info about Italy, use COVID-19 Italia.
