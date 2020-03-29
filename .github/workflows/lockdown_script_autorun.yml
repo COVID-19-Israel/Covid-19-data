@@ -9,17 +9,19 @@ jobs:
     name: Download Products and Script From Git
     runs-on: windows-latest
     steps:
-#     - name: Clone git
-#       env:
-#         GIT_URL: "https://github.com/COVID-19-Israel/Covid-19-data.git"
-#       run: |
-#         git clone $GIT_URL
+    - name: Clone git
+      env:
+        GIT_URL: "https://github.com/COVID-19-Israel/Covid-19-data.git"
+      run: |
+        git clone $GIT_URL
+      shell: bash
     - name: Pull master
       env:
         GIT_DIR: Covid-19-data
       run: |
         cd $GIT_DIR
         git pull origin master
+      shell: bash
   run_script:
     # This job runs the script from the lockdown dir
     name: Run The Script From The Lockdown Dir
@@ -31,6 +33,7 @@ jobs:
         LOCKDOWN_DIR: Lockdown
       run: |
         cd $LOCKDOWN_DIR
+      shell: bash
     - name: Run the script
       env:
         PYTHON_SCRIPT: diffs_to_states 1.5.2.py
@@ -43,6 +46,7 @@ jobs:
         mkdir -p $BACKUP_DIR
         cp $OUTPUT_FILE $BACKUP_DIR
         python $PYTHON_SCRIPT -i . -c $PROVINCES_FILE -o $OUTPUT_DIR/$OUTPUT_FILE
+      shell: bash
   update_changes:
     # This job updates the master to be with the new lockdown dir
     name: Updates The Changes That The script Made
@@ -57,6 +61,8 @@ jobs:
           git init
           git add $LOCKDOWN_DIR
           git commit -m "Auto upload new lockdown dir"
+        shell: bash
       - name: Push the changes to git
         run: |
           git push origin master
+        shell: bash
