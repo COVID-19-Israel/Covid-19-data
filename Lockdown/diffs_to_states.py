@@ -430,7 +430,6 @@ def diffs_to_states(diff_tables_dir_path, explored_areas_path):
 	for diff_path in diff_paths:
 		diff_rows = get_csv_rows(diff_path)
 		for row in diff_rows:
-			print(row)
 			row[CHANGE_DATE_INDEX] = datetime.strptime(row[CHANGE_DATE_INDEX], DATE_FORMAT)
 
 		sorted_diff_rows = sorted(diff_rows, key=set_province_priority)
