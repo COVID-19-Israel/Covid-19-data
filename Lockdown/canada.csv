@@ -17,9 +17,9 @@ Canada,Manitoba,20/03/2020,unnecessary_business,NONe,2
 Canada,Manitoba,13/03/2020,congregation_restriction,NONE,250
 Canada,Manitoba,13/03/2020,educational_institutions,NONE,2
 Canada,New Brunswick,19/03/2020,congregation_restriction,NONE,10
-Canada,New Brunswick,19/03/2020,unnecessary_business ,NONE,2
+Canada,New Brunswick,19/03/2020,unnecessary_business,NONE,2
 Canada,New Brunswick,19/03/2020,prohibition_entering_country,FALSE,TRUE
-Canada,New Brunswick,12/03/2020,enter_area_isolation ,FALSE,TRUE
+Canada,New Brunswick,12/03/2020,enter_area_isolation,FALSE,TRUE
 Canada,Newfoundland and Labrador,18/03/2020,congregation_restriction,NONE,10
 Canada,Newfoundland and Labrador,18/03/2020,unnecessary_business,NONE,2
 Canada,Newfoundland and Labrador,18/03/2020,enter_area_isolation,FALSE,TRUE
@@ -32,7 +32,7 @@ Canada,Nova Scotia,15/03/2020,limit_retirement_homes_visits,FALSE,TRUE
 Canada,Nova Scotia,15/03/2020,distance_saving_instructions,NONE,2
 Canada,Nova Scotia,15/03/2020,educational_institutions,NONE,2
 Canada,Nova Scotia,13/03/2020,congregation_restriction,NONE,150
-Canada,Nova Scotia,13/03/2020,enter_area_isolation ,FALSE,TRUE
+Canada,Nova Scotia,13/03/2020,enter_area_isolation,FALSE,TRUE
 Canada,Nunavut,20/03/2020,enter_area_isolation,FALSE,TRUE
 Canada,Ontario,28/03/2020,congregation_restriction,50,5
 Canada,Ontario,24/03/2020,unnecessary_business ,NONE,2
