@@ -26,6 +26,15 @@ jobs:
     needs: clone_git 
     runs-on: windows-latest
     steps:
+    - name: test
+      env:
+        OUTPUT_DIR: "output"
+        BACKUP_DIR: "backup"
+      run: |
+        mkdir -p $OUTPUT_DIR
+        mkdir -p $BACKUP_DIR
+      shell: bash
+      working-directory: ./Covid-19-data/Lockdown
     - name: Run the script
       env:
         PYTHON_SCRIPT: "diffs_to_states 1.5.2.py"
@@ -34,8 +43,6 @@ jobs:
         OUTPUT_FILE: "all_states.csv"
         PROVINCES_FILE: "explored_areas.csv"
       run: |
-        mkdir -p $OUTPUT_DIR
-        mkdir -p $BACKUP_DIR
         cp $OUTPUT_FILE $BACKUP_DIR
         python $PYTHON_SCRIPT -i . -c $PROVINCES_FILE -o $OUTPUT_DIR/$OUTPUT_FILE
       shell: bash
