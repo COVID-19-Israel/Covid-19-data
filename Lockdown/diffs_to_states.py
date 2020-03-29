@@ -10,6 +10,11 @@ INPUT_HELP = 'path of csv diff tables dir (input)'
 AREAS_HELP = 'path of csv explored areas table (input)'
 OUTPUT_HELP = 'path of csv states table (output)'
 
+WARNING_MISSING_COUNTRY = 'Warning: Country: "{0}" was not found in the explored areas file. Please add it, escpecially if it has provinces.'
+WARNING_MISSING_PROVINCE = 'Warning: Province: "{0}" in Country: "{1}" was not found in the explored areas file. Please add it and other possible missing records.'
+ERROR_MISSING_COUNTRY = 'Error: Country: "{0}" was not found.'
+ERROR_MISSING_PROVINCE = 'Error: Province: "{0}" in Country: "{1}" was not found.'
+
 ALL_PROVINCES = 'all'
 START_DATE = '01/01/2019'
 DATE_FORMAT = '%d/%m/%Y'
@@ -361,6 +366,27 @@ def get_csv_rows(diff_path):
 		return list(diff_reader)[1:]
 
 
+def add_missing_areas(diff_row):
+
+	country_name = diff_row[COUNTRY_INDEX]
+	province_name = diff_row[PROVINCE_INDEX]
+
+	if not find_old_country(country_name):
+		print(WARNING_MISSING_COUNTRY.format(country_name))
+
+		create_initial_state(country_name, ALL_PROVINCES)
+
+	if province_name.lower() != ALL_PROVINCES:
+		if not find_old_province(country_name, province_name):
+			print(WARNING_MISSING_PROVINCE.format(province_name, country_name))
+			create_initial_state(country_name, province_name)
+
+			if country_name in provinces_in_countries:
+				provinces_in_countries[country_name].append(province_name)
+			else:
+				provinces_in_countries[country_name] = [province_name]
+
+
 def process_diff_row(diff_row):
 	'''
 	@purpose: main function for converting a row in the diff table to a row in states table.
@@ -381,23 +407,19 @@ def process_diff_row(diff_row):
 
 	old_country_row = find_old_country(country_name)
 	if not old_country_row:
-		print('Warning: Country: "{0}" was not found in the explored areas file. Please add it, escpecially if it has provinces.'
-			.format(country_name))
-
-		old_country_row = create_initial_state(country_name, ALL_PROVINCES)
+		raise IOError(ERROR_MISSING_COUNTRY.format(country_name))
 		
-	if province_name.lower() == ALL_PROVINCES:   # all country rule
+	if province_name.lower() == ALL_PROVINCES:   # country directive
 		country_row = add_country_row(old_country_row, diff_row)
 
 		if country_name in provinces_in_countries:
 			add_province_from_country(country_name, country_row, diff_row)
 	
-	else:   # one province rule
+	else:   # province directive
 		old_province_row = find_old_province(country_name, province_name)
 		if not old_province_row:
-			raise ValueError('Province: "{0}" in Country: "{1}" was not found in the explored areas file. Please add it.'
-				.format(province_name, country_name))
-		
+			raise IOError(ERROR_MISSING_PROVINCE.format(province_name, country_name))
+
 		add_province_row(old_country_row, old_province_row, diff_row)
 
 
@@ -414,7 +436,8 @@ def add_default_states(explored_areas_path):
 		
 		if province_name != ALL_PROVINCES:
 			if country_name in provinces_in_countries:
-				provinces_in_countries[country_name].append(province_name)
+				if province_name not in provinces_in_countries[country_name]:
+					provinces_in_countries[country_name].append(province_name)
 			else:
 				provinces_in_countries[country_name] = [province_name]
 
@@ -437,6 +460,9 @@ def diffs_to_states(diff_tables_dir_path, explored_areas_path):
 
 		sorted_diff_rows = sorted(diff_rows, key=set_province_priority)
 		sorted_diff_rows.sort(key=lambda item:item[CHANGE_DATE_INDEX])
+
+		for diff_row in sorted_diff_rows:
+			add_missing_areas(diff_row)
 
 		for diff_row in sorted_diff_rows:
 			process_diff_row(diff_row)
