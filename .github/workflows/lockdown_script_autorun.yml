@@ -28,11 +28,11 @@ jobs:
     steps:
     - name: Run the script
       env:
-        PYTHON_SCRIPT: diffs_to_states 1.5.2.py
-        OUTPUT_DIR: output
-        BACKUP_DIR: bckup
-        OUTPUT_FILE: all_states.csv
-        PROVINCES_FILE: explored_areas.csv
+        PYTHON_SCRIPT: "diffs_to_states 1.5.2.py"
+        OUTPUT_DIR: "output"
+        BACKUP_DIR: "backup"
+        OUTPUT_FILE: "all_states.csv"
+        PROVINCES_FILE: "explored_areas.csv"
       run: |
         mkdir -p $OUTPUT_DIR
         mkdir -p $BACKUP_DIR
