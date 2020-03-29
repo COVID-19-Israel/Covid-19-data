@@ -47,14 +47,16 @@ jobs:
       env:
         LOCKDOWN_DIR: Lockdown
       run: |
-        git config --global user.email "action@github.com"
-        git config --global user.name "GitHub Action"
+        git config --global user.email "ozvvizer@gmail.com"
+        git config --global user.name "OzW1234"
         git init
         git add $LOCKDOWN_DIR
         git commit -m "Auto upload new lockdown dir"
       shell: bash
       working-directory: ./Covid-19-data
     - name: Push the changes to git
-      uses: COVID-19-Israel/Covid-19-data@master
+      run: |
+        git push origin master
+    - uses: actions/checkout@v2
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.PAT }}
