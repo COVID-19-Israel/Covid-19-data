@@ -31,11 +31,11 @@ jobs:
         OUTPUT_DIR: "output"
         BACKUP_DIR: "backup"
       run: |
-        ls -l
-        mkdir $OUTPUT_DIR
-        mkdir $BACKUP_DIR  
+        pwd
+        mkdir -p $OUTPUT_DIR
+        mkdir -p $BACKUP_DIR  
       shell: bash
-      working-directory: ./Covid-19-data/Lockdown
+      working-directory: ./Covid-19-data
     - name: Run the script
       env:
         PYTHON_SCRIPT: "diffs_to_states 1.5.2.py"
