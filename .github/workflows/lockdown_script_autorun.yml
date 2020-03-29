@@ -26,18 +26,10 @@ jobs:
     needs: clone_git 
     runs-on: windows-latest
     steps:
-    - name: Add output dir
-      env:
-        OUTPUT_DIR: "output"
+    - name: Add Dirs For Script
       run: |
-        mkdir -p $OUTPUT_DIR  
-      shell: bash
-      working-directory: ./Covid-19-data/Lockdown
-    - name: Add backup dir
-      env:
-         BACKUP_DIR: "backup"
-      run: |
-        mkdir -p $BACKUP_DIR
+        mkdir -p output
+        mkdir -p backup  
       shell: bash
       working-directory: ./Covid-19-data/Lockdown
     - name: Run the script
