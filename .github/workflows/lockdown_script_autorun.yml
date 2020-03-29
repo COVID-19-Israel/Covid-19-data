@@ -9,7 +9,7 @@ jobs:
     name: Download Products and Script From Git
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     - name: Clone git
       env:
         GIT_URL: "https://github.com/COVID-19-Israel/Covid-19-data.git"
