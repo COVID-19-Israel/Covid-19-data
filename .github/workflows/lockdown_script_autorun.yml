@@ -9,7 +9,6 @@ jobs:
     name: Download Products and Script From Git
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout
     - name: Clone git
       env:
         GIT_URL: "https://github.com/COVID-19-Israel/Covid-19-data.git"
@@ -56,6 +55,10 @@ jobs:
       shell: bash
       working-directory: ./Covid-19-data
     - name: Push the changes to git
-      uses: COVID-19-Israel/Covid-19-data@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git remote set-url --push origin https://OzW1234:$GITHUB_TOKEN@github.com/COVID-19-Israel
+        git push origin master
+      working-directory: ./Covid-19-data
+      shell: bash
