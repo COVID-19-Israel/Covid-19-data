@@ -2,13 +2,14 @@
 on:
   schedule:
   # Runs at 00:00 UTC every day
-  - cron: '30 14 * * *'
+  - cron: '0 0 * * *'
 jobs:
   run_script:
     # This section downloads the git and udpate it
     name: Download Products and Script From Git
     runs-on: windows-latest
     steps:
+    - uses: actions/checkout@v2
     - name: Clone git
       env:
         GIT_URL: "https://github.com/COVID-19-Israel/Covid-19-data.git"
@@ -47,13 +48,17 @@ jobs:
       env:
         LOCKDOWN_DIR: Lockdown
       run: |
+        git config --global user.email "ozvvizer@users.noreply.github.com"
+        git config --global user.name "OzW1234"
         git init
         git add $LOCKDOWN_DIR
         git commit -m "Auto upload new lockdown dir"
       shell: bash
       working-directory: ./Covid-19-data
     - name: Push the changes to git
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
+        git remote set-url --push origin https://OzW1234:$GITHUB_TOKEN@github.com/COVID-19-Israel/Covid-19-data
         git push origin master
-      shell: bash
       working-directory: ./Covid-19-data
