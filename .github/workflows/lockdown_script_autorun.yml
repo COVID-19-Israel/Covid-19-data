@@ -13,6 +13,7 @@ jobs:
       env:
         GIT_URL: "https://github.com/COVID-19-Israel/Covid-19-data.git"
       run: |
+        ls
         git clone $GIT_URL
       shell: bash
     - name: test
