@@ -111,6 +111,7 @@ def create_initial_state(country_name, province_name):
 
 	all_states_table.append(initial_country_row)
 
+	return initial_country_row
 
 def is_state_restricted(state_row):
 	'''
@@ -380,9 +381,11 @@ def process_diff_row(diff_row):
 
 	old_country_row = find_old_country(country_name)
 	if not old_country_row:
-		raise ValueError('Country: "{0}" was not found in the explored areas file. Please add it.'
+		print('Warning: Country: "{0}" was not found in the explored areas file. Please add it, escpecially if it has provinces.'
 			.format(country_name))
-	
+
+		old_country_row = create_initial_state(country_name, ALL_PROVINCES)
+		
 	if province_name.lower() == ALL_PROVINCES:   # all country rule
 		country_row = add_country_row(old_country_row, diff_row)
 
