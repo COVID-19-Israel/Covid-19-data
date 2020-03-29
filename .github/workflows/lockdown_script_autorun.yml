@@ -9,9 +9,6 @@ jobs:
     name: Download Products and Script From Git
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@v2
-      with:
-          token: ${{ secrets.PAT }}
     - name: Clone git
       env:
         GIT_URL: "https://github.com/COVID-19-Israel/Covid-19-data.git"
@@ -58,6 +55,6 @@ jobs:
       shell: bash
       working-directory: ./Covid-19-data
     - name: Push the changes to git
-      run: |
-        git push origin master
-      working-directory: ./Covid-19-data
+      uses: COVID-19-Israel/Covid-19-data@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
