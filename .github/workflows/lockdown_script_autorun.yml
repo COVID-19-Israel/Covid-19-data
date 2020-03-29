@@ -2,7 +2,7 @@
 on:
   schedule:
   # Runs at 00:00 UTC every day
-  - cron: '0 0 * * *'
+  - cron: '30 14 * * *'
 jobs:
   clone_git:
     # This job downloads the git and udpate it
@@ -33,7 +33,7 @@ jobs:
         cd $LOCKDOWN_DIR
     - name: Run the script
       env:
-        PYTHON_SCRIPT: diffs_to_states 1.5.1.py
+        PYTHON_SCRIPT: diffs_to_states 1.5.2.py
         OUTPUT_DIR: output
         BACKUP_DIR: backup
         OUTPUT_FILE: all_states.csv
