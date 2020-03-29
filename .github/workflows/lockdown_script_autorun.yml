@@ -2,7 +2,7 @@
 on:
   schedule:
   # Runs at 00:00 UTC every day
-  - cron: '30 14 * * *'
+  - cron: '0 0 * * *'
 jobs:
   run_script:
     # This section downloads the git and udpate it
@@ -56,6 +56,9 @@ jobs:
       shell: bash
       working-directory: ./Covid-19-data
     - name: Push the changes to git
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
+        git remote set-url --push origin https://OzW1234:$GITHUB_TOKEN@github.com/COVID-19-Israel/Covid-19-data
         git push origin master
       working-directory: ./Covid-19-data
