@@ -31,9 +31,7 @@ jobs:
         OUTPUT_DIR: "output"
         BACKUP_DIR: "backup"
       run: |
-        pwd
-        mkdir -p $OUTPUT_DIR
-        mkdir -p $BACKUP_DIR  
+        ls -a  
       shell: bash
       working-directory: .
     - name: Run the script
