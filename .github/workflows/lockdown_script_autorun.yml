@@ -19,7 +19,7 @@ jobs:
       run: |
         git pull origin master
       shell: bash
-      working-directory: ./Covid-19-data
+      working-directory: .
   run_script:
 #     This job runs the script from the lockdown dir
     name: Run The Script From The Lockdown Dir
