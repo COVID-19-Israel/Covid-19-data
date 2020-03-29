@@ -1,43 +1,9 @@
 exposure_to_patient_isolation,enter_area_isolation,appearance_of_symptoms_isolation,risk_groups_isolation,full_quarantine,partial_quarantine,unnecessary_business,educational_institutions,religious_institutions,distance_saving_instructions,congregation_restriction,prohibition_entering_country,public_transport_restriction,limit_hospital_visits,limit_retirement_homes_visits,disinfecting_public_spaces,police_army_enforcement,fines_and_incarceration,lockdown_level,country,province,start_date
-False,True,True,False,False,False,2,0,0,,15,True,0,False,False,False,False,True,3,Canada,Alberta,2020-03-30 00:00:00
-False,True,True,False,False,False,0,2,0,,50,True,0,False,False,False,False,True,2,Canada,British Columbia,2020-03-30 00:00:00
-False,True,True,False,False,False,0,0,0,,,True,0,False,False,False,False,True,2,Canada,"Calgary, Alberta",2020-03-30 00:00:00
-False,True,True,False,False,False,0,0,0,,,True,0,False,False,False,False,True,2,Canada,"Edmonton, Alberta",2020-03-30 00:00:00
-False,True,True,False,False,False,0,0,0,,,True,0,False,False,False,False,True,2,Canada,"London, ON",2020-03-30 00:00:00
-False,True,True,False,False,False,2,2,0,,10,True,0,False,False,False,False,True,3,Canada,Manitoba,2020-03-30 00:00:00
-False,True,True,False,False,False,0,0,0,,,True,0,False,False,False,False,True,2,Canada,"Montreal, QC",2020-03-30 00:00:00
-False,True,True,False,False,False,2,0,0,,10,True,0,False,False,False,False,True,3,Canada,New Brunswick,2020-03-30 00:00:00
-False,True,True,False,False,False,2,0,0,,10,True,0,False,False,False,False,True,3,Canada,Newfoundland and Labrador,2020-03-30 00:00:00
-False,True,True,False,False,False,2,0,0,,0,True,0,False,False,False,False,True,3,Canada,Northwest Territories,2020-03-30 00:00:00
-False,True,True,False,False,False,1,2,0,2,5,True,0,False,True,False,False,True,3,Canada,Nova Scotia,2020-03-30 00:00:00
-False,True,True,False,False,False,0,0,0,,,True,0,False,False,False,False,True,2,Canada,Nunavut,2020-03-30 00:00:00
-False,True,True,False,False,False,2,2,0,,5,True,0,True,True,False,False,True,3,Canada,Ontario,2020-03-30 00:00:00
-False,True,True,False,False,False,1,2,0,2,,True,0,False,False,False,False,True,3,Canada,Prince Edward Island,2020-03-30 00:00:00
-False,True,True,False,False,False,1,0,0,2,10,True,0,False,False,False,False,True,3,Canada,Saskatchewan,2020-03-30 00:00:00
-False,True,True,False,False,False,0,0,0,,,True,0,False,False,False,False,True,2,Canada,"Toronto, ON",2020-03-30 00:00:00
-False,True,True,True,False,False,0,2,0,,10,True,0,False,False,False,False,True,2,Canada,Yukon,2020-03-30 00:00:00
-False,True,True,False,False,False,0,0,0,,,True,0,False,False,False,False,True,2,Canada,all,2020-03-30 00:00:00
-False,True,False,False,False,False,2,2,0,,5,True,0,True,True,False,False,True,3,Canada,Ontario,2020-03-28 00:00:00
-False,True,False,False,False,False,2,0,0,,15,True,0,False,False,False,False,True,3,Canada,Alberta,2020-03-25 00:00:00
-False,True,False,False,False,False,0,2,0,,50,True,0,False,False,False,False,True,2,Canada,British Columbia,2020-03-25 00:00:00
-False,True,False,False,False,False,0,0,0,,,True,0,False,False,False,False,True,2,Canada,"Calgary, Alberta",2020-03-25 00:00:00
-False,True,False,False,False,False,0,0,0,,,True,0,False,False,False,False,True,2,Canada,"Edmonton, Alberta",2020-03-25 00:00:00
-False,True,False,False,False,False,0,0,0,,,True,0,False,False,False,False,True,2,Canada,"London, ON",2020-03-25 00:00:00
-False,True,False,False,False,False,2,2,0,,10,True,0,False,False,False,False,True,3,Canada,Manitoba,2020-03-25 00:00:00
-False,True,False,False,False,False,0,0,0,,,True,0,False,False,False,False,True,2,Canada,"Montreal, QC",2020-03-25 00:00:00
-False,True,False,False,False,False,2,0,0,,0,True,0,False,False,False,False,True,3,Canada,Northwest Territories,2020-03-25 00:00:00
-False,True,False,False,False,False,0,0,0,,,True,0,False,False,False,False,True,2,Canada,Nunavut,2020-03-25 00:00:00
-False,True,False,False,False,False,2,2,0,,50,True,0,True,True,False,False,True,3,Canada,Ontario,2020-03-25 00:00:00
-False,True,False,False,False,False,0,0,0,,,True,0,False,False,False,False,True,2,Canada,"Toronto, ON",2020-03-25 00:00:00
-False,True,False,True,False,False,0,2,0,,10,True,0,False,False,False,False,True,2,Canada,Yukon,2020-03-25 00:00:00
-False,True,False,False,False,False,0,0,0,,,True,0,False,False,False,False,True,2,Canada,all,2020-03-25 00:00:00
-True,True,False,False,False,False,0,0,0,,500,True,0,False,False,True,False,False,2,Taiwan,all,2020-03-25 00:00:00
 True,True,False,False,False,False,2,2,2,1.5,500,True,0,False,True,False,True,True,3,Australia,New South Wales,2020-03-24 00:00:00
 True,True,False,False,False,False,2,2,2,1.5,500,True,0,False,True,False,True,True,3,Australia,Victoria,2020-03-24 00:00:00
-False,False,False,False,False,False,2,2,0,,50,True,0,True,True,False,False,False,3,Canada,Ontario,2020-03-24 00:00:00
 True,True,True,True,False,False,1,0,2,1,10,True,0,False,False,False,False,False,3,Singapore,all,2020-03-24 00:00:00
 True,False,True,True,False,True,2,2,1,2,2,False,1,False,False,True,True,True,4,United Kingdom,Aneurin Bevan,2020-03-24 00:00:00
-True,False,True,True,False,True,2,2,1,2,2,False,1,False,False,True,True,True,4,United Kingdom,AyrshireÂ and Arran,2020-03-24 00:00:00
+True,False,True,True,False,True,2,2,1,2,2,False,1,False,False,True,True,True,4,United Kingdom,Ayrshireֲ and Arran,2020-03-24 00:00:00
 True,False,True,True,False,True,2,2,1,2,2,False,1,False,False,True,True,True,4,United Kingdom,Barking and Dagenham,2020-03-24 00:00:00
 True,False,True,True,False,True,2,2,1,2,2,False,1,False,False,True,True,True,4,United Kingdom,Barnet,2020-03-24 00:00:00
 True,False,True,True,False,True,2,2,1,2,2,False,1,False,False,True,True,True,4,United Kingdom,Barnsley,2020-03-24 00:00:00
@@ -238,11 +204,9 @@ True,True,False,False,False,False,2,1,2,1.5,500,True,0,False,True,False,True,Tru
 True,True,False,False,False,False,2,1,2,1.5,500,True,0,False,True,False,True,True,3,Australia,Victoria,2020-03-23 00:00:00
 True,True,False,False,False,False,2,1,2,1.5,500,True,0,False,True,False,True,True,3,Australia,Western Australia,2020-03-23 00:00:00
 True,True,False,False,False,False,2,1,2,1.5,500,True,0,False,True,False,False,True,3,Australia,all,2020-03-23 00:00:00
-False,True,False,True,False,False,0,2,0,,10,True,0,False,False,False,False,False,2,Canada,Yukon,2020-03-23 00:00:00
 True,True,True,True,False,False,0,0,1,1,250,True,0,False,False,False,False,False,2,Singapore,all,2020-03-23 00:00:00
-False,True,False,False,False,False,1,2,0,2,5,True,0,False,True,False,False,True,3,Canada,Nova Scotia,2020-03-22 00:00:00
-True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Baden-WÃ¼rttemberg,2020-03-22 00:00:00
-True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Baden-WÃ¼rttemÂ­berg,2020-03-22 00:00:00
+True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Baden-Wֳ¼rttemberg,2020-03-22 00:00:00
+True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Baden-Wֳ¼rttemֲ­berg,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Bavaria,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Bayern,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Berlin,2020-03-22 00:00:00
@@ -251,19 +215,19 @@ True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Hamburg,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Hessen,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Mecklenburg-Vorpommern,2020-03-22 00:00:00
-True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Mecklenburg-VorÂ­pommern,2020-03-22 00:00:00
+True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Mecklenburg-Vorֲ­pommern,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Niedersachsen,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Nordrhein-Westfalen,2020-03-22 00:00:00
-True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Nordrhein-WestÂ­falen,2020-03-22 00:00:00
+True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Nordrhein-Westֲ­falen,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Repatriierte,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Rheinland-Pfalz,2020-03-22 00:00:00
-True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,RheinÂ­land-Pfalz,2020-03-22 00:00:00
+True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Rheinֲ­land-Pfalz,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Saarland,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Sachsen,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Sachsen-Anhalt,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Schleswig-Holstein,2020-03-22 00:00:00
-True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,SchlesÂ­wig-Holstein,2020-03-22 00:00:00
-True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,ThÃ¼ringen,2020-03-22 00:00:00
+True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Schlesֲ­wig-Holstein,2020-03-22 00:00:00
+True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,Thֳ¼ringen,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,3,Germany,all,2020-03-22 00:00:00
 True,False,True,True,False,True,2,2,2,,10,False,1,False,True,False,False,False,4,United States of America,New York,2020-03-22 00:00:00
 True,True,True,True,False,True,2,2,2,1,10,False,1,True,True,True,True,False,4,United States of America,Washington,2020-03-22 00:00:00
@@ -276,11 +240,9 @@ True,True,False,False,False,False,0,0,0,1.5,500,True,0,False,True,False,True,Tru
 True,True,False,False,False,False,0,0,0,1.5,500,True,0,False,True,False,True,True,2,Australia,Victoria,2020-03-20 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,True,0,False,True,False,True,True,2,Australia,Western Australia,2020-03-20 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,True,0,False,True,False,False,True,2,Australia,all,2020-03-20 00:00:00
-False,False,False,False,False,False,2,2,0,,10,True,0,False,False,False,False,True,3,Canada,Manitoba,2020-03-20 00:00:00
-False,True,False,False,False,False,0,0,0,,,True,0,False,False,False,False,False,2,Canada,Nunavut,2020-03-20 00:00:00
 True,False,True,True,False,False,0,0,1,1,250,False,0,False,False,False,False,False,2,Singapore,all,2020-03-20 00:00:00
 True,False,False,True,False,False,1,2,0,,,False,1,False,False,False,False,False,3,United Kingdom,Aneurin Bevan,2020-03-20 00:00:00
-True,False,False,True,False,False,1,2,0,,,False,1,False,False,False,False,False,3,United Kingdom,AyrshireÂ and Arran,2020-03-20 00:00:00
+True,False,False,True,False,False,1,2,0,,,False,1,False,False,False,False,False,3,United Kingdom,Ayrshireֲ and Arran,2020-03-20 00:00:00
 True,False,False,True,False,False,1,2,0,,,False,1,False,False,False,False,False,3,United Kingdom,Barking and Dagenham,2020-03-20 00:00:00
 True,False,False,True,False,False,1,2,0,,,False,1,False,False,False,False,False,3,United Kingdom,Barnet,2020-03-20 00:00:00
 True,False,False,True,False,False,1,2,0,,,False,1,False,False,False,False,False,3,United Kingdom,Barnsley,2020-03-20 00:00:00
@@ -482,20 +444,14 @@ True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,True,False,True,Tr
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,True,False,True,True,1,Australia,Victoria,2020-03-19 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,True,False,True,True,1,Australia,Western Australia,2020-03-19 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,True,False,False,True,1,Australia,all,2020-03-19 00:00:00
-False,True,False,False,False,False,2,0,0,,10,True,0,False,False,False,False,True,3,Canada,New Brunswick,2020-03-19 00:00:00
-True,True,False,False,False,False,0,0,0,,,True,0,False,False,True,False,False,2,Taiwan,all,2020-03-19 00:00:00
 True,False,False,True,False,True,2,2,2,2,10,False,1,True,True,False,False,False,4,United States of America,California,2020-03-19 00:00:00
 True,False,True,True,False,False,1,2,0,1,10,False,1,True,True,True,False,False,3,United States of America,Washington,2020-03-19 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,False,False,True,True,1,Australia,South Australia,2020-03-18 00:00:00
-False,False,False,False,False,False,0,2,0,,50,True,0,False,False,False,False,True,2,Canada,British Columbia,2020-03-18 00:00:00
-False,True,False,False,False,False,2,0,0,,10,True,0,False,False,False,False,True,3,Canada,Newfoundland and Labrador,2020-03-18 00:00:00
-False,True,False,False,False,False,2,0,0,,0,True,0,False,False,False,False,False,3,Canada,Northwest Territories,2020-03-18 00:00:00
-False,True,False,False,False,False,1,0,0,2,10,True,0,False,False,False,False,True,3,Canada,Saskatchewan,2020-03-18 00:00:00
 True,True,True,False,False,True,1,2,0,2,10,True,0,True,True,False,True,True,4,Denmark,all,2020-03-18 00:00:00
 True,True,True,True,False,True,1,2,0,1,100,True,1,False,True,False,True,True,4,France,Haute-Savoie,2020-03-18 00:00:00
 True,True,True,True,False,True,1,2,0,1,100,True,1,False,True,False,True,True,4,France,all,2020-03-18 00:00:00
-True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Baden-WÃ¼rttemberg,2020-03-18 00:00:00
-True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Baden-WÃ¼rttemÂ­berg,2020-03-18 00:00:00
+True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Baden-Wֳ¼rttemberg,2020-03-18 00:00:00
+True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Baden-Wֳ¼rttemֲ­berg,2020-03-18 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Bavaria,2020-03-18 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Bayern,2020-03-18 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Berlin,2020-03-18 00:00:00
@@ -504,22 +460,22 @@ True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Hamburg,2020-03-18 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Hessen,2020-03-18 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Mecklenburg-Vorpommern,2020-03-18 00:00:00
-True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Mecklenburg-VorÂ­pommern,2020-03-18 00:00:00
+True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Mecklenburg-Vorֲ­pommern,2020-03-18 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Niedersachsen,2020-03-18 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Nordrhein-Westfalen,2020-03-18 00:00:00
-True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Nordrhein-WestÂ­falen,2020-03-18 00:00:00
+True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Nordrhein-Westֲ­falen,2020-03-18 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Repatriierte,2020-03-18 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Rheinland-Pfalz,2020-03-18 00:00:00
-True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,RheinÂ­land-Pfalz,2020-03-18 00:00:00
+True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Rheinֲ­land-Pfalz,2020-03-18 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Saarland,2020-03-18 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Sachsen,2020-03-18 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Sachsen-Anhalt,2020-03-18 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Schleswig-Holstein,2020-03-18 00:00:00
-True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,SchlesÂ­wig-Holstein,2020-03-18 00:00:00
-True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,ThÃ¼ringen,2020-03-18 00:00:00
+True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Schlesֲ­wig-Holstein,2020-03-18 00:00:00
+True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,Thֳ¼ringen,2020-03-18 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,3,Germany,all,2020-03-18 00:00:00
 True,False,False,True,False,False,1,1,0,,,False,0,False,False,False,False,False,3,United Kingdom,Aneurin Bevan,2020-03-18 00:00:00
-True,False,False,True,False,False,1,1,0,,,False,0,False,False,False,False,False,3,United Kingdom,AyrshireÂ and Arran,2020-03-18 00:00:00
+True,False,False,True,False,False,1,1,0,,,False,0,False,False,False,False,False,3,United Kingdom,Ayrshireֲ and Arran,2020-03-18 00:00:00
 True,False,False,True,False,False,1,1,0,,,False,0,False,False,False,False,False,3,United Kingdom,Barking and Dagenham,2020-03-18 00:00:00
 True,False,False,True,False,False,1,1,0,,,False,0,False,False,False,False,False,3,United Kingdom,Barnet,2020-03-18 00:00:00
 True,False,False,True,False,False,1,1,0,,,False,0,False,False,False,False,False,3,United Kingdom,Barnsley,2020-03-18 00:00:00
@@ -715,14 +671,11 @@ True,False,False,True,False,False,1,1,0,,,False,0,False,False,False,False,False,
 True,False,False,True,False,False,1,1,0,,,False,0,False,False,False,False,False,3,United Kingdom,York,2020-03-18 00:00:00
 True,False,False,True,False,False,1,1,0,,,False,0,False,False,False,False,False,3,United Kingdom,all,2020-03-18 00:00:00
 True,False,True,True,False,False,1,2,0,1,10,False,0,True,True,False,False,False,3,United States of America,Washington,2020-03-18 00:00:00
-False,False,False,False,False,False,2,0,0,,15,True,0,False,False,False,False,True,3,Canada,Alberta,2020-03-17 00:00:00
-False,False,False,False,False,False,0,2,0,,250,True,0,False,False,False,False,False,2,Canada,British Columbia,2020-03-17 00:00:00
-False,False,False,False,False,False,0,2,0,,50,True,0,True,True,False,False,False,2,Canada,Ontario,2020-03-17 00:00:00
 True,True,True,False,False,False,1,2,0,,100,True,0,True,True,False,False,False,3,Denmark,all,2020-03-17 00:00:00
 True,True,True,True,False,True,0,2,0,1,100,True,1,False,True,False,True,True,4,France,Haute-Savoie,2020-03-17 00:00:00
 True,True,True,True,False,True,0,2,0,1,100,True,1,False,True,False,True,True,4,France,all,2020-03-17 00:00:00
-True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Baden-WÃ¼rttemberg,2020-03-17 00:00:00
-True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Baden-WÃ¼rttemÂ­berg,2020-03-17 00:00:00
+True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Baden-Wֳ¼rttemberg,2020-03-17 00:00:00
+True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Baden-Wֳ¼rttemֲ­berg,2020-03-17 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Bavaria,2020-03-17 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Bayern,2020-03-17 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Berlin,2020-03-17 00:00:00
@@ -731,48 +684,29 @@ True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Hamburg,2020-03-17 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Hessen,2020-03-17 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Mecklenburg-Vorpommern,2020-03-17 00:00:00
-True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Mecklenburg-VorÂ­pommern,2020-03-17 00:00:00
+True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Mecklenburg-Vorֲ­pommern,2020-03-17 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Niedersachsen,2020-03-17 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Nordrhein-Westfalen,2020-03-17 00:00:00
-True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Nordrhein-WestÂ­falen,2020-03-17 00:00:00
+True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Nordrhein-Westֲ­falen,2020-03-17 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Repatriierte,2020-03-17 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Rheinland-Pfalz,2020-03-17 00:00:00
-True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,RheinÂ­land-Pfalz,2020-03-17 00:00:00
+True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Rheinֲ­land-Pfalz,2020-03-17 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Saarland,2020-03-17 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Sachsen,2020-03-17 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Sachsen-Anhalt,2020-03-17 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Schleswig-Holstein,2020-03-17 00:00:00
-True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,SchlesÂ­wig-Holstein,2020-03-17 00:00:00
-True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,ThÃ¼ringen,2020-03-17 00:00:00
+True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Schlesֲ­wig-Holstein,2020-03-17 00:00:00
+True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,Thֳ¼ringen,2020-03-17 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,3,Germany,all,2020-03-17 00:00:00
 True,False,False,True,False,False,1,1,0,2,10,False,0,False,True,False,False,False,3,United States of America,California,2020-03-17 00:00:00
 True,False,True,True,False,False,1,2,0,1,10,False,0,True,True,False,False,False,3,United States of America,Washington,2020-03-17 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,False,False,True,True,1,Australia,Victoria,2020-03-16 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,False,False,True,True,1,Australia,Western Australia,2020-03-16 00:00:00
-False,False,False,False,False,False,0,0,0,,250,True,0,False,False,False,False,False,2,Canada,Alberta,2020-03-16 00:00:00
-False,False,False,False,False,False,0,0,0,,250,True,0,False,False,False,False,False,2,Canada,British Columbia,2020-03-16 00:00:00
-False,False,False,False,False,False,0,0,0,,,True,0,False,False,False,False,False,2,Canada,"Calgary, Alberta",2020-03-16 00:00:00
-False,False,False,False,False,False,0,0,0,,,True,0,False,False,False,False,False,2,Canada,"Edmonton, Alberta",2020-03-16 00:00:00
-False,False,False,False,False,False,0,0,0,,,True,0,False,False,False,False,False,2,Canada,"London, ON",2020-03-16 00:00:00
-False,False,False,False,False,False,0,2,0,,250,True,0,False,False,False,False,False,2,Canada,Manitoba,2020-03-16 00:00:00
-False,False,False,False,False,False,0,0,0,,,True,0,False,False,False,False,False,2,Canada,"Montreal, QC",2020-03-16 00:00:00
-False,True,False,False,False,False,0,0,0,,,True,0,False,False,False,False,False,2,Canada,New Brunswick,2020-03-16 00:00:00
-False,False,False,False,False,False,0,0,0,,,True,0,False,False,False,False,False,2,Canada,Newfoundland and Labrador,2020-03-16 00:00:00
-False,False,False,False,False,False,0,0,0,,,True,0,False,False,False,False,False,2,Canada,Northwest Territories,2020-03-16 00:00:00
-False,True,False,False,False,False,0,2,0,2,150,True,0,False,True,False,False,False,2,Canada,Nova Scotia,2020-03-16 00:00:00
-False,False,False,False,False,False,0,0,0,,,True,0,False,False,False,False,False,2,Canada,Nunavut,2020-03-16 00:00:00
-False,False,False,False,False,False,0,2,0,,250,True,0,True,True,False,False,False,2,Canada,Ontario,2020-03-16 00:00:00
-False,True,False,False,False,False,1,2,0,2,,True,0,False,False,False,False,True,3,Canada,Prince Edward Island,2020-03-16 00:00:00
-False,True,True,True,False,False,0,0,0,2,250,True,0,True,True,False,False,True,2,Canada,Quebec,2020-03-16 00:00:00
-False,False,False,False,False,False,0,0,0,,,True,0,False,False,False,False,False,2,Canada,Saskatchewan,2020-03-16 00:00:00
-False,False,False,False,False,False,0,0,0,,,True,0,False,False,False,False,False,2,Canada,"Toronto, ON",2020-03-16 00:00:00
-False,False,False,False,False,False,0,0,0,,,True,0,False,False,False,False,False,2,Canada,Yukon,2020-03-16 00:00:00
-False,False,False,False,False,False,0,0,0,,,True,0,False,False,False,False,False,2,Canada,all,2020-03-16 00:00:00
 True,True,True,False,False,False,1,2,0,,100,True,0,False,False,False,False,False,3,Denmark,all,2020-03-16 00:00:00
 True,True,True,True,False,False,0,2,0,1,100,False,0,False,True,False,False,True,2,France,Haute-Savoie,2020-03-16 00:00:00
 True,True,True,True,False,False,0,2,0,1,100,False,0,False,True,False,False,True,2,France,all,2020-03-16 00:00:00
-True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Baden-WÃ¼rttemberg,2020-03-16 00:00:00
-True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Baden-WÃ¼rttemÂ­berg,2020-03-16 00:00:00
+True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Baden-Wֳ¼rttemberg,2020-03-16 00:00:00
+True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Baden-Wֳ¼rttemֲ­berg,2020-03-16 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Bavaria,2020-03-16 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Bayern,2020-03-16 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Berlin,2020-03-16 00:00:00
@@ -781,19 +715,19 @@ True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,
 True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Hamburg,2020-03-16 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Hessen,2020-03-16 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Mecklenburg-Vorpommern,2020-03-16 00:00:00
-True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Mecklenburg-VorÂ­pommern,2020-03-16 00:00:00
+True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Mecklenburg-Vorֲ­pommern,2020-03-16 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Niedersachsen,2020-03-16 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Nordrhein-Westfalen,2020-03-16 00:00:00
-True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Nordrhein-WestÂ­falen,2020-03-16 00:00:00
+True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Nordrhein-Westֲ­falen,2020-03-16 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Repatriierte,2020-03-16 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Rheinland-Pfalz,2020-03-16 00:00:00
-True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,RheinÂ­land-Pfalz,2020-03-16 00:00:00
+True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Rheinֲ­land-Pfalz,2020-03-16 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Saarland,2020-03-16 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Sachsen,2020-03-16 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Sachsen-Anhalt,2020-03-16 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Schleswig-Holstein,2020-03-16 00:00:00
-True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,SchlesÂ­wig-Holstein,2020-03-16 00:00:00
-True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,ThÃ¼ringen,2020-03-16 00:00:00
+True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Schlesֲ­wig-Holstein,2020-03-16 00:00:00
+True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,Thֳ¼ringen,2020-03-16 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,0,False,False,False,False,False,3,Germany,all,2020-03-16 00:00:00
 True,False,False,True,False,False,0,0,1,,,False,0,False,False,False,False,False,2,Singapore,all,2020-03-16 00:00:00
 True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,4,Spain,Asturias,2020-03-16 00:00:00
@@ -815,9 +749,8 @@ True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,False,False,False,
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,False,False,False,True,1,Australia,Victoria,2020-03-15 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,False,False,False,True,1,Australia,Western Australia,2020-03-15 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,False,False,False,True,1,Australia,all,2020-03-15 00:00:00
-False,True,False,False,False,False,0,2,0,2,150,False,0,False,True,False,False,False,2,Canada,Nova Scotia,2020-03-15 00:00:00
-True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Baden-WÃ¼rttemberg,2020-03-15 00:00:00
-True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Baden-WÃ¼rttemÂ­berg,2020-03-15 00:00:00
+True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Baden-Wֳ¼rttemberg,2020-03-15 00:00:00
+True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Baden-Wֳ¼rttemֲ­berg,2020-03-15 00:00:00
 True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Bavaria,2020-03-15 00:00:00
 True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Bayern,2020-03-15 00:00:00
 True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Berlin,2020-03-15 00:00:00
@@ -826,19 +759,19 @@ True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,
 True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Hamburg,2020-03-15 00:00:00
 True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Hessen,2020-03-15 00:00:00
 True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Mecklenburg-Vorpommern,2020-03-15 00:00:00
-True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Mecklenburg-VorÂ­pommern,2020-03-15 00:00:00
+True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Mecklenburg-Vorֲ­pommern,2020-03-15 00:00:00
 True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Niedersachsen,2020-03-15 00:00:00
 True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Nordrhein-Westfalen,2020-03-15 00:00:00
-True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Nordrhein-WestÂ­falen,2020-03-15 00:00:00
+True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Nordrhein-Westֲ­falen,2020-03-15 00:00:00
 True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Repatriierte,2020-03-15 00:00:00
 True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Rheinland-Pfalz,2020-03-15 00:00:00
-True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,RheinÂ­land-Pfalz,2020-03-15 00:00:00
+True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Rheinֲ­land-Pfalz,2020-03-15 00:00:00
 True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Saarland,2020-03-15 00:00:00
 True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Sachsen,2020-03-15 00:00:00
 True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Sachsen-Anhalt,2020-03-15 00:00:00
 True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Schleswig-Holstein,2020-03-15 00:00:00
-True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,SchlesÂ­wig-Holstein,2020-03-15 00:00:00
-True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,ThÃ¼ringen,2020-03-15 00:00:00
+True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Schlesֲ­wig-Holstein,2020-03-15 00:00:00
+True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Thֳ¼ringen,2020-03-15 00:00:00
 True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,all,2020-03-15 00:00:00
 True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,Asturias,2020-03-15 00:00:00
 True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,Basque,2020-03-15 00:00:00
@@ -850,7 +783,7 @@ True,False,True,False,False,True,2,2,1,1,1000,False,1,False,False,True,True,True
 True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,Murcia,2020-03-15 00:00:00
 True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,all,2020-03-15 00:00:00
 True,False,False,True,False,False,1,0,0,,,False,0,False,False,False,False,False,3,United Kingdom,Aneurin Bevan,2020-03-15 00:00:00
-True,False,False,True,False,False,1,0,0,,,False,0,False,False,False,False,False,3,United Kingdom,AyrshireÂ and Arran,2020-03-15 00:00:00
+True,False,False,True,False,False,1,0,0,,,False,0,False,False,False,False,False,3,United Kingdom,Ayrshireֲ and Arran,2020-03-15 00:00:00
 True,False,False,True,False,False,1,0,0,,,False,0,False,False,False,False,False,3,United Kingdom,Barking and Dagenham,2020-03-15 00:00:00
 True,False,False,True,False,False,1,0,0,,,False,0,False,False,False,False,False,3,United Kingdom,Barnet,2020-03-15 00:00:00
 True,False,False,True,False,False,1,0,0,,,False,0,False,False,False,False,False,3,United Kingdom,Barnsley,2020-03-15 00:00:00
@@ -1045,8 +978,6 @@ True,False,False,True,False,False,1,0,0,,,False,0,False,False,False,False,False,
 True,False,False,True,False,False,1,0,0,,,False,0,False,False,False,False,False,3,United Kingdom,Wrexham County Borough Council,2020-03-15 00:00:00
 True,False,False,True,False,False,1,0,0,,,False,0,False,False,False,False,False,3,United Kingdom,York,2020-03-15 00:00:00
 True,False,False,True,False,False,1,0,0,,,False,0,False,False,False,False,False,3,United Kingdom,all,2020-03-15 00:00:00
-False,False,False,False,False,False,0,2,0,,250,False,0,True,True,False,False,False,2,Canada,Ontario,2020-03-14 00:00:00
-False,True,True,True,False,False,0,0,0,2,250,False,0,True,True,False,False,True,1,Canada,Quebec,2020-03-14 00:00:00
 True,True,True,False,False,False,1,1,0,,100,True,0,False,False,False,False,False,3,Denmark,all,2020-03-14 00:00:00
 True,False,True,False,False,False,2,2,0,,,False,0,False,False,False,False,False,3,Spain,Asturias,2020-03-14 00:00:00
 True,False,True,False,False,False,2,2,0,,,False,0,False,False,False,False,False,3,Spain,Basque,2020-03-14 00:00:00
@@ -1055,16 +986,11 @@ True,False,True,False,False,False,2,2,0,,1000,False,0,False,False,False,False,Fa
 True,False,True,False,False,False,2,2,0,,,False,0,False,False,False,False,False,3,Spain,Galicia,2020-03-14 00:00:00
 True,False,True,False,False,False,2,2,0,,,False,0,False,False,False,False,False,3,Spain,Murcia,2020-03-14 00:00:00
 True,False,True,False,False,False,1,1,0,1,250,False,0,True,True,False,False,False,3,United States of America,Washington,2020-03-14 00:00:00
-False,False,False,False,False,False,0,0,0,,250,False,0,False,False,False,False,False,1,Canada,Alberta,2020-03-13 00:00:00
-False,False,False,False,False,False,0,0,0,,250,False,0,False,False,False,False,False,1,Canada,British Columbia,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,250,False,0,False,False,False,False,False,2,Canada,Manitoba,2020-03-13 00:00:00
-False,True,False,False,False,False,0,0,0,,150,False,0,False,False,False,False,False,1,Canada,Nova Scotia,2020-03-13 00:00:00
-False,False,False,False,False,False,0,0,0,,250,False,0,False,False,False,False,False,1,Canada,Ontario,2020-03-13 00:00:00
 True,True,True,False,False,False,1,1,0,,100,False,0,False,False,False,False,False,3,Denmark,all,2020-03-13 00:00:00
 True,True,True,True,False,False,0,0,0,1,100,False,0,False,True,False,False,False,2,France,Haute-Savoie,2020-03-13 00:00:00
 True,True,True,True,False,False,0,0,0,1,100,False,0,False,True,False,False,False,2,France,all,2020-03-13 00:00:00
-True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Baden-WÃ¼rttemberg,2020-03-13 00:00:00
-True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Baden-WÃ¼rttemÂ­berg,2020-03-13 00:00:00
+True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Baden-Wֳ¼rttemberg,2020-03-13 00:00:00
+True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Baden-Wֳ¼rttemֲ­berg,2020-03-13 00:00:00
 True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Bavaria,2020-03-13 00:00:00
 True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Bayern,2020-03-13 00:00:00
 True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Berlin,2020-03-13 00:00:00
@@ -1073,22 +999,22 @@ True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,
 True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Hamburg,2020-03-13 00:00:00
 True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Hessen,2020-03-13 00:00:00
 True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Mecklenburg-Vorpommern,2020-03-13 00:00:00
-True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Mecklenburg-VorÂ­pommern,2020-03-13 00:00:00
+True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Mecklenburg-Vorֲ­pommern,2020-03-13 00:00:00
 True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Niedersachsen,2020-03-13 00:00:00
 True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Nordrhein-Westfalen,2020-03-13 00:00:00
-True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Nordrhein-WestÂ­falen,2020-03-13 00:00:00
+True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Nordrhein-Westֲ­falen,2020-03-13 00:00:00
 True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Repatriierte,2020-03-13 00:00:00
 True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Rheinland-Pfalz,2020-03-13 00:00:00
-True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,RheinÂ­land-Pfalz,2020-03-13 00:00:00
+True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Rheinֲ­land-Pfalz,2020-03-13 00:00:00
 True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Saarland,2020-03-13 00:00:00
 True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Sachsen,2020-03-13 00:00:00
 True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Sachsen-Anhalt,2020-03-13 00:00:00
 True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Schleswig-Holstein,2020-03-13 00:00:00
-True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,SchlesÂ­wig-Holstein,2020-03-13 00:00:00
-True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,ThÃ¼ringen,2020-03-13 00:00:00
+True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Schlesֲ­wig-Holstein,2020-03-13 00:00:00
+True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Thֳ¼ringen,2020-03-13 00:00:00
 True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,all,2020-03-13 00:00:00
 True,False,False,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,United Kingdom,Aneurin Bevan,2020-03-13 00:00:00
-True,False,False,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,United Kingdom,AyrshireÂ and Arran,2020-03-13 00:00:00
+True,False,False,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,United Kingdom,Ayrshireֲ and Arran,2020-03-13 00:00:00
 True,False,False,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,United Kingdom,Barking and Dagenham,2020-03-13 00:00:00
 True,False,False,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,United Kingdom,Barnet,2020-03-13 00:00:00
 True,False,False,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,United Kingdom,Barnsley,2020-03-13 00:00:00
@@ -1285,12 +1211,10 @@ True,False,False,False,False,False,1,0,0,,,False,0,False,False,False,False,False
 True,False,False,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,United Kingdom,all,2020-03-13 00:00:00
 False,False,False,False,False,False,0,1,0,2,250,False,0,False,False,False,False,False,2,United States of America,California,2020-03-13 00:00:00
 True,False,True,False,False,False,0,1,0,,500,False,0,False,True,False,False,False,2,United States of America,New York,2020-03-13 00:00:00
-False,True,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Canada,New Brunswick,2020-03-12 00:00:00
-False,True,True,False,False,False,0,0,0,,250,False,0,False,False,False,False,False,1,Canada,Quebec,2020-03-12 00:00:00
 True,True,True,True,False,False,0,0,0,1,1000,False,0,False,True,False,False,False,1,France,Haute-Savoie,2020-03-12 00:00:00
 True,True,True,True,False,False,0,0,0,1,1000,False,0,False,True,False,False,False,1,France,all,2020-03-12 00:00:00
-True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Baden-WÃ¼rttemberg,2020-03-12 00:00:00
-True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Baden-WÃ¼rttemÂ­berg,2020-03-12 00:00:00
+True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Baden-Wֳ¼rttemberg,2020-03-12 00:00:00
+True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Baden-Wֳ¼rttemֲ­berg,2020-03-12 00:00:00
 True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Bavaria,2020-03-12 00:00:00
 True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Bayern,2020-03-12 00:00:00
 True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Berlin,2020-03-12 00:00:00
@@ -1299,19 +1223,19 @@ True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,Fals
 True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Hamburg,2020-03-12 00:00:00
 True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Hessen,2020-03-12 00:00:00
 True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Mecklenburg-Vorpommern,2020-03-12 00:00:00
-True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Mecklenburg-VorÂ­pommern,2020-03-12 00:00:00
+True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Mecklenburg-Vorֲ­pommern,2020-03-12 00:00:00
 True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Niedersachsen,2020-03-12 00:00:00
 True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Nordrhein-Westfalen,2020-03-12 00:00:00
-True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Nordrhein-WestÂ­falen,2020-03-12 00:00:00
+True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Nordrhein-Westֲ­falen,2020-03-12 00:00:00
 True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Repatriierte,2020-03-12 00:00:00
 True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Rheinland-Pfalz,2020-03-12 00:00:00
-True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,RheinÂ­land-Pfalz,2020-03-12 00:00:00
+True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Rheinֲ­land-Pfalz,2020-03-12 00:00:00
 True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Saarland,2020-03-12 00:00:00
 True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Sachsen,2020-03-12 00:00:00
 True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Sachsen-Anhalt,2020-03-12 00:00:00
 True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Schleswig-Holstein,2020-03-12 00:00:00
-True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,SchlesÂ­wig-Holstein,2020-03-12 00:00:00
-True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,ThÃ¼ringen,2020-03-12 00:00:00
+True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Schlesֲ­wig-Holstein,2020-03-12 00:00:00
+True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,Thֳ¼ringen,2020-03-12 00:00:00
 True,False,False,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,all,2020-03-12 00:00:00
 True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,Asturias,2020-03-12 00:00:00
 True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,Basque,2020-03-12 00:00:00
@@ -1390,8 +1314,8 @@ True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,True,True,1,
 True,True,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Denmark,all,2020-03-06 00:00:00
 True,True,True,True,False,False,0,0,0,1,5000,False,0,False,False,False,False,False,1,France,Haute-Savoie,2020-03-06 00:00:00
 True,True,True,True,False,False,0,0,0,1,5000,False,0,False,False,False,False,False,1,France,all,2020-03-06 00:00:00
-True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Baden-WÃ¼rttemberg,2020-03-06 00:00:00
-True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Baden-WÃ¼rttemÂ­berg,2020-03-06 00:00:00
+True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Baden-Wֳ¼rttemberg,2020-03-06 00:00:00
+True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Baden-Wֳ¼rttemֲ­berg,2020-03-06 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Bavaria,2020-03-06 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Bayern,2020-03-06 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Berlin,2020-03-06 00:00:00
@@ -1400,19 +1324,19 @@ True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Hamburg,2020-03-06 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Hessen,2020-03-06 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Mecklenburg-Vorpommern,2020-03-06 00:00:00
-True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Mecklenburg-VorÂ­pommern,2020-03-06 00:00:00
+True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Mecklenburg-Vorֲ­pommern,2020-03-06 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Niedersachsen,2020-03-06 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Nordrhein-Westfalen,2020-03-06 00:00:00
-True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Nordrhein-WestÂ­falen,2020-03-06 00:00:00
+True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Nordrhein-Westֲ­falen,2020-03-06 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Repatriierte,2020-03-06 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Rheinland-Pfalz,2020-03-06 00:00:00
-True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,RheinÂ­land-Pfalz,2020-03-06 00:00:00
+True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Rheinֲ­land-Pfalz,2020-03-06 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Saarland,2020-03-06 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Sachsen,2020-03-06 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Sachsen-Anhalt,2020-03-06 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Schleswig-Holstein,2020-03-06 00:00:00
-True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,SchlesÂ­wig-Holstein,2020-03-06 00:00:00
-True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,ThÃ¼ringen,2020-03-06 00:00:00
+True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Schlesֲ­wig-Holstein,2020-03-06 00:00:00
+True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,Thֳ¼ringen,2020-03-06 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,all,2020-03-06 00:00:00
 True,False,False,False,False,False,1,1,0,,,False,0,True,True,False,False,False,3,United States of America,Washington,2020-03-05 00:00:00
 True,True,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Denmark,all,2020-03-04 00:00:00
@@ -1458,8 +1382,6 @@ False,False,False,False,False,False,1,2,1,2,,False,1,False,False,False,False,Fal
 False,False,False,False,False,False,0,2,0,,,False,0,False,False,False,False,False,2,Italy,Piemonte,2020-02-23 00:00:00
 False,False,False,False,False,False,0,1,0,,,False,0,False,False,False,False,False,2,Italy,Emilia Romagna,2020-02-21 00:00:00
 False,False,False,False,False,False,1,1,1,,,False,1,False,False,False,False,False,3,Italy,Lombardia,2020-02-21 00:00:00
-True,True,False,False,False,False,0,0,0,,,False,0,False,False,True,False,False,1,Taiwan,all,2020-02-19 00:00:00
-True,True,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Taiwan,all,2020-02-15 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,France,Haute-Savoie,2020-02-08 00:00:00
 True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,Asturias,2020-01-31 00:00:00
 True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,Basque,2020-01-31 00:00:00
@@ -1471,7 +1393,7 @@ True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,
 True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,Murcia,2020-01-31 00:00:00
 True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,all,2020-01-31 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,United Kingdom,Aneurin Bevan,2020-01-31 00:00:00
-True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,United Kingdom,AyrshireÂ and Arran,2020-01-31 00:00:00
+True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,United Kingdom,Ayrshireֲ and Arran,2020-01-31 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,United Kingdom,Barking and Dagenham,2020-01-31 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,United Kingdom,Barnet,2020-01-31 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,United Kingdom,Barnsley,2020-01-31 00:00:00
@@ -1674,37 +1596,17 @@ True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,True,
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,True,1,Australia,all,2020-01-29 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,United States of America,Washington,2020-01-24 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Singapore,all,2020-01-23 00:00:00
-True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Taiwan,all,2020-01-21 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Australia,New South Wales,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Australia,Queensland,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Australia,South Australia,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Australia,Victoria,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Australia,Western Australia,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Australia,all,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Canada,Alberta,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Canada,British Columbia,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Canada,"Calgary, Alberta",2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Canada,"Edmonton, Alberta",2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Canada,"London, ON",2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Canada,Manitoba,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Canada,"Montreal, QC",2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Canada,New Brunswick,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Canada,Newfoundland and Labrador,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Canada,Northwest Territories,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Canada,Nova Scotia,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Canada,Nunavut,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Canada,Ontario,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Canada,Prince Edward Island,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Canada,Quebec,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Canada,Saskatchewan,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Canada,"Toronto, ON",2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Canada,Yukon,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Canada,all,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Denmark,all,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,France,Haute-Savoie,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,France,all,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Baden-WÃ¼rttemberg,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Baden-WÃ¼rttemÂ­berg,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Baden-Wֳ¼rttemberg,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Baden-Wֳ¼rttemֲ­berg,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Bavaria,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Bayern,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Berlin,2019-01-01 00:00:00
@@ -1713,19 +1615,19 @@ False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,Fals
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Hamburg,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Hessen,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Mecklenburg-Vorpommern,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Mecklenburg-VorÂ­pommern,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Mecklenburg-Vorֲ­pommern,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Niedersachsen,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Nordrhein-Westfalen,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Nordrhein-WestÂ­falen,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Nordrhein-Westֲ­falen,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Repatriierte,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Rheinland-Pfalz,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,RheinÂ­land-Pfalz,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Rheinֲ­land-Pfalz,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Saarland,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Sachsen,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Sachsen-Anhalt,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Schleswig-Holstein,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,SchlesÂ­wig-Holstein,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,ThÃ¼ringen,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Schlesֲ­wig-Holstein,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,Thֳ¼ringen,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Germany,all,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Italy,Abruzzo,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Italy,Basilicata,2019-01-01 00:00:00
@@ -1759,9 +1661,8 @@ False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,Fals
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,La Rioja,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,Murcia,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,all,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Taiwan,all,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,United Kingdom,Aneurin Bevan,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,United Kingdom,AyrshireÂ and Arran,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,United Kingdom,Ayrshireֲ and Arran,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,United Kingdom,Barking and Dagenham,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,United Kingdom,Barnet,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,United Kingdom,Barnsley,2019-01-01 00:00:00
