@@ -19,10 +19,8 @@ jobs:
       env: 
         GIT_DIR: Covid-19-data
       run: |
-        ls
         cd $GIT_DIR
-        pwd
-        ls
+        git init
       shell: bash
     - name: Pull master
       run: |
