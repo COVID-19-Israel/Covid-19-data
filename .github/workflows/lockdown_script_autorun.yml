@@ -20,11 +20,9 @@ jobs:
         GIT_DIR: Covid-19-data
       run: |
         cd $GIT_DIR
-        ls -a
-        git pull origin master
       shell: bash
   run_script:
-    # This job runs the script from the lockdown dir
+#     This job runs the script from the lockdown dir
     name: Run The Script From The Lockdown Dir
     needs: clone_git 
     runs-on: windows-latest
