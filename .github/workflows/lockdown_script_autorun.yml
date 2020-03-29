@@ -16,12 +16,10 @@ jobs:
         git clone $GIT_URL
       shell: bash
     - name: Pull master
-      env: 
-        GIT_DIR: Covid-19-data
       run: |
         git pull origin master
       shell: bash
-      working-directory: ./$GIT_DIR
+      working-directory: ./Covid-19-data
   run_script:
 #     This job runs the script from the lockdown dir
     name: Run The Script From The Lockdown Dir
@@ -35,15 +33,13 @@ jobs:
         BACKUP_DIR: bckup
         OUTPUT_FILE: all_states.csv
         PROVINCES_FILE: explored_areas.csv
-        GIT_DIR: Covid-19-data
-        LOCKDOWN_DIR: Lockdown
       run: |
         mkdir -p $OUTPUT_DIR
         mkdir -p $BACKUP_DIR
         cp $OUTPUT_FILE $BACKUP_DIR
         python $PYTHON_SCRIPT -i . -c $PROVINCES_FILE -o $OUTPUT_DIR/$OUTPUT_FILE
       shell: bash
-      working-directory: ./$GIT_DIR/$LOCKDOWN_DIR
+      working-directory: ./Covid-19-data/Lockdown
   update_changes:
     # This job updates the master to be with the new lockdown dir
     name: Updates The Changes That The script Made
