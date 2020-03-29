@@ -19,33 +19,31 @@ jobs:
       env: 
         GIT_DIR: Covid-19-data
       run: |
-        cd $GIT_DIR
+        git pull origin master
       shell: bash
+      working-directory: ./$GIT_DIR
   run_script:
 #     This job runs the script from the lockdown dir
     name: Run The Script From The Lockdown Dir
     needs: clone_git 
     runs-on: windows-latest
     steps:
-    - name: Get into the lockdown dir
-      env:
-        LOCKDOWN_DIR: Lockdown
-      run: |
-        cd $LOCKDOWN_DIR
-      shell: bash
     - name: Run the script
       env:
         PYTHON_SCRIPT: diffs_to_states 1.5.2.py
         OUTPUT_DIR: output
-        BACKUP_DIR: backup
+        BACKUP_DIR: bckup
         OUTPUT_FILE: all_states.csv
         PROVINCES_FILE: explored_areas.csv
+        GIT_DIR: Covid-19-data
+        LOCKDOWN_DIR: Lockdown
       run: |
         mkdir -p $OUTPUT_DIR
         mkdir -p $BACKUP_DIR
         cp $OUTPUT_FILE $BACKUP_DIR
         python $PYTHON_SCRIPT -i . -c $PROVINCES_FILE -o $OUTPUT_DIR/$OUTPUT_FILE
       shell: bash
+      working-directory: ./$GIT_DIR/$LOCKDOWN_DIR
   update_changes:
     # This job updates the master to be with the new lockdown dir
     name: Updates The Changes That The script Made
