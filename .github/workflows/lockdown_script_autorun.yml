@@ -15,15 +15,12 @@ jobs:
       run: |
         git clone $GIT_URL
       shell: bash
-    - name: test
+    - name: Pull master
       env: 
         GIT_DIR: Covid-19-data
       run: |
         cd $GIT_DIR
-        git remote show origin
-      shell: bash
-    - name: Pull master
-      run: |
+        ls -a
         git pull origin master
       shell: bash
   run_script:
