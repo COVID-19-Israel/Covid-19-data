@@ -9,11 +9,11 @@ jobs:
     name: Download Products and Script From Git
     runs-on: windows-latest
     steps:
-    - name: Clone git
-      env:
-        GIT_URL: "https://github.com/COVID-19-Israel/Covid-19-data.git"
-      run: |
-        git clone $GIT_URL
+#     - name: Clone git
+#       env:
+#         GIT_URL: "https://github.com/COVID-19-Israel/Covid-19-data.git"
+#       run: |
+#         git clone $GIT_URL
     - name: Pull master
       env:
         GIT_DIR: Covid-19-data
