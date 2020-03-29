@@ -345,10 +345,9 @@ def get_diff_paths(diff_tables_dir_path):
 	@returns: list of all csv file paths within a specific directory
 	'''
 
-	return [os.path.join(root, name)
-		for root, dirs, files in os.walk(diff_tables_dir_path)
-		for name in files
-		if name.endswith('.csv')]
+	return [os.path.join(diff_tables_dir_path, file)
+		for file in os.listdir(diff_tables_dir_path)
+		if file.endswith('.csv')]
 
 
 def get_csv_rows(diff_path):
@@ -431,6 +430,7 @@ def diffs_to_states(diff_tables_dir_path, explored_areas_path):
 	for diff_path in diff_paths:
 		diff_rows = get_csv_rows(diff_path)
 		for row in diff_rows:
+			print(row)
 			row[CHANGE_DATE_INDEX] = datetime.strptime(row[CHANGE_DATE_INDEX], DATE_FORMAT)
 
 		sorted_diff_rows = sorted(diff_rows, key=set_province_priority)
