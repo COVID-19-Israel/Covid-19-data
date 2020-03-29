@@ -31,6 +31,7 @@ jobs:
         OUTPUT_DIR: "output"
         BACKUP_DIR: "backup"
       run: |
+        ls -l
         mkdir $OUTPUT_DIR
         mkdir $BACKUP_DIR  
       shell: bash
