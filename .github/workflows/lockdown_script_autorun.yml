@@ -27,9 +27,12 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: Add Dirs For Script
+      env:
+        OUTPUT_DIR: "output"
+        BACKUP_DIR: "backup"
       run: |
-        mkdir -p output
-        mkdir -p backup  
+        mkdir $OUTPUT_DIR
+        mkdir $BACKUP_DIR  
       shell: bash
       working-directory: ./Covid-19-data/Lockdown
     - name: Run the script
