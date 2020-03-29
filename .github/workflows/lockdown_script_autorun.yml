@@ -47,6 +47,7 @@ jobs:
       env:
         LOCKDOWN_DIR: Lockdown
       run: |
+        git config --global user.email "ozvvizer@gmail.com"
         git init
         git add $LOCKDOWN_DIR
         git commit -m "Auto upload new lockdown dir"
