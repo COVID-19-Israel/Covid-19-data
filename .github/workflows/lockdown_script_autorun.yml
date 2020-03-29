@@ -36,9 +36,9 @@ jobs:
         OUTPUT_DIR: "output"
         BACKUP_DIR: "backup"
         OUTPUT_FILE: "all_states.csv"
-        PROVINCES_FILE: "explored_areas.csv"
+        PROVINCES_FILE: "utils/explored_areas.csv"
       run: |
-        cp $OUTPUT_FILE $BACKUP_DIR
+        cp $OUTPUT_DIR/$OUTPUT_FILE $BACKUP_DIR
         python $PYTHON_SCRIPT -i . -c $PROVINCES_FILE -o $OUTPUT_DIR/$OUTPUT_FILE
       shell: bash
       working-directory: ./Covid-19-data/Lockdown
