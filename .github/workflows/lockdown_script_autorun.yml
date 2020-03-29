@@ -57,6 +57,7 @@ jobs:
     - name: Push the changes to git
       run: |
         git push origin master
+      working-directory: ./Covid-19-data
     - uses: actions/checkout@v2
       with:
         token: ${{ secrets.PAT }}
