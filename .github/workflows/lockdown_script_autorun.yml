@@ -4,8 +4,8 @@ on:
   # Runs at 00:00 UTC every day
   - cron: '30 14 * * *'
 jobs:
-  clone_git:
-    # This job downloads the git and udpate it
+  run_script:
+    # This section downloads the git and udpate it
     name: Download Products and Script From Git
     runs-on: windows-latest
     steps:
@@ -20,20 +20,16 @@ jobs:
         git pull origin master
       shell: bash
       working-directory: ./Covid-19-data
-  run_script:
-#     This job runs the script from the lockdown dir
-    name: Run The Script From The Lockdown Dir
-    needs: clone_git 
-    runs-on: windows-latest
-    steps:
+#     This section runs the script from the lockdown dir
     - name: Add Dirs For Script
       env:
         OUTPUT_DIR: "output"
         BACKUP_DIR: "backup"
       run: |
-        ls -a  
+        mkdir -p $OUTPUT_DIR
+        mkdir -p $BACKUP_DIR
       shell: bash
-      working-directory: .
+      working-directory: ./Covid-19-data/Lockdown
     - name: Run the script
       env:
         PYTHON_SCRIPT: "diffs_to_states 1.5.2.py"
@@ -46,22 +42,18 @@ jobs:
         python $PYTHON_SCRIPT -i . -c $PROVINCES_FILE -o $OUTPUT_DIR/$OUTPUT_FILE
       shell: bash
       working-directory: ./Covid-19-data/Lockdown
-  update_changes:
-    # This job updates the master to be with the new lockdown dir
-    name: Updates The Changes That The script Made
-    needs: [clone_git, run_script]
-    runs-on: windows-latest
-    steps:
-      - name: Add the lockdown dir with the changes
-        env:
-          LOCKDOWN_DIR: Lockdown
-        run: |
-          cd ..
-          git init
-          git add $LOCKDOWN_DIR
-          git commit -m "Auto upload new lockdown dir"
-        shell: bash
-      - name: Push the changes to git
-        run: |
-          git push origin master
-        shell: bash
+    # This section updates the master to be with the new lockdown dir
+    - name: Add the lockdown dir with the changes
+      env:
+        LOCKDOWN_DIR: Lockdown
+      run: |
+        git init
+        git add $LOCKDOWN_DIR
+        git commit -m "Auto upload new lockdown dir"
+      shell: bash
+      working-directory: ./Covid-19-data
+    - name: Push the changes to git
+      run: |
+        git push origin master
+      shell: bash
+      working-directory: ./Covid-19-data
