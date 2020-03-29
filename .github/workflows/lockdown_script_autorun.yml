@@ -32,7 +32,7 @@ jobs:
       working-directory: ./Covid-19-data/Lockdown
     - name: Run the script
       env:
-        PYTHON_SCRIPT: "diffs_to_states\ 1.5.2.py"
+        PYTHON_SCRIPT: "diffs_to_states.py"
         OUTPUT_DIR: "output"
         BACKUP_DIR: "backup"
         OUTPUT_FILE: "all_states.csv"
