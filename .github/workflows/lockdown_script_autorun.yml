@@ -48,7 +48,7 @@ jobs:
       env:
         LOCKDOWN_DIR: Lockdown
       run: |
-        git config --global user.email "ozvvizer@gmail.com"
+        git config --global user.email "ozvvizer@users.noreply.github.com"
         git config --global user.name "OzW1234"
         git init
         git add $LOCKDOWN_DIR
