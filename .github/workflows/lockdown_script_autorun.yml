@@ -58,7 +58,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        git remote set-url --push origin https://OzW1234:$GITHUB_TOKEN@github.com/COVID-19-Israel
-        git push origin master
+        git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
+        git push github HEAD:${GITHUB_REF}
       working-directory: ./Covid-19-data
       shell: bash
