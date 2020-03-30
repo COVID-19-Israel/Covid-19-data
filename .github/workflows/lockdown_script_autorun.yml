@@ -44,23 +44,18 @@ jobs:
       working-directory: ./Covid-19-data/Lockdown
     # This section updates the master to be with the new lockdown dir
     - name: Add the lockdown dir with the changes
-      id: git_commit_step
       env:
         LOCKDOWN_DIR: Lockdown
       run: |
-        echo "::set-output name=commit_diffs::$(git rev-list HEAD...origin/master --count)"
+        if [$(<your_line>) = 0]; then
+          echo "Master is up-to-date"
+          exit 0
+        fi
         git config --global user.email "ozvvizer@users.noreply.github.com"
         git config --global user.name "OzW1234"
         git init
         git add $LOCKDOWN_DIR
         git commit -m "Auto upload new lockdown dir"
-      shell: bash
-      working-directory: ./Covid-19-data
-    - name: Is Master Up-To-Date?
-      if: steps.git_commit_step.outputs.commit_diffs == 0
-      run: |
-        echo "Master is up-to-date"
-        exit 0
       shell: bash
       working-directory: ./Covid-19-data
     - name: Push the changes to git
