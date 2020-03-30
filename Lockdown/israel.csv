@@ -1,0 +1,16 @@
+country,state/province,change_date,changed_field,changed_from,changed_to
+Israel,all,21-02-20,exposure_to_patient_isolation,FALSE,TRUE
+Israel,all,09-03-20,enter_area_isolation,FALSE,TRUE
+Israel,all,09-03-20,prohibition_entering_country,FALSE,TRUE
+Israel,all,11-03-20,congregation_restirction,NONE,100
+Israel,all,11-03-20,appearance_of_symptoms_isolation,FALSE,TRUE
+Israel,all,12-03-20,educational_institutions,0,2
+Israel,all,15-03-20,congregation_restirction,100,10
+Israel,all,15-03-20,unnecessary_business,0,2
+Israel,all,15-03-20,religious_institious,0,1
+Israel,all,15-03-20,distance_saving_instruction,NONE,2
+Israel,all,17-03-20,disinfecting_public_spaces,FALSE,TRUE
+Israel,all,17-03-20,public_transport_restriction,0,1
+Israel,all,17-03-20,partial_quarantine,FALSE,TRUE
+Israel,all,19-03-20,police_army_enforcement,FALSE,TRUE
+Israel,all,19-03-20,fines_and_incarceration,FALSE,TRUE
