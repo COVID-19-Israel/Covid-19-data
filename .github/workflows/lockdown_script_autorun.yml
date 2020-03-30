@@ -47,7 +47,7 @@ jobs:
       env:
         LOCKDOWN_DIR: Lockdown
       run: |
-        if [$(<your_line>) = 0]; then
+        if [$(git rev-list HEAD...origin/master --count) = 0]; then
           echo "Master is up-to-date"
           exit 0
         fi
