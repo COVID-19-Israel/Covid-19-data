@@ -43,13 +43,6 @@ jobs:
       shell: bash
       working-directory: ./Covid-19-data/Lockdown
     # This section updates the master to be with the new lockdown dir
-    - name: Checks the commits diff between the master and the local dir
-      env:
-        COMMITS_DIFF: ${{ git rev-list HEAD...origin/master --count}}
-      run: |
-        echo $COMMITS_DIFF
-      shell: bash
-      working-directory: ./Covid-19-data 
     - name: Add the lockdown dir with the changes
       env:
         LOCKDOWN_DIR: Lockdown
