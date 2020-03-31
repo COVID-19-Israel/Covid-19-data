@@ -1,0 +1,184 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The updates on novel Coronavirus in Korea (since 3 January)
+
+Date2020-02-08 18:06
+Update2020-02-08 18:10
+DivisionDivision of Risk Assessment and International Cooperation   
+Tel043-719-7556
+1,652
+
+
+The updates on novel Coronavirus in Korea (since 3 January)
+ 
+○ As of 8 February, 2020, there have been 1,701 suspected cases reported, 24 of which were confirmed, 1,057 turned out to be negative, and 620 currently being tested. The contacts of the confirmed cases are 1,420 in total.
+
+
+
+
+
+Period
+
+Total
+
+Confirmed cases
+
+Suspected cases
+
+
+
+in-patient
+
+discharged
+
+Sub-total
+
+isolated
+
+released
+
+
+
+As of 9:00, 8 Feb.
+
+1,701
+
+22
+
+2
+
+1,677
+
+620
+
+1,057
+
+
+
+ 
+○ KCDC released the results of epidemiological investigation on 16th, 17th, and 19th confirmed cases.
+ 
+○ The 16th case, a 42-year-old Korean female, has 362 contacts. Two of them, her family members, were confirmed (#18 and #22 confirmed cases), and other contacts are closely monitored. The hospital staff, in-patients and their families or care-givers, staying at the hospital on the day the case visited, were all tested regardless of whether they had in contact with the case. No one was confirmed positive, but people who contacted the case are currently in isolation. Depending on the onset of symptoms, they will be tested again. 
+ 
+○ Epidemiological investigation on the 17th and 19th case was conducted in cooperation with Singapore Ministry of Health. Both cases has attended a business meeting held in Singapore Grand Hyatt Hotel. Out of 109 attendees, 4 Singaporean were classified as suspected cases, and one of them was confirmed on 6 February. It is also confirmed that there were Chinese attendees, some of which came from Wuhan.
+ 
+○ Since Chinese New Year holidays were extended to 9 February, KCDC is more keen to monitor the transmission in China around that time and to prepare for possible importation of nCoV from China for next one or two weeks.
+ 
+○ In China, unlike the early stages of current outbreak, more of mild cases have been found, which makes the overall case fatality rate decrease. According to the data provided by National Health Commission of People’s Republic of China, the case fatality rate is significantly different even within China: 3.1% in Hubei province compared to 0.16% in other areas. 
+ 
+○ There have been no severe cases reported in Korea since the confirmed cases started to get treated at early stages. However, transmission seems a bit faster compared to MERS outbreak in 2015. Due to the increased number of testing facilities, the suspected cases reported has increased compared to yesterday. No additional cases were found yet.
+
+
+
+Files
+
+
+
+
+
+Press Release (Feb.8)_afternoon.pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

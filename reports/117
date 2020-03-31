@@ -1,0 +1,240 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The updates on novel Coronavirus in Korea (since 3 January)
+
+Date2020-02-08 14:44
+Update2020-02-08 16:19
+DivisionDivision of Risk Assessment and International Cooperation 
+Tel043-719-7556
+1,282
+
+
+                                     The updates on novel Coronavirus in Korea (since 3 January)
+
+
+
+
+
+Period
+
+Total
+
+Confirmed cases
+
+Suspected cases
+
+
+
+in-patient
+
+discharged
+
+Sub-total
+
+isolated
+
+released
+
+
+
+As of 16:00, 7 Feb. 
+
+1,352
+
+22
+
+2
+
+1,328
+
+327
+
+1,001
+
+
+
+As of 9:00, 8 Feb.
+
+1,701
+
+22
+
+2
+
+1,677
+
+620
+
+1,057
+
+
+
+Differences
+
+△349
+
+0
+
+0
+
+△349
+
+△293
+
+△56
+
+
+
+ 
+ 
+[Reference: case definition] 
+
+
+
+
+Case definition(5th update)
+
+
+
+Confirmed case
+
+
+
+ - Laboratory-confirmed case with nCoV PCR regardless of clinical symptoms
+
+
+
+Suspected case
+
+
+
+ - Anyone who develops fever or respiratory symptoms within 14 days after returning from China
+ - Anyone who develops fever or respiratory symptoms within 14 days after having a close contact with a confirmed case
+ - Anyone suspected of nCoV by clinician based on a travel history to affected countries and clinical symptoms
+
+
+
+Patient Under Investigation(PUI)
+
+
+
+ - No longer used
+
+
+
+  
+ 
+
+
+Files
+
+
+
+
+
+Press Release (Feb.8).pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

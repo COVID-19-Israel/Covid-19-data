@@ -1,0 +1,179 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The updates(Feb. 5) on the novel Coronavirus in Republic of Korea
+
+Date2020-02-05 16:25
+Update2020-02-05 20:31
+DivisionDivision of Risk Assessment and International Cooperation
+Tel043-719-7553
+1,595
+
+
+The updates(Feb. 5) on the novel Coronavirus 
+in Republic of Korea
+ 
+○ As of 5 February, 2020, there has been 714 Patient Under Investigation(PUIs) with 18 confirmed cases, 522 cases already released after tested negative, and 174 cases currently being tested. The contacts of the confirmed cases are 1,364 in total, 6 of which were confirmed. 
+
+
+
+
+Period
+
+Total
+
+Confirmed cases
+
+Patient Under Investigation(PUI)
+
+
+
+Sub-total
+
+isolated
+
+released
+
+
+
+3 Jan –5 Feb
+
+714
+
+18
+
+696
+
+174
+
+522
+
+
+
+ 
+○ The 2nd case will be discharged from hospital on Feb 5th at the first time. The case, 55-year-old male, returned to Korea from Wuhan via Shanghai on 22 January. 
+ 
+ - The case was detected by a thermal scanner during entry screening conducted by the quarantine station with fever, and he tested positive of 2019-nCoV on 24 January 2020. His symptom, sore throat, cough, and X ray result are improved with two times of test as negative. He will be discharged from hospital today. 
+ 
+ - The contacts of 2nd confirmed case will be released on 7 February 24:00 till 8 February. 
+ 
+○ The 16th case, 42-year-old Korean female have 306 contacts of confirmed case, and 3 tested negative out of 4 members of family. Her daughter was confirmed as 18th case. The 16th case had visited Thailand from 15-19 January. She developed chills in the evening of 25th.
+ 
+ - The 16th case has stayed at same ward with her daughter for caring from 28 Jan to 2 Feb. She was diagnosed with pneumonia, she transferred to tertiary hospital with worsening prognosis. Then the hospital sent her a local screening center(triage clinic center of 2019-nCoV). The 16th and 18th cases are in isolation at national designated hospital, and epidemiological investigation are underway.
+ 
+○ The 17th case, 38-year-old Korean male visited Singapore for attending a conference and returned Korea on 24 January. With information of a confirmed case who was Malaysian attended the conference, he visited to a local screening center(triage clinic center) on Feb 4, 2020. He tested positive on 5 Feb 2020. 
+ 
+ - As the case was confirmed(Malaysian) on Feb 4th, Singapore Health authorities are under epidemiological investigation. Korea Centers for Disease Control and Prevention(KCDC) notified the confirmed case(#17th) to Singapore Health authorities, and KCDC is in cooperation with Singapore investigation to sharing epidemiological information. 
+
+
+Files
+
+
+
+
+
+Press_Release_(Feb.5)-2.pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

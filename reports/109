@@ -1,0 +1,215 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Expand strict quarantine screening of 2019-nCoV to Hong Kong, Macao
+
+Date2020-02-11 16:18
+Update2020-02-12 11:14
+DivisionDivision of Risk Assessment and International Cooperation 
+Tel043-719-7553
+1,778
+
+
+The updates(Feb. 11th) on novel Coronavirus in Korea
+ 
+○ As of 09:00, 11 February 2020, there have been 3,629 suspected cases reported, 28 of which were confirmed, 2,736 turned out to be negative, and 865 currently being tested. Out of 1,769 contacts of cases in total, 11 cases has been confirmed.
+ (since 3 January, 2020)
+
+
+
+
+Period
+
+Total
+
+Confirmed cases
+
+Suspected cases
+
+
+
+isolated
+
+discharged
+
+Sub-total
+
+being 
+tested
+
+tested 
+negative 
+
+
+
+As of 09:00, 11 Feb. 
+
+3,629
+
+24
+
+4
+
+3,601
+
+865
+
+2,736
+
+
+
+As of 09:00, 10 Feb.
+
+2,776
+
+24
+
+3
+
+2,749
+
+809
+
+1,940
+
+
+
+Differences
+
+△853
+
+0
+
+△1
+
+△852
+
+△56
+
+△796
+
+
+
+ 
+○ KCDC released the results of epidemiological investigation on 28th confirmed case.
+ 
+○ The 28th case, a 30 year old Chinese female is close contact of 3th case and being self-isolated on 26 January. The case had no onset of symptom(fever) during self-isolated, since she has been taken a painkiller before being isolated. 
+ 
+ - Since the result of test was indicated at the borderline between positive and negative at the Incubation point, the re-test has been conducted. The case tested positive on 10 February and isolated at national designated hospital. And the resident of the contact tested negative.
+ 
+○ Meanwhile, KCDC announces to expand strict quarantine screening to Hong Kong, Macao on 12 February, in addition to those who arrive from mainland China 
+ 
+ - As increased the number of confirmed case in Hong Kong, the spreading of the disease in the community has been identified. And there is a high possibility on the risk of transmission through Macao, nearby Guangdong province. 
+
+
+Files
+
+
+
+
+
+Press Release (Feb.11)_afternoon.pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

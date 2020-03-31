@@ -1,0 +1,605 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The updates on COVID-19 in Korea as of 24 February
+
+Date2020-02-24 17:53
+Update2020-02-24 18:02
+DivisionDivision of Risk Assessment and International Cooperation
+Tel043-719-7556
+6,822
+
+
+The updates of COVID-19 in Republic of Korea
+As of 24 February,2020
+
+
+○ Compared to yesterday morning (09:00, 23 February, 2020), 207 additional cases are confirmed, which brings the total number of confirmed cases to 763 with 738 cases in isolation. 19,127 turned out to be negative and 8,725 are currently being tested. 
+ 
+
+
+
+
+Period
+(since 3 January)
+
+Total
+
+Confirmed cases
+
+Suspected cases
+
+
+
+Sub
+total
+
+discharged
+
+isolated
+
+Deceased
+
+Sub
+total
+
+being tested
+
+tested negative
+
+
+
+As of 9:00, 23 Feb. 
+
+22,633
+
+556
+
+18
+
+534
+
+4
+
+22,077
+
+6,039
+
+16,038
+
+
+
+As of 9:00, 24 Feb.
+
+28,615
+
+763
+
+18
+
+738
+
+7
+
+27,852
+
+8,725
+
+19,127
+
+
+
+Differences
+
++5,982
+
++207
+
+0*
+
++204
+
++3 **
+
++5,775
+
++2,686
+
++3,089
+
+
+
+ 
+  * The 9th, 13th, 15th, and 20th cases will be released from isolation later today.
+**  Three cases(#54, #55, and #286) passed away on 23 February, and the cause of death is currently being investigated. 54th case is a Korean male born in 1963, 55th case is a Korean male born in 1961, and 286th case is a Korean male born in 1958. All of the deceased cases belong to Cheongdo Daenam Hospital cluster.
+
+○ Including 207 newly confirmed cases, the total of 763 cases are classified by the clusters and the regions as follows.
+ 
+
+
+
+
+Regions
+
+Confirmed cases
+
+Remarks
+
+
+
+sub
+total
+
+Shincheonji
+(Religious sect)
+
+Cheongdo Daenam Hospital
+
+Imported or imported related
+
+Others*
+
+Newly confirmed**
+
+
+
+Seoul
+
+30
+
+1
+
+0
+
+18
+
+11
+
+4
+
+Mostly imported or imported related
+
+
+
+Busan
+
+17
+
+4
+
+1
+
+0
+
+12
+
+8
+
+Onchun Church related
+
+
+
+Daegu
+
+442
+
+376
+
+0
+
+0
+
+66
+
+155
+
+Mostly Shincheonji cluster
+
+
+
+Incheon
+
+2
+
+1
+
+0
+
+1
+
+0
+
+0
+
+Mostly Shincheonji cluster
+
+
+
+Gwangju
+
+9
+
+7
+
+0
+
+1
+
+1
+
+2
+
+Mostly Shincheonji cluster
+
+
+
+Daejeon
+
+3
+
+0
+
+0
+
+0
+
+3
+
+1
+
+ 
+
+
+
+Ulsan
+
+1
+
+1
+
+0
+
+0
+
+0
+
+0
+
+Shincheonji cluster
+
+
+
+Sejong
+
+1
+
+1
+
+0
+
+0
+
+0
+
+0
+
+Shincheonji cluster
+
+
+
+Gyeonggi
+
+35
+
+8
+
+0
+
+11
+
+16
+
+12
+
+Mostly imported or imported related
+
+
+
+Gangwon
+
+7
+
+3
+
+0
+
+0
+
+4
+
+0
+
+Mostly Shincheonji cluster
+
+
+
+Chungbuk
+
+3
+
+3
+
+0
+
+0
+
+0
+
+0
+
+Shincheonji cluster
+
+
+
+Chungnam
+
+1
+
+0
+
+0
+
+0
+
+1
+
+0
+
+ 
+
+
+
+Cheonbuk
+
+3
+
+0
+
+0
+
+1
+
+2
+
+0
+
+Imported or imported related
+
+
+
+Cheonnam
+
+1
+
+0
+
+0
+
+1
+
+0
+
+0
+
+Imported or imported related
+
+
+
+Gyeongbuk
+
+186
+
+38
+
+112
+
+0
+
+36
+
+16
+
+Cheongdo Daenam Hospital cluster or travel history to Israel
+
+
+
+Gyeongnam
+
+20
+
+13
+
+0
+
+0
+
+7
+
+9
+
+Mostly Shincheonji cluster
+
+
+
+Jeju
+
+2
+
+0
+
+0
+
+0
+
+2
+
+0
+
+Shincheonji cluster
+
+
+
+Total
+
+763
+
+456
+
+113
+
+33
+
+161
+
+207
+
+74.6% are Shincheonji and Cheongdo Daenam Hospital clusters
+
+
+
+59.8%
+
+14.8%
+
+4.3%
+
+21.1%
+
+
+
+* Not classified into a cluster or under investigation
+** Confirmed from 9:00, 23 February to 9:00 24 February
+※ The interim classification is based on the reporting location, which may change depending on further epidemiological investigation.
+
+
+
+ 
+○ The Korean government has raised the alert level from Orange(Level 3) to Red (Level 4) in order to prepare for a possible nation-wide transmission. It was a proactive decision taking into consideration the pattern and speed of transmission.
+ 
+ - Community transmission has been expanded from special management regions, Daegu (Shincheonji) and Cheongdo (Daenam Hospital). The newly confirmed cases are also mostly related to Shincheonji clusters. 
+ 
+ - The government takes both containment and mitigation strategies, considering the different situations in regions. In the special management regions (Daegu and Cheongdo), the response measures are more focused on isolating and treating potential cases than tracing an individual case. Furthermore, medical resources are put into severe cases so as to mitigate the impact, such as death. In other regions, epidemiological investigation and environmental disinfection are conducted to find Shincheonji-related cases as well as to prevent sporadic community spread.
+
+
+
+Files
+
+
+
+
+
+Press Release (Feb.24)_Afternoon.pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,613 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The updates on COVID-19 in Korea as of 21 March
+
+Date2020-03-21 18:23
+Update2020-03-21 18:23
+DivisionDivision of Risk assessment and International cooperation 
+Tel043-719-7556
+4,612
+
+
+Updates on COVID-19 in Republic of Korea
+21 March, 2020
+
+
+○ As of 0:00, 21 March 2020, the total number of confirmed cases is 8,799, of which 2,612 cases have been discharged from isolation. Newly confirmed cases are 147 in total.
+ 
+
+
+
+
+Period
+(since 3 Jan)
+
+Total
+
+Tested positive
+
+Being tested
+
+Tested negative
+
+
+
+Confirmed
+
+Discharged
+
+Isolated
+
+Deceased
+
+
+
+As of 0:00 
+20 March (Fri)
+
+316,664
+
+8,652
+
+2,233
+
+6,325
+
+94
+
+15,525
+
+292,487
+
+
+
+As of 0:00
+21 March (Sat)
+
+327,509
+
+8,799
+
+2,612
+
+6,085
+
+102
+
+15,704
+
+303,006
+
+
+
+Differences
+
+10,845
+
+147
+
+379
+
+-240
+
+8
+
+179
+
+10,519
+
+
+
+
+○ Epidemiological links have been found for 80.7% of the total cases; 19.3% are either under investigation or sporadic cases. More details on the epidemiological links within each province or city are shown in Table 2. Weekly trend of imported cases by period and region of origin is provided in Figure 1.
+ 
+○ From Guro-gu call center in Seoul, 2 additional cases (1 from the 11th floor, 1 contact) were confirmed. The current total is 148 confirmed cases since 8 March. Epidemiological investigation and contact tracing on the newly confirmed cases are underway. 
+ 
+○ From Bundang Jesaeng Hospital in Gyeonggi Province, 2 additional cases (2 staff in self-quarantine) were confirmed. A total of 42 cases have been confirmed so far. From Hyo Sarang nursing home, 5 cases have been confirmed since 19 March. Residents and staff there are currently under cohort-quarantine.
+ 
+○ In Daegu, every person at high-risk facilities is being tested. 87 percent completed testing and 192 (0.8 percent) out of 25,493 were confirmed positive. From Daesil Covalescent Hospital in Dalseong-gun, 54 additional cases were confirmed, which brings the current total to 64. In-patients on 6th and 7th floors are under cohort-quarantine.
+ 
+○ In Gyeongbuk Province, 35 cases were confirmed from Seo Convalescent Hospital in Gyeongsan. Epidemiological investigation is underway.
+ 
+○ In order to prevent further importation of COVID-19 cases, all incoming travellers from Europe will be tested effective of 0:00, 22 March. Furthermore, even if tested negative, Korean citizens and long-term-stay foreigners should be under self-quarantine for 14 days, and short-term visitors should be under active monitoring. Anyone having respiratory symptoms at the point of entry or epidemiological links with confirmed cases will be quarantined for testing at quarantine station.
+ 
+[Table 2. Regional distribution and epidemiological links of the confirmed cases]
+
+
+
+
+
+Region
+
+Sub-
+total
+
+Epidemiological links
+
+Others*
+
+Newly confirmed
+
+
+
+n
+
+(%)
+
+Details
+
+
+
+Seoul
+
+314
+
+223
+
+(71.0%)
+
+Guro-gu call center (92), Dongan Church-PC Cafe (20), Eunpyeong St Mary’s Hospital (14), Seongdong-gu Apartments (13), Jongno-gu (10), Shincheonji (6), Seongnam Grace River Church (4) etc.
+
+91
+
+(29.0%)
+
+15
+
+
+
+Busan
+
+108
+
+78
+
+(72.2%)
+
+Onchun Church (32), Shincheonji (11), Suyeong-gu Kindergarten (5), Haeundae-gu Jangsan Catholic Church (4), Jin-gu private academy (4), Daenam Hospital (1), etc.
+
+30
+
+(27.8%)
+
+0
+
+
+
+Daegu
+
+6,344
+
+5,242
+
+(82.6%)
+
+Shincheonji (4,369), contacts of confirmed cases (683), Hansarang Convalescent Hospital (75), Daesil Convalescent Hospital (64), KimSin Recuperation Hospital (26), Kwak’s Hospital (15), Baesung Hospital (8), etc.
+
+1,102
+
+(17.4%)
+
+69
+
+
+
+Incheon
+
+40
+
+32
+
+(80.0%)
+
+Guro-gu call center (20), contacts of confirmed cases (6), Seocho-gu company related (3), Shincheonji (2), existing imported cases (1)
+
+8
+
+(20.0%)
+
+4
+
+
+
+Gwangju
+
+18
+
+15
+
+(83.3%)
+
+Shincheonji (9), contacts of confirmed cases (5), existing imported cases (1)
+
+3
+
+(16.7%)
+
+0
+
+
+
+Daejeon
+
+22
+
+12
+
+(54.5%)
+
+contacts of confirmed cases (8), Shincheonji (2), Seosan research center (2) 
+
+10
+
+(45.5%)
+
+0
+
+
+
+Ulsan
+
+36
+
+26
+
+(72.2%)
+
+Shincheonji (16), contacts of confirmed cases (10)
+
+10
+
+(27.8%)
+
+0
+
+
+
+Sejong
+
+41
+
+38
+
+(92.7%)
+
+Ministry of Oceans and Fisheries (29), gym facilities (8), Shincheonji (1)
+
+3
+
+(7.3%)
+
+0
+
+
+
+Gyeonggi
+
+321
+
+262
+
+(81.6%)
+
+Seongnam Grace River Church (60), Guro-gu call center-Bucheon SaengMyeongSu Church (36), Bundang Je-saeng Hospital (38), Shincheonji (29), Suwon SaengMyeongSaem Church (12), Gunpo Hyo Sarang Nursing Home (5) etc.
+
+59
+
+(18.4%)
+
+12
+
+
+
+Gangwon
+
+30
+
+21
+
+(70.0%)
+
+Shincheonji (20), gym facilities in Cheonan (1)
+
+9
+
+(30.0%)
+
+0
+
+
+
+Chung-
+buk
+
+34
+
+28
+
+(82.4%)
+
+Shincheonji (11), Goesan-gun Jangyeon-myeon (11), contacts of confirmed cases (6) 
+
+6
+
+(17.6%)
+
+1
+
+
+
+Chung-
+nam
+
+119
+
+112
+
+(94.1%)
+
+Gym facilities in Cheonan (103), Seosan research center (8), Seongnam Grace River Church (1)
+
+7
+
+(5.9%)
+
+0
+
+
+
+Jeon-buk
+
+10
+
+4
+
+(40.0%)
+
+Contacts of confirmed cases (2), existing imported cases (1), Shincheonji (1)
+
+6
+
+(60.0%)
+
+0
+
+
+
+Jeon-
+nam
+
+5
+
+4
+
+(80.0%)
+
+Shincheonji (1), existing imported cases (1), contacts of confirmed cases (2)
+
+1
+
+(20.0%)
+
+0
+
+
+
+Gyeong-
+buk
+
+1,243
+
+910
+
+(73.2%)
+
+Shincheonji (527), Cheongdo Daenam Hospital (120), Bonghwa Pureun Nursing Home (68), pilgrimage to Israel (49), Gyeongsan Seo Convalescent Hospital (30), Milal Shelter (27), Gyeongsan Seorin Nursing Home (25), Gyeongsan Cham Joeun Community Center (18), etc.
+
+333
+
+(26.8%)
+
+40
+
+
+
+Gyeong-
+nam
+
+87
+
+70
+
+(80.5%)
+
+Shincheonji (32), Geochang Church (10), Geochang Woongyang-myeon (8), Hanmaeum Changwon Hospital (7), Changyeong coin karaoke (7), contacts of confirmed cases (4), Busan Oncheon Church (2) 
+
+17
+
+(19.5%)
+
+0
+
+
+
+Jeju
+
+4
+
+-
+
+-
+
+ 
+
+4
+
+(100%)
+
+0
+
+
+
+Airport
+
+23
+
+23
+
+(100%)
+
+Imported cases (23)
+
+-
+
+   -
+
+6
+
+
+
+Total
+
+8,799
+
+7,100
+
+(80.7%)
+
+Shincheonji related cases 5,037 (57.2%)
+
+1,699
+
+      (19.3%)
+
+147
+
+
+
+* Not classified into a cluster or under investigation
+※ The interim classification is based on the reporting location, which may change depending on further epidemiological investigation.
+
+
+
+ 
+[Figure 1. Imported confirmed cases by region of origin]
+
+
+
+
+
+
+
+Files
+
+
+
+
+
+Press Release (March21)_afternoon.pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

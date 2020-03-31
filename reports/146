@@ -1,0 +1,136 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ROK, U.S. CDC Work Together to Strengthen Global Health Security
+
+Date2019-10-22 15:53
+Update2019-11-18 19:49
+DivisionDivision of Risk Assessment & International Cooperation
+Tel043-719-7553
+1,089
+
+
+- KCDC Signs MOU with U.S Disease Control and Prevention (10.21.) -
+□ The Korea Centers for Disease Control and Prevention (KCDC) (Director Jeong Eun-kyeong) said that it signed a Memorandum of Understanding with the U.S. Department of Health and Human Services (Deputy Secretary Eric Hargan), which represents the U.S. Centers for Disease Control and Prevention (CDC), at the KCDC in Osong on the afternoon of October 21.    
+□ This MOU aims to enhance ROK-U.S. cooperation on disease control and prevention, such as strengthening global health security and bolstering key capabilities to address infectious diseases in accordance with the International Health Regulations (IHR, 2005).  
+ ○ Major areas of cooperation between the two countries include preparing for and responding to public health emergency preparedness and response, enhancing laboratory capabilities, antibiotic resistance(AMR), health promotion and non-communicable diseases, and health workforce training and development programs
+□ This MOU has become an opportunity to systematize existing channels of cooperation between the ROK and U.S. agencies, such as laboratory networks, the standardization of diagnostic tests, dispatch of human resources and information exchanges, and to create the first platform for disease control and prevention so as to enhance cooperation in responding to emerging  infectious diseases.  
+□ KCDC Director Jeong Eun-kyeong disclosed that through the signing of this MOU, an official channel for cooperation has been established between the two countries on common issues, including global health security, prevention of infectious diseases, public health emergency response, and so on.
+○ Dr. Jeong expects the two countries to establish a close mutual-assistance system in the future to expand the scope of sharing personnel and information to continue cooperative efforts on common international goal of preventing and managing infectious diseases.
+□ Meanwhile, the delegation from the U.S. Department of Health and Human Services and the U.S. Embassy in Seoul, who visited the KCDC to sign the MOU, were also briefed about the management status of the emergency operations center and future plans for a joint simulation exercise.  In addition, they visited the Bio-bank and jointly examined the retention and management status of domestic research resources.
+□  Since recent circumstances surrounding international health, such as the emergence of a new type of infectious disease, are emphasizing the importance of global health security, the United States and the ROK plan to share their experiences in responding to new types of infectious diseases and strengthen preparation and response capabilities against infectious diseases entering the country.
+○ In the future, the CDCs of both countries plan to show the results of their cooperation by such methods as holding ROK-U.S. joint exercises and policy dialogues, establishing detailed action plans for specialized fields, pursuing Global Health Security Agenda project.
+
+
+
+Files
+
+
+
+
+
+ROK,_U.S._CDC_Work_Together_to_Strengthen_Global_Health_Security.pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

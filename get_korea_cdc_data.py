@@ -8,6 +8,7 @@ import urllib.request
 from bs4 import BeautifulSoup as BS
 from datetime import datetime
 
+base_url = "https://www.cdc.go.kr"
 glob_report_links = [
     "/board/board.es?mid=&bid=0030&act=view&list_no=366691&tag=&nPage=1",
     "/board/board.es?mid=&bid=0030&act=view&list_no=366690&tag=&nPage=1",
@@ -179,32 +180,30 @@ def get_all_report_links(base_url):
         next_page_link = next_page.find_all('a', class_='pageNext')[0].get('href')
         next_page = BS(urllib.request.urlopen(f'{base_url}{next_page_link}'), features='lxml')
         current_page += 1
+        
+
+async def get_single_report(i, link, session):
+    print(f"({datetime.now()} - getting report {i} of {len(glob_report_links)}: {link}")
+    # report_html = urllib.request.urlopen(f"{base_url}{link}")
+
+    report_text = None
+    async with session.get(f"{base_url}{link}") as resp:
+        report_html = await resp.text()
+        report_text = BS(report_html, features='lxml').get_text()
+    report_date = re.search(r'Date\d{4}-\d{2}-\d{2}', report_text)
+    date_filename = str(i) if not report_date else report_date.group()[4:]
+
+    if '2018' or '2019' in date_filename:
+        # A somewhat ugly way to detect when we went beyond the oldest relevant review
+        return
+
+    with open(os.path.join("reps", date_filename), "w+") as report_file:
+        print(f"writing for {i}")
+        report_file.write(report_text)
+        await asyncio.sleep(0.3)
 
 
 async def main():
-    base_url = "https://www.cdc.go.kr"
-
-    async def get_single_report(i, link, session):
-        print(f"({datetime.now()} - getting report {i} of {len(glob_report_links)}: {link}")
-        # report_html = urllib.request.urlopen(f"{base_url}{link}")
-
-        report_text = None
-        async with session.get(f"{base_url}{link}") as resp:
-            report_html = await resp.text()
-            report_text = BS(report_html, features='lxml').get_text()
-        report_date = re.search(r'Date\d{4}-\d{2}-\d{2}', report_text)
-        date_filename = str(i) if not report_date else report_date.group()[4:]
-
-        if '2018' or '2019' in date_filename:
-            # A somewhat ugly way to detect when we went beyond the oldest relevant review
-            return
-
-        with open(os.path.join("reps", date_filename), "w+") as report_file:
-            print(f"writing for {i}")
-            report_file.write(report_text)
-            await asyncio.sleep(0.3)
-
-    # get all the texts from all the links
     print(f"starting to get all the linked reports ({datetime.now()}")
     start_time = timeit.default_timer()
 
