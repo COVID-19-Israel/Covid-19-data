@@ -61,6 +61,4 @@ Additional data:
 ## Website
 http://covidil.hopto.org/dashboard
 
-## Contact us:
-Found problems with the data? Have some good ideas and want to help?
-You can contact us at: iddo.waxman@gmail.com
+
