@@ -50,7 +50,11 @@ TF_FIELDS = [
 	'limit_retirement_homes_visits',
 	'disinfecting_public_spaces',
 	'police_army_enforcement',
-	'fines_and_incarceration'
+	'fines_and_incarceration',
+	'encouragement_using_masks',
+	'encouragement_using_gloves',
+	'encouragement_using_hand_sanitizers',
+	'wide_temperature_tests'
 ]
 
 # fields that are meant to be INFINITY in the normal state (without restrictions)
@@ -92,6 +96,10 @@ DEFAULT_STATE = {
 	'disinfecting_public_spaces': False,
 	'police_army_enforcement': False,
 	'fines_and_incarceration': False,
+	'encouragement_using_masks': False,
+	'encouragement_using_gloves': False,
+	'encouragement_using_hand_sanitizers': False,
+	'wide_temperature_tests': False,
 	'lockdown_level': 0
 }
 
@@ -367,6 +375,10 @@ def get_csv_rows(diff_path):
 
 
 def add_missing_areas(diff_row):
+	'''
+	@purpose: looping over all the diff rows first,
+		to add the areas which were not added manually to the external areas file
+	'''
 
 	country_name = diff_row[COUNTRY_INDEX]
 	province_name = diff_row[PROVINCE_INDEX]
@@ -456,11 +468,16 @@ def diffs_to_states(diff_tables_dir_path, explored_areas_path):
 	for diff_path in diff_paths:
 		diff_rows = get_csv_rows(diff_path)
 		for row in diff_rows:
-			row[CHANGE_DATE_INDEX] = datetime.strptime(row[CHANGE_DATE_INDEX], DATE_FORMAT)
+			try:
+				row[CHANGE_DATE_INDEX] = datetime.strptime(row[CHANGE_DATE_INDEX], DATE_FORMAT)
+			except ValueError as e:
+				print(row, e)
 
 		sorted_diff_rows = sorted(diff_rows, key=set_province_priority)
 		sorted_diff_rows.sort(key=lambda item:item[CHANGE_DATE_INDEX])
 
+		# first, go through all records to get all province names.
+		# this is done so provinces which are omitted from the explored_areas file, will be considered from the beginning
 		for diff_row in sorted_diff_rows:
 			add_missing_areas(diff_row)
 
