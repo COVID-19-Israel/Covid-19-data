@@ -1,0 +1,133 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+One more imported case of 2019-nCoV has been confirmed in Korea
+
+Date2020-02-01 14:00
+Update2020-02-02 14:52
+DivisionDivision of Risk assessment and International Cooperation 
+Tel043-719-7553
+1,703
+
+
+One more imported case of 2019-nCoV has been confirmed in Korea
+ 
+○ The Korea Centers for Disease Control and Prevention (KCDC) has confirmed 12th case of 2019 novel Coronavirus(2019-nCoV) on 31 January, 2020. 
+ 
+○ The confirmed case is a 49-year old Chinese male, who had visited Japan and returned on 19 January 2020. Japanese confirmed case suggested to be examined. He tested positive and was isolated in a national designated isolation hospital on 1 February 2020. 
+ 
+○ Contact tracing and in-depth epidemiological investigation is underway, and the results will be shared with the public soon.
+ 
+
+
+Files
+
+
+
+
+
+Press_Release_(Feb._1).pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

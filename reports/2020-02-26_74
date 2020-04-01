@@ -1,0 +1,286 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+169 additional cases are confirmed
+
+Date2020-02-26 12:13
+Update2020-02-26 12:13
+DivisionDivision of Risk assessment and International cooperation 
+Tel043-719-7556
+5,855
+
+
+
+The Updates of COVID-19 in Republic of Korea
+As of 26 February, 2020
+ 
+
+○ As of 09:00, 26 February, 2020, 169 additional cases are confirmed, compared to yesterday afternoon (16:00, 25 February).
+
+
+
+
+
+Period
+(since 3 January)
+
+Total
+
+Confirmed cases
+
+Suspected cases
+
+
+
+Sub
+total
+
+discharged
+
+isolated
+
+Deceased
+
+Sub
+total
+
+being tested
+
+tested negative
+
+
+
+As of 16:00, 25 Feb. 
+
+40,304
+
+977
+
+22
+
+945
+
+10
+
+39,327
+
+13,880
+
+25,447
+
+
+
+As of 9:00, 26 Feb.
+
+46,127
+
+1,146
+
+22
+
+1,113
+
+11
+
+44,981
+
+16,734
+
+28,247
+
+
+
+Differences
+
++5,823
+
++169
+
+0
+
++168
+
++1 *
+
++5,654
+
++2,854
+
++2,800
+
+
+
+ 
+ * The 875th confirmed case, a Mongolian male born in 1984, passed away on 25 February. The cause of death is currently being investigated.
+ 
+ 
+○ The regional distribution of 169 additional cases are as follows.
+
+
+
+
+
+Place 
+
+City
+
+Province 
+
+Total
+
+
+
+Seoul
+
+Daegu
+
+Incheon
+
+Busan
+
+Gyeong-buk
+
+Gyeong-nam
+
+Gyeonggi
+
+
+
+Sub-total 
+
+4
+
+134
+
+1
+
+8
+
+19
+
+2
+
+1
+
+169
+
+
+
+※ The interim classification is based on the reporting location, which may change depending on further epidemiological investigation.
+
+
+
+
+
+
+Files
+
+
+
+
+
+Press Release (Feb.26)_Morning.pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+
