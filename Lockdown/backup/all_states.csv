@@ -589,39 +589,16 @@ True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,True,False,True,Tr
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,True,False,True,True,1,Australia,Victoria,2020-03-19 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,True,False,True,True,1,Australia,Western Australia,2020-03-19 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,True,False,False,True,1,Australia,all,2020-03-19 00:00:00
+False,True,False,False,False,False,2,2,0,1,5,True,0,True,False,False,True,True,3,Austria,Tyrol,2020-03-19 00:00:00
+False,True,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,3,Austria,all,2020-03-19 00:00:00
 False,True,False,False,False,False,2,0,0,,10,True,0,False,False,False,False,True,3,Canada,New Brunswick,2020-03-19 00:00:00
 True,True,True,False,False,True,2,2,1,2,10,True,1,False,False,True,True,True,4,Israel,all,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,AG,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,AI,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,AR,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,BE,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,BL,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,BS,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,FR,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,5,False,1,False,False,False,False,False,3,Switzerland,GE,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,GL,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,GR,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,JU,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,LU,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,NE,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,NW,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,OW,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,SG,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,SH,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,SO,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,SZ,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,TG,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,TI,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,UR,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,50,False,1,False,False,False,False,False,3,Switzerland,VD,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,VS,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,ZG,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,ZH,2020-03-19 00:00:00
-False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,all,2020-03-19 00:00:00
 True,True,False,False,False,False,0,0,0,,,True,0,False,False,True,False,False,2,Taiwan,all,2020-03-19 00:00:00
 True,False,False,True,False,True,2,2,2,2,10,False,1,True,True,False,False,False,4,United States of America,California,2020-03-19 00:00:00
 True,False,True,True,False,False,1,2,0,1,10,False,1,True,True,True,False,False,3,United States of America,Washington,2020-03-19 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,False,False,True,True,1,Australia,South Australia,2020-03-18 00:00:00
+False,False,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,3,Austria,Tyrol,2020-03-18 00:00:00
+False,False,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,3,Austria,all,2020-03-18 00:00:00
 False,False,False,False,False,False,0,2,0,,50,True,0,False,False,False,False,True,2,Canada,British Columbia,2020-03-18 00:00:00
 False,True,False,False,False,False,2,0,0,,10,True,0,False,False,False,False,True,3,Canada,Newfoundland and Labrador,2020-03-18 00:00:00
 False,True,False,False,False,False,2,0,0,,0,True,0,False,False,False,False,False,3,Canada,Northwest Territories,2020-03-18 00:00:00
@@ -885,6 +862,8 @@ True,False,False,True,False,False,1,1,0,2,10,False,0,False,True,False,False,Fals
 True,False,True,True,False,False,1,2,0,1,10,False,0,True,True,False,False,False,3,United States of America,Washington,2020-03-17 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,False,False,True,True,1,Australia,Victoria,2020-03-16 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,False,False,True,True,1,Australia,Western Australia,2020-03-16 00:00:00
+False,False,False,False,False,False,2,1,0,1,5,False,0,True,False,False,True,True,3,Austria,Tyrol,2020-03-16 00:00:00
+False,False,False,False,False,False,2,1,0,1,5,False,0,True,False,False,True,True,3,Austria,all,2020-03-16 00:00:00
 False,False,False,False,False,False,0,0,0,,250,True,0,False,False,False,False,False,2,Canada,Alberta,2020-03-16 00:00:00
 False,False,False,False,False,False,0,0,0,,250,True,0,False,False,False,False,False,2,Canada,British Columbia,2020-03-16 00:00:00
 False,False,False,False,False,False,0,0,0,,,True,0,False,False,False,False,False,2,Canada,"Calgary, Alberta",2020-03-16 00:00:00
@@ -1291,46 +1270,54 @@ False,False,True,False,False,False,2,2,0,1.5,3,False,1,False,False,False,True,Tr
 False,False,True,False,False,False,2,2,0,1.5,3,False,1,False,False,False,True,True,3,Netherlands,Zwolle,2020-03-16 00:00:00
 False,False,True,False,False,False,2,2,0,1.5,3,False,1,False,False,False,True,True,3,Netherlands,all,2020-03-16 00:00:00
 True,False,False,True,False,False,0,0,1,,,False,0,False,False,False,False,False,2,Singapore,all,2020-03-16 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,4,Spain,AndalucÖ³Â­a,2020-03-16 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,4,Spain,AragÖ³Â³n,2020-03-16 00:00:00
 True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,4,Spain,Asturias,2020-03-16 00:00:00
-True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,4,Spain,Basque,2020-03-16 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,4,Spain,Baleares,2020-03-16 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,4,Spain,CValenciana,2020-03-16 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,4,Spain,Canarias,2020-03-16 00:00:00
 True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,4,Spain,Cantabria,2020-03-16 00:00:00
-True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,4,Spain,Castilla - La Mancha,2020-03-16 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,4,Spain,Castilla-LaMancha,2020-03-16 00:00:00
 True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,4,Spain,CastillaLaMancha,2020-03-16 00:00:00
-True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,4,Spain,Catalunya,2020-03-16 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,4,Spain,CastillayLeÖ³Â³n,2020-03-16 00:00:00
 True,False,True,False,False,True,2,2,1,1,1000,True,1,False,False,True,True,True,4,Spain,CataluÖ³Â±a,2020-03-16 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,4,Spain,Ceuta,2020-03-16 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,4,Spain,Extremadura,2020-03-16 00:00:00
 True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,4,Spain,Galicia,2020-03-16 00:00:00
-True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,4,Spain,La Rioja,2020-03-16 00:00:00
 True,False,True,False,False,True,2,2,1,1,1000,True,1,False,False,True,True,True,4,Spain,LaRioja,2020-03-16 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,4,Spain,Madrid,2020-03-16 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,4,Spain,Melilla,2020-03-16 00:00:00
 True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,4,Spain,Murcia,2020-03-16 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,4,Spain,Navarra,2020-03-16 00:00:00
 True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,4,Spain,PaÖ³Â­sVasco,2020-03-16 00:00:00
 True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,4,Spain,all,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,AG,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,AI,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,AR,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,BE,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,BL,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,BS,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,FR,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,5,False,1,False,False,False,False,False,3,Switzerland,GE,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,GL,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,GR,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,JU,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,LU,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,NE,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,NW,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,OW,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,SG,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,SH,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,SO,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,SZ,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,TG,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,TI,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,UR,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,50,False,1,False,False,False,False,False,3,Switzerland,VD,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,VS,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,ZG,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,ZH,2020-03-16 00:00:00
-False,False,False,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,all,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,AG,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,AI,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,AR,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,BE,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,BL,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,BS,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,FR,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,5,False,1,False,False,False,False,False,3,Switzerland,GE,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,GL,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,GR,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,JU,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,LU,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,NE,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,NW,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,OW,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,SG,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,SH,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,SO,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,SZ,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,TG,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,TI,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,UR,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,50,False,1,False,False,False,False,False,3,Switzerland,VD,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,VS,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,ZG,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,ZH,2020-03-16 00:00:00
+False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,3,Switzerland,all,2020-03-16 00:00:00
 True,False,False,True,False,False,0,1,0,2,10,False,0,False,True,False,False,False,2,United States of America,California,2020-03-16 00:00:00
 True,False,True,True,False,False,1,1,0,,10,False,0,False,True,False,False,False,3,United States of America,New York,2020-03-16 00:00:00
 True,False,True,True,False,False,1,1,0,1,10,False,0,True,True,False,False,False,3,United States of America,Washington,2020-03-16 00:00:00
@@ -1341,6 +1328,8 @@ True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,False,False,False,
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,False,False,False,True,1,Australia,Victoria,2020-03-15 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,False,False,False,True,1,Australia,Western Australia,2020-03-15 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,False,False,False,True,1,Australia,all,2020-03-15 00:00:00
+False,False,False,False,False,False,1,1,0,,5,False,0,True,False,False,False,False,3,Austria,Tyrol,2020-03-15 00:00:00
+False,False,False,False,False,False,1,1,0,,5,False,0,True,False,False,False,False,3,Austria,all,2020-03-15 00:00:00
 False,True,False,False,False,False,0,2,0,2,150,False,0,False,True,False,False,False,2,Canada,Nova Scotia,2020-03-15 00:00:00
 True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Baden-WÃ¼rttemberg,2020-03-15 00:00:00
 True,True,True,False,False,False,1,0,0,,2,False,0,False,False,False,False,False,3,Germany,Baden-WÃ¼rttemÂ­berg,2020-03-15 00:00:00
@@ -1726,17 +1715,25 @@ False,False,True,False,False,False,1,2,0,,100,False,0,False,False,False,False,Fa
 False,False,True,False,False,False,1,2,0,,100,False,0,False,False,False,False,False,3,Netherlands,Zwijndrecht,2020-03-15 00:00:00
 False,False,True,False,False,False,1,2,0,,100,False,0,False,False,False,False,False,3,Netherlands,Zwolle,2020-03-15 00:00:00
 False,False,True,False,False,False,1,2,0,,100,False,0,False,False,False,False,False,3,Netherlands,all,2020-03-15 00:00:00
+True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,AndalucÖ³Â­a,2020-03-15 00:00:00
+True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,AragÖ³Â³n,2020-03-15 00:00:00
 True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,Asturias,2020-03-15 00:00:00
-True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,Basque,2020-03-15 00:00:00
+True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,Baleares,2020-03-15 00:00:00
+True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,CValenciana,2020-03-15 00:00:00
+True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,Canarias,2020-03-15 00:00:00
 True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,Cantabria,2020-03-15 00:00:00
-True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,Castilla - La Mancha,2020-03-15 00:00:00
+True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,Castilla-LaMancha,2020-03-15 00:00:00
 True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,CastillaLaMancha,2020-03-15 00:00:00
-True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,Catalunya,2020-03-15 00:00:00
+True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,CastillayLeÖ³Â³n,2020-03-15 00:00:00
 True,False,True,False,False,True,2,2,1,1,1000,False,1,False,False,True,True,True,4,Spain,CataluÖ³Â±a,2020-03-15 00:00:00
+True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,Ceuta,2020-03-15 00:00:00
+True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,Extremadura,2020-03-15 00:00:00
 True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,Galicia,2020-03-15 00:00:00
-True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,La Rioja,2020-03-15 00:00:00
 True,False,True,False,False,True,2,2,1,1,1000,False,1,False,False,True,True,True,4,Spain,LaRioja,2020-03-15 00:00:00
+True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,Madrid,2020-03-15 00:00:00
+True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,Melilla,2020-03-15 00:00:00
 True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,Murcia,2020-03-15 00:00:00
+True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,Navarra,2020-03-15 00:00:00
 True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,PaÖ³Â­sVasco,2020-03-15 00:00:00
 True,False,True,False,False,True,2,2,1,1,,False,1,False,False,True,True,True,4,Spain,all,2020-03-15 00:00:00
 True,False,False,True,False,False,1,0,0,,,False,0,False,False,False,False,False,3,United Kingdom,Aneurin Bevan,2020-03-15 00:00:00
@@ -1944,6 +1941,33 @@ True,False,True,False,False,False,2,2,0,,1000,False,0,False,False,False,False,Fa
 True,False,True,False,False,False,2,2,0,,,False,0,False,False,False,False,False,3,Spain,Galicia,2020-03-14 00:00:00
 True,False,True,False,False,False,2,2,0,,,False,0,False,False,False,False,False,3,Spain,Murcia,2020-03-14 00:00:00
 True,False,True,False,False,False,2,2,0,,,False,0,False,False,False,False,False,3,Spain,PaÖ³Â­sVasco,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,AG,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,AI,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,AR,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,BE,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,BL,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,BS,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,FR,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,GE,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,GL,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,GR,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,JU,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,LU,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,NE,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,NW,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,OW,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,SG,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,SH,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,SO,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,SZ,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,TG,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,TI,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,UR,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,50,False,1,False,False,False,False,False,2,Switzerland,VD,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,VS,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,ZG,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,ZH,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,all,2020-03-14 00:00:00
 True,False,True,False,False,False,1,1,0,1,250,False,0,True,True,False,False,False,3,United States of America,Washington,2020-03-14 00:00:00
 False,False,False,False,False,False,0,0,0,,250,False,0,False,False,False,False,False,1,Canada,Alberta,2020-03-13 00:00:00
 False,False,False,False,False,False,0,0,0,,250,False,0,False,False,False,False,False,1,Canada,British Columbia,2020-03-13 00:00:00
@@ -1977,33 +2001,33 @@ True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,
 True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,SchlesÂ­wig-Holstein,2020-03-13 00:00:00
 True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,ThÃ¼ringen,2020-03-13 00:00:00
 True,True,True,False,False,False,0,0,0,,2,False,0,False,False,False,False,False,2,Germany,all,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,AG,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,AI,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,AR,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,BE,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,BL,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,BS,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,FR,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,GE,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,GL,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,GR,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,JU,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,LU,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,NE,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,NW,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,OW,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,SG,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,SH,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,SO,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,SZ,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,TG,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,TI,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,UR,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,50,False,1,False,False,False,False,False,2,Switzerland,VD,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,VS,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,ZG,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,ZH,2020-03-13 00:00:00
-False,False,False,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,2,Switzerland,all,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,AG,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,AI,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,AR,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,BE,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,BL,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,BS,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,FR,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,GE,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,GL,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,GR,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,JU,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,LU,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,NE,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,NW,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,OW,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,SG,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,SH,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,SO,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,SZ,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,TG,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,TI,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,UR,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,50,False,1,False,False,False,False,False,2,Switzerland,VD,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,VS,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,ZG,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,ZH,2020-03-13 00:00:00
+False,False,True,False,False,False,0,0,0,,100,False,1,False,False,False,False,False,2,Switzerland,all,2020-03-13 00:00:00
 True,False,False,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,United Kingdom,Aneurin Bevan,2020-03-13 00:00:00
 True,False,False,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,United Kingdom,AyrshireÂ and Arran,2020-03-13 00:00:00
 True,False,False,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,United Kingdom,Barking and Dagenham,2020-03-13 00:00:00
@@ -2202,6 +2226,8 @@ True,False,False,False,False,False,1,0,0,,,False,0,False,False,False,False,False
 True,False,False,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,United Kingdom,all,2020-03-13 00:00:00
 False,False,False,False,False,False,0,1,0,2,250,False,0,False,False,False,False,False,2,United States of America,California,2020-03-13 00:00:00
 True,False,True,False,False,False,0,1,0,,500,False,0,False,True,False,False,False,2,United States of America,New York,2020-03-13 00:00:00
+False,False,False,False,False,False,1,1,0,,500,False,0,True,False,False,False,False,3,Austria,Tyrol,2020-03-12 00:00:00
+False,False,False,False,False,False,1,1,0,,500,False,0,True,False,False,False,False,3,Austria,all,2020-03-12 00:00:00
 False,True,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Canada,New Brunswick,2020-03-12 00:00:00
 False,True,True,False,False,False,0,0,0,,250,False,0,False,False,False,False,False,1,Canada,Quebec,2020-03-12 00:00:00
 True,True,True,True,False,False,0,0,0,1,1000,False,0,False,True,False,False,False,1,France,Haute-Savoie,2020-03-12 00:00:00
@@ -2590,39 +2616,60 @@ False,False,True,False,False,False,1,1,0,,100,False,0,False,False,False,False,Fa
 False,False,True,False,False,False,1,1,0,,100,False,0,False,False,False,False,False,3,Netherlands,Zwijndrecht,2020-03-12 00:00:00
 False,False,True,False,False,False,1,1,0,,100,False,0,False,False,False,False,False,3,Netherlands,Zwolle,2020-03-12 00:00:00
 False,False,True,False,False,False,1,1,0,,100,False,0,False,False,False,False,False,3,Netherlands,all,2020-03-12 00:00:00
+True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,AndalucÖ³Â­a,2020-03-12 00:00:00
+True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,AragÖ³Â³n,2020-03-12 00:00:00
 True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,Asturias,2020-03-12 00:00:00
-True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,Basque,2020-03-12 00:00:00
+True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,Baleares,2020-03-12 00:00:00
+True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,CValenciana,2020-03-12 00:00:00
+True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,Canarias,2020-03-12 00:00:00
 True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,Cantabria,2020-03-12 00:00:00
-True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,Castilla - La Mancha,2020-03-12 00:00:00
+True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,Castilla-LaMancha,2020-03-12 00:00:00
 True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,CastillaLaMancha,2020-03-12 00:00:00
-True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,Catalunya,2020-03-12 00:00:00
+True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,CastillayLeÖ³Â³n,2020-03-12 00:00:00
 True,False,True,False,False,False,1,2,0,,1000,False,0,False,False,False,False,False,3,Spain,CataluÖ³Â±a,2020-03-12 00:00:00
+True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,Ceuta,2020-03-12 00:00:00
+True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,Extremadura,2020-03-12 00:00:00
 True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,Galicia,2020-03-12 00:00:00
-True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,La Rioja,2020-03-12 00:00:00
+True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,Madrid,2020-03-12 00:00:00
+True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,Melilla,2020-03-12 00:00:00
 True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,Murcia,2020-03-12 00:00:00
+True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,Navarra,2020-03-12 00:00:00
 True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,PaÖ³Â­sVasco,2020-03-12 00:00:00
 True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,3,Spain,all,2020-03-12 00:00:00
 True,False,True,False,False,False,0,1,0,,500,False,0,False,False,False,False,False,2,United States of America,New York,2020-03-12 00:00:00
+False,False,False,False,False,False,1,1,0,,500,False,0,False,False,False,False,False,3,Austria,Tyrol,2020-03-11 00:00:00
+False,False,False,False,False,False,1,1,0,,500,False,0,False,False,False,False,False,3,Austria,all,2020-03-11 00:00:00
 True,True,True,False,False,False,0,0,0,,100,False,0,False,False,False,False,False,2,Denmark,all,2020-03-11 00:00:00
 True,True,True,False,False,False,0,0,0,,100,True,0,False,False,False,False,False,2,Israel,all,2020-03-11 00:00:00
 True,False,False,True,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Singapore,all,2020-03-11 00:00:00
 True,False,True,False,False,False,1,0,0,,1000,False,0,False,False,False,False,False,3,Spain,CataluÖ³Â±a,2020-03-11 00:00:00
 False,False,False,False,False,False,0,0,0,2,250,False,0,False,False,False,False,False,1,United States of America,California,2020-03-11 00:00:00
 True,False,False,False,False,False,1,1,0,1,250,False,0,True,True,False,False,False,3,United States of America,Washington,2020-03-11 00:00:00
+False,False,False,False,False,False,0,1,0,,500,False,0,False,False,False,False,False,2,Austria,Tyrol,2020-03-10 00:00:00
+False,False,False,False,False,False,0,1,0,,500,False,0,False,False,False,False,False,2,Austria,all,2020-03-10 00:00:00
+True,True,False,False,False,False,0,0,0,,2000,True,0,False,False,False,False,False,2,Israel,all,2020-03-10 00:00:00
+True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,Spain,AndalucÖ³Â­a,2020-03-10 00:00:00
+True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,Spain,AragÖ³Â³n,2020-03-10 00:00:00
 True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,Spain,Asturias,2020-03-10 00:00:00
-True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,Spain,Basque,2020-03-10 00:00:00
+True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,Spain,Baleares,2020-03-10 00:00:00
+True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,Spain,CValenciana,2020-03-10 00:00:00
+True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,Spain,Canarias,2020-03-10 00:00:00
 True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,Spain,Cantabria,2020-03-10 00:00:00
-True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,Spain,Castilla - La Mancha,2020-03-10 00:00:00
+True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,Spain,Castilla-LaMancha,2020-03-10 00:00:00
 True,False,True,False,False,False,1,1,0,,,False,0,False,False,False,False,False,3,Spain,CastillaLaMancha,2020-03-10 00:00:00
-True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,Spain,Catalunya,2020-03-10 00:00:00
+True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,Spain,CastillayLeÖ³Â³n,2020-03-10 00:00:00
 True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,Spain,CataluÖ³Â±a,2020-03-10 00:00:00
+True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,Spain,Ceuta,2020-03-10 00:00:00
+True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,Spain,Extremadura,2020-03-10 00:00:00
 True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,Spain,Galicia,2020-03-10 00:00:00
-True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,Spain,La Rioja,2020-03-10 00:00:00
 True,False,True,False,False,False,1,2,0,,1000,False,0,False,False,False,True,True,3,Spain,LaRioja,2020-03-10 00:00:00
+True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,Spain,Madrid,2020-03-10 00:00:00
+True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,Spain,Melilla,2020-03-10 00:00:00
 True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,Spain,Murcia,2020-03-10 00:00:00
+True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,Spain,Navarra,2020-03-10 00:00:00
 True,False,True,False,False,False,1,1,0,,,False,0,False,False,False,False,False,3,Spain,PaÖ³Â­sVasco,2020-03-10 00:00:00
 True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,3,Spain,all,2020-03-10 00:00:00
-True,True,False,False,False,False,0,0,0,,,True,0,False,False,False,False,False,2,Israel,all,2020-03-09 00:00:00
+True,True,False,False,False,False,0,0,0,,5000,True,0,False,False,False,False,False,2,Israel,all,2020-03-09 00:00:00
 False,False,False,False,False,True,2,2,2,,,False,0,False,False,False,True,True,4,Italy,Abruzzo,2020-03-09 00:00:00
 False,True,False,False,False,True,2,2,2,,,False,0,False,False,False,True,True,4,Italy,Basilicata,2020-03-09 00:00:00
 False,False,False,False,False,True,2,2,2,,,False,0,False,False,False,True,True,4,Italy,Calabria,2020-03-09 00:00:00
@@ -2703,6 +2750,7 @@ True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Germany,all,2020-03-06 00:00:00
 True,False,False,False,False,False,1,1,0,,,False,0,True,True,False,False,False,3,United States of America,Washington,2020-03-05 00:00:00
 True,True,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Denmark,all,2020-03-04 00:00:00
+True,False,False,False,False,False,0,0,0,,5000,False,0,False,False,False,False,False,1,Israel,all,2020-03-04 00:00:00
 False,False,False,False,False,False,0,2,0,,,False,0,False,False,False,False,False,2,Italy,Abruzzo,2020-03-04 00:00:00
 False,True,False,False,False,False,0,2,0,,,False,0,False,False,False,False,False,2,Italy,Basilicata,2020-03-04 00:00:00
 False,False,False,False,False,False,0,2,0,,,False,0,False,False,False,False,False,2,Italy,Calabria,2020-03-04 00:00:00
@@ -2722,6 +2770,33 @@ True,False,False,False,False,False,1,1,0,,,False,0,False,True,False,False,False,
 True,False,False,False,False,False,0,1,0,,,False,0,False,True,False,False,False,2,United States of America,Washington,2020-03-03 00:00:00
 True,True,False,False,False,False,0,0,0,,5000,False,0,False,False,False,False,False,1,France,Haute-Savoie,2020-03-02 00:00:00
 False,True,False,False,False,False,0,0,0,,5000,False,0,False,False,False,False,False,1,France,all,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,AG,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,AI,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,AR,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,BE,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,BL,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,BS,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,FR,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,GE,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,GL,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,GR,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,JU,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,LU,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,NE,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,NW,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,OW,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,SG,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,SH,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,SO,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,SZ,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,TG,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,TI,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,UR,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,VD,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,VS,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,ZG,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,ZH,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,1,Switzerland,all,2020-03-02 00:00:00
 True,False,False,False,False,False,0,1,0,,,False,0,False,False,False,False,False,2,United States of America,Washington,2020-03-01 00:00:00
 True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Denmark,all,2020-02-29 00:00:00
 True,False,False,False,False,False,0,0,0,,5000,False,0,False,False,False,False,False,1,France,Haute-Savoie,2020-02-29 00:00:00
@@ -2776,17 +2851,25 @@ False,False,False,False,False,False,1,1,1,,,False,1,False,False,False,False,Fals
 True,True,False,False,False,False,0,0,0,,,False,0,False,False,True,False,False,1,Taiwan,all,2020-02-19 00:00:00
 True,True,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Taiwan,all,2020-02-15 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,France,Haute-Savoie,2020-02-08 00:00:00
+True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,AndalucÖ³Â­a,2020-01-31 00:00:00
+True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,AragÖ³Â³n,2020-01-31 00:00:00
 True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,Asturias,2020-01-31 00:00:00
-True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,Basque,2020-01-31 00:00:00
+True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,Baleares,2020-01-31 00:00:00
+True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,CValenciana,2020-01-31 00:00:00
+True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,Canarias,2020-01-31 00:00:00
 True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,Cantabria,2020-01-31 00:00:00
-True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,Castilla - La Mancha,2020-01-31 00:00:00
+True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,Castilla-LaMancha,2020-01-31 00:00:00
 True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,CastillaLaMancha,2020-01-31 00:00:00
-True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,Catalunya,2020-01-31 00:00:00
+True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,CastillayLeÖ³Â³n,2020-01-31 00:00:00
 True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,CataluÖ³Â±a,2020-01-31 00:00:00
+True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,Ceuta,2020-01-31 00:00:00
+True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,Extremadura,2020-01-31 00:00:00
 True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,Galicia,2020-01-31 00:00:00
-True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,La Rioja,2020-01-31 00:00:00
 True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,LaRioja,2020-01-31 00:00:00
+True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,Madrid,2020-01-31 00:00:00
+True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,Melilla,2020-01-31 00:00:00
 True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,Murcia,2020-01-31 00:00:00
+True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,Navarra,2020-01-31 00:00:00
 True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,PaÖ³Â­sVasco,2020-01-31 00:00:00
 True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,Spain,all,2020-01-31 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,1,United Kingdom,Aneurin Bevan,2020-01-31 00:00:00
@@ -3000,6 +3083,8 @@ False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,Fals
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Australia,Victoria,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Australia,Western Australia,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Australia,all,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Austria,Tyrol,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Austria,all,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Canada,Alberta,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Canada,British Columbia,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Canada,"Calgary, Alberta",2019-01-01 00:00:00
@@ -3429,17 +3514,25 @@ False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,Fals
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Netherlands,Zwolle,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Netherlands,all,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Singapore,all,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,AndalucÖ³Â­a,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,AragÖ³Â³n,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,Asturias,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,Basque,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,Baleares,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,CValenciana,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,Canarias,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,Cantabria,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,Castilla - La Mancha,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,Castilla-LaMancha,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,CastillaLaMancha,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,Catalunya,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,CastillayLeÖ³Â³n,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,CataluÖ³Â±a,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,Ceuta,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,Extremadura,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,Galicia,2019-01-01 00:00:00
-False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,La Rioja,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,LaRioja,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,Madrid,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,Melilla,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,Murcia,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,Navarra,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,PaÖ³Â­sVasco,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Spain,all,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,0,Switzerland,AG,2019-01-01 00:00:00
