@@ -180,7 +180,7 @@ def get_all_report_links(base_url):
         next_page_link = next_page.find_all('a', class_='pageNext')[0].get('href')
         next_page = BS(urllib.request.urlopen(f'{base_url}{next_page_link}'), features='lxml')
         current_page += 1
-        
+
 
 async def get_single_report(i, link, session):
     print(f"({datetime.now()} - getting report {i} of {len(glob_report_links)}: {link}")
@@ -193,7 +193,8 @@ async def get_single_report(i, link, session):
     report_date = re.search(r'Date\d{4}-\d{2}-\d{2}', report_text)
     date_filename = str(i) if not report_date else report_date.group()[4:]
 
-    if '2018' or '2019' in date_filename:
+    if '2018' in date_filename or '2019' in date_filename:
+        import ipdb; ipdb.set_trace()
         # A somewhat ugly way to detect when we went beyond the oldest relevant review
         return
 
