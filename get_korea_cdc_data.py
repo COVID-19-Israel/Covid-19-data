@@ -184,24 +184,23 @@ def get_all_report_links(base_url):
 
 async def get_single_report(i, link, session):
     print(f"({datetime.now()} - getting report {i} of {len(glob_report_links)}: {link}")
-    # report_html = urllib.request.urlopen(f"{base_url}{link}")
 
     report_text = None
     async with session.get(f"{base_url}{link}") as resp:
         report_html = await resp.text()
         report_text = BS(report_html, features='lxml').get_text()
-    report_date = re.search(r'Date\d{4}-\d{2}-\d{2}', report_text)
-    date_filename = str(i) if not report_date else report_date.group()[4:]
 
-    if '2018' in date_filename or '2019' in date_filename:
-        import ipdb; ipdb.set_trace()
-        # A somewhat ugly way to detect when we went beyond the oldest relevant review
-        return
+        report_date = re.search(r'Date\d{4}-\d{2}-\d{2}', report_text)
+        date_filename = str(i) if not report_date else f"{report_date.group()[4:]}_{i}"
 
-    with open(os.path.join("reps", date_filename), "w+") as report_file:
-        print(f"writing for {i}")
-        report_file.write(report_text)
-        await asyncio.sleep(0.3)
+        if '2018' in date_filename or '2019' in date_filename:
+            # A somewhat ugly way to detect when we went beyond the oldest relevant review
+            return
+
+        with open(os.path.join("reps", date_filename), "w+") as report_file:
+            # print(f"writing for {i} into {date_filename}")
+            written = report_file.write(report_text)
+            # print(f"written {written} into file, original text size is {len(report_text)}")
 
 
 async def main():
