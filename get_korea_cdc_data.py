@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup as BS
 from datetime import datetime
 
 base_url = "https://www.cdc.go.kr"
+"""
 glob_report_links = [
     "/board/board.es?mid=&bid=0030&act=view&list_no=366691&tag=&nPage=1",
     "/board/board.es?mid=&bid=0030&act=view&list_no=366690&tag=&nPage=1",
@@ -160,7 +161,36 @@ glob_report_links = [
     "/board/board.es?mid=&bid=0030&act=view&list_no=142926&tag=&nPage=15",
     "/board/board.es?mid=&bid=0030&act=view&list_no=142386&tag=&nPage=15",
     "/board/board.es?mid=&bid=0030&act=view&list_no=141989&tag=&nPage=15"]
+"""
 
+# glob_report_links = []
+
+# TODO: this function should probably be an async generator.
+async def get_all_report_links_(session, base_url):
+    next_page = None
+
+    async with session.get(f"{base_url}/board/board.es?mid=&bid=0030&nPage=1") as resp:
+        html = await resp.text()
+        site_soup = BS(html, features='lxml')
+        glob_report_links = []
+        next_page = site_soup
+
+    current_page_number = 0
+    # TODO: this value will grow as more reports are added. Change this to dynamically find the oldest relevant page.
+    while current_page_number != 15:
+        print(f"gathered {len(glob_report_links)}")
+        links = [link.get('href') for link in next_page.find_all('a')]
+        for l in links:
+            if 'rss' in l:
+                continue
+            if 'list_no=' in l:
+                glob_report_links.append(l)
+        next_page_link = next_page.find_all('a', class_='pageNext')[0].get('href')
+        async with session.get(f'{base_url}{next_page_link}') as next_page_resp:
+            next_page_html = await next_page_resp.text()
+            next_page = BS(next_page_html, features='lxml')
+        current_page_number += 1
+    return glob_report_links
 
 def get_all_report_links(base_url):
     site = urllib.request.urlopen(f"{base_url}/board/board.es?mid=&bid=0030&nPage=1")
@@ -180,10 +210,11 @@ def get_all_report_links(base_url):
         next_page_link = next_page.find_all('a', class_='pageNext')[0].get('href')
         next_page = BS(urllib.request.urlopen(f'{base_url}{next_page_link}'), features='lxml')
         current_page += 1
+    # global glob_report_links = report_links
 
 
-async def get_single_report(i, link, session):
-    print(f"({datetime.now()} - getting report {i} of {len(glob_report_links)}: {link}")
+async def get_single_report(i, link, session, total_links_amount):
+    print(f"({datetime.now()} - getting report {i} of {total_links_amount}: {link}")
 
     report_text = None
     async with session.get(f"{base_url}{link}") as resp:
@@ -205,17 +236,20 @@ async def get_single_report(i, link, session):
 
 async def main():
     print(f"starting to get all the linked reports ({datetime.now()}")
-    start_time = timeit.default_timer()
 
     async with aiohttp.ClientSession() as session:
+        start_time = timeit.default_timer()
+
+        glob_report_links = await get_all_report_links_(session, base_url)
+        total_links_amount = len(glob_report_links)
         coros = []
         for i, link in enumerate(glob_report_links):
-            coros.append(get_single_report(i, link, session))
+            coros.append(get_single_report(i, link, session, total_links_amount))
         print(len(coros))
         await asyncio.gather(*coros)
 
-    end_time = timeit.default_timer()
-    print(f"finished downloading {len(glob_report_links)} which took {end_time - start_time} sec")
+        end_time = timeit.default_timer()
+        print(f"finished downloading {total_links_amount} which took {end_time - start_time} sec")
 
 
 if __name__ == '__main__':
