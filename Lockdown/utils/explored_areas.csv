@@ -9,7 +9,7 @@ Denmark,all
 France,all
 France,Haute-Savoie
 Germany,all
-Germany,Thüringen
+Germany,Thuringen
 Germany,Brandenburg
 Germany,Saarland
 Germany,Sachsen
@@ -21,16 +21,11 @@ Germany,Hamburg
 Germany,Hessen
 Germany,Niedersachsen
 Germany,Berlin
-Germany,Baden-Württemberg
+Germany,Baden-Wurttemberg
 Germany,Bayern
 Germany,Nordrhein-Westfalen
 Germany,Sachsen-Anhalt
 Germany,Repatriierte
-Germany,Mecklenburg-Vor­pommern
-Germany,Schles­wig-Holstein
-Germany,Rhein­land-Pfalz
-Germany,Baden-Württem­berg
-Germany,Nordrhein-West­falen
 Germany,Bavaria
 Italy,all
 Italy,Abruzzo
@@ -56,26 +51,26 @@ Italy,Valle d'Aosta
 Italy,Veneto
 Singapore,all
 Spain,all
-Spain,Andalucֳ­a
-Spain,Aragֳ³n
+Spain,Andalucia
+Spain,Aragon
 Spain,Asturias
 Spain,Baleares
 Spain,Canarias
 Spain,Cantabria
-Spain,Castilla-LaMancha
 Spain,CastillaLaMancha
-Spain,CastillayLeֳ³n
-Spain,Cataluֳ±a
+Spain,CastillayLeon
+Spain,Cataluna
 Spain,Ceuta
 Spain,CValenciana
 Spain,Extremadura
 Spain,Galicia
-Spain,LaRioja
 Spain,Madrid
 Spain,Melilla
 Spain,Murcia
 Spain,Navarra
-Spain,Paֳ­sVasco
+Spain,PaisVasco
+Spain,LaRioja
+Spain,Castilla-LaMancha
 United Kingdom,all
 United Kingdom,Rutland
 United Kingdom,North East Lincolnshire
@@ -297,364 +292,369 @@ Canada,Nunavut
 Canada,Yukon
 Taiwan,all
 Netherlands,all
-Netherlands,Aa en Hunze
-Netherlands,Midden-Delfland
-Netherlands,Midden-Drenthe
-Netherlands,Midden-Groningen
-Netherlands,Mill en Sint Hubert
-Netherlands,Moerdijk
-Netherlands,Molenlanden
-Netherlands,Montferland
-Netherlands,Montfoort
-Netherlands,Mook en Middelaar
-Netherlands,Nederweert
-Netherlands,Nieuwegein
-Netherlands,Nieuwkoop
-Netherlands,Nijkerk
-Netherlands,Nissewaard
-Netherlands,Middelburg
-Netherlands,Noardeast-Fryslân
-Netherlands,Noordenveld
-Netherlands,Noordoostpolder
-Netherlands,Nunspeet
-Netherlands,Oirschot
-Netherlands,Oldambt
-Netherlands,Oldebroek
-Netherlands,Oldenzaal
-Netherlands,Olst-Wijhe
-Netherlands,Ommen
-Netherlands,Oost Gelre
-Netherlands,Oosterhout
-Netherlands,Ooststellingwerf
-Netherlands,Oostzaan
-Netherlands,Opmeer
-Netherlands,Noord-Beveland
-Netherlands,Oude IJsselstreek
-Netherlands,Meppel
-Netherlands,Meerssen
-Netherlands,Hillegom
-Netherlands,Hilversum
-Netherlands,Hof van Twente
-Netherlands,Hollands Kroon
-Netherlands,Hoogeveen
-Netherlands,Hoorn
-Netherlands,Horst aan de Maas
-Netherlands,Hulst
-Netherlands,Kaag en Braassem
-Netherlands,Kampen
-Netherlands,Kapelle
-Netherlands,Katwijk
-Netherlands,Kerkrade
-Netherlands,Koggenland
-Netherlands,Zandvoort
-Netherlands,Krimpen aan den IJssel
-Netherlands,Landgraaf
-Netherlands,Landsmeer
-Netherlands,Laren
-Netherlands,Leiderdorp
-Netherlands,Leusden
-Netherlands,Lisse
-Netherlands,Lochem
-Netherlands,Lopik
-Netherlands,Loppersum
-Netherlands,Losser
-Netherlands,Maasdriel
-Netherlands,Maasgouw
-Netherlands,Maassluis
-Netherlands,Medemblik
-Netherlands,Laarbeek
-Netherlands,Heumen
-Netherlands,Ouder-Amstel
-Netherlands,Overbetuwe
-Netherlands,Tynaarlo
-Netherlands,Tytsjerksteradiel
-Netherlands,Winterswijk
-Netherlands,Uitgeest
-Netherlands,Uithoorn
-Netherlands,Urk
-Netherlands,Vaals
-Netherlands,Valkenburg aan de Geul
-Netherlands,Valkenswaard
-Netherlands,Veendam
-Netherlands,Veenendaal
-Netherlands,Velsen
-Netherlands,Venray
-Netherlands,Vlaardingen
-Netherlands,Twenterand
-Netherlands,Vlieland
-Netherlands,Voerendaal
-Netherlands,Voorschoten
-Netherlands,Waadhoeke
-Netherlands,Wageningen
-Netherlands,Wassenaar
-Netherlands,Weert
-Netherlands,Weesp
-Netherlands,Westerkwartier
-Netherlands,Westerveld
-Netherlands,Westervoort
-Netherlands,Westerwolde
-Netherlands,Westland
-Netherlands,Weststellingwerf
-Netherlands,Wierden
-Netherlands,Vlissingen
-Netherlands,Oudewater
-Netherlands,Woensdrecht
-Netherlands,Teylingen
-Netherlands,Papendrecht
-Netherlands,Pekela
-Netherlands,Putten
-Netherlands,Raalte
-Netherlands,Reimerswaal
-Netherlands,Renswoude
-Netherlands,Reusel-De Mierden
-Netherlands,Rhenen
-Netherlands,Rijssen-Holten
-Netherlands,Rijswijk
-Netherlands,Roerdalen
-Netherlands,Rozendaal
-Netherlands,Rucphen
-Netherlands,Scherpenzeel
-Netherlands,Tholen
-Netherlands,Schiedam
-Netherlands,Sint Anthonis
-Netherlands,Wormerland
-Netherlands,Sliedrecht
-Netherlands,Sluis
-Netherlands,Someren
-Netherlands,Stadskanaal
-Netherlands,Staphorst
-Netherlands,Stede Broec
-Netherlands,Steenbergen
-Netherlands,Steenwijkerland
-Netherlands,Súdwest-Fryslân
-Netherlands,Terneuzen
 Netherlands,Terschelling
-Netherlands,Texel
+Netherlands,Vlieland
 Netherlands,Schiermonnikoog
-Netherlands,Het Hogeland
-Netherlands,Leeuwarden
-Netherlands,Hendrik-Ido-Ambacht
-Netherlands,Buren
-Netherlands,Capelle aan den IJssel
-Netherlands,Castricum
-Netherlands,Zuidplas
-Netherlands,Hengelo (O)
-Netherlands,Dalfsen
-Netherlands,Dantumadiel
-Netherlands,Zoeterwoude
-Netherlands,De Fryske Marren
-Netherlands,De Ronde Venen
-Netherlands,De Wolden
-Netherlands,Delfzijl
-Netherlands,Bunschoten
-Netherlands,Deventer
-Netherlands,Doetinchem
-Netherlands,Dordrecht
-Netherlands,Drechterland
-Netherlands,Dronten
-Netherlands,Druten
-Netherlands,Duiven
-Netherlands,Echt-Susteren
-Netherlands,Edam-Volendam
-Netherlands,Ede
-Netherlands,Eemnes
-Netherlands,Eersel
-Netherlands,Eijsden-Margraten
-Netherlands,Doesburg
-Netherlands,Bunnik
-Netherlands,Brunssum
-Netherlands,Brummen
-Netherlands,Aalten
-Netherlands,Achtkarspelen
-Netherlands,Alblasserdam
-Netherlands,Alphen-Chaam
 Netherlands,Ameland
-Netherlands,Zwijndrecht
+Netherlands,Stadskanaal
+Netherlands,Loppersum
+Netherlands,Renswoude
+Netherlands,Ooststellingwerf
 Netherlands,Appingedam
-Netherlands,Assen
-Netherlands,Asten
+Netherlands,Kapelle
+Netherlands,Borger-Odoorn
+Netherlands,Veendam
+Netherlands,Rozendaal
+Netherlands,Eemnes
+Netherlands,Noord-Beveland
+Netherlands,Oldambt
+Netherlands,Achtkarspelen
+Netherlands,Texel
+Netherlands,Weststellingwerf
+Netherlands,Dantumadiel
 Netherlands,Baarle-Nassau
-Netherlands,Baarn
-Netherlands,Barendrecht
-Netherlands,Barneveld
-Netherlands,Beek
-Netherlands,Zwartewaterland
+Netherlands,Losser
+Netherlands,Opmeer
+Netherlands,Zoeterwoude
+Netherlands,Pekela
+Netherlands,Bergen (L.)
+Netherlands,Lisse
+Netherlands,Scherpenzeel
+Netherlands,Winterswijk
+Netherlands,Westerwolde
+Netherlands,Tytsjerksteradiel
+Netherlands,Harlingen
+Netherlands,Midden-Delfland
+Netherlands,Westervoort
+Netherlands,Midden-Drenthe
+Netherlands,Aa en Hunze
+Netherlands,Berkelland
+Netherlands,Noordenveld
+Netherlands,Wijdemeren
+Netherlands,Aalten
+Netherlands,Hulst
+Netherlands,Staphorst
+Netherlands,Hillegom
+Netherlands,Bunschoten
+Netherlands,Hendrik-Ido-Ambacht
+Netherlands,Rhenen
+Netherlands,Putten
+Netherlands,Noardeast-Fryslan
+Netherlands,Sluis
+Netherlands,Doesburg
+Netherlands,Blaricum
 Netherlands,Beemster
+Netherlands,Westerveld
+Netherlands,Woensdrecht
+Netherlands,Wassenaar
+Netherlands,Waadhoeke
+Netherlands,Borsele
+Netherlands,Drechterland
+Netherlands,Duiven
+Netherlands,Reusel-De Mierden
+Netherlands,Reimerswaal
+Netherlands,Sliedrecht
+Netherlands,Papendrecht
+Netherlands,Delfzijl
+Netherlands,De Wolden
+Netherlands,Opsterland
+Netherlands,Baarn
+Netherlands,Alblasserdam
+Netherlands,Leiderdorp
+Netherlands,Woudenberg
+Netherlands,Voorschoten
+Netherlands,Landsmeer
+Netherlands,Twenterand
+Netherlands,Laren
+Netherlands,Meppel
+Netherlands,Midden-Groningen
+Netherlands,Waalre
+Netherlands,Kaag en Braassem
+Netherlands,Mook en Middelaar
+Netherlands,Wageningen
+Netherlands,Brummen
+Netherlands,Oostzaan
+Netherlands,Olst-Wijhe
+Netherlands,Uitgeest
+Netherlands,Waddinxveen
+Netherlands,Zeewolde
+Netherlands,Heerenveen
+Netherlands,Diemen
+Netherlands,Wierden
+Netherlands,Het Hogeland
+Netherlands,Buren
+Netherlands,Veere
+Netherlands,Vaals
+Netherlands,Haaksbergen
+Netherlands,Nieuwkoop
+Netherlands,Bunnik
+Netherlands,Zandvoort
+Netherlands,Ommen
+Netherlands,Steenwijkerland
+Netherlands,Montferland
+Netherlands,Hardinxveld-Giessendam
+Netherlands,Smallingerland
+Netherlands,Oude IJsselstreek
+Netherlands,Weesp
+Netherlands,Ouder-Amstel
+Netherlands,Schouwen-Duiveland
+Netherlands,Koggenland
+Netherlands,Rucphen
+Netherlands,Gulpen-Wittem
+Netherlands,Mill en Sint Hubert
+Netherlands,Wijk bij Duurstede
+Netherlands,Oost Gelre
+Netherlands,Den Helder
+Netherlands,Noordoostpolder
+Netherlands,Brielle
+Netherlands,Bronckhorst
+Netherlands,Maasdriel
+Netherlands,Westvoorne
+Netherlands,Bodegraven-Reeuwijk
+Netherlands,Moerdijk
+Netherlands,Assen
+Netherlands,Hattem
+Netherlands,Teylingen
+Netherlands,Maasgouw
+Netherlands,Wormerland
+Netherlands,Dronten
+Netherlands,Voerendaal
+Netherlands,Hilvarenbeek
+Netherlands,Vlissingen
+Netherlands,Meerssen
+Netherlands,Huizen
+Netherlands,Hoogeveen
+Netherlands,Cuijk
+Netherlands,Tubbergen
+Netherlands,Urk
+Netherlands,Lochem
+Netherlands,Waterland
+Netherlands,Hellendoorn
+Netherlands,Middelburg
+Netherlands,Bergeijk
+Netherlands,Oirschot
+Netherlands,Simpelveld
+Netherlands,Halderberge
+Netherlands,Maassluis
+Netherlands,Krimpen aan den IJssel
+Netherlands,Oegstgeest
+Netherlands,Montfoort
+Netherlands,Beek
+Netherlands,Emmen
 Netherlands,Beesel
+Netherlands,Valkenburg aan de Geul
+Netherlands,Geertruidenberg
+Netherlands,Hellevoetsluis
+Netherlands,Langedijk
+Netherlands,Zutphen
+Netherlands,"Nuenen, Gerwen en Nederwetten"
+Netherlands,Zaltbommel
+Netherlands,Dalfsen
+Netherlands,Heeze-Leende
+Netherlands,Edam-Volendam
+Netherlands,Uithoorn
+Netherlands,Zuidplas
+Netherlands,Steenbergen
+Netherlands,Asten
+Netherlands,Heiloo
+Netherlands,Goes
+Netherlands,Tynaarlo
+Netherlands,Bergen op Zoom
+Netherlands,Noordwijk
+Netherlands,Lopik
+Netherlands,Nijkerk
+Netherlands,Druten
+Netherlands,Hof van Twente
+Netherlands,Roerdalen
+Netherlands,Enkhuizen
+Netherlands,Aalsmeer
+Netherlands,Zwijndrecht
+Netherlands,Elburg
+Netherlands,West Maas en Waal
+Netherlands,Gennep
+Netherlands,Leusden
+Netherlands,Schagen
+Netherlands,Bloemendaal
+Netherlands,Almelo
+Netherlands,Rijswijk
+Netherlands,Stede Broec
+Netherlands,Veenendaal
+Netherlands,Raalte
+Netherlands,Westerkwartier
+Netherlands,Voorst
+Netherlands,Terneuzen
+Netherlands,Culemborg
+Netherlands,Heumen
+Netherlands,Coevorden
+Netherlands,Borne
+Netherlands,Bladel
+Netherlands,Rijssen-Holten
+Netherlands,Hardenberg
+Netherlands,Zevenaar
+Netherlands,Dongen
+Netherlands,Renkum
+Netherlands,Oldenzaal
+Netherlands,Beverwijk
+Netherlands,Barneveld
+Netherlands,De Fryske Marren
+Netherlands,Medemblik
+Netherlands,Ermelo
+Netherlands,Bergen (NH.)
+Netherlands,Hoorn
+Netherlands,Eersel
+Netherlands,Leeuwarden
+Netherlands,Sudwest-Fryslan
+Netherlands,Molenlanden
+Netherlands,Haaren
+Netherlands,Doetinchem
+Netherlands,Castricum
+Netherlands,Son en Breugel
+Netherlands,De Ronde Venen
+Netherlands,Beuningen
+Netherlands,Katwijk
+Netherlands,Leidschendam-Voorburg
+Netherlands,Boxmeer
+Netherlands,Albrandswaard
+Netherlands,Gorinchem
+Netherlands,Hilversum
+Netherlands,Hollands Kroon
+Netherlands,Harderwijk
+Netherlands,Grave
+Netherlands,Zundert
+Netherlands,Oudewater
+Netherlands,Roosendaal
+Netherlands,Gooise Meren
+Netherlands,Boxtel
+Netherlands,Geldrop-Mierlo
+Netherlands,Alphen-Chaam
+Netherlands,Oisterwijk
+Netherlands,Nederweert
+Netherlands,Heemskerk
+Netherlands,Best
+Netherlands,Veldhoven
+Netherlands,Lingewaard
+Netherlands,Zoetermeer
+Netherlands,Pijnacker-Nootdorp
+Netherlands,Someren
+Netherlands,Gilze en Rijen
+Netherlands,Soest
+Netherlands,Drimmelen
+Netherlands,Oldebroek
+Netherlands,Barendrecht
+Netherlands,Loon op Zand
+Netherlands,Sint Anthonis
+Netherlands,Schiedam
+Netherlands,Brunssum
+Netherlands,Heerhugowaard
+Netherlands,Echt-Susteren
+Netherlands,Heemstede
+Netherlands,Landgraaf
+Netherlands,Utrechtse Heuvelrug
+Netherlands,Neder-Betuwe
+Netherlands,Tiel
+Netherlands,Epe
+Netherlands,Nieuwegein
+Netherlands,Sint-Michielsgestel
+Netherlands,Stichtse Vecht
+Netherlands,Delft
+Netherlands,Horst aan de Maas
+Netherlands,Ridderkerk
+Netherlands,Stein
+Netherlands,Dinkelland
+Netherlands,Lelystad
+Netherlands,Goirle
+Netherlands,Tholen
+Netherlands,Rheden
+Netherlands,West Betuwe
+Netherlands,Valkenswaard
+Netherlands,Kerkrade
+Netherlands,Venray
+Netherlands,Krimpenerwaard
+Netherlands,Roermond
+Netherlands,IJsselstein
+Netherlands,Vught
+Netherlands,Leiden
+Netherlands,Heerde
+Netherlands,Hengelo
+Netherlands,Nissewaard
+Netherlands,Velsen
+Netherlands,De Bilt
+Netherlands,Wijchen
+Netherlands,Vlaardingen
+Netherlands,Gouda
+Netherlands,Weert
+Netherlands,Beekdaelen
+Netherlands,Alphen aan den Rijn
+Netherlands,Altena
+Netherlands,Oosterhout
+Netherlands,Capelle aan den IJssel
+Netherlands,Woerden
+Netherlands,Laarbeek
+Netherlands,Zwartewaterland
+Netherlands,Dordrecht
+Netherlands,Heusden
+Netherlands,Zeist
+Netherlands,Vijfheerenlanden
+Netherlands,Alkmaar
+Netherlands,Lansingerland
+Netherlands,Landerd
+Netherlands,Ede
+Netherlands,Leudal
+Netherlands,Nunspeet
+Netherlands,Deventer
+Netherlands,Eijsden-Margraten
+Netherlands,Etten-Leur
+Netherlands,Enschede
+Netherlands,Houten
+Netherlands,Cranendonck
+Netherlands,Deurne
+Netherlands,Waalwijk
+Netherlands,Almere
+Netherlands,Apeldoorn
+Netherlands,Haarlemmermeer
+Netherlands,Boekel
+Netherlands,Overbetuwe
+Netherlands,Westland
+Netherlands,Hoeksche Waard
+Netherlands,Arnhem
+Netherlands,Purmerend
+Netherlands,Berg en Dal
+Netherlands,Kampen
+Netherlands,Amersfoort
+Netherlands,Zaanstad
+Netherlands,Amstelveen
+Netherlands,Haarlem
+Netherlands,Heerlen
+Netherlands,Groningen
+Netherlands,Zwolle
+Netherlands,Gemert-Bakel
+Netherlands,Venlo
+Netherlands,Helmond
+Netherlands,Goeree-Overflakkee
+Netherlands,Sittard-Geleen
+Netherlands,Bernheze
+Netherlands,Peel en Maas
+Netherlands,Eindhoven
+Netherlands,'s-Hertogenbosch
+Netherlands,Uden
+Netherlands,Oss
+Netherlands,s-Gravenhage
+Netherlands,Maastricht
+Netherlands,Nijmegen
+Netherlands,Meierijstad
+Netherlands,Breda
+Netherlands,Utrecht
+Netherlands,Tilburg
+Netherlands,Rotterdam
+Netherlands,Amsterdam
+Netherlands,Hengelo (O)
 Netherlands,Bergen (L)
 Netherlands,Bergen (NH)
-Netherlands,Berkelland
-Netherlands,Bladel
-Netherlands,Bodegraven-Reeuwijk
-Netherlands,Zutphen
-Netherlands,Borger-Odoorn
-Netherlands,Boxmeer
-Netherlands,Boxtel
-Netherlands,Brielle
-Netherlands,Zoetermeer
-Netherlands,Elburg
-Netherlands,Wijdemeren
-Netherlands,Enkhuizen
-Netherlands,Gorinchem
-Netherlands,Heerenveen
-Netherlands,Heerde
-Netherlands,Grave
-Netherlands,Groningen
-Netherlands,Heemskerk
-Netherlands,Heiloo
-Netherlands,Gulpen-Wittem
-Netherlands,Harlingen
-Netherlands,Harderwijk
-Netherlands,Haaksbergen
-Netherlands,Hardenberg
-Netherlands,Halderberge
-Netherlands,Haarlemmermeer
-Netherlands,Hattem
-Netherlands,Goeree-Overflakkee
-Netherlands,Heerhugowaard
-Netherlands,Geldrop-Mierlo
-Netherlands,Gennep
-Netherlands,Gilze en Rijen
-Netherlands,Epe
-Netherlands,Zevenaar
-Netherlands,Hellevoetsluis
-Netherlands,Son en Breugel
-Netherlands,Emmen
-Netherlands,Bloemendaal
-Netherlands,Tubbergen
-Netherlands,Blaricum
-Netherlands,Albrandswaard
-Netherlands,Stein
-Netherlands,Bergen op Zoom
-Netherlands,Tiel
-Netherlands,Westvoorne
-Netherlands,Woudenberg
-Netherlands,Alkmaar
-Netherlands,Smallingerland
-Netherlands,Almelo
-Netherlands,Vught
-Netherlands,Waalre
-Netherlands,Voorst
-Netherlands,Apeldoorn
-Netherlands,Waddinxveen
-Netherlands,Vijfheerenlanden
-Netherlands,Venlo
-Netherlands,Heeze-Leende
-Netherlands,Veldhoven
-Netherlands,Bergeijk
-Netherlands,Heerlen
-Netherlands,Schouwen-Duiveland
-Netherlands,Waterland
-Netherlands,Wijk bij Duurstede
-Netherlands,Almere
-Netherlands,IJsselstein
-Netherlands,Heemstede
-Netherlands,West Maas en Waal
-Netherlands,Hilvarenbeek
-Netherlands,Haarlem
-Netherlands,Borsele
-Netherlands,Schagen
-Netherlands,Delft
-Netherlands,Den Helder
-Netherlands,Purmerend
-Netherlands,Culemborg
-Netherlands,Cuijk
-Netherlands,Cranendonck
-Netherlands,Zaltbommel
-Netherlands,Lelystad
-Netherlands,Rheden
-Netherlands,Ridderkerk
-Netherlands,Leiden
-Netherlands,"Nuenen, Gerwen en Nederwetten"
-Netherlands,Wijchen
-Netherlands,Zeewolde
-Netherlands,Roermond
-Netherlands,Drimmelen
-Netherlands,Roosendaal
-Netherlands,Langedijk
-Netherlands,Enschede
-Netherlands,Neder-Betuwe
-Netherlands,Geertruidenberg
-Netherlands,Ermelo
-Netherlands,Alphen aan den Rijn
-Netherlands,Aalsmeer
-Netherlands,Veere
-Netherlands,Diemen
-Netherlands,Dinkelland
-Netherlands,Heusden
-Netherlands,Goes
-Netherlands,Hoeksche Waard
-Netherlands,Amstelveen
-Netherlands,Amersfoort
-Netherlands,Hellendoorn
-Netherlands,Oegstgeest
-Netherlands,West Betuwe
-Netherlands,Opsterland
-Netherlands,Noordwijk
-Netherlands,Huizen
-Netherlands,Utrechtse Heuvelrug
-Netherlands,Oss
-Netherlands,Landerd
-Netherlands,Woerden
-Netherlands,Simpelveld
-Netherlands,Leidschendam-Voorburg
-Netherlands,Bronckhorst
-Netherlands,Bernheze
-Netherlands,Zundert
-Netherlands,Zaanstad
-Netherlands,Gouda
-Netherlands,Zwolle
-Netherlands,Lingewaard
-Netherlands,Arnhem
-Netherlands,Zeist
-Netherlands,Borne
-Netherlands,Krimpenerwaard
-Netherlands,Berg en Dal
-Netherlands,Peel en Maas
-Netherlands,Best
-Netherlands,Deurne
-Netherlands,Gooise Meren
-Netherlands,Leudal
-Netherlands,Beuningen
-Netherlands,Beverwijk
-Netherlands,Dongen
-Netherlands,Nijmegen
-Netherlands,Altena
-Netherlands,Lansingerland
-Netherlands,Gemert-Bakel
-Netherlands,Oisterwijk
-Netherlands,'s-Hertogenbosch
-Netherlands,Stichtse Vecht
-Netherlands,Sint-Michielsgestel
-Netherlands,Hardinxveld-Giessendam
-Netherlands,Etten-Leur
-Netherlands,Pijnacker-Nootdorp
-Netherlands,Haaren
-Netherlands,Waalwijk
-Netherlands,Goirle
-Netherlands,Loon op Zand
 Netherlands,'s-Gravenhage
-Netherlands,Renkum
-Netherlands,Boekel
-Netherlands,Amsterdam
-Netherlands,Soest
-Netherlands,Beekdaelen
-Netherlands,Maastricht
-Netherlands,Eindhoven
-Netherlands,De Bilt
-Netherlands,Coevorden
-Netherlands,Helmond
-Netherlands,Houten
-Netherlands,Meierijstad
-Netherlands,Rotterdam
-Netherlands,Uden
-Netherlands,Utrecht
-Netherlands,Sittard-Geleen
-Netherlands,Breda
-Netherlands,Tilburg
-Netherlands,Bergen (NH.)
-Netherlands,Hengelo
-Netherlands,Súdwest Fryslân
+Netherlands,Sudwest Fryslan
+Netherlands,Aruba
+Netherlands,Curacao
+Netherlands,Sint Maarten
 Israel,all
 Switzerland,all
 Switzerland,AG
@@ -684,13 +684,13 @@ Switzerland,VS
 Switzerland,ZG
 Switzerland,ZH
 Austria,all
-Austria,Burgenland
-Austria,Kärnten
 Austria,Vorarlberg
+Austria,Karnten
+Austria,Oberosterreich
+Austria,Burgenland
 Austria,Salzburg
 Austria,Steiermark
-Austria,Wien
-Austria,Niederösterreich
-Austria,Oberösterreich
 Austria,Tirol
+Austria,Wien
+Austria,Niederosterreich
 South Korea,all
