@@ -1,0 +1,20 @@
+on:
+  schedule:
+  - cron: 0 8,20 * * *
+
+jobs:
+  # This job runs the 
+  download_updates:
+    name: Downloads the daily new updates of the israeli health ministry 
+    runs-on: windows-latest
+    steps:
+    - name: Clone git
+      env:
+        GIT_URL: "https://github.com/COVID-19-Israel/Covid-19-data.git"
+      run: |
+        git clone $GIT_URL
+      shell: bash
+    - name: Check if submodule is here
+      run: ls
+      shell: bash
+      working-directory: ./Covid-19-data/Other_data/israeli_health_ministry_telegram_data/query_script/ 
