@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+
+"""
+This crawler downloads the reports from the board of the Korean CDC (https://www.cdc.go.kr/board/board.es?mid=&bid=0030&nPage=1)
+and saves text from all those reports as files which can then be searched for relevant data.
+Install the dependencies before running:
+pip install beautifulsoup4 aiohttp cchardet
+"""
+
 import os
 import re
 import timeit
