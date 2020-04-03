@@ -1,15 +1,14 @@
 on:
   schedule:
-  - cron: 49 15 * * *
+  - cron: 52 15 * * *
 
-jobs:
-  # This job runs the 
+jobs: 
   download_updates:
     name: Downloads the daily new updates of the israeli health ministry 
     runs-on: windows-latest
     steps:
     - name: Clone git
-    - uses: actions/checkout@master
+      uses: actions/checkout@master
       with:
         ref: develop
         token: ${{ secrets.PAT }}
