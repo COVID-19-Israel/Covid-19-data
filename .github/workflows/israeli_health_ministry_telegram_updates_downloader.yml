@@ -1,6 +1,6 @@
 on:
   schedule:
-  - cron: 55 11 * * *
+  - cron: 59 11 * * *
 
 jobs:
   # This job runs the 
@@ -19,3 +19,6 @@ jobs:
       shell: bash
       working-directory: ./Covid-19-data/Other_data/israeli_health_ministry_telegram_data/query_script/
     - name: Check if personal data exists
+      run: ls
+      shell: bash
+      working-directory: ./Covid-19-data/Other_data/israeli_health_ministry_telegram_data/query_script/personal_data
