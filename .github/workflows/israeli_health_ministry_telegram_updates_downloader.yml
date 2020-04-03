@@ -14,7 +14,8 @@ jobs:
       run: |
         git clone $GIT_URL
       shell: bash
-    - name: Check if submodule is here
+    - name: Check if submodule exists
       run: ls
       shell: bash
-      working-directory: ./Covid-19-data/Other_data/israeli_health_ministry_telegram_data/query_script/ 
+      working-directory: ./Covid-19-data/Other_data/israeli_health_ministry_telegram_data/query_script/
+    - name: Check if personal data exists
