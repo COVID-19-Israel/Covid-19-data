@@ -4,13 +4,16 @@ from datetime import datetime, timezone
 from telethon import TelegramClient
 from telethon.tl.functions.messages import GetHistoryRequest
 
-api_id = 123
-api_hash = 'hash'
-client = TelegramClient(session='mysession', api_id=api_id, api_hash=api_hash)
+with open("personal_data/personal_data.txt", mode="r") as file:
+    personal_data = file.readlines()
+    api_id = int(personal_data[0])
+    api_hash = personal_data[1]
+    phone_number = personal_data[2]
+    client = TelegramClient(session='mysession', api_id=api_id, api_hash=api_hash)
 
 
 async def main(channel_name):
-    await client.start(phone=lambda: 'phone_number')
+    await client.start(phone=lambda: [phone_number])
     print("Client Created")
 
     channel_url = f'https://t.me/{channel_name}'
@@ -52,9 +55,6 @@ async def main(channel_name):
         offset_id = all_messages[-1]['id']
         print(f'Date: {all_messages[-1]["date"]}')
         print(f'Total messages: {len(all_messages)}/{total_count_limit}')
-
-        if all_messages[-1]["date"] < datetime(2019, 11, 1, 0, 0, 0, tzinfo=timezone.utc):
-            break
 
         if len(all_messages) >= total_count_limit:
             break
