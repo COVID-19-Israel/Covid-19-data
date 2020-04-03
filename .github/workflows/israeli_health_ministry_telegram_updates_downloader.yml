@@ -1,0 +1,23 @@
+on:
+  schedule:
+  - cron: 48 16 * * *
+
+jobs: 
+  download_updates:
+    name: Downloads the daily new updates of the israeli health ministry 
+    runs-on: windows-latest
+    steps:
+    - name: Access User
+      env: 
+        USER_EMAIL: "ozvvizer@users.noreply.github.com"
+        USER_NAME: "OzW1234"
+      run: |
+        git config --global user.email $USER_EMAIL
+        git config --global user.name $USER_NAME
+      shell: bash
+    - name: Clone git
+      uses: actions/checkout@master
+      with:
+        ref: develop
+        token: ${{ secrets.ACCESS_TOKEN }}
+        submodules: true

@@ -6,7 +6,7 @@ We update our data daily.
 
 ## How to use our data
 
-It is possible to download all of our information from our website (http://covidil.hopto.org/csv-files), as csv files. Because we gather information from different data sources - it may be inconsistent. We don't remove or solve these inconsistencies, we leave this job to the analysts to solve according to their understanding. A few recommendations:
+It is possible to download all of our information from our website (https://covidil.org/csv), as csv files. Because we gather information from different data sources - it may be inconsistent. We don't remove or solve these inconsistencies, we leave this job to the analysts to solve according to their understanding. A few recommendations:
 *	Use the specific data base if they exist - for example, if you want to find info about Italy, use COVID-19 Italia.
 *	Notice that some data appears more than once per each date - you can filter this using the update_time column.
 *	In some countries we have a division into smaller regions. When summing info about that country, be sure to notice not to sum the different regions with a row that already includes the sum of the whole country.
@@ -59,8 +59,6 @@ Additional data:
 * Total number of tests - see Other_data directory
 
 ## Website
-http://covidil.hopto.org/dashboard
+http://covidil.org/dashboard
 
-## Contact us:
-Found problems with the data? Have some good ideas and want to help?
-You can contact us at: iddo.waxman@gmail.com
+
