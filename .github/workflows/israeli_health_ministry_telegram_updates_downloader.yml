@@ -1,6 +1,6 @@
 on:
   schedule:
-  - cron: 46 11 * * *
+  - cron: 55 11 * * *
 
 jobs:
   # This job runs the 
