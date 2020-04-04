@@ -18,6 +18,5 @@ jobs:
     - name: Clone git
       uses: actions/checkout@v1
       with:
-        ref: develop
         token: ${{ secrets.ACCESS_TOKEN }}
         submodules: true
