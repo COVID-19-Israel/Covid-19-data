@@ -1,0 +1,215 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The updates(Feb.11) on novel Coronavirus in Republic of Korea
+
+Date2020-02-11 19:22
+Update2020-02-11 19:23
+DivisionDivision of Risk Assessment and International Cooperation
+Tel043-719-7553
+2,127
+
+
+                The updates(Feb.11) on novel Coronavirus in Republic of Korea
+
+                                                                     (since 3 January)
+ 
+
+
+
+
+Period
+
+Total
+
+Confirmed cases
+
+Suspected cases
+
+
+
+Sub-total
+
+isolated
+
+discharged
+
+Sub-total
+
+being tested
+
+tested negative
+
+
+
+As of 9:00, 11 Feb. 
+
+3,629
+
+28
+
+24
+
+4
+
+3,601
+
+865
+
+2,736
+
+
+
+As of 16:00, 11 Feb.
+
+4,325
+
+28
+
+24
+
+4
+
+4,297
+
+762
+
+3,535
+
+
+
+Differences
+
+△696
+
+0
+
+0
+
+0
+
+△696
+
+▽103
+
+△799
+
+
+
+
+ 
+ 
+ 
+
+
+Files
+
+
+
+
+
+Press_Release_(Feb.11)_evening.pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

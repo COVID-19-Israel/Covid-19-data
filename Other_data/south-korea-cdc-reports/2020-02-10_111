@@ -1,0 +1,185 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The updates on novel Coronavirus in Korea as of 10 February
+
+Date2020-02-10 16:47
+Update2020-02-10 16:47
+DivisionDivision of Risk Assessment and International Cooperation
+Tel043-719-7556
+2,224
+
+
+The updates on novel Coronavirus in Korea as of 10 February 
+ 
+○ As of 10 February, 2020, there have been 2,776 suspected cases reported, 27 of which were confirmed, 1,940 turned out to be negative, and 809 currently being tested. The contacts of the confirmed cases are 1,762 in total.
+
+
+
+
+
+Period
+(since 3 Jan.)
+
+Total
+
+Confirmed cases
+
+Suspected cases
+
+
+
+isolated
+
+discharged
+
+Sub-total
+
+being tested
+
+tested negative
+
+
+
+As of 9:00, 10 Feb.
+
+2,776
+
+24
+
+3
+
+2,749
+
+809
+
+1,940
+
+
+
+ 
+○ KCDC released the results of epidemiological investigation on 25th, 26th, and 27th confirmed cases.
+ 
+○ The 27th case, a Chinese female born in 1982, is a daughter-in-law of the 25th case. She returned to Korea from Guangdong province, China via Macau on 31 January. She developed cough on 24 January when staying in China. Before isolated, she has been to health facilities and restaurants and used taxi. 32 of her contacts are closely monitored.
+ 
+○ The 26th case, a Korean male born in 1968, accompanied 27th case on the way back to Korea. He developed sore throat on 8 February. Because he is a son of the 25th case, his contacts were same as hers. The 26th and 27th cases are in trade business. Both of them stated that they haven’t been to Hubei province, never visited hospitals or local markets in Guangdong province, nor had in contact with wild animals or confirmed cases.
+ 
+○ The 25th case, a Korean female born in 1946, visited health facilities and supermarket before isolated. She had 11 contacts, and all of them are currently monitored.
+ 
+○ In addition, the 11th case was released from isolation after tested negative twice in a row. He will be discharged today.
+ 
+○ KCDC pointed out that there is no need to be overly anxious about whereabouts or contacts of the confirmed cases. Transmissibility of Coronavirus significantly drops once the virus is released in the air, and disinfection can kill the virus within a day. Therefore, once the exposed places are disinfected, it is barely possible to get infected from there.
+ 
+
+
+Files
+
+
+
+
+
+Press Release (Feb.10)_afternoon.pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

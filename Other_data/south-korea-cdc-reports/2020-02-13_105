@@ -1,0 +1,216 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The updates(Feb.13) on COVID-19 in Republic of Korea
+
+Date2020-02-13 11:30
+Update2020-02-13 11:30
+DivisionDivision of Risk Asssessment and International Cooperation 
+Tel043-719-7553
+1,770
+
+
+The updates(Feb.13th) on COVID-19 in Republic of Korea
+
+ (cumulative cases as of 09:00, Feb.13)
+
+
+
+
+Period
+
+Total
+
+Confirmed cases
+
+Suspected cases
+
+
+
+Sub-total
+
+isolated
+
+discharged
+
+Sub-total
+
+being tested
+
+tested negative
+
+
+
+As of 16:00, 12 Feb. 
+
+5,624
+
+28
+
+21
+
+7
+
+5,596
+
+785
+
+4,811
+
+
+
+As of 9:00, 13 Feb.
+
+5,797
+
+28
+
+21
+
+7
+
+5,769
+
+670
+
+5,099
+
+
+
+Differences
+
+△173
+
+0
+
+0
+
+0
+
+△173
+
+▽115
+
+△288
+
+
+
+
+ 
+ 
+ 
+ 
+
+
+
+Files
+
+
+
+
+
+Press_Release_(Feb.13)_morning.pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+
