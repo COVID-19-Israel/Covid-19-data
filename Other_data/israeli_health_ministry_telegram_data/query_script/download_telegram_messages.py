@@ -40,9 +40,7 @@ async def main(channel_name):
 
         for message in history.messages:
             if message.file is not None and message.file.name and message.file.name.startswith('מכלול_אשפוז_דיווח') and message.file.size <= 10000000:
-                print(f'Downloading {message.file.name}')
                 filename = await client.download_media(message=message, file='../pdf_files')
-                print(f'Finished downloading {message.file.name}')
             else:
                 filename = None
 
