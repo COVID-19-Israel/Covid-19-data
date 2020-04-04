@@ -23,4 +23,4 @@ jobs:
     - name: Check if submodule exists
       run: ls
       shell: bash
-      working-directory: ./Covid-19-data/Other_data/israeli_health_ministry_telegram_data/query_script/personal_data
+      working-directory: ./Covid-19-data/Other_data/israeli_health_ministry_telegram_data/query_script/
