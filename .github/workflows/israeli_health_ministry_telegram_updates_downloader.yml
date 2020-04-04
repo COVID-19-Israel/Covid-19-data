@@ -1,6 +1,6 @@
 on:
   schedule:
-  - cron: 48 16 * * *
+  - cron: 18 9 * * *
 
 jobs: 
   download_updates:
