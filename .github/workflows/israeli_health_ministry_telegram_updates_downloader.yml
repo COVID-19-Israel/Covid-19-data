@@ -7,7 +7,7 @@ jobs:
     name: Downloads the daily new updates of the israeli health ministry 
     runs-on: windows-latest
     steps:
-    - name: Access User
+    - name: Access user
       env: 
         USER_EMAIL: "ozvvizer@users.noreply.github.com"
         USER_NAME: "OzW1234"
@@ -20,8 +20,29 @@ jobs:
       with:
         token: ${{ secrets.ACCESS_TOKEN }}
         submodules: true
-    - name: Check if submodule exists
+    - name: Run script
+      env:
+        PDF_FILES_DIR: ../pdf_files
       run: |
-        ls
+        rm -rf $PDF_FILES_DIR
+        mkdir $PDF_FILES_DIR
+        python download_telegram_messages.py
       shell: bash
-      working-directory: ./Other_data/israeli_health_ministry_telegram_data/query_script/personal_data/
+      working-directory: ./Other_data/israeli_health_ministry_telegram_data/query_script/
+    - name: Add the israeli health ministry telegram data with the changes
+      env:
+        TELEGRAM_DATA_DIR: ./Other_data/israeli_health_ministry_telegram_data
+      run: |
+        git init
+        git add $TELEGRAM_DATA_DIR
+        git commit -m "Auto update israeli health ministry telegram data"
+      shell: bash
+      working-directory: ./Covid-19-data
+    - name: Push the changes to git
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
+        git push github HEAD:${GITHUB_REF}
+      working-directory: ./Covid-19-data
+      shell: bash
