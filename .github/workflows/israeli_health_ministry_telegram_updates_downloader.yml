@@ -21,6 +21,7 @@ jobs:
         token: ${{ secrets.ACCESS_TOKEN }}
         submodules: true
     - name: Check if submodule exists
-      run: ls
+      run: |
+        pwd
+        ls
       shell: bash
-      working-directory: ./Covid-19-data/Other_data/israeli_health_ministry_telegram_data/query_script/
