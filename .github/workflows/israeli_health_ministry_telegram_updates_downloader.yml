@@ -26,6 +26,7 @@ jobs:
       run: |
         rm -rf $PDF_FILES_DIR
         mkdir $PDF_FILES_DIR
+        pip install telethon
         python download_telegram_messages.py
       shell: bash
       working-directory: ./Other_data/israeli_health_ministry_telegram_data/query_script/
