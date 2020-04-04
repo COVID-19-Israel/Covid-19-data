@@ -21,3 +21,4 @@ jobs:
         ref: develop
         token: ${{ secrets.ACCESS_TOKEN }}
         submodules: true
+        shell: bash
