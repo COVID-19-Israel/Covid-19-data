@@ -38,12 +38,10 @@ jobs:
         git add $TELEGRAM_DATA_DIR
         git commit -m "Auto update israeli health ministry telegram data"
       shell: bash
-      working-directory: ./Covid-19-data
     - name: Push the changes to git
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
         git push github HEAD:${GITHUB_REF}
-      working-directory: ./Covid-19-data
       shell: bash
