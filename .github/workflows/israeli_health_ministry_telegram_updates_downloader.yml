@@ -16,7 +16,7 @@ jobs:
         git config --global user.name $USER_NAME
       shell: bash
     - name: Clone git
-      uses: actions/checkout@master
+      uses: actions/checkout@v1
       with:
         ref: develop
         token: ${{ secrets.ACCESS_TOKEN }}
