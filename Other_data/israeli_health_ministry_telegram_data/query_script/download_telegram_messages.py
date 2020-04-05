@@ -5,6 +5,7 @@ from telethon import TelegramClient
 from telethon.tl.functions.messages import GetHistoryRequest
 
 with open("personal_data/personal_data.txt", mode="r") as file:
+
     personal_data = file.readlines()
     api_id = int(personal_data[0])
     api_hash = personal_data[1]
@@ -23,6 +24,7 @@ async def main(channel_name):
     offset_id = 0
     all_messages = []
     total_count_limit = 10000
+    # TODO: think about limit by time ( 2 days?)
 
     while True:
         history = await client(GetHistoryRequest(
@@ -46,6 +48,7 @@ async def main(channel_name):
 
             message_dict = message.to_dict()
             if filename is not None:
+                # TODO: add date to file_name
                 message_dict['attached_file'] = filename
 
             all_messages.append(message_dict)

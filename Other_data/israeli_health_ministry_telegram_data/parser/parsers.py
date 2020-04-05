@@ -2,7 +2,7 @@ import tabula
 from pptx import Presentation
 
 import pandas as pd
-
+import json
 from translate import Translator
 
 FIELD_SEP = '@@@'
@@ -16,7 +16,7 @@ class FileParser:
 
     def __init__(self, path):
         self.path = path
-        self.data = str()
+        self._data = list()
 
     def run(self):
         file_suffix = self.path.split('.')[-1]
@@ -36,6 +36,11 @@ class FileParser:
         raise NotImplementedError
 
     def _create_output_file_path(self, table_index):
+        """
+
+        :param table_index:
+        :return:
+        """
         file_name = self.path.split('\\')[-1]
         file_name = file_name.split('/')[-1]
         file_name = file_name.split('.')[0]
@@ -45,7 +50,13 @@ class FileParser:
         return output_file_name
 
     def export_to_csv(self):
-        for table_index, table in enumerate(self.data, start=1):
+        """
+        gets a list of tables (table = matrix)
+        exports each one to different csv
+        :return: None
+        """
+        # need to make sure that row and column index are removed.
+        for table_index, table in enumerate(self._data, start=1):
             table_df = pd.DataFrame(table)
             output_file_name = self._create_output_file_path(table_index)
             table_df.to_csv(output_file_name, index=False, encoding='utf-8')
@@ -71,7 +82,7 @@ class PptxParser(FileParser):
                     continue
                 parsed_table = list()
                 tbl = shape.table
-                for row_index in range(0,len(tbl.rows)):
+                for row_index in range(0, len(tbl.rows)):
                     tbl_row = list()
                     for col_index in range(0, len(tbl.columns)):
                         table_cell = tbl.cell(row_index, col_index)
@@ -79,19 +90,80 @@ class PptxParser(FileParser):
                         tbl_row.append(cell_data)
                     parsed_table.append(tbl_row)
                 prs_tables.append(parsed_table)
-        self.data = prs_tables
+        self._data = prs_tables
+
 
 class PdfParser(FileParser):
     def parse_file(self):
-        translator = Translator(to_lang='en', from_lang='he')
-        parsed_pdf_tables = list()
-        pdf_tables = tabula.read_pdf(self.path, pages = "all", multiple_tables = True)
-        for table in pdf_tables:
-            table = table.where(pd.notnull(table), None)
-            parsed_table = table.values.tolist()
-            for row_index in range(len(parsed_table)):
-                for col_index in range(len(parsed_table[0])):
-                    if parsed_table[row_index][col_index] is not None:
-                        parsed_table[row_index][col_index] = translator.translate(str(parsed_table[row_index][col_index]))
-            parsed_pdf_tables.append(parsed_table)
-        self.data = parsed_pdf_tables
+        data_df = tabula.read_pdf(input_path=self.path,
+                           output_format="dataframe",
+                           pages="all",
+                           stream=True,
+                           silent=True)[0]
+        if data_df.columns.tolist() == ['ישוב', 'Unnamed: 1', 'אוכלוסיה נכון ל 2018-', 'מספר חולים',
+                                     'Unnamed: 4']:
+            parser = CitiesPdfParser(self.path)
+            parser.parse_file()
+
+
+    pass
+    # def parse_file(self):
+    #     """
+    #
+    #     :return:
+    #     """
+    #     translator = Translator(to_lang='en', from_lang='he')
+    #     parsed_pdf_tables = list()
+    #     pdf_tables = tabula.read_pdf(self.path, pages="all", multiple_tables=True)
+    #     for table in pdf_tables:
+    #         table = table.where(pd.notnull(table), None)  # turns empty tables to None
+    #         parsed_table = table.values.tolist()
+    #         #  translate:
+    #         for row_index in range(len(parsed_table)):
+    #             for col_index in range(len(parsed_table[0])):
+    #                 if parsed_table[row_index][col_index] is not None:
+    #                     # TODO: escape on nums. check if it does shit.
+    #                     parsed_table[row_index][col_index] = translator.translate(str(parsed_table[row_index][col_index]))
+    #         parsed_pdf_tables.append(parsed_table)
+    #     self.data = parsed_pdf_tables
+
+
+class CitiesPdfParser(FileParser):
+
+    @staticmethod
+    def _translate_city():
+        """
+        upload cached cities-names translate dict
+        :return:
+        """
+        with open(r".\cities_dict.json", "r") as f:
+            return json.load(f)
+
+    def parse_file(self):
+        """
+        parses the tables from the pdf files from MOH telegram.
+        the original tables has hebrew city name, population and infected number.
+        :return:
+        """
+        
+        data_df = tabula.read_pdf(input_path=self.path,
+                           output_format="dataframe",
+                           pages="all",
+                           stream=True,
+                           silent=True)[0]
+
+        data_df = data_df.where(pd.notnull(data_df), None)
+        list_data = data_df.values.tolist()
+        fixed_data = []
+        headers = ["City_Name", "Population", "Infected"]
+        cityname_translator = self._translate_city()
+
+        fixed_data.append(headers)
+        for line in list_data:
+            if line[1] is not None:
+                if line[1].replace(",", "").isdigit():
+                    fixed_data.append([cityname_translator[line[0]], line[1].replace(",", ""), line[2]])
+            else:
+                fixed_data.append([cityname_translator[line[0]], line[2].replace(",", ""), line[3]])
+        self._data = [fixed_data]
+
