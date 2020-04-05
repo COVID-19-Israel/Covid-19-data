@@ -97,33 +97,35 @@ class PptxParser(FileParser):
 class PdfParser(FileParser):
     def parse_file(self):
         pdf_tables = tabula.read_pdf(input_path=self.path,
-                           pages="all",
-                           stream=True,
-                           silent=True)
-        for table_df in pdf_tables:
+                                     pages="all",
+                                     stream=True,
+                                     silent=True)
         if CITIES_COLUMNS.issubset(set(table_df.columns.tolist())):
             parser = CitiesPdfParser(self.path)
-        parser.parse_file()
+            parsed_table = parser.parse_file()
+        else:
+            for table_df in pdf_tables:
+                self._data.append(parser.parse_file())
 
-    # def parse_file(self):
-    #     """
-    #
-    #     :return:
-    #     """
-    #     translator = Translator(to_lang='en', from_lang='he')
-    #     parsed_pdf_tables = list()
-    #     pdf_tables = tabula.read_pdf(self.path, pages="all", multiple_tables=True)
-    #     for table in pdf_tables:
-    #         table = table.where(pd.notnull(table), None)  # turns empty tables to None
-    #         parsed_table = table.values.tolist()
-    #         #  translate:
-    #         for row_index in range(len(parsed_table)):
-    #             for col_index in range(len(parsed_table[0])):
-    #                 if parsed_table[row_index][col_index] is not None:
-    #                     # TODO: escape on nums. check if it does shit.
-    #                     parsed_table[row_index][col_index] = translator.translate(str(parsed_table[row_index][col_index]))
-    #         parsed_pdf_tables.append(parsed_table)
-    #     self.data = parsed_pdf_tables
+            # def parse_file(self):
+            #     """
+            #
+            #     :return:
+            #     """
+            #     translator = Translator(to_lang='en', from_lang='he')
+            #     parsed_pdf_tables = list()
+            #     pdf_tables = tabula.read_pdf(self.path, pages="all", multiple_tables=True)
+            #     for table in pdf_tables:
+            #         table = table.where(pd.notnull(table), None)  # turns empty tables to None
+            #         parsed_table = table.values.tolist()
+            #         #  translate:
+            #         for row_index in range(len(parsed_table)):
+            #             for col_index in range(len(parsed_table[0])):
+            #                 if parsed_table[row_index][col_index] is not None:
+            #                     # TODO: escape on nums. check if it does shit.
+            #                     parsed_table[row_index][col_index] = translator.translate(str(parsed_table[row_index][col_index]))
+            #         parsed_pdf_tables.append(parsed_table)
+            #     self.data = parsed_pdf_tables
 
 
 class CitiesPdfParser(FileParser):
