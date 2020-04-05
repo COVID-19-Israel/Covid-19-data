@@ -9,7 +9,7 @@ FIELD_SEP = '@@@'
 CSV_SUFFIX = '.csv'
 SPECIFIC_TABLE_PREFIX = '_table_no_'
 CITIES_COLUMNS = {'ישוב', 'אוכלוסיה נכון ל 2018-', 'מספר חולים'}
-DOWNLOADED_FILES_DICT_PATH = ".json"
+DOWNLOADED_FILES_DICT_PATH = r"..\data\MOHreport_DOWNLOADED.json"
 
 class FileParser:
 
@@ -59,7 +59,7 @@ class FileParser:
         """
         # need to make sure that row and column index are removed.
         for table_index, table in enumerate(self._data, start=1):
-            table_df = pd.DataFrame(table)
+            table_df = pd.DataFrame(columns=table[0], data=table[1:])
             table_df["Date"] = FileParser._get_file_date(os.path.basename(self.path))
             output_file_name = self._create_output_file_path(table_index)
             table_df.to_csv(output_file_name, index=False, encoding='utf-8')
@@ -126,7 +126,6 @@ class PdfParser(FileParser):
 
 
 class CitiesPdfParser(FileParser):
-
     @staticmethod
     def _translate_city():
         """
@@ -164,4 +163,3 @@ class CitiesPdfParser(FileParser):
                 else:
                     fixed_data.append([cityname_translator[line[0]], line[2].replace(",", ""), str(line[3]).replace(",", "")])
         return fixed_data
-
