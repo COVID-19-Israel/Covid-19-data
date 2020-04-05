@@ -1,6 +1,6 @@
 import json
 from datetime import datetime, timezone
-
+import os
 from telethon import TelegramClient
 from telethon.tl.functions.messages import GetHistoryRequest
 
@@ -23,6 +23,7 @@ async def main(channel_name):
 
     offset_id = 0
     all_messages = []
+    downloaded_messages = {}
     total_count_limit = 10000
     # TODO: think about limit by time ( 2 days?)
 
@@ -41,8 +42,16 @@ async def main(channel_name):
             break
 
         for message in history.messages:
-            if message.file is not None and message.file.name and message.file.name.startswith('מכלול_אשפוז_דיווח') and message.file.size <= 10000000:
+            if (message.file is not None
+                    and message.file.name
+                    and message.file.size <= 10000000
+                    and (
+                            message.file.name.startswith('מכלול_אשפוז_דיווח')
+                        or message.file.ext == "pdf"
+                    )
+            ):
                 filename = await client.download_media(message=message, file='../pdf_files')
+                downloaded_messages[message.file.name] = message.file.date.strftime("%Y-%m-%d")
             else:
                 filename = None
 
@@ -73,6 +82,9 @@ async def main(channel_name):
 
     with open(f'../data/{channel_name}.json', 'w') as outfile:
         json.dump(all_messages, outfile, cls=DateTimeEncoder)
+
+    with open(f'../data/{channel_name}_DOWNLOADED.json', 'w') as outfile:
+        json.dump(downloaded_messages, outfile, cls=DateTimeEncoder)
 
 
 channels = [
