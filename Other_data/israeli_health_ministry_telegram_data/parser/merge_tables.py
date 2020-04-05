@@ -20,7 +20,7 @@ def get_csv_paths(csv_dir_path):
 
 
 def get_csv_rows(csv_file_path):
-	with open(csv_file_path, 'rt') as f:
+	with open(csv_file_path, 'rt', encoding="utf8") as f:
 		csv_reader = csv.reader(f, delimiter=',')
 		return list(csv_reader)[HEADER_INDEX:]
 
