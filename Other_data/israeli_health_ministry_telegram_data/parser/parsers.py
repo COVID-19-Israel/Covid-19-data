@@ -51,6 +51,8 @@ class FileParser:
         file_name = os.path.basename(self.path)
         file_name = "".join(file_name.split(".")[:-1])
         output_file_name = ''.join([self._output_dir, file_name, SPECIFIC_TABLE_PREFIX, str(table_index), CSV_SUFFIX])
+
+        print (f"file is:{output_file_name}")
         with open(output_file_name, mode='w+'):
             pass
         return output_file_name
@@ -65,6 +67,7 @@ class FileParser:
         for table_index, table in enumerate(self._data, start=1):
             table_df = pd.DataFrame(columns=table[0], data=table[1:])
             table_df["Date"] = FileParser._get_file_date(os.path.basename(self.path))
+            print(self._output_dir)
             output_file_name = self._create_output_file_path(table_index)
             table_df.to_csv(output_file_name, index=False, encoding='utf-8')
 
@@ -111,10 +114,16 @@ class PptxParser(FileParser):
 
 class PdfParser(FileParser):
     def parse_file(self):
-        pdf_tables = tabula.read_pdf(input_path=self.path,
-                                     pages="all",
-                                     stream=True,
-                                     silent=True)
+        try:
+            pdf_tables = tabula.read_pdf(input_path=self.path,
+                                         pages="all",
+                                         stream=True,
+                                         silent=True)
+
+        except Exception:
+            print(f"failed to read {os.path.basename(self.path)}")
+            return
+
         for table_df in pdf_tables:
             # the loop will work only in the first case, where the headers are correct.
             self._check_cities_pdf(table_df)
@@ -126,10 +135,11 @@ class PdfParser(FileParser):
         :param table_df:
         :return: None
         """
+
         if CITIES_COLUMNS.issubset(set(table_df.columns.tolist())):
             parser = CitiesPdfParser(self.path)
             self._data.append(parser.parse_file())
-
+            self._output_dir = CITIES_OUTPUT_DIR
 
 class CitiesPdfParser(FileParser):
     @staticmethod
@@ -156,8 +166,6 @@ class CitiesPdfParser(FileParser):
         fixed_data = []
         headers = ["City_Name", "Population", "Infected"]
         fixed_data.append(headers)
-
-        self._output_dir = CITIES_OUTPUT_DIR
 
         for data_df in pdf_tables:
             data_df = data_df.where(pd.notnull(data_df), None)

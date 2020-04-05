@@ -3,6 +3,7 @@ from datetime import datetime, timezone
 import os
 from telethon import TelegramClient
 from telethon.tl.functions.messages import GetHistoryRequest
+import time
 
 with open("personal_data/personal_data.txt", mode="r") as file:
 
@@ -23,11 +24,12 @@ async def main(channel_name):
 
     offset_id = 0
     all_messages = []
-    downloaded_messages = {}
     total_count_limit = 10000
     # TODO: think about limit by time ( 2 days?)
+    downloaded_messages = {}
+    in_time_range = True
 
-    while True:
+    while in_time_range:
         history = await client(GetHistoryRequest(
             peer=channel,
             offset_id=offset_id,
@@ -47,11 +49,15 @@ async def main(channel_name):
                     and message.file.size <= 10000000
                     and (
                             message.file.name.startswith('מכלול_אשפוז_דיווח')
-                        or message.file.ext == "pdf"
+                        or message.file.ext == ".pdf"
                     )
             ):
-                filename = await client.download_media(message=message, file='../pdf_files')
-                downloaded_messages[message.file.name] = message.file.date.strftime("%Y-%m-%d")
+
+                if message.file.name not in os.listdir('../pdf_files'):
+                    filename = await client.download_media(message=message, file='../pdf_files')
+                else:
+                    filename = message.file.name
+                downloaded_messages[message.file.name] = message.date.strftime("%Y-%m-%d")
             else:
                 filename = None
 
@@ -61,6 +67,9 @@ async def main(channel_name):
                 message_dict['attached_file'] = filename
 
             all_messages.append(message_dict)
+            if all_messages[-1]["date"] < datetime(2019,12,1,0,0,0, tzinfo=timezone.utc):
+                in_time_range = False
+                break
 
         offset_id = all_messages[-1]['id']
         print(f'Date: {all_messages[-1]["date"]}')
@@ -90,8 +99,9 @@ async def main(channel_name):
 channels = [
     'MOHreport'
 ]
-
+start_time = time.perf_counter()
 for channel_name in channels:
     with client:
         client.loop.run_until_complete(main(channel_name))
-
+end_time = time.perf_counter()
+print(f"finished in {round(end_time - start_time)} seconds")

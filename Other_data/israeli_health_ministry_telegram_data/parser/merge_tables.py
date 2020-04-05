@@ -6,10 +6,10 @@ PROGRAM_DESCRIPTION = 'merges tables from different dates to one table'
 INPUT_HELP = 'path of input dir'
 OUTPUT_HELP = 'path of output file'
 
-HEADER_INDEX = 1
+HEADER_INDEX = 0
 
-CITIES_DIR_PATH = 'output\\cities\\'
-DAILY_UPDATE_PATH = 'output\\daily_update\\'
+CITIES_DIR_PATH = 'output\\cities'
+DAILY_UPDATE_PATH = 'output\\daily_update'
 OUTPUT_PATH = 'output\\merged\\merge_table.csv'
 
 
