@@ -1,0 +1,258 @@
+Date,City,confirmed
+03/04/2020,Jerusalem,1132
+03/04/2020,Bnei Brak,1061
+03/04/2020,Tel Aviv - Yafo,337
+03/04/2020,Ashkelon,170
+03/04/2020,Petah Tikva,138
+03/04/2020,Rishon Lezion,132
+03/04/2020,Netanya,126
+03/04/2020,El'ad,120
+03/04/2020,Beit Shemesh,118
+03/04/2020,Be'er Sheva,112
+03/04/2020,Ashdod,111
+03/04/2020,Ramat Gan,106
+03/04/2020,Holon,104
+03/04/2020,Bat Yam,102
+03/04/2020,Haifa,96
+03/04/2020,Modi'in Illit,91
+03/04/2020,Modi'in-Maccabim-Re'ut,91
+03/04/2020,Tiberias,83
+03/04/2020,Migdal Haemek,82
+03/04/2020,Or Yehuda,74
+03/04/2020,Ra'anana,73
+03/04/2020,Beitar Illit,70
+03/04/2020,Herzliya,69
+03/04/2020,Kiryat Ye'arim,36
+02/04/2020,Jerusalem,1003
+02/04/2020,Bnei Brak,966
+02/04/2020,Tel Aviv - Yafo,335
+02/04/2020,Ashkelon,165
+02/04/2020,Petah Tikva,133
+02/04/2020,Rishon Lezion,124
+02/04/2020,Netanya,121
+02/04/2020,Be'er Sheva,118
+02/04/2020,Beit Shemesh,114
+02/04/2020,El'ad,109
+01/04/2020,Jerusalem,807
+01/04/2020,Bnei Brak,723
+01/04/2020,Tel Aviv - Yafo,301
+01/04/2020,Ashkelon,125
+01/04/2020,Rishon Lezion,119
+01/04/2020,Petah Tikva,111
+01/04/2020,Ashdod,99
+01/04/2020,Netanya,95
+01/04/2020,Be'er Sheva,92
+01/04/2020,Beit Shemesh,92
+01/04/2020,El'ad,79
+03/31/2020,Jerusalem,650
+03/31/2020,Bnei Brak,571
+03/31/2020,Tel Aviv - Yafo,278
+03/31/2020,Ashkelon,114
+03/31/2020,Rishon Lezion,103
+03/31/2020,Petah Tikva,96
+03/31/2020,Be'er Sheva,83
+03/31/2020,Netanya,83
+03/31/2020,Ashdod,81
+03/31/2020,Beit Shemesh,76
+03/31/2020,El'ad,68
+03/31/2020,Kiryat Ye'arim,30
+03/30/2020,Jerusalem,570
+03/30/2020,Bnei Brak,477
+03/30/2020,Tel Aviv - Yafo,277
+03/30/2020,Ashkelon,112
+03/30/2020,Rishon Lezion,90
+03/30/2020,Be'er Sheva,80
+03/30/2020,Ashdod,70
+03/30/2020,El'ad,58
+03/30/2020,Haifa,55
+03/30/2020,Kiryat Ye'arim,25
+03/29/2020,Jerusalem,462
+03/29/2020,Bnei Brak,408
+03/29/2020,Tel Aviv - Yafo,258
+03/29/2020,Ashkelon,97
+03/29/2020,Rishon Lezion,85
+03/29/2020,Be'er Sheva,71
+03/29/2020,Ashdod,64
+03/29/2020,El'ad,52
+03/29/2020,Haifa,48
+03/29/2020,Kiryat Ye'arim,25
+03/28/2020,Jerusalem,400
+03/28/2020,Bnei Brak,318
+03/28/2020,Tel Aviv - Yafo,234
+03/28/2020,Ashkelon,88
+03/28/2020,Rishon Lezion,81
+03/28/2020,Ashdod,62
+03/28/2020,Be'er Sheva,55
+03/28/2020,El'ad,47
+03/28/2020,Haifa,46
+03/28/2020,Kiryat Ye'arim,25
+03/27/2020,Jerusalem,349
+03/27/2020,Bnei Brak,270
+03/27/2020,Tel Aviv - Yafo,204
+03/27/2020,Ashkelon,79
+03/27/2020,Rishon Lezion,67
+03/27/2020,Ashdod,59
+03/27/2020,Be'er Sheva,49
+03/27/2020,El'ad,42
+03/27/2020,Haifa,39
+03/27/2020,Kiryat Ye'arim,25
+03/26/2020,Jerusalem,321
+03/26/2020,Bnei Brak,176
+03/26/2020,Tel Aviv - Yafo,169
+03/26/2020,Ashkelon,64
+03/26/2020,Rishon Lezion,55
+03/26/2020,Ashdod,49
+03/26/2020,Be'er Sheva,44
+03/26/2020,Haifa,33
+03/26/2020,El'ad,30
+03/26/2020,Kiryat Ye'arim,25
+03/25/2020,Jerusalem,265
+03/25/2020,Tel Aviv - Yafo,145
+03/25/2020,Bnei Brak,113
+03/25/2020,Ashkelon,54
+03/25/2020,Rishon Lezion,45
+03/25/2020,Ashdod,43
+03/25/2020,Be'er Sheva,35
+03/25/2020,Haifa,29
+03/25/2020,Kiryat Ye'arim,25
+03/25/2020,El'ad,18
+03/24/2020,Jerusalem,213
+03/24/2020,Tel Aviv - Yafo,128
+03/24/2020,Bnei Brak,76
+03/24/2020,Rishon Lezion,37
+03/24/2020,Ashkelon,36
+03/24/2020,Ashdod,35
+03/24/2020,Haifa,25
+03/24/2020,Kiryat Ye'arim,25
+03/24/2020,Be'er Sheva,24
+03/24/2020,El'ad,15
+03/23/2020,Jerusalem,140
+03/23/2020,Tel Aviv - Yafo,111
+03/23/2020,Bnei Brak,41
+03/23/2020,Ashdod,34
+03/23/2020,Rishon Lezion,32
+03/23/2020,Ashkelon,24
+03/23/2020,Kiryat Ye'arim,24
+03/23/2020,Haifa,22
+03/23/2020,Be'er Sheva,21
+03/23/2020,El'ad,4
+03/22/2020,Jerusalem,117
+03/22/2020,Tel Aviv - Yafo,91
+03/22/2020,Bnei Brak,30
+03/22/2020,Kiryat Ye'arim,23
+03/22/2020,Rishon Lezion,22
+03/22/2020,Ashdod,21
+03/22/2020,Be'er Sheva,19
+03/22/2020,Haifa,19
+03/22/2020,Ashkelon,17
+03/22/2020,El'ad,4
+03/21/2020,Jerusalem,87
+03/21/2020,Tel Aviv - Yafo,72
+03/21/2020,Bnei Brak,22
+03/21/2020,Kiryat Ye'arim,22
+03/21/2020,Ashdod,20
+03/21/2020,Rishon Lezion,20
+03/21/2020,Haifa,14
+03/21/2020,Ashkelon,11
+03/21/2020,Be'er Sheva,8
+03/21/2020,El'ad,2
+03/20/2020,Jerusalem,71
+03/20/2020,Tel Aviv - Yafo,64
+03/20/2020,Rishon Lezion,17
+03/20/2020,Ashdod,16
+03/20/2020,Kiryat Ye'arim,15
+03/20/2020,Bnei Brak,13
+03/20/2020,Haifa,10
+03/20/2020,Ashkelon,8
+03/20/2020,Be'er Sheva,6
+03/20/2020,El'ad,1
+03/19/2020,Jerusalem,56
+03/19/2020,Tel Aviv - Yafo,52
+03/19/2020,Kiryat Ye'arim,15
+03/19/2020,Ashdod,14
+03/19/2020,Rishon Lezion,14
+03/19/2020,Bnei Brak,9
+03/19/2020,Ashkelon,7
+03/19/2020,Be'er Sheva,6
+03/19/2020,Haifa,6
+03/19/2020,El'ad,1
+03/18/2020,Tel Aviv - Yafo,42
+03/18/2020,Jerusalem,35
+03/18/2020,Kiryat Ye'arim,15
+03/18/2020,Ashdod,12
+03/18/2020,Rishon Lezion,11
+03/18/2020,Ashkelon,7
+03/18/2020,Be'er Sheva,6
+03/18/2020,Haifa,6
+03/18/2020,Bnei Brak,2
+03/18/2020,El'ad,1
+03/17/2020,Tel Aviv - Yafo,33
+03/17/2020,Jerusalem,21
+03/17/2020,Kiryat Ye'arim,13
+03/17/2020,Rishon Lezion,9
+03/17/2020,Ashdod,6
+03/17/2020,Haifa,6
+03/17/2020,Ashkelon,5
+03/17/2020,Be'er Sheva,4
+03/17/2020,El'ad,1
+03/17/2020,Bnei Brak,0
+03/16/2020,Tel Aviv - Yafo,28
+03/16/2020,Jerusalem,13
+03/16/2020,Kiryat Ye'arim,8
+03/16/2020,Rishon Lezion,8
+03/16/2020,Ashkelon,5
+03/16/2020,Ashdod,4
+03/16/2020,Be'er Sheva,4
+03/16/2020,Haifa,3
+03/16/2020,El'ad,1
+03/16/2020,Bnei Brak,0
+03/15/2020,Tel Aviv - Yafo,25
+03/15/2020,Jerusalem,9
+03/15/2020,Kiryat Ye'arim,7
+03/15/2020,Rishon Lezion,7
+03/15/2020,Be'er Sheva,4
+03/15/2020,Ashdod,3
+03/15/2020,Ashkelon,3
+03/15/2020,Haifa,2
+03/15/2020,El'ad,1
+03/15/2020,Bnei Brak,0
+03/14/2020,Tel Aviv - Yafo,18
+03/14/2020,Jerusalem,8
+03/14/2020,Rishon Lezion,7
+03/14/2020,Be'er Sheva,4
+03/14/2020,Ashdod,3
+03/14/2020,El'ad,1
+03/14/2020,Haifa,1
+03/14/2020,Ashkelon,0
+03/14/2020,Bnei Brak,0
+03/14/2020,Kiryat Ye'arim,0
+03/13/2020,Tel Aviv - Yafo,13
+03/13/2020,Rishon Lezion,6
+03/13/2020,Be'er Sheva,4
+03/13/2020,Jerusalem,4
+03/13/2020,Ashdod,3
+03/13/2020,Haifa,1
+03/13/2020,Ashkelon,0
+03/13/2020,Bnei Brak,0
+03/13/2020,El'ad,0
+03/13/2020,Kiryat Ye'arim,0
+03/12/2020,Tel Aviv - Yafo,13
+03/12/2020,Jerusalem,4
+03/12/2020,Rishon Lezion,4
+03/12/2020,Ashdod,3
+03/12/2020,Be'er Sheva,3
+03/12/2020,Haifa,1
+03/12/2020,Ashkelon,0
+03/12/2020,Bnei Brak,0
+03/12/2020,El'ad,0
+03/12/2020,Kiryat Ye'arim,0
+03/11/2020,Tel Aviv - Yafo,8
+03/11/2020,Jerusalem,4
+03/11/2020,Ashdod,3
+03/11/2020,Rishon Lezion,3
+03/11/2020,Be'er Sheva,2
+03/11/2020,Haifa,1
+03/11/2020,Ashkelon,0
+03/11/2020,Bnei Brak,0
+03/11/2020,El'ad,0
+03/11/2020,Kiryat Ye'arim,0
