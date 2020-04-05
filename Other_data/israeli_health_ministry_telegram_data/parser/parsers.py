@@ -10,6 +10,9 @@ CSV_SUFFIX = '.csv'
 SPECIFIC_TABLE_PREFIX = '_table_no_'
 CITIES_COLUMNS = {'ישוב', 'אוכלוסיה נכון ל 2018-', 'מספר חולים'}
 DOWNLOADED_FILES_DICT_PATH = r"..\data\MOHreport_DOWNLOADED.json"
+CITIES_OUTPUT_DIR = 'output\\cities\\'
+DAILY_UPDATE_OUTPUT_DIR = 'output\\daily_update\\'
+
 
 class FileParser:
 
@@ -19,6 +22,7 @@ class FileParser:
     def __init__(self, path):
         self.path = path
         self._data = list()
+        self._output_dir = str()
 
     def run(self):
         # TODO: if the file already parsed- skip.
@@ -46,7 +50,7 @@ class FileParser:
         """
         file_name = os.path.basename(self.path)
         file_name = "".join(file_name.split(".")[:-1])
-        output_file_name = ''.join([file_name, SPECIFIC_TABLE_PREFIX, str(table_index), CSV_SUFFIX])
+        output_file_name = ''.join([self._output_dir, file_name, SPECIFIC_TABLE_PREFIX, str(table_index), CSV_SUFFIX])
         with open(output_file_name, mode='w+'):
             pass
         return output_file_name
@@ -85,6 +89,9 @@ class PptxParser(FileParser):
     def parse_file(self):
         prs = Presentation(self.path)
         prs_tables = list()
+
+        self._output_dir = DAILY_UPDATE_OUTPUT_DIR
+
         for slide in prs.slides:
             for shape in slide.shapes:
                 if not shape.has_table:
@@ -124,7 +131,6 @@ class PdfParser(FileParser):
             self._data.append(parser.parse_file())
 
 
-
 class CitiesPdfParser(FileParser):
     @staticmethod
     def _translate_city():
@@ -150,6 +156,8 @@ class CitiesPdfParser(FileParser):
         fixed_data = []
         headers = ["City_Name", "Population", "Infected"]
         fixed_data.append(headers)
+
+        self._output_dir = CITIES_OUTPUT_DIR
 
         for data_df in pdf_tables:
             data_df = data_df.where(pd.notnull(data_df), None)
