@@ -57,7 +57,7 @@ async def main(channel_name):
                     filename = await client.download_media(message=message, file='../pdf_files')
                 else:
                     filename = message.file.name
-                downloaded_messages[message.file.name] = message.date.strftime("%Y-%m-%d")
+                downloaded_messages[message.file.name] = message.date.strftime("%Y-%d-%m")
             else:
                 filename = None
 
