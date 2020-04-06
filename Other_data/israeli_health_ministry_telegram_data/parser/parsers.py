@@ -7,7 +7,7 @@ from pptx import Presentation
 import os
 import pandas as pd
 import json
-from translate import Translator
+from parser_translator import ParserTranslator
 
 FIELD_SEP = '@@@'
 CSV_SUFFIX = '.csv'
@@ -117,13 +117,13 @@ class PptxParser(FileParser):
         :param table_cell : the pptx table's cell
         :return: the data
         """
-        translator = Translator(to_lang='en', from_lang='he')
+        translator = ParserTranslator(to_lang='en', from_lang='he')
         data = list()
         cell_paragraphs = table_cell.text_frame.paragraphs
         for cell_paragraph in cell_paragraphs:
             for run in cell_paragraph.runs:
-                data.append(translator.translate(run.text))
-        return ' '.join(data)
+                data.append(run.text)
+        return translator.translate_word(' '.join(data))
 
     def parse_file(self):
         prs = Presentation(self.path)
@@ -190,16 +190,9 @@ class CitiesPdfParser(PdfParser):
     """
     This class represents a parser of a pdf file that contains COVID-19 data divided into cities.
     """
-    @staticmethod
-    def _translate_city():
-        """
-        upload cached cities-names translate dict
-        :return:
-        """
-        with open(r".\cities_dict.json", "r") as f:
-            return json.load(f)
 
     def parse_file(self):
+        translator = ParserTranslator(to_lang='en', from_lang='he')
         pdf_tables = tabula.read_pdf(input_path=self.path,
                                      pages="all",
                                      stream=True,
@@ -211,17 +204,16 @@ class CitiesPdfParser(PdfParser):
         for data_df in pdf_tables:
             data_df = data_df.where(pd.notnull(data_df), None)
             list_data = data_df.values.tolist()
-            cityname_translator = self._translate_city()
 
             for line in list_data:
                 # Solves the problem that the data moved one column right in the middle of the file
                 if line[1] is not None:
                     if line[1].replace(",", "").isdigit():
-                        fixed_data.append([cityname_translator[line[0]],
+                        fixed_data.append([translator.translate_word(line[0]),
                                            line[1].replace(",", ""),
                                            str(line[2]).replace(",", "")])
                 else:
-                    fixed_data.append([cityname_translator[line[0]],
+                    fixed_data.append([translator.translate_word(line[0]),
                                        line[2].replace(",", ""),
                                        str(line[3]).replace(",", "")])
         return fixed_data
