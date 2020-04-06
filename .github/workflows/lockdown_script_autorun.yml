@@ -12,7 +12,7 @@ jobs:
 
     - name: TEST JAVA
       run: |
-        java
+        java --version
         
     - name: Clone git
       env:
