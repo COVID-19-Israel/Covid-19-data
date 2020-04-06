@@ -4,11 +4,16 @@ on:
   # Runs at 22:00 UTC every day (1AM Israel time)
   - cron: '0 22 * * *'
 jobs:
-  run_script:
+  run_script:    
     # This section downloads the git and udpate it
     name: Download Products and Script From Git
     runs-on: windows-latest
     steps:
+
+    - name: TEST JAVA
+      run: |
+        java
+        
     - name: Clone git
       env:
         GIT_URL: "https://github.com/COVID-19-Israel/Covid-19-data.git"
