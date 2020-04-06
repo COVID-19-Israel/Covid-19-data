@@ -1,5 +1,5 @@
 import parsers as p
-FILES_DIR = r"..\pdf_files\tmp"
+FILES_DIR = r"..\telegram_files"
 import os
 
 def main():
