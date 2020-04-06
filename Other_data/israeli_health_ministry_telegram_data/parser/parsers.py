@@ -12,12 +12,14 @@ from parser_translator import ParserTranslator
 FIELD_SEP = '@@@'
 CSV_SUFFIX = '.csv'
 SPECIFIC_TABLE_PREFIX = '_table_no_'
-CITIES_COLUMNS = {'ישוב', 'אוכלוסיה נכון ל 2018-', 'מספר חולים'}
-DAILY_UPDATE__FILE_PREFIX = 'מכלול_אשפוז_דיווח'
-DOWNLOADED_FILES_DICT_PATH = r"..\query_script\data\MOHreport_DOWNLOADED.json"
 OUTPUT_DIR = '..\\csv_files\\'
 CITIES_OUTPUT_DIR = OUTPUT_DIR + 'cities\\'
 DAILY_UPDATE_OUTPUT_DIR = OUTPUT_DIR + 'daily_update\\'
+
+CITIES_COLUMNS = {'ישוב', 'אוכלוסיה נכון ל 2018-', 'מספר חולים'}
+DAILY_UPDATE__FILE_PREFIX = 'מכלול_אשפוז_דיווח'
+
+DOWNLOADED_FILES_DICT_PATH = r"..\query_script\data\MOHreport_DOWNLOADED.json"
 
 
 class FileParser:
@@ -181,6 +183,10 @@ class PdfParser(FileParser):
             self._output_dir = CITIES_OUTPUT_DIR
 
     def _check_daily_update_pdf(self):
+        """
+        This function Checks if the pdf file is a file contains COVID-19 daily update.
+        :return: None
+        """
         if os.path.basename(self.path).startswith(DAILY_UPDATE__FILE_PREFIX):
             parser = DailyUpdatePdfParser(self.path)
             self._data.append(parser.parse_file())
