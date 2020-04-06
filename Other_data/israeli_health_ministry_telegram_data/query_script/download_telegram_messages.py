@@ -89,10 +89,10 @@ async def main(channel_name):
 
             return json.JSONEncoder.default(self, o)
 
-    with open(f'../data/{channel_name}.json', 'w') as outfile:
+    with open(f'data/{channel_name}.json', 'w') as outfile:
         json.dump(all_messages, outfile, cls=DateTimeEncoder)
 
-    with open(f'../data/{channel_name}_DOWNLOADED.json', 'w') as outfile:
+    with open(f'data/{channel_name}_DOWNLOADED.json', 'w') as outfile:
         json.dump(downloaded_messages, outfile, cls=DateTimeEncoder)
 
 
