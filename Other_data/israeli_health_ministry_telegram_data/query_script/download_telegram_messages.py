@@ -53,8 +53,8 @@ async def main(channel_name):
                     )
             ):
 
-                if message.file.name not in os.listdir('../pdf_files'):
-                    filename = await client.download_media(message=message, file='../pdf_files')
+                if message.file.name not in os.listdir('../telegram_files'):
+                    filename = await client.download_media(message=message, file='../telegram_files')
                 else:
                     filename = message.file.name
                 downloaded_messages[message.file.name] = message.date.strftime("%Y-%d-%m")
