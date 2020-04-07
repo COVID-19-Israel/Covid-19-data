@@ -23,7 +23,7 @@ The parser is built in a structure of inheritance:
     3. parse_file(): empty method. 
 2. __File-Type parser:__ PdfParser\ PptxParser. Uses specific modules to parse each file type. contains specific format parsers. important Methods:
     1. parse_file(): initial parse of the file, to detect spcific file structure. 
-        1. The parse_file() of a File-type class needs to __append to self._data the parsed data.__
+        1. The parse_file() of a File-type class needs to __append to self.\_data the parsed data.__
 3. __Specific Structure parser:__ DailyUpdatePptxParser, CitiesPdfParser. Parses and rearange the data to readble format. important Methods:
     1. parse_file(): parses the file to the exact data format. 
         1. The parse_file() of a Specific Structure class needs to __return a LIST of the parsed tables.__
