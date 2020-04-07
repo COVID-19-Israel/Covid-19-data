@@ -180,10 +180,10 @@ class DailyUpdatePptxParser(PptxParser):
         """
         try:
             # checks if there is a title on top of the value
-            if not table[row_index-1][col_index].replace(',','').isdigit():
+            if table[row_index-1][col_index] and not table[row_index-1][col_index].replace(',','').isdigit():
                 return table[row_index-1][col_index]
             # checks if there is a title on right of the value
-            if not table[row_index][col_index-1].replace(',','').isdigit():
+            if table[row_index][col_index-1] and not table[row_index][col_index-1].replace(',','').isdigit():
                 return table[row_index][col_index-1]
             raise ValueError(f'You have in the cell: {row_index},{col_index} a number without a title'
                              f'(titles are supposed to be on top or on the right of the number)')
