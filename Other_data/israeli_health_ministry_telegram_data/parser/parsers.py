@@ -18,9 +18,12 @@ DAILY_UPDATE_OUTPUT_DIR = OUTPUT_DIR + 'daily_update\\'
 DAILY_UPDATE_TEMPLATE_PATH = 'templates\\daily_update_template.json'
 
 CITIES_COLUMNS = {'ישוב', 'אוכלוסיה נכון ל 2018-', 'מספר חולים'}
-DAILY_UPDATE__FILE_PREFIX = 'מכלול_אשפוז_דיווח'
+DAILY_UPDATE_FILE_PREFIX = 'מכלול_אשפוז_דיווח'
 
 DOWNLOADED_FILES_DICT_PATH = r"..\query_script\data\MOHreport_DOWNLOADED.json"
+
+DAILY_UPDATE_TABLE_TOP_BUFFER = 2
+DAILY_UPDATE_TABLE_BOTTOM_BUFFER = 0
 
 
 class FileParser:
@@ -96,16 +99,12 @@ class FileParser:
         exports each one to different csv
         :return: None
         """
-        # need to make sure that row and column index are removed.
         for table_index, table in enumerate(self._data, start=1):
-#             import pdb; pdb.set_trace()
-            if type(table_index) == list:
+            if type(table) == list:
                 table_df = pd.DataFrame(columns=table[0], data=table[1:])
-            else: # type is DataFrame
+            # type is DataFrame
+            else:
                 table_df = table
-            # AZIZ:
-            # TODO: why is table_index list of lists? it cant be a dataframe?
-            # is it because of the pptx parser?
             output_file_name = self._create_output_file_path(table_index)
             table_df.to_csv(output_file_name, index=False, encoding='utf-8')
 
@@ -135,11 +134,21 @@ class PptxParser(FileParser):
                 data.append(run.text)
         return translator.translate_word(' '.join(data))
 
+    def _parse_daily_update(self, tables):
+        """
+        This function Checks if the pptx file is a file contains COVID-19 daily update.
+        :return: None
+        """
+        parsed_tables = tables
+        if os.path.basename(self.path).startswith(DAILY_UPDATE_FILE_PREFIX):
+            print("daily update parse")
+            parsed_tables = DailyUpdatePptxParser.parse_file(tables)
+            self._output_dir = DAILY_UPDATE_OUTPUT_DIR
+        return parsed_tables
+
     def parse_file(self):
         prs = Presentation(self.path)
         prs_tables = list()
-
-        self._output_dir = DAILY_UPDATE_OUTPUT_DIR
 
         for slide in prs.slides:
             for shape in slide.shapes:
@@ -155,7 +164,46 @@ class PptxParser(FileParser):
                         tbl_row.append(cell_data)
                     parsed_table.append(tbl_row)
                 prs_tables.append(parsed_table)
+        prs_tables = self._parse_daily_update(prs_tables)
         self._data = prs_tables
+
+
+class DailyUpdatePptxParser(PptxParser):
+    @staticmethod
+    def _find_key_by_value(table, row_index, col_index):
+        """
+        This function finds the title of the value (number) inside the table
+        :param table - the table
+        :param row_index - the index of the row
+        :param col_index - the index of the column
+        :return: the title of the value
+        """
+        try:
+            # checks if there is a title on top of the value
+            if not table[row_index-1][col_index].replace(',','').isdigit():
+                return table[row_index-1][col_index]
+            # checks if there is a title on right of the value
+            if not table[row_index][col_index-1].replace(',','').isdigit():
+                return table[row_index][col_index-1]
+            raise ValueError(f'You have in the cell: {row_index},{col_index} a number without a title'
+                             f'(titles are supposed to be on top or on the right of the number)')
+        except IndexError:
+            raise ValueError(f'You have in the cell: {row_index},{col_index} a number without a title'
+                             f'(titles are supposed to be on top or on the right of the number)')
+
+    @staticmethod
+    def parse_file(tables):
+        parsed_tables = list()
+        for table in tables[DAILY_UPDATE_TABLE_BOTTOM_BUFFER:DAILY_UPDATE_TABLE_TOP_BUFFER]:
+            table_values = list()
+            table_keys = list()
+            for row_index in range(len(table)):
+                for col_index in range(len(table[0])):
+                    if table[row_index][col_index].replace(',','').isdigit():
+                        table_values.append(table[row_index][col_index])
+                        table_keys.append(DailyUpdatePptxParser._find_key_by_value(table, row_index, col_index))
+            parsed_tables.append([table_keys, table_values])
+        return parsed_tables
 
 
 class PdfParser(FileParser):
@@ -175,10 +223,10 @@ class PdfParser(FileParser):
 
         for table_df in pdf_tables:
             # the loop will work only in the first case, where the headers are correct.
-            self._check_cities_pdf(table_df)
-        self._check_daily_update_pdf()
+            self._parse_cities(table_df)
+        self._parse_daily_update()
 
-    def _check_cities_pdf(self, table_df):
+    def _parse_cities(self, table_df):
         """
         table type check: checks if the headers match the cities format.
         THIS IS AN EXAMPLE FOR A TABLE TYPE CHECK.
@@ -191,12 +239,12 @@ class PdfParser(FileParser):
             self._data.append(parser.parse_file())
             self._output_dir = CITIES_OUTPUT_DIR
 
-    def _check_daily_update_pdf(self):
+    def _parse_daily_update(self):
         """
         This function Checks if the pdf file is a file contains COVID-19 daily update.
         :return: None
         """
-        if os.path.basename(self.path).startswith(DAILY_UPDATE__FILE_PREFIX):
+        if os.path.basename(self.path).startswith(DAILY_UPDATE_FILE_PREFIX):
             print("daily update parse")
             parser = DailyUpdatePdfParser(self.path)
             self._data = parser.parse_file()
