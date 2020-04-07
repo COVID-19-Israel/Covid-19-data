@@ -8,6 +8,8 @@ import os
 import pandas as pd
 import json
 from parser_translator import ParserTranslator
+from logger import create_log
+import logging
 
 FIELD_SEP = '@@@'
 CSV_SUFFIX = '.csv'
@@ -62,6 +64,7 @@ class FileParser:
 
         # Skips on the file, if there is an output file for it already
         if [file_name for csv_file in exists_csv_files if file_name in csv_file]:
+            logging.warning(f"file: {os.path.basename(file_name)} has already been parsed")
             return
 
         # Matches correct parser by file type.
@@ -99,7 +102,6 @@ class FileParser:
                                     self._get_file_date(),
                                     CSV_SUFFIX])
 
-        print(f"exported: {output_file_name}") # not here.
         with open(output_file_name, mode='w+'):
             pass
         return output_file_name
@@ -110,6 +112,7 @@ class FileParser:
         exports each one to different csv
         :return: None
         """
+        logging.info(f"Got {len(self._data)} tables to export")
         for table_index, table in enumerate(self._data, start=1):
             if type(table) == list:
                 table_df = pd.DataFrame(columns=table[0], data=table[1:])
@@ -118,6 +121,7 @@ class FileParser:
                 table_df = table
             output_file_name = self._create_output_file_path(table_index)
             table_df.to_csv(output_file_name, index=False, encoding='utf-8')
+            logging.info(f"Exported: {output_file_name} .")
 
     def _get_file_date(self):
         """
@@ -165,6 +169,7 @@ class PptxParser(FileParser):
                     parsed_table.append(tbl_row)
                 prs_tables.append(parsed_table)
 
+        logging.info(f"Parsed {len(prs_table)} tables from presentation")
         return prs_tables
 
     @staticmethod
@@ -189,9 +194,10 @@ class PptxParser(FileParser):
         """
         parsed_tables = tables
         if os.path.basename(self.path).startswith(DAILY_UPDATE_FILE_PREFIX):
-            print("daily update parse")
+            logging.info("Detected Daily Update PPTX structure.")
             parsed_tables = DailyUpdatePptxParser.parse_file(tables)
             self._output_dir = DAILY_UPDATE_OUTPUT_DIR
+            logging.info("Finished Daily Update PPTX parse.")
         return parsed_tables
 
 
@@ -252,7 +258,7 @@ class PdfParser(FileParser):
                                          stream=True,
                                          silent=True)
         except Exception:
-            print(f"failed to read {os.path.basename(self.path)}")
+            logging.error(f"failed to read {os.path.basename(self.path)}")
             return
 
         self._parse_cities(pdf_tables)
@@ -267,8 +273,9 @@ class PdfParser(FileParser):
         """
         for table_df in pdf_tables:
             if CITIES_COLUMNS.issubset(set(table_df.columns.tolist())):
-                print("cities parse")
+                logging.info("Detected Cities PDF structure.")
                 parser = CitiesPdfParser(self.path)
+                logging.info("Finished Cities PDF parse.")
                 self._data.append(parser.parse_file())
                 self._output_dir = CITIES_OUTPUT_DIR
 
@@ -278,9 +285,10 @@ class PdfParser(FileParser):
         :return: None
         """
         if os.path.basename(self.path).startswith(DAILY_UPDATE_FILE_PREFIX):
-            print("daily update parse")
+            logging.info("Detected Daily Update PDF structure.")
             parser = DailyUpdatePdfParser(self.path)
             self._data = parser.parse_file()
+            logging.info("Finished Daily Update PDF parse.")
             self._output_dir = DAILY_UPDATE_OUTPUT_DIR
 
 
@@ -295,6 +303,8 @@ class CitiesPdfParser(PdfParser):
                                      pages="all",
                                      stream=True,
                                      silent=True)
+        logging.info(f"Parsed {len(pdf_tables)} tables in cities PDF")
+
         fixed_data = []
         headers = ["City_Name", "Population", "Infected"]
         fixed_data.append(headers)
@@ -327,6 +337,7 @@ class DailyUpdatePdfParser(PdfParser):
             input_path=self.path,
             template_path=DAILY_UPDATE_TEMPLATE_PATH
         )
+        logging.info(f"Parsed {len(pdf_tables)} tables in DailyUpdate PDF")
         
         # first 3 tables of pdf_tables are from confirmed patients table (top)
         # last 3 tables of pdf_tables are from hoospitals table (bottom)
@@ -347,7 +358,10 @@ class DailyUpdatePdfParser(PdfParser):
         
         fixed_pdf_tables.append(pd.concat([pdf_tables[2], pdf_table0, pdf_tables[1]], axis=1))
         fixed_pdf_tables.append(pd.concat([pdf_tables[5], pdf_table3, pdf_tables[4]], axis=1))
-        
-        print(fixed_pdf_tables)
+
+        logging.info("Finished rearrange DailyUpdate PDF tables to correct format")
         return fixed_pdf_tables
 
+
+# delete and move to main
+create_log()

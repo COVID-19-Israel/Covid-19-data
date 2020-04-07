@@ -1,13 +1,14 @@
 import parsers as p
 FILES_DIR = r"..\telegram_files"
 import os
+from logger import create_log
 
 def main():
     """
 
     :return:
     """
-    # TODO: LOGGING
+    create_log()
     counter = 1
     for f in os.listdir(FILES_DIR):
         path = os.path.join(FILES_DIR, f)
