@@ -49,12 +49,38 @@ class ParserTranslator:
 
 		print(f'Wrote translation of {word}, which is {translation} to cache')
 
+	@staticmethod
+	def _is_int(word):
+		temp_word = word.replace(',', '')
+		try:
+			int_word = int(temp_word)
+		except ValueError:
+			return False
+
+		return True
+
+	@staticmethod
+	def _is_float(word):
+		temp_word = word.replace(',', '')
+		try:
+			float_word = float(temp_word)
+		except ValueError:
+			return False
+
+		return True
+
 	def translate_word(self, word):
-		translation = self._translate_using_cache(word)
-		if translation:
+		if not ParserTranslator._is_float(word) and not ParserTranslator._is_int(word):
+			translation = self._translate_using_cache(word)
+			if translation:
+				return translation
+
+			print(f'word to translate: <{word}>')
+			translation = self._translate_using_translator(word)
+			self._write_translation_to_cache(word, translation)
+
 			return translation
+		else:
+			return word
 
-		translation = self._translate_using_translator(word)
-		self._write_translation_to_cache(word, translation)
-
-		return translation
+		
