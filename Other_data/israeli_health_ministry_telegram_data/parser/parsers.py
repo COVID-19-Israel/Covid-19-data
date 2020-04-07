@@ -331,36 +331,50 @@ class DailyUpdatePdfParser(PdfParser):
     """
     This class represents a parser of a pdf file that contains COVID-19 daily update data.
     """
+
     def parse_file(self):
         fixed_pdf_tables = list()
+        translated_pdf_tables = list()
         pdf_tables = tabula.read_pdf_with_template(
             input_path=self.path,
             template_path=DAILY_UPDATE_TEMPLATE_PATH
         )
         logging.info(f"Parsed {len(pdf_tables)} tables in DailyUpdate PDF")
-        
         # first 3 tables of pdf_tables are from confirmed patients table (top)
-        # last 3 tables of pdf_tables are from hoospitals table (bottom)
-        
-        pdf_table0 = pdf_tables[0]   # critical confirmed patients
-        pdf_table0 = pdf_table0.drop(pdf_table0.index[0])
-        pdf_table0 = pdf_table0.reset_index(drop=True)
-        
-        pdf_table3 = pdf_tables[3]   # hospitalized (general)
-        pdf_table3 = pd.DataFrame(columns=["number", "state"],
-                                  data=pdf_table3.values.tolist() + [pdf_table3.columns.tolist()])
-        fixed_pdf_table3 = pdf_table3.transpose().values.tolist()
-        # the fixed data is a list.
-        pdf_table3 = pd.DataFrame(
-            columns=fixed_pdf_table3[1],
-            data=[fixed_pdf_table3[0]]
-        )
-        
+        # last 3 tables of pdf_tables are from treatment table (bottom)
+
+        pdf_table0 = DailyUpdatePdfParser._fix_critical_confirmed_table(pdf_tables[0])
+        pdf_table3 = DailyUpdatePdfParser._fix_treatment_table(pdf_tables[3])
+
+        # concatenating to form two tables - according to the pdf's format
         fixed_pdf_tables.append(pd.concat([pdf_tables[2], pdf_table0, pdf_tables[1]], axis=1))
         fixed_pdf_tables.append(pd.concat([pdf_tables[5], pdf_table3, pdf_tables[4]], axis=1))
 
-        logging.info("Finished rearrange DailyUpdate PDF tables to correct format")
-        return fixed_pdf_tables
+        translator = ParserTranslator(to_lang='en', from_lang='he')
+        for pdf_table in fixed_pdf_tables:
+            temp_df = pd.DataFrame(data=[pdf_table.columns.tolist()] + pdf_table.values.tolist())
+            temp_df = temp_df.applymap(lambda x: translator.translate_word(str(x)))
+            translated_df = pd.DataFrame(columns=temp_df.values.tolist()[0], data=[temp_df.values.tolist()[1]])
+            translated_pdf_tables.append(translated_df)
+
+        return translated_pdf_tables
+
+    @staticmethod
+    def _fix_critical_confirmed_table(critical_confirmed_table):
+        fixed_critical_confirmed_table = critical_confirmed_table.drop(critical_confirmed_table.index[0])
+        return fixed_critical_confirmed_table.reset_index(drop=True)
+
+    @staticmethod
+    def _fix_treatment_table(treatment_table):
+        fixed_treatment_table = pd.DataFrame(columns=["number", "state"],
+                                             data=treatment_table.values.tolist() + [treatment_table.columns.tolist()])
+
+        fixed_treatment_table = fixed_treatment_table.transpose().values.tolist()
+
+        return pd.DataFrame(
+            columns=fixed_treatment_table[1],
+            data=[fixed_treatment_table[0]]
+        )
 
 
 # delete and move to main
