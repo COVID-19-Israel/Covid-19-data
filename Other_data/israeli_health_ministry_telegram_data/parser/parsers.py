@@ -169,7 +169,7 @@ class PptxParser(FileParser):
                     parsed_table.append(tbl_row)
                 prs_tables.append(parsed_table)
 
-        logging.info(f"Parsed {len(prs_table)} tables from presentation")
+        logging.info(f"Parsed {len(prs_tables)} tables from presentation")
         return prs_tables
 
     @staticmethod
@@ -342,9 +342,11 @@ class DailyUpdatePdfParser(PdfParser):
         logging.info(f"Parsed {len(pdf_tables)} tables in DailyUpdate PDF")
         # first 3 tables of pdf_tables are from confirmed patients table (top)
         # last 3 tables of pdf_tables are from treatment table (bottom)
-
-        pdf_table0 = DailyUpdatePdfParser._fix_critical_confirmed_table(pdf_tables[0])
-        pdf_table3 = DailyUpdatePdfParser._fix_treatment_table(pdf_tables[3])
+        try:
+            pdf_table0 = DailyUpdatePdfParser._fix_critical_confirmed_table(pdf_tables[0])
+            pdf_table3 = DailyUpdatePdfParser._fix_treatment_table(pdf_tables[3])
+        except Exception:
+            logging.error(f"failed to parse file: {os.path.basename(self.path)}")
 
         # concatenating to form two tables - according to the pdf's format
         fixed_pdf_tables.append(pd.concat([pdf_tables[2], pdf_table0, pdf_tables[1]], axis=1))
@@ -375,7 +377,3 @@ class DailyUpdatePdfParser(PdfParser):
             columns=fixed_treatment_table[1],
             data=[fixed_treatment_table[0]]
         )
-
-
-# delete and move to main
-create_log()
