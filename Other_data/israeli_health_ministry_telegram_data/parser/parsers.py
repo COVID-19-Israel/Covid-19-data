@@ -34,6 +34,13 @@ class FileParser:
     PDF_SUFFIX = 'pdf'
 
     def __init__(self, path):
+        """
+        Saves 3 parameters about a the file:
+        path- The file path
+        _data- The parsed data. matrixs or DataFrame
+        _output_dir - Dir to save the csv's in.
+        :param path: the file path to parse
+        """
         self.path = path
         self._data = list()
         self._output_dir = str()
@@ -41,19 +48,21 @@ class FileParser:
     def run(self):
         """
         This function parses the input file, and exports it to csv
+
         :return: None
         """
         file_name = os.path.basename(self.path).split('.')
         file_suffix = file_name[-1]
         file_name = ''.join(file_name[:-1])
 
-        csv_files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(OUTPUT_DIR)
-                     for f in filenames]
+        exists_csv_files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(OUTPUT_DIR)
+                            for f in filenames]
 
         # Skips on the file, if there is an output file for it already
-        if [file_name for csv_file in csv_files if file_name in csv_file]:
+        if [file_name for csv_file in exists_csv_files if file_name in csv_file]:
             return
 
+        # Matches correct parser by file type.
         if FileParser.PPTX_SUFFIX == file_suffix:
             parser = PptxParser(self.path)
         elif FileParser.PDF_SUFFIX == file_suffix:
@@ -76,7 +85,7 @@ class FileParser:
         """
         This function will create the output file, if doesn't exist, and return it's path
         :param table_index: the index of the table in the input file
-        :return: the path of the output file
+        :return: the relative path of the output file
         """
         file_name = os.path.basename(self.path)
         file_name = "".join(file_name.split(".")[:-1])
@@ -88,7 +97,7 @@ class FileParser:
                                     self._get_file_date(),
                                     CSV_SUFFIX])
 
-        print(f"exported: {output_file_name}")
+        print(f"exported: {output_file_name}") # not here.
         with open(output_file_name, mode='w+'):
             pass
         return output_file_name
@@ -109,6 +118,10 @@ class FileParser:
             table_df.to_csv(output_file_name, index=False, encoding='utf-8')
 
     def _get_file_date(self):
+        """
+        Matches the file's date by a cached json dict.
+        :return: the date in YYYY-MM-DD format.
+        """
         filename = os.path.basename(self.path)
         with open(DOWNLOADED_FILES_DICT_PATH, "r") as f:
             downloaded_files_dict = json.load(f)
@@ -119,11 +132,44 @@ class PptxParser(FileParser):
     """
     This class represents a pptx file parser.
     """
+    def parse_file(self):
+        prs = Presentation(self.path)
+        prs_tables = PptxParser._parse_tables_from_pres(prs)
+
+        prs_tables = self._parse_daily_update(prs_tables)
+        self._data = prs_tables
+
+    @staticmethod
+    def _parse_tables_from_pres(prs):
+        """
+        Extracts all tables in the presentation to a list of matrices.
+        :param prs: Presentation Object
+        :return: list of matrices
+        """
+        prs_tables = list()
+
+        for slide in prs.slides:
+            for shape in slide.shapes:
+                if not shape.has_table:
+                    continue
+                parsed_table = list()
+                tbl = shape.table
+                for row_index in range(0, len(tbl.rows)):
+                    tbl_row = list()
+                    for col_index in range(0, len(tbl.columns)):
+                        table_cell = tbl.cell(row_index, col_index)
+                        cell_data = PptxParser._extract_data_from_cell(table_cell)
+                        tbl_row.append(cell_data)
+                    parsed_table.append(tbl_row)
+                prs_tables.append(parsed_table)
+
+        return prs_tables
+
     @staticmethod
     def _extract_data_from_cell(table_cell):
         """
         This function extracts the data from pptx table's cell
-        :param table_cell : the pptx table's cell
+        :param table_cell: the pptx table's cell
         :return: the data
         """
         translator = ParserTranslator(to_lang='en', from_lang='he')
@@ -146,29 +192,30 @@ class PptxParser(FileParser):
             self._output_dir = DAILY_UPDATE_OUTPUT_DIR
         return parsed_tables
 
-    def parse_file(self):
-        prs = Presentation(self.path)
-        prs_tables = list()
-
-        for slide in prs.slides:
-            for shape in slide.shapes:
-                if not shape.has_table:
-                    continue
-                parsed_table = list()
-                tbl = shape.table
-                for row_index in range(0, len(tbl.rows)):
-                    tbl_row = list()
-                    for col_index in range(0, len(tbl.columns)):
-                        table_cell = tbl.cell(row_index, col_index)
-                        cell_data = PptxParser._extract_data_from_cell(table_cell)
-                        tbl_row.append(cell_data)
-                    parsed_table.append(tbl_row)
-                prs_tables.append(parsed_table)
-        prs_tables = self._parse_daily_update(prs_tables)
-        self._data = prs_tables
-
 
 class DailyUpdatePptxParser(PptxParser):
+    """
+    Parser for daily Update in PPTX format.
+    """
+    @staticmethod
+    def parse_file(tables):
+        """
+        Fix data to be in specific structure.
+        :param tables:
+        :return:
+        """
+        parsed_tables = list()
+        for table in tables[DAILY_UPDATE_TABLE_BOTTOM_BUFFER:DAILY_UPDATE_TABLE_TOP_BUFFER]:
+            table_values = list()
+            table_keys = list()
+            for row_index in range(len(table)):
+                for col_index in range(len(table[0])):
+                    if table[row_index][col_index].replace(',', '').isdigit():
+                        table_values.append(table[row_index][col_index])
+                        table_keys.append(DailyUpdatePptxParser._find_key_by_value(table, row_index, col_index))
+            parsed_tables.append([table_keys, table_values])
+        return parsed_tables
+
     @staticmethod
     def _find_key_by_value(table, row_index, col_index):
         """
@@ -191,24 +238,10 @@ class DailyUpdatePptxParser(PptxParser):
             raise ValueError(f'You have in the cell: {row_index},{col_index} a number without a title'
                              f'(titles are supposed to be on top or on the right of the number)')
 
-    @staticmethod
-    def parse_file(tables):
-        parsed_tables = list()
-        for table in tables[DAILY_UPDATE_TABLE_BOTTOM_BUFFER:DAILY_UPDATE_TABLE_TOP_BUFFER]:
-            table_values = list()
-            table_keys = list()
-            for row_index in range(len(table)):
-                for col_index in range(len(table[0])):
-                    if table[row_index][col_index].replace(',','').isdigit():
-                        table_values.append(table[row_index][col_index])
-                        table_keys.append(DailyUpdatePptxParser._find_key_by_value(table, row_index, col_index))
-            parsed_tables.append([table_keys, table_values])
-        return parsed_tables
-
 
 class PdfParser(FileParser):
     """
-    This class represents Pdf file parser.
+    This class represents a parser for every Pdf file.
     """
     def parse_file(self):
         try:
@@ -216,28 +249,26 @@ class PdfParser(FileParser):
                                          pages="all",
                                          stream=True,
                                          silent=True)
-
         except Exception:
             print(f"failed to read {os.path.basename(self.path)}")
             return
 
-        for table_df in pdf_tables:
-            # the loop will work only in the first case, where the headers are correct.
-            self._parse_cities(table_df)
+        self._parse_cities(pdf_tables)
         self._parse_daily_update()
 
-    def _parse_cities(self, table_df):
+    def _parse_cities(self, pdf_tables):
         """
-        table type check: checks if the headers match the cities format.
-        THIS IS AN EXAMPLE FOR A TABLE TYPE CHECK.
-        :param table_df:
+        table type check: checks if any of the headers match the cities format.
+        if yes, parses all.
+        :param pdf_tables: all tables from the tabula parse. DataFrames.
         :return: None
         """
-        if CITIES_COLUMNS.issubset(set(table_df.columns.tolist())):
-            print("cities parse")
-            parser = CitiesPdfParser(self.path)
-            self._data.append(parser.parse_file())
-            self._output_dir = CITIES_OUTPUT_DIR
+        for table_df in pdf_tables:
+            if CITIES_COLUMNS.issubset(set(table_df.columns.tolist())):
+                print("cities parse")
+                parser = CitiesPdfParser(self.path)
+                self._data.append(parser.parse_file())
+                self._output_dir = CITIES_OUTPUT_DIR
 
     def _parse_daily_update(self):
         """
@@ -253,7 +284,7 @@ class PdfParser(FileParser):
 
 class CitiesPdfParser(PdfParser):
     """
-    This class represents a parser of a pdf file that contains COVID-19 data divided into cities.
+    Parser class of a pdf file that contains COVID-19 data divided into cities.
     """
 
     def parse_file(self):
