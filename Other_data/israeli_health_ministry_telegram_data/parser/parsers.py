@@ -12,9 +12,11 @@ from parser_translator import ParserTranslator
 FIELD_SEP = '@@@'
 CSV_SUFFIX = '.csv'
 SPECIFIC_TABLE_PREFIX = '_table_no_'
+
 OUTPUT_DIR = '..\\csv_files\\'
 CITIES_OUTPUT_DIR = OUTPUT_DIR + 'cities\\'
 DAILY_UPDATE_OUTPUT_DIR = OUTPUT_DIR + 'daily_update\\'
+
 DAILY_UPDATE_TEMPLATE_PATH = 'templates\\daily_update_template.json'
 
 CITIES_COLUMNS = {'ישוב', 'אוכלוסיה נכון ל 2018-', 'מספר חולים'}
