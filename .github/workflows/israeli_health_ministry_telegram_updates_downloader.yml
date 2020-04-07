@@ -27,7 +27,12 @@ jobs:
       shell: bash
       working-directory: ./Other_data/israeli_health_ministry_telegram_data/query_script/
     - name: Run files parser to csv
+      env:
+        CITIES_FIELS_OUTPUT_DIR: ../csv_files/cities
+        DAILY_UPDATE_OUTPUT_DIR: ../csv-files/daily_update
       run: |
+        mkdir -p $CITIES_FILES_OUTPUT_DIR
+        mkdir -p $DAILY_UPDATE_OUTPUT_DIR
         pip install tabula-py
         pip install python-pptx
         pip install pandas
