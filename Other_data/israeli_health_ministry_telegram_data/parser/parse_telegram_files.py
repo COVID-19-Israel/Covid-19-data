@@ -4,7 +4,7 @@ import logging
 from logger import create_log
 
 
-FILES_DIR = r"..\telegram_files\tmp"
+FILES_DIR = r"..\telegram_files"
 
 
 def main():

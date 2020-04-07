@@ -112,6 +112,10 @@ class FileParser:
         exports each one to different csv
         :return: None
         """
+        if len(self._data) == 0:
+            logging.info("Didn't parse any table from this file.")
+            return
+
         logging.info(f"Got {len(self._data)} tables to export")
         for table_index, table in enumerate(self._data, start=1):
             if type(table) == list:
@@ -376,4 +380,3 @@ class DailyUpdatePdfParser(PdfParser):
         return pd.DataFrame(
             columns=fixed_treatment_table[1],
             data=[fixed_treatment_table[0]]
-        )
