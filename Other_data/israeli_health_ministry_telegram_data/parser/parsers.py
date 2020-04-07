@@ -112,7 +112,7 @@ class FileParser:
         exports each one to different csv
         :return: None
         """
-        if len(self._data) == 0:
+        if not self._data or len(self._data) == 0:
             logging.info("Didn't parse any table from this file.")
             return
 
@@ -347,10 +347,12 @@ class DailyUpdatePdfParser(PdfParser):
         # first 3 tables of pdf_tables are from confirmed patients table (top)
         # last 3 tables of pdf_tables are from treatment table (bottom)
         try:
-            pdf_table0 = DailyUpdatePdfParser._fix_critical_confirmed_table(pdf_tables[0])
             pdf_table3 = DailyUpdatePdfParser._fix_treatment_table(pdf_tables[3])
+            pdf_table0 = DailyUpdatePdfParser._fix_critical_confirmed_table(pdf_tables[0])
         except Exception:
+
             logging.error(f"failed to parse file: {os.path.basename(self.path)}")
+            return
 
         # concatenating to form two tables - according to the pdf's format
         fixed_pdf_tables.append(pd.concat([pdf_tables[2], pdf_table0, pdf_tables[1]], axis=1))
@@ -379,4 +381,4 @@ class DailyUpdatePdfParser(PdfParser):
 
         return pd.DataFrame(
             columns=fixed_treatment_table[1],
-            data=[fixed_treatment_table[0]]
+            data=[fixed_treatment_table[0]])

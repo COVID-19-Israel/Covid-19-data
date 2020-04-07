@@ -18,10 +18,7 @@ class ParserTranslator:
 
 		if self.from_lang in dictionary_cache and self.to_lang in dictionary_cache[self.from_lang]:
 			if word in dictionary_cache[self.from_lang][self.to_lang]:
-				logging.info(f'Translated {word} using the dictionary cache')
 				return dictionary_cache[self.from_lang][self.to_lang][word]
-			else:
-				logging.error(f'{word} does not exist in dictionary from {self.from_lang} to {self.to_lang}')
 		else:
 			logging.error(f'Dictionary from {self.from_lang} to {self.to_lang} does not exist in cache')
 
@@ -33,7 +30,6 @@ class ParserTranslator:
 		if translation:
 			return translation
 		else:
-			logging.error(f'Error: Could not translate word <{word}> from {self.from_lang} to {self.to_lang}.')
 			return ''
 
 	def _write_translation_to_cache(self, word, translation):
@@ -46,8 +42,8 @@ class ParserTranslator:
 
 		with open(DICTIONARY_CACHE_PATH, "w", encoding='utf8') as f:
 			json.dump(dictionary_cache, f)
-
-		logging.info(f'Wrote translation of {word}, which is {translation} to cache')
+		if translation:
+			logging.debug(f'Wrote translation of {word}, which is {translation} to cache')
 
 	@staticmethod
 	def _is_int(word):
@@ -74,8 +70,6 @@ class ParserTranslator:
 			translation = self._translate_using_cache(word)
 			if translation:
 				return translation
-
-			logging.info(f'word to translate: <{word}>')
 			translation = self._translate_using_translator(word)
 			self._write_translation_to_cache(word, translation)
 
