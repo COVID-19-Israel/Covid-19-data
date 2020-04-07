@@ -1,0 +1,12 @@
+country,state/province,change_date,changed_field,changed_from,changed_to
+Sweden,all,11/3/2020,congregation_restriction  ,None,500
+Sweden,all,26/3/2020,congregation_restriction  ,500,50
+Sweden,all,11/3/2020,fines_and_incarceration ,FALSE,TRUE
+Sweden,all,18/3/2020,educational_institutions ,0,1
+Sweden,all,31/03/2020,exposure_to_patient_isolation ,FALSE,TRUE
+Sweden,all,1/4/2020,distance_saving_instructions ,None,1
+Sweden,Blekinge ,10/3/2020,limit_hospital_visits,FALSE,TRUE
+Sweden,Blekinge ,10/3/2020,limit_retirement_homes_visits  ,FALSE,TRUE
+Sweden,all,18/03/2020,police_army_enforcement,FALSE,TRUE
+Sweden,all,18/03/2020,prohibition_entering_country ,FALSE,TRUE
+Sweden,all,17/03/2020,encouragement_using_hand_sanitizers ,FALSE,TRUE
