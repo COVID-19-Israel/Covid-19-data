@@ -33,7 +33,8 @@ class ParserTranslator:
 		if translation:
 			return translation
 		else:
-			raise ValueError(f'Error: Could not translate {word} from {self.from_lang} to {self.to_lang}.')
+			print(f'Error: Could not translate word <{word}> from {self.from_lang} to {self.to_lang}.')
+			return ''
 
 	def _write_translation_to_cache(self, word, translation):
 		with open(DICTIONARY_CACHE_PATH, "r", encoding='utf8') as f:

@@ -15,6 +15,7 @@ SPECIFIC_TABLE_PREFIX = '_table_no_'
 OUTPUT_DIR = '..\\csv_files\\'
 CITIES_OUTPUT_DIR = OUTPUT_DIR + 'cities\\'
 DAILY_UPDATE_OUTPUT_DIR = OUTPUT_DIR + 'daily_update\\'
+DAILY_UPDATE_TEMPLATE_PATH = 'templates\\daily_update_template.json'
 
 CITIES_COLUMNS = {'ישוב', 'אוכלוסיה נכון ל 2018-', 'מספר חולים'}
 DAILY_UPDATE__FILE_PREFIX = 'מכלול_אשפוז_דיווח'
@@ -97,7 +98,14 @@ class FileParser:
         """
         # need to make sure that row and column index are removed.
         for table_index, table in enumerate(self._data, start=1):
-            table_df = pd.DataFrame(columns=table[0], data=table[1:])
+#             import pdb; pdb.set_trace()
+            if type(table_index) == list:
+                table_df = pd.DataFrame(columns=table[0], data=table[1:])
+            else: # type is DataFrame
+                table_df = table
+            # AZIZ:
+            # TODO: why is table_index list of lists? it cant be a dataframe?
+            # is it because of the pptx parser?
             output_file_name = self._create_output_file_path(table_index)
             table_df.to_csv(output_file_name, index=False, encoding='utf-8')
 
@@ -168,7 +176,7 @@ class PdfParser(FileParser):
         for table_df in pdf_tables:
             # the loop will work only in the first case, where the headers are correct.
             self._check_cities_pdf(table_df)
-            self._check_daily_update_pdf()
+        self._check_daily_update_pdf()
 
     def _check_cities_pdf(self, table_df):
         """
@@ -178,6 +186,7 @@ class PdfParser(FileParser):
         :return: None
         """
         if CITIES_COLUMNS.issubset(set(table_df.columns.tolist())):
+            print("cities parse")
             parser = CitiesPdfParser(self.path)
             self._data.append(parser.parse_file())
             self._output_dir = CITIES_OUTPUT_DIR
@@ -188,8 +197,9 @@ class PdfParser(FileParser):
         :return: None
         """
         if os.path.basename(self.path).startswith(DAILY_UPDATE__FILE_PREFIX):
+            print("daily update parse")
             parser = DailyUpdatePdfParser(self.path)
-            self._data.append(parser.parse_file())
+            self._data = parser.parse_file()
             self._output_dir = DAILY_UPDATE_OUTPUT_DIR
 
 class CitiesPdfParser(PdfParser):
@@ -229,15 +239,30 @@ class DailyUpdatePdfParser(PdfParser):
     This class represents a parser of a pdf file that contains COVID-19 daily update data.
     """
     def parse_file(self):
-        fixed_data = list()
-        pdf_tables = tabula.read_pdf(input_path=self.path,
-                                     pages="all",
-                                     stream=True,
-                                     silent=True)
-        for data_df in pdf_tables:
-            data_df = data_df.where(pd.notnull(data_df), None)
-            list_data = data_df.values.tolist()
-            fixed_data.append(list_data)
-            print(data_df)
-            print('--------------------------------------------------------------------------------')
-        return fixed_data
+        fixed_pdf_tables = list()
+        pdf_tables = tabula.read_pdf_with_template(
+            input_path=self.path,
+            template_path=DAILY_UPDATE_TEMPLATE_PATH
+        )
+        
+        # first 3 tables of pdf_tables are from confirmed patients table (top)
+        # last 3 tables of pdf_tables are from hoospitals table (bottom)
+        
+        pdf_table0 = pdf_tables[0]   # critical confirmed patients
+        pdf_table0 = pdf_table0.drop(pdf_table0.index[0])
+        pdf_table0 = pdf_table0.reset_index(drop=True)
+        
+        pdf_table3 = pdf_tables[3]   # hospitalized (general)
+        pdf_table3 = pd.DataFrame(columns=["number","state"],data=pdf_table3.values.tolist() + [pdf_table3.columns.tolist()])
+        fixed_pdf_table3 = pdf_table3.transpose().values.tolist()
+        # the fixed data is a list.
+        pdf_table3 = pd.DataFrame(
+            columns=fixed_pdf_table3[1],
+            data=[fixed_pdf_table3[0]]
+        )
+        
+        fixed_pdf_tables.append(pd.concat([pdf_tables[2], pdf_table0, pdf_tables[1]], axis=1))
+        fixed_pdf_tables.append(pd.concat([pdf_tables[5], pdf_table3, pdf_tables[4]], axis=1))
+        
+        print(fixed_pdf_tables)
+        return fixed_pdf_tables
