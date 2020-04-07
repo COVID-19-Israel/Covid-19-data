@@ -48,7 +48,7 @@ class FileParser:
         file_name = ''.join(file_name[:-1])
 
         csv_files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(OUTPUT_DIR)
-                  for f in filenames]
+                     for f in filenames]
 
         # Skips on the file, if there is an output file for it already
         if [file_name for csv_file in csv_files if file_name in csv_file]:
@@ -83,12 +83,12 @@ class FileParser:
         output_file_name = ''.join([self._output_dir,
                                     file_name,
                                     SPECIFIC_TABLE_PREFIX,
-                                    str(table_index) ,
+                                    str(table_index),
                                     '_',
                                     self._get_file_date(),
                                     CSV_SUFFIX])
 
-        print (f"exported: {output_file_name}")
+        print(f"exported: {output_file_name}")
         with open(output_file_name, mode='w+'):
             pass
         return output_file_name
@@ -250,6 +250,7 @@ class PdfParser(FileParser):
             self._data = parser.parse_file()
             self._output_dir = DAILY_UPDATE_OUTPUT_DIR
 
+
 class CitiesPdfParser(PdfParser):
     """
     This class represents a parser of a pdf file that contains COVID-19 data divided into cities.
@@ -282,6 +283,7 @@ class CitiesPdfParser(PdfParser):
                                        str(line[3]).replace(",", "")])
         return fixed_data
 
+
 class DailyUpdatePdfParser(PdfParser):
     """
     This class represents a parser of a pdf file that contains COVID-19 daily update data.
@@ -301,7 +303,8 @@ class DailyUpdatePdfParser(PdfParser):
         pdf_table0 = pdf_table0.reset_index(drop=True)
         
         pdf_table3 = pdf_tables[3]   # hospitalized (general)
-        pdf_table3 = pd.DataFrame(columns=["number","state"],data=pdf_table3.values.tolist() + [pdf_table3.columns.tolist()])
+        pdf_table3 = pd.DataFrame(columns=["number", "state"],
+                                  data=pdf_table3.values.tolist() + [pdf_table3.columns.tolist()])
         fixed_pdf_table3 = pdf_table3.transpose().values.tolist()
         # the fixed data is a list.
         pdf_table3 = pd.DataFrame(
@@ -314,3 +317,4 @@ class DailyUpdatePdfParser(PdfParser):
         
         print(fixed_pdf_tables)
         return fixed_pdf_tables
+
