@@ -28,7 +28,7 @@ jobs:
       working-directory: ./Other_data/israeli_health_ministry_telegram_data/query_script/
     - name: Run files parser to csv
       env:
-        CITIES_FIELS_OUTPUT_DIR: ../csv_files/cities
+        CITIES_FILES_OUTPUT_DIR: ../csv_files/cities
         DAILY_UPDATE_OUTPUT_DIR: ../csv-files/daily_update
       run: |
         mkdir -p $CITIES_FILES_OUTPUT_DIR
@@ -47,6 +47,9 @@ jobs:
         git add $TELEGRAM_DATA_DIR
         git commit -m "Auto update israeli health ministry telegram data"
       shell: bash
+    - name: Pull Changes
+      run: |
+        git pull origin master
     - name: Push the changes to git
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
