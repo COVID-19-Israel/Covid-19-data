@@ -1,6 +1,21 @@
 exposure_to_patient_isolation,enter_area_isolation,appearance_of_symptoms_isolation,risk_groups_isolation,full_quarantine,partial_quarantine,unnecessary_business,educational_institutions,religious_institutions,distance_saving_instructions,congregation_restriction,prohibition_entering_country,public_transport_restriction,limit_hospital_visits,limit_retirement_homes_visits,disinfecting_public_spaces,police_army_enforcement,fines_and_incarceration,encouragement_using_masks,encouragement_using_gloves,encouragement_using_hand_sanitizers,wide_temperature_tests,lockdown_level,country,province,start_date
+True,False,False,True,False,True,2,2,2,2,10,False,0,True,True,False,True,True,True,False,True,False,4,United States of America,New Jersey,2024-03-23 00:00:00
+True,False,False,True,False,True,2,2,2,2,10,False,0,True,True,False,False,True,True,False,True,False,4,United States of America,New Jersey,2023-03-23 00:00:00
+True,False,False,True,False,True,2,2,2,2,10,False,0,True,True,False,False,False,True,False,True,False,4,United States of America,New Jersey,2023-03-21 00:00:00
+True,False,False,True,False,True,2,1,2,2,10,False,0,True,True,False,False,False,True,False,True,False,4,United States of America,New Jersey,2022-03-21 00:00:00
+True,False,False,True,False,True,0,1,2,2,10,False,0,True,True,False,False,False,True,False,True,False,4,United States of America,New Jersey,2021-03-21 00:00:00
+True,False,False,True,False,True,2,2,2,2,10,False,1,True,True,False,False,False,True,False,False,False,4,United States of America,California,2020-04-03 00:00:00
+True,False,False,True,False,True,0,1,2,,10,False,0,True,True,False,False,False,True,False,True,False,4,United States of America,New Jersey,2020-04-03 00:00:00
+True,False,True,True,False,True,2,2,2,,10,False,1,False,True,False,False,False,True,False,False,False,4,United States of America,New York,2020-04-03 00:00:00
+True,True,True,True,False,True,2,2,2,1,10,False,1,True,True,True,True,False,True,False,False,False,4,United States of America,Washington,2020-04-03 00:00:00
+True,False,False,True,False,False,0,0,0,,10,False,0,False,True,False,False,False,True,False,False,False,2,United States of America,all,2020-04-03 00:00:00
 True,True,False,False,False,False,1,2,1,,,False,0,False,False,False,True,True,True,False,True,False,3,South Korea,all,2020-04-01 00:00:00
+True,False,False,False,False,False,0,1,0,1,50,True,0,True,True,False,True,True,False,False,True,False,2,Sweden,BlekingeÂ ,2020-04-01 00:00:00
+True,False,False,False,False,False,0,1,0,1,50,True,0,False,False,False,True,True,False,False,True,False,2,Sweden,all,2020-04-01 00:00:00
 True,True,False,False,False,False,0,0,0,,500,True,0,False,False,True,False,False,True,True,True,True,2,Taiwan,all,2020-04-01 00:00:00
+True,False,False,True,False,True,0,1,2,,10,False,0,True,True,False,False,False,False,False,True,False,4,United States of America,New Jersey,2020-04-01 00:00:00
+True,False,False,False,False,False,0,1,0,,50,True,0,True,True,False,True,True,False,False,True,False,2,Sweden,BlekingeÂ ,2020-03-31 00:00:00
+True,False,False,False,False,False,0,1,0,,50,True,0,False,False,False,True,True,False,False,True,False,2,Sweden,all,2020-03-31 00:00:00
 False,True,True,False,False,False,2,0,0,,15,True,0,False,False,False,False,True,False,False,False,False,3,Canada,Alberta,2020-03-30 00:00:00
 False,True,True,False,False,False,0,2,0,,50,True,0,False,False,False,False,True,False,False,False,False,2,Canada,British Columbia,2020-03-30 00:00:00
 False,True,True,False,False,False,0,0,0,,,True,0,False,False,False,False,True,False,False,False,False,2,Canada,"Calgary, Alberta",2020-03-30 00:00:00
@@ -47,6 +62,8 @@ False,False,True,True,False,False,2,2,0,2,5,True,1,False,False,False,True,True,F
 False,False,True,True,False,False,2,2,0,2,5,True,1,False,False,False,True,True,False,False,False,False,3,Switzerland,ZG,2020-03-28 00:00:00
 False,False,True,True,False,False,2,2,0,2,5,True,1,False,False,False,True,True,False,False,False,False,3,Switzerland,ZH,2020-03-28 00:00:00
 False,False,True,True,False,False,2,2,0,2,5,True,1,False,False,False,True,True,False,False,False,False,3,Switzerland,all,2020-03-28 00:00:00
+False,False,False,False,False,False,0,1,0,,50,True,0,True,True,False,True,True,False,False,True,False,2,Sweden,BlekingeÂ ,2020-03-26 00:00:00
+False,False,False,False,False,False,0,1,0,,50,True,0,False,False,False,True,True,False,False,True,False,2,Sweden,all,2020-03-26 00:00:00
 False,True,False,False,False,False,2,0,0,,15,True,0,False,False,False,False,True,False,False,False,False,3,Canada,Alberta,2020-03-25 00:00:00
 False,True,False,False,False,False,0,2,0,,50,True,0,False,False,False,False,True,False,False,False,False,2,Canada,British Columbia,2020-03-25 00:00:00
 False,True,False,False,False,False,0,0,0,,,True,0,False,False,False,False,True,False,False,False,False,2,Canada,"Calgary, Alberta",2020-03-25 00:00:00
@@ -365,6 +382,7 @@ False,False,True,False,False,False,2,2,0,2,5,False,1,False,False,False,True,True
 False,False,True,False,False,False,2,2,0,2,5,False,1,False,False,False,True,True,False,False,False,False,3,Switzerland,ZG,2020-03-21 00:00:00
 False,False,True,False,False,False,2,2,0,2,5,False,1,False,False,False,True,True,False,False,False,False,3,Switzerland,ZH,2020-03-21 00:00:00
 False,False,True,False,False,False,2,2,0,2,5,False,1,False,False,False,True,True,False,False,False,False,3,Switzerland,all,2020-03-21 00:00:00
+True,False,False,True,False,True,0,1,0,,10,False,0,True,True,False,False,False,False,False,True,False,4,United States of America,New Jersey,2020-03-21 00:00:00
 True,True,True,True,False,True,2,2,2,1,10,False,1,True,True,True,False,False,False,False,False,False,4,United States of America,Washington,2020-03-21 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,True,0,False,True,False,True,True,False,False,False,False,2,Australia,New South Wales,2020-03-20 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,True,0,False,True,False,False,True,False,False,False,False,2,Australia,Queensland,2020-03-20 00:00:00
@@ -673,6 +691,8 @@ True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,Fa
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,False,False,False,False,3,Germany,Schleswig-Holstein,2020-03-18 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,False,False,False,False,3,Germany,Thuringen,2020-03-18 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,True,True,False,False,False,False,3,Germany,all,2020-03-18 00:00:00
+False,False,False,False,False,False,0,1,0,,500,True,0,True,True,False,True,True,False,False,True,False,2,Sweden,BlekingeÂ ,2020-03-18 00:00:00
+False,False,False,False,False,False,0,1,0,,500,True,0,False,False,False,True,True,False,False,True,False,2,Sweden,all,2020-03-18 00:00:00
 True,False,False,True,False,False,1,1,0,,,False,0,False,False,False,False,False,False,False,False,False,3,United Kingdom,Aneurin Bevan,2020-03-18 00:00:00
 True,False,False,True,False,False,1,1,0,,,False,0,False,False,False,False,False,False,False,False,False,3,United Kingdom,Ayrshire and Arran,2020-03-18 00:00:00
 True,False,False,True,False,False,1,1,0,,,False,0,False,False,False,False,False,False,False,False,False,3,United Kingdom,Barking and Dagenham,2020-03-18 00:00:00
@@ -896,6 +916,8 @@ True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,False,False,False,False,3,Germany,Thuringen,2020-03-17 00:00:00
 True,True,True,False,False,False,1,2,1,,2,False,1,False,False,False,False,False,False,False,False,False,3,Germany,all,2020-03-17 00:00:00
 True,True,True,False,False,True,2,2,1,2,10,True,1,False,False,True,False,False,False,False,False,False,4,Israel,all,2020-03-17 00:00:00
+False,False,False,False,False,False,0,0,0,,500,False,0,True,True,False,False,True,False,False,True,False,1,Sweden,BlekingeÂ ,2020-03-17 00:00:00
+False,False,False,False,False,False,0,0,0,,500,False,0,False,False,False,False,True,False,False,True,False,1,Sweden,all,2020-03-17 00:00:00
 True,False,False,True,False,False,1,1,0,2,10,False,0,False,True,False,False,False,False,False,False,False,3,United States of America,California,2020-03-17 00:00:00
 True,False,True,True,False,False,1,2,0,1,10,False,0,True,True,False,False,False,False,False,False,False,3,United States of America,Washington,2020-03-17 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,False,False,True,True,False,False,False,False,1,Australia,Victoria,2020-03-16 00:00:00
@@ -1383,6 +1405,7 @@ False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,F
 False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,False,False,False,False,3,Switzerland,ZH,2020-03-16 00:00:00
 False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,False,False,False,False,3,Switzerland,all,2020-03-16 00:00:00
 True,False,False,True,False,False,0,1,0,2,10,False,0,False,True,False,False,False,False,False,False,False,2,United States of America,California,2020-03-16 00:00:00
+True,False,False,True,False,False,0,1,0,,10,False,0,True,True,False,False,False,False,False,True,False,2,United States of America,New Jersey,2020-03-16 00:00:00
 True,False,True,True,False,False,1,1,0,,10,False,0,False,True,False,False,False,False,False,False,False,3,United States of America,New York,2020-03-16 00:00:00
 True,False,True,True,False,False,1,1,0,1,10,False,0,True,True,False,False,False,False,False,False,False,3,United States of America,Washington,2020-03-16 00:00:00
 True,False,False,True,False,False,0,0,0,,10,False,0,False,True,False,False,False,False,False,False,False,2,United States of America,all,2020-03-16 00:00:00
@@ -2004,6 +2027,7 @@ True,False,False,True,False,False,1,0,0,,,False,0,False,False,False,False,False,
 True,False,False,True,False,False,1,0,0,,,False,0,False,False,False,False,False,False,False,False,False,3,United Kingdom,Wrexham County Borough Council,2020-03-15 00:00:00
 True,False,False,True,False,False,1,0,0,,,False,0,False,False,False,False,False,False,False,False,False,3,United Kingdom,York,2020-03-15 00:00:00
 True,False,False,True,False,False,1,0,0,,,False,0,False,False,False,False,False,False,False,False,False,3,United Kingdom,all,2020-03-15 00:00:00
+False,False,False,False,False,False,0,1,0,,,False,0,True,False,False,False,False,False,False,True,False,2,United States of America,New Jersey,2020-03-15 00:00:00
 False,False,False,False,False,False,0,2,0,,250,False,0,True,True,False,False,False,False,False,False,False,2,Canada,Ontario,2020-03-14 00:00:00
 False,True,True,True,False,False,0,0,0,2,250,False,0,True,True,False,False,True,False,False,False,False,1,Canada,Quebec,2020-03-14 00:00:00
 True,True,True,True,False,False,2,1,0,,30,False,0,True,True,False,True,True,False,True,False,True,3,Czechia,Hlavni mesto Praha,2020-03-14 00:00:00
@@ -2324,6 +2348,7 @@ True,False,False,False,False,False,1,0,0,,,False,0,False,False,False,False,False
 True,False,False,False,False,False,1,0,0,,,False,0,False,False,False,False,False,False,False,False,False,3,United Kingdom,York,2020-03-13 00:00:00
 True,False,False,False,False,False,1,0,0,,,False,0,False,False,False,False,False,False,False,False,False,3,United Kingdom,all,2020-03-13 00:00:00
 False,False,False,False,False,False,0,1,0,2,250,False,0,False,False,False,False,False,False,False,False,False,2,United States of America,California,2020-03-13 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,True,False,False,False,False,False,False,True,False,1,United States of America,New Jersey,2020-03-13 00:00:00
 True,False,True,False,False,False,0,1,0,,500,False,0,False,True,False,False,False,False,False,False,False,2,United States of America,New York,2020-03-13 00:00:00
 False,False,False,False,False,False,1,1,0,,500,False,0,True,False,False,False,False,False,False,False,False,3,Austria,Burgenland,2020-03-12 00:00:00
 False,False,False,False,False,False,1,1,0,,500,False,0,True,False,False,False,False,False,False,False,False,3,Austria,Karnten,2020-03-12 00:00:00
@@ -2775,6 +2800,8 @@ True,True,True,False,False,False,0,0,0,,100,False,0,False,False,False,False,Fals
 True,True,True,False,False,False,0,0,0,,100,True,0,False,False,False,False,False,False,False,False,False,2,Israel,all,2020-03-11 00:00:00
 True,False,True,True,False,False,0,0,0,,,False,0,False,False,False,False,False,True,False,True,True,1,Singapore,all,2020-03-11 00:00:00
 True,False,True,False,False,False,1,0,0,,1000,False,0,False,False,False,False,False,False,False,False,False,3,Spain,Cataluna,2020-03-11 00:00:00
+False,False,False,False,False,False,0,0,0,,500,False,0,True,True,False,False,True,False,False,False,False,1,Sweden,BlekingeÂ ,2020-03-11 00:00:00
+False,False,False,False,False,False,0,0,0,,500,False,0,False,False,False,False,True,False,False,False,False,1,Sweden,all,2020-03-11 00:00:00
 False,False,False,False,False,False,0,0,0,2,250,False,0,False,False,False,False,False,False,False,False,False,1,United States of America,California,2020-03-11 00:00:00
 True,False,False,False,False,False,1,1,0,1,250,False,0,True,True,False,False,False,False,False,False,False,3,United States of America,Washington,2020-03-11 00:00:00
 False,False,False,False,False,False,0,1,0,,500,False,0,False,False,False,False,False,False,False,False,False,2,Austria,Burgenland,2020-03-10 00:00:00
@@ -2825,6 +2852,8 @@ True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,
 True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,False,False,False,False,3,Spain,Navarra,2020-03-10 00:00:00
 True,False,True,False,False,False,1,1,0,,,False,0,False,False,False,False,False,False,False,False,False,3,Spain,PaisVasco,2020-03-10 00:00:00
 True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,False,False,False,False,3,Spain,all,2020-03-10 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,True,True,False,False,False,False,False,False,False,1,Sweden,BlekingeÂ ,2020-03-10 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,True,False,1,United States of America,New Jersey,2020-03-10 00:00:00
 True,True,False,False,False,False,0,0,0,,5000,True,0,False,False,False,False,False,False,False,False,False,2,Israel,all,2020-03-09 00:00:00
 False,False,False,False,False,True,2,2,2,,,False,0,False,False,False,True,True,False,False,False,False,4,Italy,Abruzzo,2020-03-09 00:00:00
 False,True,False,False,False,True,2,2,2,,,False,0,False,False,False,True,True,False,False,False,False,4,Italy,Basilicata,2020-03-09 00:00:00
@@ -3752,6 +3781,7 @@ False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,Fals
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Spain,Navarra,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Spain,PaisVasco,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Spain,all,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Sweden,BlekingeÂ ,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Sweden,all,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Switzerland,AG,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Switzerland,AI,2019-01-01 00:00:00
@@ -3979,6 +4009,7 @@ False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,Fals
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,United Kingdom,York,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,United Kingdom,all,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,United States of America,California,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,United States of America,New Jersey,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,United States of America,New York,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,United States of America,Washington,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,United States of America,all,2019-01-01 00:00:00
