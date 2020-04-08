@@ -4,7 +4,7 @@ import logging
 
 
 DICTIONARY_CACHE_PATH = 'dictionary_cache.json'
-CHARS_IN_NUMBERS = [',', '%', '$']
+CHARS_IN_NUMBERS = [',', '%', '$', '-']
 
 
 class ParserTranslator:
