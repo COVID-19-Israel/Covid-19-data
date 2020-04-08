@@ -21,12 +21,10 @@ from bs4 import BeautifulSoup as BS
 BASE_URL = "https://www.cdc.go.kr"
 REPORT_DIR = "Other_data/south-korea-cdc-reports"
 
-REPORT_QUEUE = asyncio.Queue()
+REPORT_QUEUE = None
+DONE_FETCHING_LINKS_EVENT = None
 
-
-async def get_all_report_links(session, base_url):
-    # TODO: this function should probably be an async generator.
-
+async def get_all_report_links(session, base_url, queue):
     current_page = None
     report_links = []
     oldest_report_number = 'list_no=365797'
@@ -44,11 +42,14 @@ async def get_all_report_links(session, base_url):
                 continue
             if 'list_no=' in report_link:
                 report_links.append(report_link)
-                await REPORT_QUEUE.put(report_link)
+                print(f'adding a link:{report_link}')
+                # TODO: benchmark asyncio.create_task(queue.put) vs queue.put_nowait vs this.
+                # From quick testing a few times this option was the fastest but it may well be a discrepancy...
+                await queue.put(report_link)
 
             # TODO: this condition will probably be a bug when this function is truly async.
             if oldest_report_number in report_link:
-                # reached the oldest relevant report (2020-01-22)
+                queue.task_done()
                 return report_links
 
         next_page_link = current_page.find_all('a', class_='pageNext')[0].get('href')
@@ -56,6 +57,7 @@ async def get_all_report_links(session, base_url):
             next_page_html = await next_page_resp.text()
             current_page = BS(next_page_html, features='lxml')
 
+    queue.task_done()
     return report_links
 
 
@@ -81,6 +83,31 @@ def extract_statistic_data(report_html, report_date, date_filename):
 
     pass
 
+async def get_single_rep(base_url, report_link, session, queue, i):
+    print(f"({datetime.now()} - getting report {i+1}: {report_link}")
+    async with session.get(f"{base_url}{report_link}") as resp:
+        report_html = await resp.text()
+        report_text = BS(report_html, features='lxml').get_text()
+
+        report_date = re.search(r'Date\d{4}-\d{2}-\d{2}', report_text)
+        date_filename = str(i) if not report_date else f"{report_date.group()[4:]}_{i}"
+        save_report_to_file(os.path.join(REPORT_DIR, 'text'), date_filename, report_text)
+        save_report_to_file(os.path.join(REPORT_DIR, "html"), f"{date_filename}.html", report_html)
+        # extract_statistic_data(report_html, report_date, date_filename)
+        queue.task_done()
+
+
+async def get_reports(base_url, session, queue):
+    report_text = None
+    i = 0
+
+    while True:
+        report_link = await queue.get()
+        if report_link is None:
+            continue
+        asyncio.create_task(get_single_rep(base_url, report_link, session, queue, i))
+        i += 1
+
 
 async def get_single_report(base_url, i, report_link, session, total_links_amount):
     print(f"({datetime.now()} - getting report {i+1} of {total_links_amount}: {report_link}")
@@ -93,7 +120,6 @@ async def get_single_report(base_url, i, report_link, session, total_links_amoun
         report_date = re.search(r'Date\d{4}-\d{2}-\d{2}', report_text)
         date_filename = str(i) if not report_date else f"{report_date.group()[4:]}_{i}"
         save_report_to_file(os.path.join(REPORT_DIR, 'text'), date_filename, report_text)
-        # save_report_to_file(os.path.join(REPORT_DIR, "html"), f"{date_filename}.html", report_html)
         extract_statistic_data(report_html, report_date, date_filename)
 
 def save_test_data_to_csv(data_row: BS, report_date):
@@ -171,22 +197,34 @@ async def main2():
 
 async def main():
     print(f"Getting all the reports, starting now. ({datetime.now()})")
+    REPORT_QUEUE = asyncio.Queue()
+    REPORT_QUEUE.put_nowait(None)
 
     async with aiohttp.ClientSession() as session:
         start_time = timeit.default_timer()
 
-        all_report_links = await get_all_report_links(session, BASE_URL)
-        total_links_amount = len(all_report_links)
+        # all_report_links = await get_all_report_links(session, BASE_URL)
+        # total_links_amount = len(all_report_links)
 
-        coros = []
-        for i, link in enumerate(all_report_links):
-            coros.append(get_single_report(BASE_URL, i, link, session, total_links_amount))
+
+        coros = [
+            asyncio.create_task(get_reports(BASE_URL, session, REPORT_QUEUE)),
+            asyncio.create_task(get_all_report_links(session, BASE_URL, REPORT_QUEUE)),
+            # get_reports(BASE_URL, session),
+            # get_all_report_links(session, BASE_URL),
+        ]
+
+        # await DONE_FETCHING_LINKS_EVENT.wait()
+        await REPORT_QUEUE.join()
+        [coro.cancel() for coro in coros]
+        # for i, link in enumerate(all_report_links):
+        #     coros.append(get_single_report(BASE_URL, i, link, session, total_links_amount))
             # await get_single_report(BASE_URL, i, link, session, total_links_amount)
-        await asyncio.gather(*coros)
+        await asyncio.gather(*coros, return_exceptions=True)
 
         end_time = timeit.default_timer()
-        print(
-            f"finished downloading {total_links_amount} reports which took {end_time - start_time} sec")
+        # print( f"finished downloading {total_links_amount} reports which took {end_time - start_time} sec")
+        print( f"finished downloading. took {end_time - start_time} sec")
 
 
 if __name__ == '__main__':
