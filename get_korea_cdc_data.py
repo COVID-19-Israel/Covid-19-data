@@ -11,6 +11,7 @@ import os
 import re
 import timeit
 import asyncio
+import csv
 from datetime import datetime
 import aiohttp
 
@@ -19,6 +20,8 @@ from bs4 import BeautifulSoup as BS
 
 BASE_URL = "https://www.cdc.go.kr"
 REPORT_DIR = "Other_data/south-korea-cdc-reports"
+
+REPORT_QUEUE = asyncio.Queue()
 
 
 async def get_all_report_links(session, base_url):
@@ -41,6 +44,7 @@ async def get_all_report_links(session, base_url):
                 continue
             if 'list_no=' in report_link:
                 report_links.append(report_link)
+                await REPORT_QUEUE.put(report_link)
 
             # TODO: this condition will probably be a bug when this function is truly async.
             if oldest_report_number in report_link:
@@ -59,6 +63,7 @@ def save_report_to_file(path, filename, report):
     with open(os.path.join(path, filename), "w+") as report_file:
         report_file.write(report)
 
+
 def extract_statistic_data(report_html, report_date, date_filename):
     """
     Get the following data from the report:
@@ -73,8 +78,9 @@ def extract_statistic_data(report_html, report_date, date_filename):
     # get the last and second to last column (being tested and negative) and sum the values.
     # the difference for today: (last and second to last columns summed up)
     # Not every document has that table and some documents dont have that table with 5 rows.
-    
+
     pass
+
 
 async def get_single_report(base_url, i, report_link, session, total_links_amount):
     print(f"({datetime.now()} - getting report {i+1} of {total_links_amount}: {report_link}")
@@ -86,62 +92,82 @@ async def get_single_report(base_url, i, report_link, session, total_links_amoun
 
         report_date = re.search(r'Date\d{4}-\d{2}-\d{2}', report_text)
         date_filename = str(i) if not report_date else f"{report_date.group()[4:]}_{i}"
-        save_report_to_file(REPORT_DIR, date_filename, report_text)
-        save_report_to_file(os.path.join(REPORT_DIR, "html"), f"{date_filename}.html", report_html)
+        save_report_to_file(os.path.join(REPORT_DIR, 'text'), date_filename, report_text)
+        # save_report_to_file(os.path.join(REPORT_DIR, "html"), f"{date_filename}.html", report_html)
         extract_statistic_data(report_html, report_date, date_filename)
 
+def save_test_data_to_csv(data_row: BS, report_date):
+    TESTED_NOW_COL_INDEX = 2
+    TESTED_NEGATIVE_COL_INDEX = 3
+    cols = data_row.find_all('td')
+    raw_value = lambda val: val.get_text().replace(',','').replace('.','')
+    # tested_now = int(cols[len(cols)-TESTED_NOW_COL_INDEX].get_text().replace(',', '').replace('.', ''))
+    tested_now = int(raw_value(cols[len(cols)-TESTED_NOW_COL_INDEX]))
+    # tested_negative = int(cols[len(cols)-TESTED_NEGATIVE_COL_INDEX].get_text().replace(',', '').replace('.', ''))
+    tested_negative = int(raw_value(cols[len(cols)-TESTED_NEGATIVE_COL_INDEX]))
+    total_tested = tested_now + tested_negative
+
+    with open(os.path.join(REPORT_DIR, 'csv', f'{report_date}.csv'), 'w', newline='') as csv_file:
+        fieldnames = ['date', 'under_examination', 'negative', 'total_tested']
+        writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerow({'date': report_date, 'under_examination': tested_now,
+                            'negative': tested_negative, 'total_tested': total_tested})
+        print(f"tested now: {tested_now}, negative: {tested_negative}")
+
+
 async def main2():
+
     tables = 0
     pages_scanned = 0
-    as_of_cols = 0
+    # as_of_cols = 0
     unexpected_tables = 0
 
     scan_dir = os.path.join(REPORT_DIR, "html")
     # not bad. 160 pages had the table out of 176 pages.
-    # 
+    #
     filenames = os.listdir(scan_dir)
     filenames.sort()
 
     for report in filenames:
-
+        report_date = report.replace('.html', '')
         pages_scanned += 1
 
+        report_soup = None
         with open(os.path.join(scan_dir, report), 'r') as report_file:
             report_soup = BS(report_file.read(), features='lxml')
+        
+        # find out how many pages have the first table
+        table = report_soup.find('table')
+        if table is not None:
+            tables += 1
 
-            # find out how many pages have the first table
-            table = report_soup.find('table')
-            if table is not None:
-                tables += 1
-            
-                # find how many of those tables have the "As of X" row
-                rows = table.find_all('tr')
-                current_test_row = None
-                if len(rows) == 3:
-                    current_test_row = rows[2]
-                elif len(rows) == 5:
-                    current_test_row = rows[3]
-                else:
-                    print(f"found a table with unexpected number of rows in {report}")
-                    unexpected_tables += 1
-                    continue
+            # find how many of those tables have the "As of X" row
+            rows = table.find_all('tr')
+            current_test_row = None
+            if len(rows) == 3:
+                current_test_row = rows[2]
+            elif len(rows) == 5:
+                current_test_row = rows[3]
+            else:
+                print(f"found a table with unexpected number of rows in {report}")
+                unexpected_tables += 1
+                continue
 
-                cols = current_test_row.find_all('td')
-                tested_now = int(cols[len(cols)-2].get_text().replace(',','').replace('.',''))
-                tested_negative = int(cols[len(cols)-1].get_text().replace(',','').replace('.',''))
-                print(f"tested now: {tested_now}, negative: {tested_negative}")
-                for row in table.find_all('tr'):
-                    first_col = row.find('td')
-                    if first_col is not None:
-                        first_col_text = first_col.get_text()
-                        if "as of" in first_col_text.lower():
-                            as_of_cols += 1
+            save_test_data_to_csv(current_test_row, report_date)
 
-    
+                # for row in table.find_all('tr'):
+                #     first_col = row.find('td')
+                #     if first_col is not None:
+                #         first_col_text = first_col.get_text()
+                #         if "as of" in first_col_text.lower():
+                #             as_of_cols += 1
+
     print(f"scanned {pages_scanned} pages and found {tables} first tables.")
-    print(f'out of those {tables} tables, {unexpected_tables} unexpected tables were found that were not parsed.')
-    print(f'found {as_of_cols} "as of" solumn in {tables} tables')
-    
+    print(
+        f'out of those {tables} tables, {unexpected_tables} unexpected tables were found that were not parsed.')
+    # print(f'found {as_of_cols} "as of" columns in {tables} tables')
+
 
 async def main():
     print(f"Getting all the reports, starting now. ({datetime.now()})")
@@ -155,11 +181,13 @@ async def main():
         coros = []
         for i, link in enumerate(all_report_links):
             coros.append(get_single_report(BASE_URL, i, link, session, total_links_amount))
+            # await get_single_report(BASE_URL, i, link, session, total_links_amount)
         await asyncio.gather(*coros)
 
         end_time = timeit.default_timer()
-        print(f"finished downloading {total_links_amount} reports which took {end_time - start_time} sec")
+        print(
+            f"finished downloading {total_links_amount} reports which took {end_time - start_time} sec")
 
 
 if __name__ == '__main__':
-    asyncio.run(main2())
+    asyncio.run(main())
