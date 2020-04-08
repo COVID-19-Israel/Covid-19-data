@@ -1,30 +1,36 @@
 import json
 from datetime import datetime, timezone
-
+import os
 from telethon import TelegramClient
 from telethon.tl.functions.messages import GetHistoryRequest
+import time
+import logging
 
 with open("personal_data/personal_data.txt", mode="r") as file:
+
     personal_data = file.readlines()
-    api_id = int(personal_data[0])
-    api_hash = personal_data[1]
+    api_id = int(personal_data[0].replace('\n', ''))
+    api_hash = personal_data[1].replace('\n', '')
     phone_number = personal_data[2]
     client = TelegramClient(session='mysession', api_id=api_id, api_hash=api_hash)
 
 
 async def main(channel_name):
     await client.start(phone=lambda: [phone_number])
-    print("Client Created")
+    logging.info("Client Created")
 
     channel_url = f'https://t.me/{channel_name}'
-    print(f'Channel URL: {channel_url}')
+    logging.info(f'Channel URL: {channel_url}')
     channel = await client.get_entity(channel_url)
 
     offset_id = 0
     all_messages = []
     total_count_limit = 10000
+    # TODO: think about limit by time ( 2 days?)
+    downloaded_messages = {}
+    in_time_range = True
 
-    while True:
+    while in_time_range:
         history = await client(GetHistoryRequest(
             peer=channel,
             offset_id=offset_id,
@@ -39,20 +45,39 @@ async def main(channel_name):
             break
 
         for message in history.messages:
-            if message.file is not None and message.file.name and message.file.name.startswith('מכלול_אשפוז_דיווח') and message.file.size <= 10000000:
-                filename = await client.download_media(message=message, file='../pdf_files')
+            if (message.file is not None
+                    and message.file.name
+                    and message.file.size <= 10000000
+                    and (
+                            message.file.name.startswith('מכלול_אשפוז_דיווח')
+                        or message.file.ext == ".pdf"
+                    )
+            ):
+
+                if message.file.name not in os.listdir('../telegram_files'):
+
+                    filename = await client.download_media(message=message, file='../telegram_files')
+                    logging.info(f"Downloading {filename}")
+                else:
+                    filename = message.file.name
+                downloaded_messages[message.file.name] = message.date.strftime("%Y-%m-%d")
             else:
                 filename = None
 
             message_dict = message.to_dict()
             if filename is not None:
+                # TODO: add date to file_name
                 message_dict['attached_file'] = filename
 
             all_messages.append(message_dict)
+            if all_messages[-1]["date"] < datetime(2019, 12, 1, 0, 0, 0, tzinfo=timezone.utc):
+                in_time_range = False
+                logging.info("Reached 01-12-2019, Stops loading old messages.")
+                break
 
         offset_id = all_messages[-1]['id']
-        print(f'Date: {all_messages[-1]["date"]}')
-        print(f'Total messages: {len(all_messages)}/{total_count_limit}')
+        logging.info(f'Date: {all_messages[-1]["date"]}')
+        logging.info(f'Total messages: {len(all_messages)}/{total_count_limit}')
 
         if len(all_messages) >= total_count_limit:
             break
@@ -68,15 +93,19 @@ async def main(channel_name):
 
             return json.JSONEncoder.default(self, o)
 
-    with open(f'../data/{channel_name}.json', 'w') as outfile:
+    with open(f'data/{channel_name}.json', 'w') as outfile:
         json.dump(all_messages, outfile, cls=DateTimeEncoder)
+
+    with open(f'data/{channel_name}_DOWNLOADED.json', 'w') as outfile:
+        json.dump(downloaded_messages, outfile, cls=DateTimeEncoder)
 
 
 channels = [
     'MOHreport'
 ]
-
+start_time = time.perf_counter()
 for channel_name in channels:
     with client:
         client.loop.run_until_complete(main(channel_name))
-
+end_time = time.perf_counter()
+logging.info(f"Telegram Bot finished in {round(end_time - start_time)} seconds")
