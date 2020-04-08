@@ -36,6 +36,7 @@ jobs:
         pip install tabula-py
         pip install python-pptx
         pip install pandas
+        pip install translate
         python parse_telegram_files.py
       shell: bash
       working-directory: ./Other_data/israeli_health_ministry_telegram_data/parser/
