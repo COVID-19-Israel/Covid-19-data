@@ -4,6 +4,7 @@ import os
 from telethon import TelegramClient
 from telethon.tl.functions.messages import GetHistoryRequest
 import time
+import logging
 
 with open("personal_data/personal_data.txt", mode="r") as file:
 
@@ -16,10 +17,10 @@ with open("personal_data/personal_data.txt", mode="r") as file:
 
 async def main(channel_name):
     await client.start(phone=lambda: [phone_number])
-    print("Client Created")
+    logging.info("Client Created")
 
     channel_url = f'https://t.me/{channel_name}'
-    print(f'Channel URL: {channel_url}')
+    logging.info(f'Channel URL: {channel_url}')
     channel = await client.get_entity(channel_url)
 
     offset_id = 0
@@ -54,7 +55,9 @@ async def main(channel_name):
             ):
 
                 if message.file.name not in os.listdir('../telegram_files'):
+
                     filename = await client.download_media(message=message, file='../telegram_files')
+                    logging.info(f"Downloading {filename}")
                 else:
                     filename = message.file.name
                 downloaded_messages[message.file.name] = message.date.strftime("%Y-%m-%d")
@@ -67,13 +70,14 @@ async def main(channel_name):
                 message_dict['attached_file'] = filename
 
             all_messages.append(message_dict)
-            if all_messages[-1]["date"] < datetime(2019,12,1,0,0,0, tzinfo=timezone.utc):
+            if all_messages[-1]["date"] < datetime(2019, 12, 1, 0, 0, 0, tzinfo=timezone.utc):
                 in_time_range = False
+                logging.info("Reached 01-12-2019, Stops loading old messages.")
                 break
 
         offset_id = all_messages[-1]['id']
-        print(f'Date: {all_messages[-1]["date"]}')
-        print(f'Total messages: {len(all_messages)}/{total_count_limit}')
+        logging.info(f'Date: {all_messages[-1]["date"]}')
+        logging.info(f'Total messages: {len(all_messages)}/{total_count_limit}')
 
         if len(all_messages) >= total_count_limit:
             break
@@ -104,4 +108,4 @@ for channel_name in channels:
     with client:
         client.loop.run_until_complete(main(channel_name))
 end_time = time.perf_counter()
-print(f"finished in {round(end_time - start_time)} seconds")
+logging.info(f"Telegram Bot finished in {round(end_time - start_time)} seconds")
