@@ -4,6 +4,7 @@ import logging
 
 
 DICTIONARY_CACHE_PATH = 'dictionary_cache.json'
+CHARS_IN_NUMBERS = [',', '%', '$']
 
 
 class ParserTranslator:
@@ -57,13 +58,20 @@ class ParserTranslator:
 
 	@staticmethod
 	def _is_float(word):
-		temp_word = word.replace(',', '')
+		temp_word = word.replace(',', '').replace('%', '')
 		try:
 			float_word = float(temp_word)
 		except ValueError:
 			return False
 
 		return True
+
+	@staticmethod
+	def _clean_numbers(number):
+		cleaned_number = number
+		for char in CHARS_IN_NUMBERS:
+			cleaned_number = cleaned_number.replace(char,'')
+		return cleaned_number
 
 	def translate_word(self, word):
 		if not ParserTranslator._is_float(word) and not ParserTranslator._is_int(word):

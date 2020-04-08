@@ -244,10 +244,12 @@ class DailyUpdatePptxParser(PptxParser):
             # checks if there is a title on right of the value
             if table[row_index][col_index-1] and not table[row_index][col_index-1].replace(',','').isdigit():
                 return table[row_index][col_index-1]
-            raise ValueError(f'You have in the cell: {row_index},{col_index} a number without a title'
+            raise ValueError(f'You have in the cell: {row_index},{col_index} a number with'
+                             f'the value: {table[row_index][col_index]} without a title'
                              f'(titles are supposed to be on top or on the right of the number)')
         except IndexError:
-            raise ValueError(f'You have in the cell: {row_index},{col_index} a number without a title'
+            raise ValueError(f'You have in the cell: {row_index},{col_index} a number with'
+                             f'the value: {table[row_index][col_index]} without a title'
                              f'(titles are supposed to be on top or on the right of the number)')
 
 
