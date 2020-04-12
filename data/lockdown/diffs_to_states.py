@@ -19,7 +19,7 @@ ALL_PROVINCES = 'all'
 START_DATE = '01/01/2019'
 DATE_FORMAT = '%d/%m/%Y'
 
-CONGREGARTION_THRESHOLD = 100
+CONGREGARTION_LOCKDOWN_THRESHOLD = 100
 
 # adds 01/01/2019 rows for each existing province and country
 ADD_INITIAL_STATE = True
@@ -35,11 +35,15 @@ COUNTRY_INDEX = 0
 PROVINCE_INDEX = 1
 CHANGE_DATE_INDEX = 2
 CHANGED_FIELD_INDEX = 3
+PREV_FIELD_INDEX = 4
 NEW_VALUE_INDEX = 5
 
 STRINGENT_COUNTRY = 1
 EASYGOING_COUNTRY = -1
 IDENTICAL_DIRECTIVES = 0
+
+VALID_TF_INPUTS = ['TRUE', 'FALSE']
+VALID_LEVELS_INPUTS = ['0', '1', '2', 'NONE']
 
 # true / false fields
 TF_FIELDS = [
@@ -167,7 +171,7 @@ def calc_lockdown_level(state_row):
 	elif (state_row['educational_institutions'] != 0
 		or state_row['religious_institutions'] != 0
 		or (state_row['congregation_restriction']
-			and state_row['congregation_restriction'] <= CONGREGARTION_THRESHOLD)
+			and state_row['congregation_restriction'] <= CONGREGARTION_LOCKDOWN_THRESHOLD)
 
 		or state_row['prohibition_entering_country']):
 		lockdown_level = 2
@@ -240,36 +244,6 @@ def add_country_row(old_state_row, new_diff_row):
 		timedelta(seconds=old_state_row['start_date'].second + 1))
 
 	return apply_diff(new_state_row, new_diff_row)
-
-
-# def inherit_stringent_rules(province_row, country_row):
-# 	'''
-# 	@purpose: combines a province row and a country row,
-# 		to get the more stringent values.
-# 	'''
-
-# 	temp_province_row = dict(province_row)
-
-# 	for country, province in zip(country_row.items(), temp_province_row.items()):
-# 		cfield, cvalue = country
-# 		pfield, pvalue = province
-
-# 		if cfield != pfield:
-# 			raise ValueError('Unmatching field names: "{0}" & "{1}'.format(cfield, pfield))
-
-# 		if cfield in TF_FIELDS:
-# 			if cvalue or pvalue:
-# 				temp_province_row[cfield] = True
-# 			else:
-# 				temp_province_row[cfield] = False
-
-# 		elif cfield in LEVELS_FIELDS or cfield in MIN_NORMAL_FIELDS:
-# 			temp_province_row[cfield] = max(cvalue, pvalue)
-
-# 		elif cfield in MAX_NORMAL_FIELDS:
-# 			temp_province_row[cfield] = min(cvalue, pvalue)
-
-# 	return temp_province_row
 
 
 def compare_directive_severity(country_row, old_province_row, diff_row):
@@ -455,6 +429,55 @@ def add_missing_areas(diff_row):
 				provinces_in_countries[country_name] = [province_name]
 
 
+def validate_diff_row(diff_row):
+	field_name = diff_row[CHANGED_FIELD_INDEX]
+	prev_value = diff_row[PREV_FIELD_INDEX]
+	new_value = diff_row[NEW_VALUE_INDEX]
+
+	if (field_name not in TF_FIELDS and
+		field_name not in MAX_NORMAL_FIELDS and
+		field_name not in MIN_NORMAL_FIELDS and
+		field_name not in LEVELS_FIELDS):
+		print(f'Error: Unknown "changed_field": {field_name}\nIn diff row: {diff_row}')
+
+	if prev_value == new_value:
+		print(f'Warning: Same value {prev_value} entered\nIn diff row: {diff_row}')
+
+	if field_name in TF_FIELDS:
+		if prev_value not in VALID_TF_INPUTS:
+			print(f'Warning: "changed_from" value: {prev_value}\nIn diff row: {diff_row}')
+		if new_value not in VALID_TF_INPUTS:
+			raise ValueError(f'Error: "changed_to" value: {new_value}\nIn diff row: {diff_row}')
+
+	elif field_name in LEVELS_FIELDS:
+		if prev_value not in VALID_LEVELS_INPUTS:
+			print(f'Warning: "changed_from" value: {prev_value}\nIn diff row: {diff_row}')
+		if new_value not in VALID_LEVELS_INPUTS:
+			raise ValueError(f'Error: "changed_to" value: {new_value}\nIn diff row: {diff_row}')
+
+	elif field_name in MAX_NORMAL_FIELDS or field_name in MIN_NORMAL_FIELDS:
+		if prev_value != 'NONE':
+			try:
+				int(prev_value)
+			except ValueError:
+				try:
+					float(prev_value)	
+				except ValueError:
+					raise ValueError(f'Warning: "changed_from" value: {prev_value}\nIn diff row: {diff_row}')
+
+		if new_value != 'NONE':
+			try:
+				int(new_value)
+			except ValueError:
+				try:
+					float(new_value)	
+				except ValueError:
+					raise ValueError(f'Error: "changed_to" value: {new_value}\nIn diff row: {diff_row}')
+	
+	else:
+		print(f'Error: Unknown "changed_field": {field_name}\nIn diff row: {diff_row}')
+
+
 def process_diff_row(diff_row):
 	'''
 	@purpose: main function for converting a row in the diff table to a row in states table.
@@ -538,6 +561,7 @@ def diffs_to_states(diff_tables_dir_path, explored_areas_path):
 			add_missing_areas(diff_row)
 
 		for diff_row in sorted_diff_rows:
+			validate_diff_row(diff_row)
 			process_diff_row(diff_row)
 
 
