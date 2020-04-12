@@ -9,11 +9,6 @@ jobs:
     name: Download Products and Script From Git
     runs-on: windows-latest
     steps:
-
-    - name: TEST JAVA
-      run: |
-        java -version
-        
     - name: Clone git
       env:
         GIT_URL: "https://github.com/COVID-19-Israel/Covid-19-data.git"
@@ -34,7 +29,7 @@ jobs:
         mkdir -p $OUTPUT_DIR
         mkdir -p $BACKUP_DIR
       shell: bash
-      working-directory: ./Covid-19-data/Lockdown
+      working-directory: ./Covid-19-data/data/lockdown
     - name: Run the script
       env:
         PYTHON_SCRIPT: "diffs_to_states.py"
@@ -46,11 +41,11 @@ jobs:
         cp $OUTPUT_DIR/$OUTPUT_FILE $BACKUP_DIR
         python $PYTHON_SCRIPT -i . -c $PROVINCES_FILE -o $OUTPUT_DIR/$OUTPUT_FILE
       shell: bash
-      working-directory: ./Covid-19-data/Lockdown
+      working-directory: ./Covid-19-data/data/lockdown
     # This section updates the master to be with the new lockdown dir
     - name: Add the lockdown dir with the changes
       env:
-        LOCKDOWN_DIR: Lockdown
+        LOCKDOWN_DIR: ./data/lockdown
       run: |
         git config --global user.email "ozvvizer@users.noreply.github.com"
         git config --global user.name "OzW1234"
