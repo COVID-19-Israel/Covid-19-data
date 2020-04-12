@@ -58,3 +58,12 @@ United States of America,all,16/03/2020,risk_groups_isolation,FALSE,TRUE
 United States of America,all,16/03/2020,congregation_restriction,None,10
 United States of America,all,16/03/2020,limit_retirement_homes_visits,FALSE,TRUE
 United States of America,all,3/4/2020,encouragement_using_masks,FALSE,TRUE
+United States of America,Louisiana,23/3/2020,unnecessary_business ,1,2
+United States of America,Louisiana,23/3/2020,distance_saving_instructions,None,2
+United States of America,Louisiana,13/3/2020,educational_institutions,0,2
+United States of America,Louisiana,17/3/2020,unnecessary_business ,0,1
+United States of America,Louisiana,17/3/2020,congregation_restriction,None,50
+United States of America,Louisiana,23/3/2020,religious_institutions ,0,1
+United States of America,Louisiana,13/3/2020,limit_hospital_visits,FALSE,TRUE
+United States of America,Louisiana,23/3/2020,limit_retirement_homes_visits,FALSE,TRUE
+United States of America,Louisiana,9/4/2020,police_army_enforcement,FALSE,TRUE
