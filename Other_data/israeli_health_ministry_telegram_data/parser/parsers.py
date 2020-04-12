@@ -10,6 +10,7 @@ import json
 from parser_translator import ParserTranslator
 from logger import create_log
 import logging
+from datetime import date
 
 FIELD_SEP = '@@@'
 CSV_SUFFIX = '.csv'
@@ -18,11 +19,14 @@ SPECIFIC_TABLE_PREFIX = '_table_no_'
 OUTPUT_DIR = '..\\csv_files\\'
 CITIES_OUTPUT_DIR = OUTPUT_DIR + 'cities\\'
 DAILY_UPDATE_OUTPUT_DIR = OUTPUT_DIR + 'daily_update\\'
+DENMARK_OUTPUT_DIR = OUTPUT_DIR + 'denmark_data\\'
 
 DAILY_UPDATE_TEMPLATE_PATH = 'templates\\daily_update_template.json'
+DENMARK_FILES_TEMPLATE_PATH = 'templates\\denmark_files_template.json'
 
 CITIES_COLUMNS = {'ישוב', 'אוכלוסיה נכון ל 2018-', 'מספר חולים'}
 DAILY_UPDATE_FILE_PREFIX = 'מכלול_אשפוז_דיווח'
+DENMARK_FILE_PREFIX = 'covid19-overvaagningsrapport-'
 
 DOWNLOADED_FILES_DICT_PATH = r"..\query_script\data\MOHreport_DOWNLOADED.json"
 
@@ -37,7 +41,7 @@ class FileParser:
     PPTX_SUFFIX = 'pptx'
     PDF_SUFFIX = 'pdf'
 
-    def __init__(self, path):
+    def __init__(self, path, file_date=date.today().strftime('%Y-%m-%d')):
         """
         Saves 3 parameters about a the file:
         path- The file path
@@ -48,6 +52,7 @@ class FileParser:
         self.path = path
         self._data = list()
         self._output_dir = str()
+        self._date = file_date
 
     def run(self):
         """
@@ -99,7 +104,7 @@ class FileParser:
                                     SPECIFIC_TABLE_PREFIX,
                                     str(table_index),
                                     '_',
-                                    self._get_file_date(),
+                                    self._date,
                                     CSV_SUFFIX])
 
         with open(output_file_name, mode='w+'):
@@ -135,8 +140,11 @@ class FileParser:
         filename = os.path.basename(self.path)
         with open(DOWNLOADED_FILES_DICT_PATH, "r") as f:
             downloaded_files_dict = json.load(f)
-        return downloaded_files_dict[filename]
+        try:
+            self._date = downloaded_files_dict[filename]
 
+        except Exception:
+            logging.error(f'Failed to find date of the file: {filename}')
 
 class PptxParser(FileParser):
     """
@@ -269,6 +277,7 @@ class PdfParser(FileParser):
 
         self._parse_cities(pdf_tables)
         self._parse_daily_update()
+        self._parse_denmark_data()
 
     def _parse_cities(self, pdf_tables):
         """
@@ -296,6 +305,14 @@ class PdfParser(FileParser):
             self._data = parser.parse_file()
             logging.info("Finished Daily Update PDF parse.")
             self._output_dir = DAILY_UPDATE_OUTPUT_DIR
+
+    def _parse_denmark_data(self):
+        if DENMARK_FILE_PREFIX in self.path:
+            logging.info('Detected Denmark Update PDF structure.')
+            parser = DenmarkPdfParser(self.path, self._date)
+            self._data = parser.parse_file()
+            logging.info('Finished Denmark Update PDF parse.')
+            self._output_dir = DENMARK_OUTPUT_DIR
 
 
 class CitiesPdfParser(PdfParser):
@@ -360,6 +377,7 @@ class DailyUpdatePdfParser(PdfParser):
         fixed_pdf_tables.append(pd.concat([pdf_tables[2], pdf_table0, pdf_tables[1]], axis=1))
         fixed_pdf_tables.append(pd.concat([pdf_tables[5], pdf_table3, pdf_tables[4]], axis=1))
 
+        # translates the dataframe
         translator = ParserTranslator(to_lang='en', from_lang='he')
         for pdf_table in fixed_pdf_tables:
             temp_df = pd.DataFrame(data=[pdf_table.columns.tolist()] + pdf_table.values.tolist())
@@ -377,10 +395,76 @@ class DailyUpdatePdfParser(PdfParser):
     @staticmethod
     def _fix_treatment_table(treatment_table):
         fixed_treatment_table = pd.DataFrame(columns=["number", "state"],
-                                             data=treatment_table.values.tolist() + [treatment_table.columns.tolist()])
+                                             data=treatment_table.values.tolist() +
+                                                  [treatment_table.columns.tolist()])
 
         fixed_treatment_table = fixed_treatment_table.transpose().values.tolist()
 
         return pd.DataFrame(
             columns=fixed_treatment_table[1],
             data=[fixed_treatment_table[0]])
+
+class DenmarkPdfParser(PdfParser):
+    """
+    This class represents a file that contains data about denmark.
+    """
+    def __init__(self, path, file_date):
+        super().__init__(path, file_date)
+
+    @staticmethod
+    def _concat_empty_lines(concated_table):
+        """
+        This function concats empty lines that made because of line-break in
+        the table to the line before (or after, in case of empty line in the index 0)
+        :param concated_table - the table that need to be concated
+        :return: the concated table
+        """
+        row_index = 1
+        for i in range(1,len(concated_table)):
+            try:
+                if None in concated_table[row_index] or (None in concated_table[0] and 1 == row_index):
+                    full_fields = zip(concated_table[row_index - 1], concated_table[row_index])
+                    for col_index, full_field in enumerate(full_fields):
+                        concated_table[row_index-1][col_index] = (' '.join([str(full_field[0]),
+                                                                          str(full_field[1])])
+                                                                .replace('None ', '')).replace(' None', '')
+                    concated_table.remove(concated_table[row_index])
+                else:
+                    row_index += 1
+            except Exception:
+                print(f"i: {i}, row_index: {row_index}, table: {concated_table}")
+        return concated_table
+
+    @staticmethod
+    def _translate_table(translated_table):
+        """
+        This function translates a table from danish to english (only the top line and the bottom line
+        :param translated_table - the table that need to be translated
+        :return: the translated table
+        """
+        translator = ParserTranslator(to_lang='en', from_lang='da')
+        for row_index in range(0, -2, -1):
+            for col_index in range(len(translated_table[0])):
+                translated_table[row_index][col_index] = translator.translate_word(
+                        str(translated_table[row_index][col_index]))
+        return translated_table
+
+    def parse_file(self):
+        pdf_tables = tabula.read_pdf_with_template(
+            input_path=self.path,
+            template_path=DENMARK_FILES_TEMPLATE_PATH,
+            pandas_options=dict(header=None)
+        )
+        parsed_tables = list()
+
+        for pdf_table in pdf_tables:
+            concated_table = list()
+            pdf_table = pdf_table.where(pd.notnull(pdf_table), None)
+            table_headers = [header if 'Unnamed' not in str(header) else None for header in pdf_table.keys()]
+            if list(range(len(table_headers))) != table_headers:
+                concated_table.append(table_headers)
+            [concated_table.append(row) for row in pdf_table.values.tolist()]
+            parsed_table = DenmarkPdfParser._concat_empty_lines(concated_table)
+            parsed_table = DenmarkPdfParser._translate_table(parsed_table)
+            parsed_tables.append(parsed_table)
+        return parsed_tables
