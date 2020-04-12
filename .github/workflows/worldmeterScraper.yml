@@ -41,7 +41,7 @@ jobs:
       # This section updates the master to be with the new lockdown dir
     - name: Add the scraper dir with the changes
       env:
-        DIR_TO_ADD: /data/other/worldmeterScraper/csv
+        DIR_TO_ADD: data/other/worldmeterScraper/csv/
       run: |
         git config --global user.email "eyaldvir@users.noreply.github.com"
         git config --global user.name "Pass7632"
