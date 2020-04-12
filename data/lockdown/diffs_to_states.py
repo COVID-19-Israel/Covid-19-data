@@ -3,7 +3,6 @@ from datetime import datetime, timedelta
 import csv
 import os
 import math
-from pprint import pprint
 
 PROGRAM_DESCRIPTION = 'converts diff tables to a united states table.'
 INPUT_HELP = 'path of csv diff tables dir (input)'
@@ -434,12 +433,6 @@ def validate_diff_row(diff_row):
 	prev_value = diff_row[PREV_FIELD_INDEX]
 	new_value = diff_row[NEW_VALUE_INDEX]
 
-	if (field_name not in TF_FIELDS and
-		field_name not in MAX_NORMAL_FIELDS and
-		field_name not in MIN_NORMAL_FIELDS and
-		field_name not in LEVELS_FIELDS):
-		print(f'Error: Unknown "changed_field": {field_name}\nIn diff row: {diff_row}')
-
 	if prev_value == new_value:
 		print(f'Warning: Same value {prev_value} entered\nIn diff row: {diff_row}')
 
@@ -596,10 +589,9 @@ def remove_duplicates(list_of_dicts):
 			next_state['start_date'].year
 		)
 
-		if (curr_state['country'] == next_state['country']
-			and curr_state['province'] == next_state['province']
-			and curr_date == next_date):
-
+		if (curr_state['country'] == next_state['country'] and
+			curr_state['province'] == next_state['province'] and
+			curr_date == next_date):
 			list_of_dicts.remove(next_state)
 		else:
 			temp_index += 1
