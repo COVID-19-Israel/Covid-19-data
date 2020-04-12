@@ -37,6 +37,10 @@ CHANGE_DATE_INDEX = 2
 CHANGED_FIELD_INDEX = 3
 NEW_VALUE_INDEX = 5
 
+STRINGENT_COUNTRY = 1
+EASYGOING_COUNTRY = -1
+IDENTICAL_DIRECTIVES = 0
+
 # true / false fields
 TF_FIELDS = [
 	'exposure_to_patient_isolation',
@@ -238,37 +242,87 @@ def add_country_row(old_state_row, new_diff_row):
 	return apply_diff(new_state_row, new_diff_row)
 
 
-def inherit_stringent_rules(province_row, country_row):
+# def inherit_stringent_rules(province_row, country_row):
+# 	'''
+# 	@purpose: combines a province row and a country row,
+# 		to get the more stringent values.
+# 	'''
+
+# 	temp_province_row = dict(province_row)
+
+# 	for country, province in zip(country_row.items(), temp_province_row.items()):
+# 		cfield, cvalue = country
+# 		pfield, pvalue = province
+
+# 		if cfield != pfield:
+# 			raise ValueError('Unmatching field names: "{0}" & "{1}'.format(cfield, pfield))
+
+# 		if cfield in TF_FIELDS:
+# 			if cvalue or pvalue:
+# 				temp_province_row[cfield] = True
+# 			else:
+# 				temp_province_row[cfield] = False
+
+# 		elif cfield in LEVELS_FIELDS or cfield in MIN_NORMAL_FIELDS:
+# 			temp_province_row[cfield] = max(cvalue, pvalue)
+
+# 		elif cfield in MAX_NORMAL_FIELDS:
+# 			temp_province_row[cfield] = min(cvalue, pvalue)
+
+# 	return temp_province_row
+
+
+def compare_directive_severity(country_row, old_province_row, diff_row):
 	'''
-	@purpose: combines a province row and a country row,
-		to get the more stringent values.
+	@returns: 1 if country row is more stringent
+			 -1 if country row is more easy-going
+			  0 if directives are identical
 	'''
 
-	temp_province_row = dict(province_row)
+	field_name = diff_row[CHANGED_FIELD_INDEX]
+	country_value = country_row[field_name]
+	old_province_value = old_province_row[field_name]
 
-	for country, province in zip(country_row.items(), temp_province_row.items()):
-		cfield, cvalue = country
-		pfield, pvalue = province
+	if old_province_value == None:
+		return STRINGENT_COUNTRY
+	if country_value == None:
+		return EASYGOING_COUNTRY
 
-		if cfield != pfield:
-			raise ValueError('Unmatching field names: "{0}" & "{1}'.format(cfield, pfield))
+	if field_name in TF_FIELDS or field_name in LEVELS_FIELDS or field_name in MIN_NORMAL_FIELDS:
+		if country_value > old_province_value:
+			return STRINGENT_COUNTRY
+		elif country_value < old_province_value:
+			return EASYGOING_COUNTRY
+		else:
+			return IDENTICAL_DIRECTIVES
 
-		if cfield in TF_FIELDS:
-			if cvalue or pvalue:
-				temp_province_row[cfield] = True
-			else:
-				temp_province_row[cfield] = False
-
-		elif cfield in LEVELS_FIELDS or cfield in MIN_NORMAL_FIELDS:
-			temp_province_row[cfield] = max(cvalue, pvalue)
-
-		elif cfield in MAX_NORMAL_FIELDS:
-			temp_province_row[cfield] = min(cvalue, pvalue)
-
-	return temp_province_row
+	elif field_name in MAX_NORMAL_FIELDS:
+		if country_value > old_province_value:
+			return EASYGOING_COUNTRY
+		elif country_value < old_province_value:
+			return STRINGENT_COUNTRY
+		else:
+			return IDENTICAL_DIRECTIVES
 
 
-def add_province_from_country(country_name, country_row, diff_row):
+def is_country_directive_stringent(country_row, old_country_row, diff_row):
+	field_name = diff_row[CHANGED_FIELD_INDEX]
+	old_country_value = old_country_row[field_name]
+	country_value = country_row[field_name]
+
+	if old_country_value == None:
+		return True
+	if country_value == None:
+		return False
+
+	if field_name in TF_FIELDS or field_name in LEVELS_FIELDS or field_name in MIN_NORMAL_FIELDS:
+		return country_value > old_country_value
+	
+	elif field_name in MAX_NORMAL_FIELDS:
+		return country_value < old_country_value
+
+
+def add_province_from_country(country_name, country_row, old_country_row, diff_row):
 	'''
 	@purpose: creates a new province row in the states table,
 		given a country row in the diff table.
@@ -276,14 +330,18 @@ def add_province_from_country(country_name, country_row, diff_row):
 		a new province row is created, and it inherits those values.
 	'''
 
-	for prov_name in provinces_in_countries[country_name]:
-		old_province_row = find_old_province(country_name, prov_name)
+	for province_name in provinces_in_countries[country_name]:
+		old_province_row = find_old_province(country_name, province_name)
 		if not old_province_row:
 			raise ValueError('Earlier state for the province: "{0}" in country: "{1}" was not found.'
-				.format(prov_name, country_name))
+				.format(province_name, country_name))
 
-		if old_province_row != inherit_stringent_rules(old_province_row, country_row):
-			add_province_row(country_row, old_province_row, diff_row)
+		if is_country_directive_stringent(country_row, old_country_row, diff_row):
+			if STRINGENT_COUNTRY == compare_directive_severity(country_row, old_province_row, diff_row):
+				add_province_row(country_row, old_province_row, diff_row)
+		else:
+			if EASYGOING_COUNTRY == compare_directive_severity(country_row, old_province_row, diff_row):
+				add_province_row(country_row, old_province_row, diff_row)
 
 
 def add_province_row(old_country_row, old_province_row, new_diff_row):
@@ -296,18 +354,16 @@ def add_province_row(old_country_row, old_province_row, new_diff_row):
 		then, it applies the change from the diff table province row
 	'''
 
-	temp_province_row = old_province_row.copy()
+	new_province_row = old_province_row.copy()
 
 	# takes the seconds value from both previous country state, and previous province state
 	# it finds the max and 1 to it, to keep the new seconds value always higher than previous values.
-	temp_province_row['start_date'] = (new_diff_row[CHANGE_DATE_INDEX] +
+	new_province_row['start_date'] = (new_diff_row[CHANGE_DATE_INDEX] +
 		timedelta(seconds=max(
 			old_province_row['start_date'].second,
 			old_country_row['start_date'].second
 		) + 1)
 	)
-
-	new_province_row = inherit_stringent_rules(temp_province_row, old_country_row)
 
 	apply_diff(new_province_row, new_diff_row)
 
@@ -349,9 +405,9 @@ def set_province_priority(state_row):
 	'''
 
 	if ALL_PROVINCES == state_row[PROVINCE_INDEX]:
-		return state_row[PROVINCE_INDEX].upper()
+		return state_row[PROVINCE_INDEX].lower()
 
-	return state_row[PROVINCE_INDEX].lower()
+	return state_row[PROVINCE_INDEX].upper()
 
 
 def get_diff_paths(diff_tables_dir_path):
@@ -425,7 +481,7 @@ def process_diff_row(diff_row):
 		country_row = add_country_row(old_country_row, diff_row)
 
 		if country_name in provinces_in_countries:
-			add_province_from_country(country_name, country_row, diff_row)
+			add_province_from_country(country_name, country_row, old_country_row, diff_row)
 	
 	else:   # province directive
 		old_province_row = find_old_province(country_name, province_name)
