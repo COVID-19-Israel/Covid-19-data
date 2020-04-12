@@ -13,9 +13,7 @@ import logger
 
 OUTPUT_DIR = r"../telegram_files"
 
-# TODO: OZ
 with open("personal_data/personal_data.txt", mode="r") as file:
-
     personal_data = file.readlines()
     api_id = int(personal_data[0].replace("\n", ""))
     api_hash = personal_data[1].replace("\n", "")
@@ -120,12 +118,16 @@ async def main(channel_name):
         json.dump(downloaded_messages, outfile, cls=DateTimeEncoder)
 
 
-channels = ["MOHreport"]
+def main_runner():
+    channels = ["MOHreport"]
+    logger.create_log()
+    start_time = time.perf_counter()
+    for channel_name in channels:
+        with client:
+            client.loop.run_until_complete(main(channel_name))
+    end_time = time.perf_counter()
+    logging.info(f"Telegram Bot finished in {round(end_time - start_time)} seconds")
 
-logger.create_log()
-start_time = time.perf_counter()
-for channel_name in channels:
-    with client:
-        client.loop.run_until_complete(main(channel_name))
-end_time = time.perf_counter()
-logging.info(f"Telegram Bot finished in {round(end_time - start_time)} seconds")
+
+if __name__ == '__main__':
+    main_runner()
