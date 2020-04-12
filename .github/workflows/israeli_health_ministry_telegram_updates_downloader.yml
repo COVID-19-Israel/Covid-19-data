@@ -25,24 +25,19 @@ jobs:
         pip install telethon
         python download_telegram_messages.py
       shell: bash
-      working-directory: ./Other_data/israeli_health_ministry_telegram_data/query_script/
+      working-directory: ./src/parsers_check_structure/israeli_health_ministry_telegram/query_script
     - name: Run files parser to csv
-      env:
-        CITIES_FILES_OUTPUT_DIR: ../csv_files/cities
-        DAILY_UPDATE_OUTPUT_DIR: ../csv-files/daily_update
       run: |
-        mkdir -p $CITIES_FILES_OUTPUT_DIR
-        mkdir -p $DAILY_UPDATE_OUTPUT_DIR
         pip install tabula-py
         pip install python-pptx
         pip install pandas
         pip install translate
         python parse_telegram_files.py
       shell: bash
-      working-directory: ./Other_data/israeli_health_ministry_telegram_data/parser/
+      working-directory: ./src/parsers_check_structure/israeli_health_ministry_telegram
     - name: Add the israeli health ministry telegram data with the changes
       env:
-        TELEGRAM_DATA_DIR: ./Other_data/israeli_health_ministry_telegram_data
+        TELEGRAM_DATA_DIR: ./data/other/israeli_health_ministry_telegram_data
       run: |
         git init
         git add $TELEGRAM_DATA_DIR
