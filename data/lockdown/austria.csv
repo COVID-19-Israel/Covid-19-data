@@ -11,3 +11,6 @@ Austria,all,16/03/2020,fines_and_incarceration,FALSE,TRUE
 Austria,all,18/03/2020,educational_institutions,1,2
 Austria,all,19/03/2020,enter_area_isolation,FALSE,TRUE
 Austria,Tirol,19/03/2020,prohibition_entering_country,FALSE,TRUE
+Austria,all,06/04/2020,encouragement_using_masks,FALSE,TRUE
+Austria,all,14/04/2020,unnecessary_business,2,1
+Austria,Tirol,07/04/2020,prohibition_entering_country,TRUE,FALSE
