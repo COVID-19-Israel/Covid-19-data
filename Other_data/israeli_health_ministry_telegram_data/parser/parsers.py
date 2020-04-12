@@ -14,7 +14,7 @@ import logging
 FIELD_SEP = '@@@'
 CSV_SUFFIX = '.csv'
 SPECIFIC_TABLE_PREFIX = '_table_no_'
-
+# TODO:
 OUTPUT_DIR = '..\\csv_files\\'
 CITIES_OUTPUT_DIR = OUTPUT_DIR + 'cities\\'
 DAILY_UPDATE_OUTPUT_DIR = OUTPUT_DIR + 'daily_update\\'
@@ -23,8 +23,10 @@ DAILY_UPDATE_TEMPLATE_PATH = 'templates\\daily_update_template.json'
 
 CITIES_COLUMNS = {'ישוב', 'אוכלוסיה נכון ל 2018-', 'מספר חולים'}
 DAILY_UPDATE_FILE_PREFIX = 'מכלול_אשפוז_דיווח'
-
+# TODO:
 DOWNLOADED_FILES_DICT_PATH = r"..\query_script\data\MOHreport_DOWNLOADED.json"
+# TODO: ?
+FILES_BLACKLIST_PATH = 'files_blacklist.txt'
 
 DAILY_UPDATE_TABLE_TOP_BUFFER = 2
 DAILY_UPDATE_TABLE_BOTTOM_BUFFER = 0
@@ -59,12 +61,20 @@ class FileParser:
         file_suffix = file_name[-1]
         file_name = ''.join(file_name[:-1])
 
-        exists_csv_files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(OUTPUT_DIR)
+        with open(FILES_BLACKLIST_PATH, mode='r') as file:
+            blacklist_files = file.read().split(',')
+
+        exists_csv_files = [f for dp, dn, filenames in os.walk(OUTPUT_DIR)
                             for f in filenames]
 
         # Skips on the file, if there is an output file for it already
-        if [file_name for csv_file in exists_csv_files if file_name in csv_file]:
-            logging.warning(f"file: {os.path.basename(file_name)} has already been parsed")
+        if [file_name for csv_file in exists_csv_files if
+            csv_file.startswith(file_name+SPECIFIC_TABLE_PREFIX)]:
+            logging.warning(f"file: {file_name} has already been parsed")
+            return
+
+        if os.path.basename(self.path) in blacklist_files:
+            logging.warning(f'{os.path.basename(self.path)} is in the files\' blacklist')
             return
 
         # Matches correct parser by file type.
@@ -98,8 +108,6 @@ class FileParser:
                                     file_name,
                                     SPECIFIC_TABLE_PREFIX,
                                     str(table_index),
-                                    '_',
-                                    self._get_file_date(),
                                     CSV_SUFFIX])
 
         with open(output_file_name, mode='w+'):
@@ -114,6 +122,11 @@ class FileParser:
         """
         if not self._data or len(self._data) == 0:
             logging.info("Didn't parse any table from this file.")
+            try:
+                with open(FILES_BLACKLIST_PATH, mode='a') as file:
+                    file.write(os.path.basename(self.path) + ',')
+            except Exception:
+                logging.error(f'Failed to add {os.path.basename(self.path)} into blacklist.')
             return
 
         logging.info(f"Got {len(self._data)} tables to export")
@@ -126,16 +139,6 @@ class FileParser:
             output_file_name = self._create_output_file_path(table_index)
             table_df.to_csv(output_file_name, index=False, encoding='utf-8')
             logging.info(f"Exported: {output_file_name} .")
-
-    def _get_file_date(self):
-        """
-        Matches the file's date by a cached json dict.
-        :return: the date in YYYY-MM-DD format.
-        """
-        filename = os.path.basename(self.path)
-        with open(DOWNLOADED_FILES_DICT_PATH, "r") as f:
-            downloaded_files_dict = json.load(f)
-        return downloaded_files_dict[filename]
 
 
 class PptxParser(FileParser):
@@ -197,7 +200,7 @@ class PptxParser(FileParser):
         :return: None
         """
         parsed_tables = tables
-        if os.path.basename(self.path).startswith(DAILY_UPDATE_FILE_PREFIX):
+        if DAILY_UPDATE_FILE_PREFIX in os.path.basename(self.path):
             logging.info("Detected Daily Update PPTX structure.")
             parsed_tables = DailyUpdatePptxParser.parse_file(tables)
             self._output_dir = DAILY_UPDATE_OUTPUT_DIR
@@ -290,7 +293,7 @@ class PdfParser(FileParser):
         This function Checks if the pdf file is a file contains COVID-19 daily update.
         :return: None
         """
-        if os.path.basename(self.path).startswith(DAILY_UPDATE_FILE_PREFIX):
+        if DAILY_UPDATE_FILE_PREFIX in os.path.basename(self.path):
             logging.info("Detected Daily Update PDF structure.")
             parser = DailyUpdatePdfParser(self.path)
             self._data = parser.parse_file()

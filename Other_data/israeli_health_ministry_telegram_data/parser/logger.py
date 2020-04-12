@@ -3,15 +3,15 @@ import os
 from datetime import datetime
 
 
-def create_log():
+def create_log(logging_level=logging.INFO):
     logger = logging.getLogger()
-    logger.setLevel(logging.DEBUG)
+    logger.setLevel(logging_level)
 
     formatter = logging.Formatter('[%(asctime)s] %(levelname)s: %(message)s',
                                   datefmt='%Y-%m-%d %I:%M:%S')
 
     console_handler = logging.StreamHandler()
-    console_handler.setLevel(logging.DEBUG)
+    console_handler.setLevel(logging_level)
     console_handler.setFormatter(formatter)
 
     logger.addHandler(console_handler)

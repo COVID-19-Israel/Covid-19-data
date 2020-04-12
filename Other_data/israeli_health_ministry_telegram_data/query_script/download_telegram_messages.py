@@ -6,6 +6,12 @@ from telethon.tl.functions.messages import GetHistoryRequest
 import time
 import logging
 
+import sys
+# TODO:
+sys.path.append('../parser')
+
+import logger
+
 with open("personal_data/personal_data.txt", mode="r") as file:
 
     personal_data = file.readlines()
@@ -26,7 +32,6 @@ async def main(channel_name):
     offset_id = 0
     all_messages = []
     total_count_limit = 10000
-    # TODO: think about limit by time ( 2 days?)
     downloaded_messages = {}
     in_time_range = True
 
@@ -53,20 +58,23 @@ async def main(channel_name):
                         or message.file.ext == ".pdf"
                     )
             ):
-
-                if message.file.name not in os.listdir('../telegram_files'):
-
-                    filename = await client.download_media(message=message, file='../telegram_files')
+# TODO:
+                if message.date.strftime("%Y-%m-%d") + '_' + message.file.name not in os.listdir('../telegram_files'):
+# TODO:
+                    filename = await client.download_media(message=message, file='../telegram_files/'
+                                                                                 + message.date.strftime("%Y-%m-%d")
+                                                                                 + '_'
+                                                                                 + message.file.name)
                     logging.info(f"Downloading {filename}")
                 else:
                     filename = message.file.name
+
                 downloaded_messages[message.file.name] = message.date.strftime("%Y-%m-%d")
             else:
                 filename = None
 
             message_dict = message.to_dict()
             if filename is not None:
-                # TODO: add date to file_name
                 message_dict['attached_file'] = filename
 
             all_messages.append(message_dict)
@@ -103,9 +111,12 @@ async def main(channel_name):
 channels = [
     'MOHreport'
 ]
+
+logger.create_log()
 start_time = time.perf_counter()
 for channel_name in channels:
     with client:
         client.loop.run_until_complete(main(channel_name))
 end_time = time.perf_counter()
 logging.info(f"Telegram Bot finished in {round(end_time - start_time)} seconds")
+
