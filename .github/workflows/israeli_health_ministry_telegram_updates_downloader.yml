@@ -25,7 +25,7 @@ jobs:
         pip install telethon
         python download_telegram_messages.py
       shell: bash
-      working-directory: ./src/parsers_check_structure/israeli_health_ministry_telegram/query_script
+      working-directory: ./src/israeli_health_ministry_telegram/query_script
     - name: Run files parser to csv
       run: |
         pip install tabula-py
@@ -34,7 +34,7 @@ jobs:
         pip install translate
         python parse_telegram_files.py
       shell: bash
-      working-directory: ./src/parsers_check_structure/israeli_health_ministry_telegram
+      working-directory: ./src/israeli_health_ministry_telegram
     - name: Add the israeli health ministry telegram data with the changes
       env:
         TELEGRAM_DATA_DIR: ./data/other/israeli_health_ministry_telegram_data
