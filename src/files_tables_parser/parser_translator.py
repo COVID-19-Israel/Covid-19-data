@@ -1,9 +1,10 @@
+import os
 import json
 from translate import Translator
 import logging
 
 
-DICTIONARY_CACHE_PATH = "dictionary_cache.json"
+DICTIONARY_CACHE_PATH = os.path.join(os.path.dirname(__file__),"dictionary_cache.json")
 CHARS_IN_NUMBERS = [",", "%", "$", "-"]
 
 
