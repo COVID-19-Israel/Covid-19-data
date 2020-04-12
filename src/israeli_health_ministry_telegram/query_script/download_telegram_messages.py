@@ -11,7 +11,7 @@ import sys
 sys.path.append("../../files_tables_parser")
 import logger
 
-OUTPUT_DIR = r"../../../data/other/israeli_health_ministry_telegram_data/telegram_files"
+OUTPUT_DIR = r"../telegram_files"
 
 # TODO: OZ
 with open("personal_data/personal_data.txt", mode="r") as file:

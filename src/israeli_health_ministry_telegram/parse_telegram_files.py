@@ -10,9 +10,9 @@ import parsers as p
 
 # TODO:
 
-FILES_DIR = r"../../data/other/israeli_health_ministry_telegram_data/telegram_files"
+FILES_DIR = r"./telegram_files"
 
-OUTPUT_DIR = r"../../data/other/israeli_health_ministry_telegram_data/israeli_telegram_csv_files"
+OUTPUT_DIR = r"../../data/other/israeli_health_ministry_telegram_data/csv"
 
 
 def main():
