@@ -1,3 +1,6 @@
 [submodule "Other_data/israeli_health_ministry_telegram_data/query_script/personal_data"]
 	path = Other_data/israeli_health_ministry_telegram_data/query_script/personal_data
 	url = https://github.com/OzW1234/personal_data
+[submodule "src/israeli_health_ministry_telegram/query_script/personal_data"]
+	path = src/israeli_health_ministry_telegram/query_script/personal_data
+	url = https://github.com/OzW1234/personal_data
