@@ -1,0 +1,13 @@
+country,state/province,change_date,changed_field,changed_from,changed_to
+Austria,all,10/03/2020,congregation_restriction,None,500
+Austria,all,10/03/2020,educational_institutions,0,1
+Austria,all,11/03/2020,unnecessary_business,0,1
+Austria,all,12/03/2020,limit_hospital_visits,FALSE,TRUE
+Austria,all,15/03/2020,congregation_restriction,500,5
+Austria,all,16/03/2020,distance_saving_instructions,None,1
+Austria,all,16/03/2020,unnecessary_business,1,2
+Austria,all,16/03/2020,police_army_enforcement,FALSE,TRUE
+Austria,all,16/03/2020,fines_and_incarceration,FALSE,TRUE
+Austria,all,18/03/2020,educational_institutions,1,2
+Austria,all,19/03/2020,enter_area_isolation,FALSE,TRUE
+Austria,Tirol,19/03/2020,prohibition_entering_country,FALSE,TRUE

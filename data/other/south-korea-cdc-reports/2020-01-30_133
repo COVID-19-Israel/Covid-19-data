@@ -1,0 +1,133 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Two more confirmed cases of 2019 novel coronavirus in Republic of Korea
+
+Date2020-01-30 21:08
+Update2020-01-31 10:28
+DivisionDivision of Risk assessment and International Cooperation 
+Tel043-719-7553
+1,743
+
+
+Two more confirmed cases of 2019 novel coronavirus in Republic of Korea
+ 
+○ The Korea Centers for Disease Control and Prevention(KCDC) has confirmed two more cases of 2019 novel coronavirus(2019-nCoV) on 30 January 2020, bringing the total six confirmed cases. 
+ 
+○ The fifth case is a 32-year old Korean male, who had visited Wuhan and returned to Korea on 24 January 2020. He had a cough with no fever, so that he has been under active monitoring. He tested positive and isolated in a national designated hospital on 30 January 2020. 
+ 
+○ The sixth case is a 56-year old Korean male, who is the contact of third confirmed case and has been under active monitoring. He tested positive and isolated in a national designated isolation hospital on 30 January 2020. Contact tracing and epidemiological investigation is underway. 
+ 
+
+
+Files
+
+
+
+
+
+Press_Release_(Jan.30)_2.pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

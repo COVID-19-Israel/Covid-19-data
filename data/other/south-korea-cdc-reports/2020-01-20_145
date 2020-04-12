@@ -1,0 +1,145 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The first imported case of the novel coronavirus (2019-nCoV) in Korea
+
+Date2020-01-20 15:59
+Update2020-01-22 10:37
+DivisionDivision of Risk Assessment & International Cooperation
+Tel043-719-7552
+4,062
+
+
+The Republic of Korea has confirmed the first imported case of 2019 novel coronavirus (2019-nCoV) from Wuhan, Hubei Province, China on 20 January 2020.
+ 
+The case is a Chinese woman in her 30’s residing in Wuhan, China. She developed fever and headache on 18 January 2020. She visited a local hospital in Wuhan and was diagnosed with cold. From our initial investigation, she denied visiting the traditional markets including Huanan Seafood Wholesale Market, nor contacting 2019-nCoV confirmed cases or any live animals in Wuhan.
+ 
+The case was detected by a thermal scanner during entry screening conducted by at the Incheon International Airport with fever. The in-depth epidemiological investigation and contact tracing are underway. The case was transferred to a national designated isolation hospital for test and treatment.
+ 
+Samples have been tested positive with pan-coronavirus conventional RT PCR and gene sequencing 
+ 
+Korean government has scaled up alert level from Blue (Level 1) to Yellow (Level 2 out of 4-level national crisis management system). The Korean health authority has strengthened surveillance for pneumonia cases in health facilities nationwide since 3 January 2020. Quarantine and screening measures have been enhanced for travelers from Wuhan at the point of entries since 3 January 2020. Public risk communication has been enhanced.
+ 
+
+
+
+
+Public should keep practice preventing infection including hand washing, cough etiquette, and wearing mask if you have respiratory symptoms. Let health provider know your travel history. If you develop any respiratory symptoms within 14 days after returning to Korea, call the KCDC Call Center at 1339.
+
+
+
+ 
+
+
+
+Files
+
+
+
+
+
+Press_Release_(1.20).pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

@@ -43,6 +43,21 @@ start_date | Date where the lockdown step was taken.
 lockdown_level | An integer indicating the severity of the social distancing. See Lockdown_directory for more details.
 Lockdown parameters | Social distancing steps and a true/false indicator if it was taken or not. 
 
+## Repository Structure
+
+The repository contains source code of different scrapers and scripts that produce output in different formats (e.g. csv, pdf, text, etc.). All the code is under ```src/<scraper-name>/``` and the data of each scraper is under ```data/other/<scraper-name>```, grouped into folders for each data type (csv, pdf, etc).
+
+Data type to folder mapping:
+Data type | Folder
+------------ | --------------
+.csv | csv
+.pdf | pdf
+.txt, .text, other plainttext documents | text
+.ppt, .pptx, other slides formats | powerpoint
+.html | html
+
+If your script adds other data types, please update this table to preserve consistency!
+
 ## Data Sources
 
 Tabular data:

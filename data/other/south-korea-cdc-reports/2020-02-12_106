@@ -1,0 +1,183 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The updates on COVID-19 in Korea as of 12 February
+
+Date2020-02-12 15:24
+Update2020-02-12 15:25
+DivisionDivision of Risk Assessment and International Cooperation
+Tel043-719-7556
+2,083
+
+
+                                        The updates on COVID-19 in Korea as of 12 February 
+ 
+○ As of 12 February, 2020, there have been 28 confirmed cases, 4,054 cases turned out to be negative, and 992 cases currently being tested. The contacts of the confirmed cases are 1,782 in total.
+
+
+
+
+
+Period
+(since 3 January)
+
+Total
+
+Confirmed cases
+
+Suspected cases
+
+
+
+Sub-total
+
+isolated
+
+discharged
+
+Sub-total
+
+being tested
+
+tested negative
+
+
+
+As of 9:00, 12 Feb.
+
+5,074
+
+28
+
+24
+
+4
+
+5,046
+
+992
+
+4,054
+
+
+
+ 
+○ In addition, three confirmed cases(#3, #8, and #17) were tested negative twice in a row and will be discharged later today. Seven of the confirmed cases have been discharged so far.
+ 
+○ COVID-19 extracted from patient specimen will be sent to relevant ministries and research institutes for virus culture and incubation. This will accelerate development of diagnostics, therapeutics, and vaccines.
+ 
+○ KCDC advised the public to get tested only if they have symptoms and epidemiological link. Testing for COVID-19 should be determined by clinician’s opinion. Furthermore, asking for a certificate to prove a negative test result for school or work should be discouraged. 
+
+
+
+Files
+
+
+
+
+
+Press Release (Feb.12)_afternoon.pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+
