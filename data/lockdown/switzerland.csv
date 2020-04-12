@@ -1,13 +1,13 @@
 country,state/province,change_date,changed_field,changed_from,changed_to
-Switzerland,all,28/02/2020,congregation_restriction,None,1000
+Switzerland,all,28/02/2020,congregation_restriction,NONE,1000
 Switzerland,all,02/03/2020,appearance_of_symptoms_isolation,FALSE,TRUE
 Switzerland,all,13/03/2020,congregation_restriction,1000,100
-Switzerland,VD,13/03/2020,congregation_restriction,None,50
+Switzerland,VD,13/03/2020,congregation_restriction,NONE,50
 Switzerland,all,13/03/2020,public_transport_restriction,0,1
 Switzerland,all,14/03/2020,educational_institutions,0,2
 Switzerland,all,16/03/2020,unnecessary_business,0,2
-Switzerland,GE,16/03/2020,congregation_restriction,None,5
-Switzerland,all,16/03/2020,distance_saving_instructions,None,2
+Switzerland,GE,16/03/2020,congregation_restriction,NONE,5
+Switzerland,all,16/03/2020,distance_saving_instructions,NONE,2
 Switzerland,all,20/03/2020,congregation_restriction,100,5
 Switzerland,all,21/03/2020,police_army_enforcement,FALSE,TRUE
 Switzerland,all,21/03/2020,fines_and_incarceration,FALSE,TRUE
