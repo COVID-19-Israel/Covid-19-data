@@ -26,3 +26,6 @@ Spain,all,15-03-20,fines_and_incarceration,FALSE,TRUE
 Spain,all,16-03-20,prohibition_entering_country,FALSE,TRUE
 Spain,all,28-03-20,unnecessary_business,1,2
 Spain,all,13-04-20,unnecessary_business,2,1
+Spain,all,17-03-20,encouragement_using_masks,FALSE,TRUE
+Spain,all,17-03-20,encouragement_using_hand_sanitizers,FALSE,TRUE
+Spain,all,24-03-20,wide_temperature_tests,FALSE,TRUE
