@@ -304,7 +304,7 @@ class PdfParser(FileParser):
         except Exception:
             logging.error(f"failed to read {os.path.basename(self.path)}")
             return
-        pdf_parse_functions = [self._parse_old_cities, self._parse_daily_update, self._parse_cities]
+        pdf_parse_functions = [self._parse_cities, self._parse_daily_update, self._parse_old_cities]
 
         parse_successed = False
         for parse_function in pdf_parse_functions:
@@ -351,8 +351,8 @@ class PdfParser(FileParser):
         )
         if not pdf_tables or 3 > len(pdf_tables[0]):
             return False
-        first_three_lines = [pdf_tables[0].columns.tolist()] + pdf_tables[0][:2].values.tolist()
-        header_words = {val for line in first_three_lines for val in line}
+        first_four_lines = [pdf_tables[0].columns.tolist()] + pdf_tables[0][:5].values.tolist()
+        header_words = {val for line in first_four_lines for val in line}
         if CITIES_HEADER_KEYWORDS.issubset(header_words):
             logging.info("Detected new Cities PDF structure.")
             parser = CitiesPdfParser(self.path)
@@ -371,15 +371,29 @@ class PdfParser(FileParser):
         :return: the concated table
         """
         row_index = 1
+        row_last_index = len(concated_table[0]) -1
         for i in range(1, len(concated_table)):
             try:
                 if None in concated_table[row_index] or (None in concated_table[0] and 1 == row_index):
-                    full_fields = zip(concated_table[row_index - 1], concated_table[row_index])
-                    for col_index, full_field in enumerate(full_fields):
-                        concated_table[row_index - 1][col_index] = (' '.join([str(full_field[0]),
-                                                                              str(full_field[1])])
-                                                                    .replace('None ', '')).replace(' None', '')
-                    concated_table.remove(concated_table[row_index])
+                    if (len(concated_table) > row_index + 2
+                        and concated_table[row_index][row_last_index] is not None and not any(concated_table[row_index][:-1])
+                        and concated_table[row_index + 1][row_last_index] is None and all(concated_table[row_index+1][:-1])
+                        and concated_table[row_index + 2][row_last_index] is not None and not any(concated_table[row_index + 2][:-1])
+
+                    ):
+                        full_fields = zip(concated_table[row_index], concated_table[row_index + 1], concated_table[row_index + 2])
+                        for col_index, full_field in enumerate(full_fields):
+                            concated_table[row_index - 1][col_index] = (' '.join([str(full_field[0]),
+                                                                                  str(full_field[2])])
+                                                                        .replace('None ', '')).replace(' None', '')
+                        concated_table.remove(concated_table[row_index])
+                    else:
+                        full_fields = zip(concated_table[row_index - 1], concated_table[row_index])
+                        for col_index, full_field in enumerate(full_fields):
+                            concated_table[row_index - 1][col_index] = (' '.join([str(full_field[0]),
+                                                                                  str(full_field[1])])
+                                                                        .replace('None ', '')).replace(' None', '')
+                        concated_table.remove(concated_table[row_index])
                 else:
                     row_index += 1
             except Exception:
@@ -460,7 +474,9 @@ class CitiesPdfParser(PdfParser):
                 concated_table.append(table_headers)
             [concated_table.append(row) for row in pdf_table.values.tolist()]
             concated_table = PdfParser._concat_empty_lines(concated_table)
-            for row in PdfParser._translate_table(concated_table):
+
+            #for row in PdfParser._translate_table(concated_table):
+            for row in concated_table:
                 parsed_table.append(row)
 
         return parsed_table
