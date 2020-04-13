@@ -475,8 +475,7 @@ class CitiesPdfParser(PdfParser):
             [concated_table.append(row) for row in pdf_table.values.tolist()]
             concated_table = PdfParser._concat_empty_lines(concated_table)
 
-            #for row in PdfParser._translate_table(concated_table):
-            for row in concated_table:
+            for row in PdfParser._translate_table(concated_table):
                 parsed_table.append(row)
 
         return parsed_table
