@@ -15,15 +15,18 @@ FIELD_SEP = "@@@"
 CSV_SUFFIX = ".csv"
 SPECIFIC_TABLE_PREFIX = "_table_no_"
 
+CURRENT_DIR = os.path.dirname(__file__)
 
-DAILY_UPDATE_TEMPLATE_PATH = "templates\\daily_update_template.json"
+DAILY_UPDATE_TEMPLATE_PATH = os.path.join(CURRENT_DIR, "templates\\daily_update_template.json")
+DENMARK_FILES_TEMPLATE_PATH = os.path.join(CURRENT_DIR, 'templates\\denmark_files_template.json')
 
 OLD_CITIES_COLUMNS = {"ישוב", "אוכלוסיה נכון ל 2018-", "מספר חולים"}
 CITIES_HEADER_KEYWORDS = {"אוכלוסיה", "חולים", "מאומתים", "עיר", "מחלימים"}
 DAILY_UPDATE_FILE_PREFIX = "מכלול_אשפוז_דיווח"
+DENMARK_FILE_PREFIX = 'covid19-overvaagningsrapport-'
 
-DOWNLOADED_FILES_DICT_PATH = r"..\query_script\data\MOHreport_DOWNLOADED.json"
-FILES_BLACKLIST_PATH = os.path.join(os.path.dirname(__file__), r"files_blacklist.txt")
+DOWNLOADED_FILES_DICT_PATH = os.path.join(CURRENT_DIR, r"..\query_script\data\MOHreport_DOWNLOADED.json")
+FILES_BLACKLIST_PATH = os.path.join(CURRENT_DIR, r"files_blacklist.txt")
 
 DAILY_UPDATE_TABLE_TOP_BUFFER = 2
 DAILY_UPDATE_TABLE_BOTTOM_BUFFER = 0
@@ -158,7 +161,7 @@ class PptxParser(FileParser):
     This class represents a pptx file parser.
     """
 
-    DAILY_UPDATE_OUTPUT_DIR = "\\daily_update\\"
+    DAILY_UPDATE_OUTPUT_DIR = "daily_update\\"
 
     def parse_file(self):
         prs = Presentation(self.path)
@@ -218,7 +221,7 @@ class PptxParser(FileParser):
         if DAILY_UPDATE_FILE_PREFIX in os.path.basename(self.path):
             logging.info("Detected Daily Update PPTX structure.")
             parsed_tables = DailyUpdatePptxParser.parse_file(tables)
-            self.output_dir += PptxParser.DAILY_UPDATE_OUTPUT_DIR
+            self.output_dir = os.path.join(self.output_dir, PptxParser.DAILY_UPDATE_OUTPUT_DIR)
             logging.info("Finished Daily Update PPTX parse.")
         return parsed_tables
 
@@ -293,8 +296,9 @@ class PdfParser(FileParser):
     This class represents a parser for every Pdf file.
     """
 
-    CITIES_OUTPUT_DIR = "\\cities\\"
+    CITIES_OUTPUT_DIR = "cities\\"
     DAILY_UPDATE_OUTPUT_DIR = "daily_update\\"
+    DENMARK_OUTPUT_DIR = 'denmark_data\\'
 
     def parse_file(self):
         try:
@@ -304,7 +308,10 @@ class PdfParser(FileParser):
         except Exception:
             logging.error(f"failed to read {os.path.basename(self.path)}")
             return
-        pdf_parse_functions = [self._parse_old_cities, self._parse_daily_update, self._parse_cities]
+        pdf_parse_functions = [self._parse_old_cities,
+                               self._parse_daily_update,
+                               self._parse_cities,
+                               self._parse_denmark_data]
 
         parse_successed = False
         for parse_function in pdf_parse_functions:
@@ -316,7 +323,7 @@ class PdfParser(FileParser):
         """
         table type check: checks if any of the headers match the cities format.
         if yes, parses all.
-        :return: None
+        :return: is function succeeded
         """
         pdf_tables = tabula.read_pdf(
             input_path=self.path, pages="all", stream=True, silent=True
@@ -327,25 +334,29 @@ class PdfParser(FileParser):
                 parser = CitiesOldPdfParser(self.path)
                 logging.info("Finished Cities PDF parse.")
                 self._data.append(parser.parse_file())
-                self.output_dir += PdfParser.CITIES_OUTPUT_DIR
+                self.output_dir = os.path.join(self.output_dir, PdfParser.CITIES_OUTPUT_DIR)
                 return True
         return False
 
     def _parse_daily_update(self):
         """
         This function Checks if the pdf file is a file contains COVID-19 daily update.
-        :return: None
+        :return: is function succeeded
         """
         if DAILY_UPDATE_FILE_PREFIX in os.path.basename(self.path):
             logging.info("Detected Daily Update PDF structure.")
             parser = DailyUpdatePdfParser(self.path)
             self._data = parser.parse_file()
             logging.info("Finished Daily Update PDF parse.")
-            self.output_dir += PdfParser.DAILY_UPDATE_OUTPUT_DIR
+            self.output_dir = os.path.join(self.output_dir, PdfParser.DAILY_UPDATE_OUTPUT_DIR)
             return True
         return False
 
     def _parse_cities(self):
+        """
+        This function checks if the pdf file is a file contains COVID-19 data divided by israeli cities.
+        :return: is function succeeded
+        """
         pdf_tables = tabula.read_pdf(
             input_path=self.path, pages="all", stream=True, silent=True
         )
@@ -358,7 +369,21 @@ class PdfParser(FileParser):
             parser = CitiesPdfParser(self.path)
             logging.info("Finished new Cities PDF parse.")
             self._data.append(parser.parse_file())
-            self.output_dir += PdfParser.CITIES_OUTPUT_DIR
+            self.output_dir = os.path.join(self.output_dir, PdfParser.CITIES_OUTPUT_DIR)
+            return True
+        return False
+
+    def _parse_denmark_data(self):
+        """
+        This function checks if the pdf file is a file contains denmark's COVID-19 daily update data.
+        :return: is function succeeded
+        """
+        if DENMARK_FILE_PREFIX in self.path:
+            logging.info('Detected Denmark Update PDF structure.')
+            parser = DenmarkPdfParser(self.path)
+            self._data = parser.parse_file()
+            logging.info('Finished Denmark Update PDF parse.')
+            self._output_dir = os.path.join(self.output_dir, PdfParser.DENMARK_OUTPUT_DIR)
             return True
         return False
 
@@ -530,3 +555,27 @@ class DailyUpdatePdfParser(PdfParser):
         return pd.DataFrame(
             columns=fixed_treatment_table[1], data=[fixed_treatment_table[0]]
         )
+
+class DenmarkPdfParser(PdfParser):
+    """
+    This class represents a Pdf file that contains the daily update of denmark
+    """
+    def parse_file(self):
+        pdf_tables = tabula.read_pdf_with_template(
+            input_path=self.path,
+            template_path=DENMARK_FILES_TEMPLATE_PATH,
+            pandas_options=dict(header=None)
+        )
+        parsed_tables = list()
+
+        for pdf_table in pdf_tables:
+            concated_table = list()
+            pdf_table = pdf_table.where(pd.notnull(pdf_table), None)
+            table_headers = [header if 'Unnamed' not in str(header) else None for header in pdf_table.keys()]
+            if list(range(len(table_headers))) != table_headers:
+                concated_table.append(table_headers)
+            [concated_table.append(row) for row in pdf_table.values.tolist()]
+            parsed_table = PdfParser._concat_empty_lines(concated_table)
+            parsed_table = PdfParser._translate_table(parsed_table)
+            parsed_tables.append(parsed_table)
+        return parsed_tables
