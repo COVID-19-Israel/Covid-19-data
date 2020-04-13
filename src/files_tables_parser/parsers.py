@@ -571,10 +571,23 @@ class DenmarkPdfParser(PdfParser):
         for pdf_table in pdf_tables:
             concated_table = list()
             pdf_table = pdf_table.where(pd.notnull(pdf_table), None)
-            table_headers = [header if 'Unnamed' not in str(header) else None for header in pdf_table.keys()]
+            table_headers = [header if 'Unnamed' not in str(header) and 'Antal' != str(header)
+                             else None
+                             for header in pdf_table.keys()]
             if list(range(len(table_headers))) != table_headers:
                 concated_table.append(table_headers)
-            [concated_table.append(row) for row in pdf_table.values.tolist()]
+            for row in pdf_table.values.tolist():
+                concated_row = list()
+                for col in row:
+                    # Converts the dot to comma (in danish, they are reversed)
+                    if float == type(col) and 2 < len(str(col).split('.')[1]):
+                        concated_row.append(','.join([str(col).split('.')[0],
+                                                      (str(col).split('.')[1][:3])]))
+                    elif 'Antal' != str(col) and 'None' != str(col):
+                        concated_row.append(str(col).replace('.', ','))
+                    else:
+                        concated_row.append(None)
+                concated_table.append(concated_row)
             parsed_table = PdfParser._concat_empty_lines(concated_table)
             parsed_table = PdfParser._translate_table(parsed_table)
             parsed_tables.append(parsed_table)
