@@ -33,7 +33,7 @@ def scrape(html,outputPath):
             for urlData in subRow.find_all('a', href=True):
                 url = urlData['href']
             countryFile = requests.get(url)
-            fileName = f"./{date}/{countryName}_{regionName}_{date}.pdf"
+            fileName = outputPath + f"/{countryName}_{regionName}_{date}.pdf"
             print(f"{countryName}, {regionName} file created") if fileCreation(fileName, countryFile.content) else sys.exit(
                 f"Could not create {countryName} file")
 
