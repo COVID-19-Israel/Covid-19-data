@@ -1,7 +1,7 @@
 country,state/province,change_date,changed_field,changed_from,changed_to
 Germany,all,17/03/2020,public_transport_restriction,0,1
 Germany,all,16/03/2020,educational_institutions,0,2
-Germany,all,12/03/2020,congregation_restriction,None,1000
+Germany,all,12/03/2020,congregation_restriction,NONE,1000
 Germany,all,12/03/2020,congregation_restriction,1000,2
 Germany,all,15/03/2020,unnecessary_business,0,1
 Germany,all,18/03/2020,police_army_enforcement,FALSE,TRUE
@@ -10,6 +10,6 @@ Germany,all,22/03/2020,unnecessary_business,1,2
 Germany,all,06/03/2020,exposure_to_patient_isolation,FALSE,TRUE
 Germany,all,13/03/2020,enter_area_isolation,FALSE,TRUE
 Germany,all,13/03/2020,appearance_of_symptoms_isolation,FALSE,TRUE
-Germany,all,22/03/2020,distance_saving_instructions,None,1.5
+Germany,all,22/03/2020,distance_saving_instructions,NONE,1.5
 Germany,all,16/03/2020,religious_institutions,0,1
 Germany,all,22/03/2020,religious_institutions,1,2
