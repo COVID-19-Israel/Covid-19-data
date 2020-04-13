@@ -25,7 +25,7 @@ DAILY_UPDATE_FILE_PREFIX = "מכלול_אשפוז_דיווח"
 DOWNLOADED_FILES_DICT_PATH = r"..\query_script\data\MOHreport_DOWNLOADED.json"
 FILES_BLACKLIST_PATH = os.path.join(os.path.dirname(__file__), r"files_blacklist.txt")
 
-DAILY_UPDATE_TABLE_TOP_BUFFER = 2
+DAILY_UPDATE_TABLE_TOP_BUFFER = 1
 DAILY_UPDATE_TABLE_BOTTOM_BUFFER = 0
 
 
