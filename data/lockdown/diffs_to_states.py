@@ -436,7 +436,7 @@ def validate_diff_row(diff_row):
 	'''
 
 	if '' in diff_row:
-		print(f'Warning: Empty field in diff row: {diff_row}')
+		print(f'Warning: Empty field\nIn diff row: {diff_row}')
 
 	field_name = diff_row[CHANGED_FIELD_INDEX]
 	prev_value = diff_row[PREV_FIELD_INDEX]
