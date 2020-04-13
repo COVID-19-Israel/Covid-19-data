@@ -429,6 +429,15 @@ def add_missing_areas(diff_row):
 
 
 def validate_diff_row(diff_row):
+	'''
+	@purpose: validates input of humanly-filled diff tables.
+		currently, only outputs warning for mistakes in the "changed_from"
+		field, because it is not considered in the code.
+	'''
+
+	if '' in diff_row:
+		print(f'Warning: Empty field in diff row: {diff_row}')
+
 	field_name = diff_row[CHANGED_FIELD_INDEX]
 	prev_value = diff_row[PREV_FIELD_INDEX]
 	new_value = diff_row[NEW_VALUE_INDEX]
