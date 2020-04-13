@@ -9,24 +9,24 @@ Canada,Manitoba,13/03/2020,congregation_restriction,None,250
 Canada,Manitoba,13/03/2020,educational_institutions,None,2
 Canada,Nova Scotia,13/03/2020,congregation_restriction,None,150
 Canada,Nova Scotia,13/03/2020,enter_area_isolation,FALSE,TRUE
-Canada,Ontario,13/03/2020,congregation_restriction,None,250
+Canada,Ontario,13/03/2020,congregation_restriction,NONE,250
 Canada,Ontario,14/03/2020,limit_hospital_visits,FALSE,TRUE
 Canada,Ontario,14/03/2020,limit_retirement_homes_visits,FALSE,TRUE
-Canada,Ontario,14/03/2020,educational_institutions,None,2
+Canada,Ontario,14/03/2020,educational_institutions,NONE,2
 Canada,Quebec,14/03/2020,fines_and_incarceration,FALSE,TRUE
-Canada,Quebec,14/03/2020,distance_saving_instructions,None,2
+Canada,Quebec,14/03/2020,distance_saving_instructions,NONE,2
 Canada,Quebec,14/03/2020,risk_groups_isolation,FALSE,TRUE
 Canada,Quebec,14/03/2020,limit_hospital_visits,FALSE,TRUE
 Canada,Quebec,14/03/2020,limit_retirement_homes_visits,FALSE,TRUE
 Canada,Nova Scotia,15/03/2020,limit_retirement_homes_visits,FALSE,TRUE
-Canada,Nova Scotia,15/03/2020,distance_saving_instructions,None,2
-Canada,Nova Scotia,15/03/2020,educational_institutions,None,2
+Canada,Nova Scotia,15/03/2020,distance_saving_instructions,NONE,2
+Canada,Nova Scotia,15/03/2020,educational_institutions,NONE,2
 Canada,all,16/03/2020,prohibition_entering_country,FALSE,TRUE
 Canada,Prince Edward Island,16/03/2020,fines_and_incarceration,FALSE,TRUE
-Canada,Prince Edward Island,16/03/2020,distance_saving_instructions,None,2
-Canada,Prince Edward Island,16/03/2020,unnecessary_business,None,1
+Canada,Prince Edward Island,16/03/2020,distance_saving_instructions,NONE,2
+Canada,Prince Edward Island,16/03/2020,unnecessary_business,NONE,1
 Canada,Prince Edward Island,16/03/2020,enter_area_isolation,FALSE,TRUE
-Canada,Prince Edward Island,16/03/2020,educational_institutions,None,2
+Canada,Prince Edward Island,16/03/2020,educational_institutions,NONE,2
 Canada,Alberta,17/03/2020,congregation_restriction,250,50
 Canada,Alberta,17/03/2020,fines_and_incarceration,FALSE,TRUE
 Canada,Alberta,27/03/2020,congregation_restriction,250,15
@@ -41,9 +41,9 @@ Canada,Newfoundland and Labrador,18/03/2020,enter_area_isolation,FALSE,TRUE
 Canada,Newfoundland and Labrador,18/03/2020,fines_and_incarceration,FALSE,TRUE
 Canada,Northwest Territories,18/03/2020,enter_area_isolation,FALSE,TRUE
 Canada,Northwest Territories,18/03/2020,prohibition_entering_country,FALSE,TRUE
-Canada,Northwest Territories,18/03/2020,congregation_restriction,None,0
-Canada,Northwest Territories,18/03/2020,unnecessary_business,None,2
-Canada,Saskatchewan,18/03/2020,distance_saving_instructions,None,2
+Canada,Northwest Territories,18/03/2020,congregation_restriction,NONE,0
+Canada,Northwest Territories,18/03/2020,unnecessary_business,NONE,2
+Canada,Saskatchewan,18/03/2020,distance_saving_instructions,NONE,2
 Canada,Saskatchewan,18/03/2020,enter_area_isolation,FALSE,TRUE
 Canada,Saskatchewan,18/03/2020,fines_and_incarceration,FALSE,TRUE
 Canada,Saskatchewan,18/03/2020,congregation_restriction,None,50
@@ -60,8 +60,8 @@ Canada,Nova Scotia,22/03/2020,congregation_restriction,50,5
 Canada,Nova Scotia,22/03/2020,unnecessary_business,None,1
 Canada,Nova Scotia,22/03/2020,fines_and_incarceration,FALSE,TRUE
 Canada,Yukon,23/03/2020,enter_area_isolation,FALSE,TRUE
-Canada,Yukon,23/03/2020,congregation_restriction,None,10
-Canada,Yukon,23/03/2020,educational_institutions,None,2
+Canada,Yukon,23/03/2020,congregation_restriction,NONE,10
+Canada,Yukon,23/03/2020,educational_institutions,NONE,2
 Canada,Yukon,23/03/2020,risk_groups_isolation,FALSE,TRUE
 Canada,Ontario,24/03/2020,unnecessary_business,1,2
 Canada,all,25/03/2020,enter_area_isolation,FALSE,TRUE
