@@ -12,7 +12,6 @@ France,all,13/03/2020,congregation_restriction,1000,100
 France,all,16/03/2020,educational_institutions,0,2
 France,all,16/03/2020,fines_and_incarceration,FALSE,TRUE
 France,all,17/03/2020,partial_quarantine,FALSE,TRUE
-France,all,17/03/2020,prohibition_entering_country,FALSE,TRUE
 France,all,17/03/2020,police_army_enforcement,FALSE,TRUE
 France,all,17/03/2020,public_transport_restriction,0,1
 France,all,18/03/2020,unnecessary_business,0,1
