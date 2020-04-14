@@ -1,6 +1,6 @@
 country,state/province,change_date,changed_field,changed_from,changed_to
 South Korea,all,02/02/2020,exposure_to_patient_isolation,FALSE,TRUE
-South Korea,all,16/03/2020,educational_institutions,0,2
+South Korea,all,02/03/2020,educational_institutions,0,2
 South Korea,all,23/03/2020,unnecessary_business,0,1
 South Korea,all,23/03/2020,religious_institutions,0,1
 South Korea,all,25/03/2020,fines_and_incarceration,FALSE,TRUE
