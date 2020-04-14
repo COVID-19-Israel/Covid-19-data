@@ -72,7 +72,7 @@ Canada,all,31/03/2020,encouragement_using_masks,FALSE,TRUE
 Canada,all,31/03/2020,encouragement_using_gloves,FALSE,TRUE
 Canada,all,19/03/2020,encouragement_using_hand_sanitizers,FALSE,TRUE
 Canada,all,25/03/2020,police_army_enforcement,FALSE,TRUE
-Canada,all,06/04/2020,public_transport_restriction ,NONE,1
+Canada,all,06/04/2020,public_transport_restriction,NONE,1
 Canada,British Columbia,21/03/2020,unnecessary_business,NONE,1
 Canada,Alberta,06/04/2020,limit_retirement_homes_visits,FALSE,TRUE
 Canada,Alberta,27/03/2020,distance_saving_instructions,NONE,2
@@ -87,7 +87,7 @@ Canada,Ontario,27/03/2020,enter_area_isolation,FALSE,TRUE
 Canada,Ontario,28/03/2020,fines_and_incarceration,FALSE,TRUE
 Canada,Quebec,13/03/2020,educational_institutions,NONE,2
 Canada,Quebec,15/03/2020,unnecessary_business,NONE,1
-Canada,Quebec,15/03/2020,religious_institutions ,NONE,1
+Canada,Quebec,15/03/2020,religious_institutions,NONE,1
 Canada,Quebec,21/03/2020,congregation_restriction,250,1
 Canada,Quebec,23/03/2020,unnecessary_business,1,2
 Canada,Newfoundland and Labrador,18/03/2020,congregation_restriction,50,10
