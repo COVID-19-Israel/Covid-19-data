@@ -7,7 +7,7 @@ United States of America,New Jersey,16/03/2020,congregation_restriction,250,50
 United States of America,New Jersey,16/03/2020,unnecessary_business,0,1
 United States of America,New Jersey,18/03/2020,educational_institutions,1,2
 United States of America,New Jersey,21/03/2020,partial_quarantine,FALSE,TRUE
-United States of America,New Jersey,21/03/2020,distance_saving_instructions,NONE,2
+United States of America,New Jersey,21/03/2020,distance_saving_instructions,NONE,1.83
 United States of America,New Jersey,21/03/2020,unnecessary_business,1,2
 United States of America,New Jersey,23/03/2020,fines_and_incarceration,FALSE,TRUE
 United States of America,New Jersey,23/03/2020,police_army_enforcement,FALSE,TRUE
@@ -15,11 +15,11 @@ United States of America,New Jersey,01/04/2020,religious_institutions,0,2
 United States of America,New Jersey,07/04/2020,disinfecting_public_spaces,FALSE,TRUE
 United States of America,New Jersey,13/04/2020,encouragement_using_masks,FALSE,TRUE
 United States of America,New Jersey,13/04/2020,public_transport_restriction,0,1
-United States of America,California,11/03/2020,congregation_restriction,NONE,250
-United States of America,California,11/03/2020,distance_saving_instructions,NONE,2
-United States of America,California,16/03/2020,risk_groups_isolation,FALSE,TRUE
+United States of America,California,12/03/2020,congregation_restriction,NONE,250
+United States of America,California,12/03/2020,distance_saving_instructions,NONE,1.83
 United States of America,California,13/03/2020,educational_institutions,0,1
-United States of America,California,17/03/2020,unnecessary_business,0,1
+United States of America,California,15/03/2020,risk_groups_isolation,FALSE,TRUE
+United States of America,California,16/03/2020,unnecessary_business,0,1
 United States of America,California,19/03/2020,partial_quarantine,FALSE,TRUE
 United States of America,California,19/03/2020,limit_hospital_visits,FALSE,TRUE
 United States of America,California,19/03/2020,unnecessary_business,1,2
