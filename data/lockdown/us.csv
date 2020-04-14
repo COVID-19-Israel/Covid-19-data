@@ -63,6 +63,7 @@ United States of America,all,16/03/2020,exposure_to_patient_isolation,FALSE,TRUE
 United States of America,all,16/03/2020,risk_groups_isolation,FALSE,TRUE
 United States of America,all,16/03/2020,congregation_restriction,NONE,10
 United States of America,all,16/03/2020,limit_retirement_homes_visits,FALSE,TRUE
+United States of America,all,16/03/2020,educational_institutions,0,1
 United States of America,all,03/04/2020,encouragement_using_masks,FALSE,TRUE
 United States of America,Louisiana,23/03/2020,unnecessary_business ,1,2
 United States of America,Louisiana,23/03/2020,distance_saving_instructions,None,2
