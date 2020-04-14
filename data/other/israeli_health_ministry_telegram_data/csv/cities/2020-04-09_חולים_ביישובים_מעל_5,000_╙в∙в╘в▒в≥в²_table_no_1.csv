@@ -1,0 +1,161 @@
+City,Population as of 2018,Verified patients
+Jerusalem,"914,559","1,630"
+Tel Aviv - Yafo,"450,192",415
+Haifa,"272,584",118
+Petah Tikva,"242,478",190
+Rishon Lezion,"241,010",180
+Ashdod,"225,073",160
+Netanya,"213,971",149
+Be'er Sheva,"196,755",127
+Bnei Brak,"195,298","1,594"
+Holon,"185,741",128
+Ramat Gan,"143,370",126
+Ashkelon,"139,032",216
+Rehovot,"137,178",80
+Bat Yam,"130,523",114
+Beit Shemesh,"120,812",169
+Kfar Saba,"97,412",63
+Hadera,"94,104",25
+Herzliya,"90,900",85
+Maccabim,"87,108",112
+Nazareth,"78,252",9
+Ramla,"75,246",48
+Lod,"75,038",52
+Ra'anana,"73,979",83
+Modi'in Illit,"73,808",174
+Rahat,"64,649",7
+Beitar Illit,"59,240",103
+Hod HaSharon,"59,171",33
+Nahariya,"58,750",27
+Kiryat Ata,"57,108",17
+Eilat,"56,568",14
+Kiryat Gat,"55,400",32
+Umm el-Fahm,"55,324",22
+Givatayim,"55,123",29
+Rosh Ha'ayin,"53,965",30
+Afula,"50,886",54
+Acre,"50,872",16
+El'ad,"46,760",215
+Carmiel,"46,596",26
+Ness Ziona,"45,714",15
+Yavne,"45,555",28
+Ramat HaSharon,"44,896",34
+Tiberias,"44,353",119
+Nof Ha'Galil,"43,811",24
+Tayibe,"43,144",9
+Kiryat Motzkin,"42,870",7
+Shefa-'Amr,"40,666",2
+Pardes Hanna-Karkur,"40,622",7
+Kiryat Yam,"39,556",21
+Kiryat Bialik,"39,262",11
+Ma'ale Adumim,"37,469",33
+Kiryat Ono,"37,112",46
+Netivot,"36,511",31
+Zefat,"35,671",48
+Dimona,"35,377",25
+Or Yehuda,"34,843",102
+Tamra,"33,792",15
+Sakhnin,"32,089",6
+Ofakim,"30,185",28
+Yehud,"29,104",63
+Baqa al-Gharbiya,"29,035",13
+Arad,"26,763",12
+Tiraa,"26,184",3
+Migdal HaEmek,"26,058",92
+Sderot,"25,891",27
+Arraba,"25,876",1
+Gedera,"24,633",21
+Giv'at Shmuel,"24,538",31
+Be'er Ya'akov,"24,216",17
+Kiryat Malakhi,"23,691",42
+Kafr Qasim,"23,517",4
+Mevaseret Zion,"23,093",13
+Clanswa,"22,740",1
+Yokneam,"22,711",13
+Kafr Kanna,"22,449",2
+Gan Yavne,"22,410",23
+Maghar,"22,364",7
+Zikhron Ya'akov,"22,341",26
+Ma'alot-Tarshiha,"22,261",10
+Tirat Carmel,"22,243",14
+Kiryat Shmona,"22,152",10
+Nesher,"22,032",5
+Kfar Yona,"21,301",14
+Kadima Zoran,"20,831",13
+Jadeida-acquaintance,"20,524",2
+Shoham,"20,041",35
+Tel as-Sabi,"19,850",1
+Yafa an-Naseriyye,"19,056",3
+Ganei Tikva,"18,930",25
+Or Akiva,"18,893",5
+Kafr Qara,"18,820",2
+Giv'at Ze'ev,"18,510",17
+Ariel,"18,251",5
+Ar'arat an-Naqab,"17,465",1
+Kuseife,"16,957",7
+Masudin al-Azazma,"16,644",1
+Kiryat Tiv'on,"15,831",2
+Mazkeret Batya,"14,949",10
+Ma'ale Iron,"14,861",4
+Jasser a-Zarqa,"14,732",25
+Iksal,"14,655",6
+Binyamina-Givat Ada,"14,383",2
+Ein Mahil,"13,388",3
+Even Yehuda,"13,263",24
+Nahaf,"13,167",1
+Tel Mond,"12,593",13
+Dyer al-Assad,"12,435",1
+Isfiya,"12,141",1
+Jatt,"11,910",13
+Rechasim,"11,841",28
+Azur,"11,819",26
+Majdal Shams,"11,089",1
+Efrat,"10,676",64
+Kiryat Ekron,"10,600",7
+Kafr Yasif,"10,577",2
+Deir Hanna,"10,567",8
+Basmaa,"10,532",2
+Daburiyya,"10,414",16
+Yeruham,"10,126",1
+Jaljulia,"10,011",3
+Buayne-Nujidat,"9,974",2
+Bir al-Maksur,"9,866",5
+Hatzor HaGlilit,"9,722",2
+Kokhav Ya'ir,"9,143",8
+Meiter,"9,043",3
+Oranit,"8,822",2
+Harish,"8,737",4
+Kokhav Ya'akov,"8,602",42
+Abu Rubeya (tribe),"8,446",1
+Bi'ina,"8,355",1
+Omer,"8,016",10
+Karnei Shomron,"7,906",6
+Tzur Hadassah,"7,856",4
+Basmat Tab'un,"7,833",2
+Abu Ghosh,"7,792",1
+Alfei Menashe,"7,771",5
+Atlit,"7,442",2
+Katzrin,"7,373",13
+Kiryat Arba,"7,364",11
+Ramat Yishai,"7,236",2
+Zemer,"6,926",1
+Bnei Aish,"6,837",4
+Kfar Habad,"6,724",43
+Tuba-Zangaria,"6,648",1
+Buq'ata,"6,586",2
+Beit Dagan,"6,533",4
+Shlomi,"6,478",5
+ShibliUmm al-Ghanam,"6,367",10
+Hurfeish,"6,288",1
+Lehavim,"6,178",6
+Jules,"6,147",2
+Pardesiya,"6,027",1
+Tzur Itzhak,"5,954",4
+Beit El,"5,767",3
+Kiryat Ye'arim,"5,713",38
+Eilabun,"5,677",3
+Kfar Vradim,"5,599",2
+Sha'arei Tikva,"5,584",1
+Geva Binyamin,"5,299",5
+Caesarea Maritima,"5,272",1
+Bat Hefer,"5,124",1

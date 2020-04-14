@@ -1,6 +1,6 @@
 country,state/province,change_date,changed_field,changed_from,changed_to
 Israel,all,21/02/2020,exposure_to_patient_isolation,FALSE,TRUE
-Israel,all,04/03/2020,congregation_restriction,None,5000
+Israel,all,04/03/2020,congregation_restriction,NONE,5000
 Israel,all,09/03/2020,enter_area_isolation,FALSE,TRUE
 Israel,all,09/03/2020,prohibition_entering_country,FALSE,TRUE
 Israel,all,10/03/2020,congregation_restriction,5000,2000
