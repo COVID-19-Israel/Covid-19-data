@@ -32,16 +32,18 @@ jobs:
       working-directory: ./Covid-19-data/data/lockdown
     - name: Run the script
       env:
+        SCRIPT_DIR: "src/lockdownStatesParser"
         PYTHON_SCRIPT: "diffs_to_states.py"
-        OUTPUT_DIR: "output"
-        BACKUP_DIR: "backup"
+        OUTPUT_DIR: "data/lockdown/output"
+        BACKUP_DIR: "data/lockdown/backup"
         OUTPUT_FILE: "all_states.csv"
+        INPUT_DIR: "data/lockdown"
         PROVINCES_FILE: "utils/explored_areas.csv"
       run: |
         cp $OUTPUT_DIR/$OUTPUT_FILE $BACKUP_DIR
-        python $PYTHON_SCRIPT -i . -c $PROVINCES_FILE -o $OUTPUT_DIR/$OUTPUT_FILE
+        python $SCRIPT_DIR/$PYTHON_SCRIPT -i $INPUT_DIR -c $INPUT_DIR/$PROVINCES_FILE -o $OUTPUT_DIR/$OUTPUT_FILE
       shell: bash
-      working-directory: ./Covid-19-data/data/lockdown
+      working-directory: ./Covid-19-data/
     # This section updates the master to be with the new lockdown dir
     - name: Add the lockdown dir with the changes
       env:
