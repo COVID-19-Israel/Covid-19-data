@@ -567,7 +567,7 @@ def diffs_to_states(diff_tables_dir_path, explored_areas_path):
 
 def skip_empty_rows(diff_rows):
 	skipped_diff_rows = []
-	for diff_row in diff_row:
+	for diff_row in diff_rows:
 		if '' in diff_row:
 			print(f'Warning: Empty field\nIn diff row: {diff_row}')
 		else:
