@@ -465,7 +465,7 @@ def validate_diff_row(diff_row):
 				try:
 					float(prev_value)	
 				except ValueError:
-					raise ValueError(f'Warning: "changed_from" value: {prev_value}\nIn diff row: {diff_row}')
+					print(f'Warning: "changed_from" value: {prev_value}\nIn diff row: {diff_row}')
 
 		if new_value != 'NONE':
 			try:
@@ -477,7 +477,7 @@ def validate_diff_row(diff_row):
 					raise ValueError(f'Error: "changed_to" value: {new_value}\nIn diff row: {diff_row}')
 	
 	else:
-		print(f'Error: Unknown "changed_field": {field_name}\nIn diff row: {diff_row}')
+		raise ValueError(f'Error: Unknown "changed_field": {field_name}\nIn diff row: {diff_row}')
 
 
 def process_diff_row(diff_row):
