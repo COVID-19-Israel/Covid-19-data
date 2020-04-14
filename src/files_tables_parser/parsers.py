@@ -370,16 +370,25 @@ class PdfParser(FileParser):
         :param concated_table - the table that need to be concated
         :return: the concated table
         """
+        add_to_down = None in concated_table[0] and any(concated_table[0])  # row is not empty
         row_index = 1
         for i in range(1, len(concated_table)):
             try:
                 if None in concated_table[row_index] or (None in concated_table[0] and 1 == row_index):
-                    full_fields = zip(concated_table[row_index - 1], concated_table[row_index])
-                    for col_index, full_field in enumerate(full_fields):
-                        concated_table[row_index - 1][col_index] = (' '.join([str(full_field[0]),
-                                                                              str(full_field[1])])
-                                                                    .replace('None ', '')).replace(' None', '')
-                    concated_table.remove(concated_table[row_index])
+                    if add_to_down:
+                        full_fields = zip(concated_table[row_index], concated_table[row_index + 1])
+                        for col_index, full_field in enumerate(full_fields):
+                            concated_table[row_index - 1][col_index] = (' '.join([str(full_field[0]),
+                                                                                  str(full_field[1])])
+                                                                        .replace('None ', '')).replace(' None', '')
+                        concated_table.remove(concated_table[row_index])
+                    else:
+                        full_fields = zip(concated_table[row_index - 1], concated_table[row_index])
+                        for col_index, full_field in enumerate(full_fields):
+                            concated_table[row_index - 1][col_index] = (' '.join([str(full_field[0]),
+                                                                                  str(full_field[1])])
+                                                                        .replace('None ', '')).replace(' None', '')
+                        concated_table.remove(concated_table[row_index])
                 else:
                     row_index += 1
             except Exception:
