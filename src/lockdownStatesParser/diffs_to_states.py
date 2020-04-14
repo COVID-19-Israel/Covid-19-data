@@ -435,9 +435,6 @@ def validate_diff_row(diff_row):
 		field, because it is not considered in the code.
 	'''
 
-	if '' in diff_row:
-		print(f'Warning: Empty field\nIn diff row: {diff_row}')
-
 	field_name = diff_row[CHANGED_FIELD_INDEX]
 	prev_value = diff_row[PREV_FIELD_INDEX]
 	new_value = diff_row[NEW_VALUE_INDEX]
@@ -548,6 +545,7 @@ def diffs_to_states(diff_tables_dir_path, explored_areas_path):
 
 	for diff_path in diff_paths:
 		diff_rows = get_csv_rows(diff_path)
+		diff_rows = skip_empty_rows(diff_rows)
 		for row in diff_rows:
 			try:
 				row[CHANGE_DATE_INDEX] = datetime.strptime(row[CHANGE_DATE_INDEX], DATE_FORMAT)
@@ -565,6 +563,17 @@ def diffs_to_states(diff_tables_dir_path, explored_areas_path):
 		for diff_row in sorted_diff_rows:
 			validate_diff_row(diff_row)
 			process_diff_row(diff_row)
+
+
+def skip_empty_rows(diff_rows):
+	skipped_diff_rows = []
+	for diff_row in diff_row:
+		if '' in diff_row:
+			print(f'Warning: Empty field\nIn diff row: {diff_row}')
+		else:
+			skipped_diff_rows.append(diff_row)
+
+	return skipped_diff_rows
 
 
 def remove_seconds():
