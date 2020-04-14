@@ -371,29 +371,15 @@ class PdfParser(FileParser):
         :return: the concated table
         """
         row_index = 1
-        row_last_index = len(concated_table[0]) -1
         for i in range(1, len(concated_table)):
             try:
                 if None in concated_table[row_index] or (None in concated_table[0] and 1 == row_index):
-                    if (len(concated_table) > row_index + 2
-                        and concated_table[row_index][row_last_index] is not None and not any(concated_table[row_index][:-1])
-                        and concated_table[row_index + 1][row_last_index] is None and all(concated_table[row_index+1][:-1])
-                        and concated_table[row_index + 2][row_last_index] is not None and not any(concated_table[row_index + 2][:-1])
-
-                    ):
-                        full_fields = zip(concated_table[row_index], concated_table[row_index + 1], concated_table[row_index + 2])
-                        for col_index, full_field in enumerate(full_fields):
-                            concated_table[row_index - 1][col_index] = (' '.join([str(full_field[0]),
-                                                                                  str(full_field[2])])
-                                                                        .replace('None ', '')).replace(' None', '')
-                        concated_table.remove(concated_table[row_index])
-                    else:
-                        full_fields = zip(concated_table[row_index - 1], concated_table[row_index])
-                        for col_index, full_field in enumerate(full_fields):
-                            concated_table[row_index - 1][col_index] = (' '.join([str(full_field[0]),
-                                                                                  str(full_field[1])])
-                                                                        .replace('None ', '')).replace(' None', '')
-                        concated_table.remove(concated_table[row_index])
+                    full_fields = zip(concated_table[row_index - 1], concated_table[row_index])
+                    for col_index, full_field in enumerate(full_fields):
+                        concated_table[row_index - 1][col_index] = (' '.join([str(full_field[0]),
+                                                                              str(full_field[1])])
+                                                                    .replace('None ', '')).replace(' None', '')
+                    concated_table.remove(concated_table[row_index])
                 else:
                     row_index += 1
             except Exception:
@@ -464,7 +450,11 @@ class CitiesPdfParser(PdfParser):
                                      stream=True,
                                      silent=True)
         parsed_table = list()
+        first_headers_len = len(pdf_tables[0].columns)
         for pdf_table in pdf_tables:
+            if len(pdf_table.columns) != first_headers_len:
+                # dont add this table.
+                continue
             concated_table = list()
             pdf_table = pdf_table.where(pd.notnull(pdf_table), None)
             table_headers = [header if 'Unnamed' not in str(header) and "מספר" not in str(header)
