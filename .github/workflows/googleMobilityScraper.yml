@@ -6,7 +6,7 @@ name: GoogleMobilityScrapeRunner
 # events but only for the master branch
 on:
   schedule:
-  - cron: "17 13 * * *"
+  - cron: "23 9 * * *"
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
