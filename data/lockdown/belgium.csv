@@ -4,7 +4,7 @@ Belgium,all,10/03/2020,congregation_restriction,NONE,1000
 Belgium,all,12/03/2020,limit_retirement_homes_visits,FALSE,TRUE
 Belgium,all,13/03/2020,unnecessary_business,0,1
 Belgium,all,13/03/2020,religious_institutions,0,2
-Belgium,all,16/03/2020,educational_institutions,0,2
+Belgium,all,16/03/2020,educational_institutions,0,1
 Belgium,all,18/03/2020,partial_quarantine,FALSE,TRUE
 Belgium,all,18/03/2020,congregation_restriction,1000,2
 Belgium,all,18/03/2020,unnecessary_business,1,2
