@@ -55,7 +55,7 @@ class FileParser:
     def run(self):
         """
         This function parses the input file, and exports it to csv
-
+        :param export_file_to_csv - is file should be exported to csv file
         :return: None
         """
         file_name = os.path.basename(self.path).split(".")
@@ -95,6 +95,8 @@ class FileParser:
 
         parser.parse_file()
         parser.export_to_csv()
+
+        return parser._data
 
     def parse_file(self):
         """
@@ -661,15 +663,15 @@ class DenmarkPdfParser(PdfParser):
                 concated_row = list()
                 for col in row:
                     # Converts the dot to comma (in danish, they are reversed)
-                    if float == type(col) and 2 < len(str(col).split('.')[1]):
-                        concated_row.append(','.join([str(col).split('.')[0],
-                                                      (str(col).split('.')[1][:3])]))
+                    if float == type(col):
+                        concated_row.append(','.join([(str(col)).split('.')[0],
+                                                      ((str(col) + '000').split('.')[1][:3])]))
                     elif 'Antal' != str(col) and 'None' != str(col):
                         concated_row.append(str(col).replace('.', ','))
                     else:
                         concated_row.append(None)
                 concated_table.append(concated_row)
-            parsed_table = PdfParser._concat_empty_lines(concated_table)
-            parsed_table = PdfParser._translate_table(parsed_table)
+            PdfParser._concat_empty_lines(concated_table, is_col_header=False, top_to_bottom=True)
+            parsed_table = PdfParser._translate_table(concated_table)
             parsed_tables.append(parsed_table)
         return parsed_tables
