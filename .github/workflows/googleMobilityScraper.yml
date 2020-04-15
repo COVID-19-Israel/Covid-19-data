@@ -50,7 +50,7 @@ jobs:
         git checkout -b "update/dailyGMscraperBranch"
         git add $DIR_TO_ADD
         git commit -m "Auto daily run of googleMobilityScraper.py"
-        git push origin dailyGMscraperBranch
+        git push origin update/dailyGMscraperBranch
       shell: bash
       working-directory: ./Covid-19-data
     - name: Push the changes to git
