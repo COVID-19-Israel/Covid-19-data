@@ -65,12 +65,12 @@ def save_report_to_file(path, filename, report):
 
 
 def save_test_data_to_csv(data_row: BS, report_date):
-    tested_no_col_index = 2
-    tested_negative_col_index = 3
+    tested_col_idx_from_end = 2
+    tested_negative_col_idx_from_end = 1
     cols = data_row.find_all('td')
-    def raw_value(val): return val.get_text().replace(',', '').replace('.', '')
-    tested_now = int(raw_value(cols[len(cols)-tested_no_col_index]))
-    tested_negative = int(raw_value(cols[len(cols)-tested_negative_col_index]))
+    raw_value = lambda val:val.get_text().replace(',', '').replace('.', '')
+    tested_now = int(raw_value(cols[len(cols)-tested_col_idx_from_end]))
+    tested_negative = int(raw_value(cols[len(cols)-tested_negative_col_idx_from_end]))
     total_tested = tested_now + tested_negative
 
     with open(os.path.join(BASE_OUTPUT_PATH, 'csv', f'{report_date}.csv'), 'w', newline='') as csv_file:
