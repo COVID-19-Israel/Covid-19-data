@@ -6,7 +6,7 @@ name: GoogleMobilityScrapeRunner
 # events but only for the master branch
 on:
   schedule:
-  - cron: "15 17 * * *"
+  - cron: "23 9 * * *"
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -42,19 +42,25 @@ jobs:
     - name: Add the scraper dir with the changes
       env:
         DIR_TO_ADD: data/other/googleMobilityScraper/pdf/
+        token: '${{ secrets.GITHUB_TOKEN }}'
       run: |
-        git config --global user.email "eyaldvir@users.noreply.github.com"
-        git config --global user.name "Pass7632"
+        git config --global user.name "eyaldvir"
+        git config --global user.email 1eyaldvir1@gmail.com 
         git init
+        git checkout -b "update/dailyGMscraperBranch"
         git add $DIR_TO_ADD
         git commit -m "Auto daily run of googleMobilityScraper.py"
+        git push origin update/dailyGMscraperBranch
       shell: bash
       working-directory: ./Covid-19-data
     - name: Push the changes to git
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
-        git push github HEAD:${GITHUB_REF}
+        git checkout master
+        git merge update/dailyGMscraperBranch
+        git push origin master        
+ #       git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
+ #       git push github HEAD:${GITHUB_REF}
       working-directory: ./Covid-19-data
       shell: bash

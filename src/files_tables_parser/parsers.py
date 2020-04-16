@@ -25,7 +25,7 @@ DAILY_UPDATE_FILE_PREFIX = "מכלול_אשפוז_דיווח"
 DOWNLOADED_FILES_DICT_PATH = r"..\query_script\data\MOHreport_DOWNLOADED.json"
 FILES_BLACKLIST_PATH = os.path.join(os.path.dirname(__file__), r"files_blacklist.txt")
 
-DAILY_UPDATE_TABLE_TOP_BUFFER = 2
+DAILY_UPDATE_TABLE_TOP_BUFFER = 1
 DAILY_UPDATE_TABLE_BOTTOM_BUFFER = 0
 
 
@@ -304,7 +304,7 @@ class PdfParser(FileParser):
         except Exception:
             logging.error(f"failed to read {os.path.basename(self.path)}")
             return
-        pdf_parse_functions = [self._parse_old_cities, self._parse_daily_update, self._parse_cities]
+        pdf_parse_functions = [self._parse_cities, self._parse_daily_update, self._parse_old_cities]
 
         parse_successed = False
         for parse_function in pdf_parse_functions:
@@ -351,8 +351,8 @@ class PdfParser(FileParser):
         )
         if not pdf_tables or 3 > len(pdf_tables[0]):
             return False
-        first_three_lines = [pdf_tables[0].columns.tolist()] + pdf_tables[0][:2].values.tolist()
-        header_words = {val for line in first_three_lines for val in line}
+        first_four_lines = [pdf_tables[0].columns.tolist()] + pdf_tables[0][:5].values.tolist()
+        header_words = {val for line in first_four_lines for val in line}
         if CITIES_HEADER_KEYWORDS.issubset(header_words):
             logging.info("Detected new Cities PDF structure.")
             parser = CitiesPdfParser(self.path)
@@ -363,17 +363,89 @@ class PdfParser(FileParser):
         return False
 
     @staticmethod
-    def _concat_empty_lines(concated_table):
+    def _are_rows_completed(matrix, row_index, previous_row_offset, values_end_col):
+        """
+        This function checks if the following rows can complete each other.
+        If they are, it returns the merged row, else it returns an empty list
+        :param matrix - the table that contains the rows.
+        :param row_index - the index of the first row.
+        :param pervious_row_offset - the offset between the indexes of the rows.
+        :param values_end_col - the column that the values ends at (if there is any header column in the table).
+        :return: merged row if the rows can be merged, else an enpty list.
+        """
+        merged_row = list()
+        if 0 > previous_row_offset:
+            min_index = row_index + previous_row_offset
+            max_index = row_index
+        else:
+            min_index = row_index
+            max_index = row_index + previous_row_offset
+        merged_values = zip(matrix[row_index][:values_end_col],
+                            matrix[row_index + previous_row_offset][:values_end_col])
+        for values in merged_values:
+            if None not in values:
+                return list()
+            merged_row.append(values[1 - values.index(None)])
+
+        for headers in zip(matrix[min_index][values_end_col:], matrix[max_index][values_end_col:]):
+            merged_row.append((' '.join([str(headers[0]), str(headers[1])])
+                               .replace('None ', '')).replace(' None', ''))
+
+        return merged_row
+
+    @staticmethod
+    def _merge_completed_lines(merged_table, top_to_bottom, is_col_header):
+        """
+        This function merges all of the following rows that can complete each other in a table.
+        :param merged_table - the table that its rows need to be merged.
+        :param top_to_bottom - is the direction of the table is from top to bottom.
+        :param is_col_header - is there a header column in the table.
+        :return: None.
+        """
+        merged_row = list()
+        start_index = len(merged_table) - 2
+        end_index = 0
+        index_jumps = -1
+
+        if merged_table:
+            values_end_col = len(merged_table[0])
+
+        if is_col_header:
+            values_end_col -= 1
+
+        if top_to_bottom:
+            start_index = 1
+            end_index = len(merged_table) - 1
+            index_jumps = 1
+
+        row_index = start_index
+
+        for i in range(start_index, end_index, index_jumps):
+            merged_row = PdfParser._are_rows_completed(merged_table, row_index,(-1 * index_jumps), values_end_col)
+            if merged_row:
+                merged_table[row_index - index_jumps] = merged_row
+                merged_table.remove(merged_table[row_index])
+                if 0 > index_jumps:
+                    row_index += index_jumps
+            else:
+                row_index += index_jumps
+
+    @staticmethod
+    def _concat_empty_lines(concated_table, is_col_header, top_to_bottom=True):
         """
         This function concats empty lines that made because of line-break in
         the table to the line before (or after, in case of empty line in the index 0)
         :param concated_table - the table that need to be concated
-        :return: the concated table
+        :return: None
         """
+        PdfParser._merge_completed_lines(concated_table, top_to_bottom, is_col_header)
+
         row_index = 1
         for i in range(1, len(concated_table)):
             try:
-                if None in concated_table[row_index] or (None in concated_table[0] and 1 == row_index):
+                if (None in concated_table[row_index]
+                    or 'None' in concated_table[row_index]
+                    or (None in concated_table[0] and 1 == row_index)):
                     full_fields = zip(concated_table[row_index - 1], concated_table[row_index])
                     for col_index, full_field in enumerate(full_fields):
                         concated_table[row_index - 1][col_index] = (' '.join([str(full_field[0]),
@@ -384,7 +456,6 @@ class PdfParser(FileParser):
                     row_index += 1
             except Exception:
                 print(f"i: {i}, row_index: {row_index}, table: {concated_table}")
-        return concated_table
 
     @staticmethod
     def _translate_table(translated_table, to_lang="en", from_lang="he"):
@@ -449,17 +520,27 @@ class CitiesPdfParser(PdfParser):
                                      pages="all",
                                      stream=True,
                                      silent=True)
+        is_first_iteration = True
+        top_to_bottom = True
         parsed_table = list()
+        first_headers_len = len(pdf_tables[0].columns)
         for pdf_table in pdf_tables:
+            if len(pdf_table.columns) != first_headers_len:
+                # dont add this table.
+                continue
             concated_table = list()
             pdf_table = pdf_table.where(pd.notnull(pdf_table), None)
-            table_headers = [header if 'Unnamed' not in str(header) and "מספר" not in str(header)
+            table_headers = [header if 'Unnamed' not in str(header)
                              else None
                              for header in pdf_table.keys()]
             if list(range(len(table_headers))) != table_headers:
                 concated_table.append(table_headers)
             [concated_table.append(row) for row in pdf_table.values.tolist()]
-            concated_table = PdfParser._concat_empty_lines(concated_table)
+            if is_first_iteration:
+                top_to_bottom = not (None in concated_table[0] and any(concated_table[0]))  # row is not empty
+                is_first_iteration = False
+            PdfParser._concat_empty_lines(concated_table, is_col_header=True, top_to_bottom=top_to_bottom)
+
             for row in PdfParser._translate_table(concated_table):
                 parsed_table.append(row)
 

@@ -1,0 +1,14 @@
+country,state/province,change_date,changed_field,changed_from,changed_to
+Portugal,all,27/02/2020,encouragement_using_hand_sanitizers,FALSE,TRUE
+Portugal,all,09/03/2020,limit_hospital_visits,FALSE,TRUE
+Portugal,all,12/03/2020,unnecessary_business,0,1
+Portugal,all,12/03/2020,limit_retirement_homes_visits,FALSE,TRUE
+Portugal,all,16/03/2020,educational_institutions,0,2
+Portugal,all,19/03/2020,partial_quarantine,FALSE,TRUE
+Portugal,all,19/03/2020,unnecessary_business,1,2
+Portugal,all,19/03/2020,risk_groups_isolation,FALSE,TRUE
+Portugal,all,19/03/2020,public_transport_restriction,FALSE,TRUE
+Portugal,all,19/03/2020,police_army_enforcement,FALSE,TRUE
+Portugal,all,19/03/2020,fines_and_incarceration,FALSE,TRUE
+Portugal,all,19/03/2020,religious_institutions,0,1
+Portugal,all,02/04/2020,congregation_restriction,NONE,5

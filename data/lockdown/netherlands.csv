@@ -10,3 +10,9 @@ Netherlands,all,16/03/2020,unnecessary_business,1,2
 Netherlands,all,16/03/2020,public_transport_restriction,0,1
 Netherlands,all,16/03/2020,police_army_enforcement,FALSE,TRUE
 Netherlands,all,16/03/2020,fines_and_incarceration,FALSE,TRUE
+Netherlands,all,02/03/2020,encouragement_using_hand_sanitizers,FALSE,TRUE
+Netherlands,all,23/03/2020,limit_hospital_visits,FALSE,TRUE
+Netherlands,all,19/03/2020,limit_retirement_homes_visits,FALSE,TRUE
+Netherlands,all,01/03/2020,exposure_to_patient_isolation,FALSE,TRUE
+Netherlands,all,20/03/2020,enter_area_isolation,FALSE,TRUE
+Netherlands,all,19/03/2020,prohibition_entering_country,FALSE,TRUE

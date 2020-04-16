@@ -17,7 +17,6 @@ Spain,Galicia,14/03/2020,unnecessary_business,1,2
 Spain,PaisVasco,14/03/2020,unnecessary_business,1,2
 Spain,Asturias,14/03/2020,unnecessary_business,1,2
 Spain,all,15/03/2020,partial_quarantine,FALSE,TRUE
-Spain,all,15/03/2020,unnecessary_business,1,2
 Spain,all,15/03/2020,religious_institutions,0,1
 Spain,all,15/03/2020,distance_saving_instructions,NONE,1
 Spain,all,15/03/2020,public_transport_restriction,0,1
@@ -25,3 +24,7 @@ Spain,all,15/03/2020,disinfecting_public_spaces,FALSE,TRUE
 Spain,all,15/03/2020,police_army_enforcement,FALSE,TRUE
 Spain,all,15/03/2020,fines_and_incarceration,FALSE,TRUE
 Spain,all,16/03/2020,prohibition_entering_country,FALSE,TRUE
+Spain,all,17/03/2020,encouragement_using_masks,FALSE,TRUE
+Spain,all,17/03/2020,encouragement_using_hand_sanitizers,FALSE,TRUE
+Spain,all,28/03/2020,unnecessary_business,1,2
+Spain,all,13/04/2020,unnecessary_business,2,1

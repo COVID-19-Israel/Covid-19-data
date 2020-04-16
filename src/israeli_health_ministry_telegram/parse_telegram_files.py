@@ -18,7 +18,7 @@ def main():
 
     :return:
     """
-    create_log()
+    create_log(logging.DEBUG)
     logging.info(f"~~~~~~~ Starts parsing files from {FILES_DIR} ~~~~~~~")
     counter = 1
     for f in os.listdir(FILES_DIR)[::-1]:
