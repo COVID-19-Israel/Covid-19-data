@@ -45,7 +45,6 @@ async def get_all_report_links(session, base_url, queue):
                 # From quick testing a few times this option was the fastest but it may well be a discrepancy...
                 await queue.put(report_link)
 
-            # TODO: this condition will probably be a bug when this function is truly async.
             if oldest_report_number in report_link:
                 queue.task_done()
                 return report_links
@@ -65,15 +64,11 @@ def save_report_to_file(path, filename, report):
 
 
 def save_test_data_to_csv(data_row: BS, report_date):
-    tested_col_idx_from_end = 2
-    tested_negative_col_idx_from_end = 1
     subtotal_suspected_col_idx = 6
     first_death_date = '2020-02-20'
+
     cols = data_row.find_all('td')
     raw_value = lambda val:val.get_text().replace(',', '').replace('.', '').replace('*','')
-    # tested_now = int(raw_value(cols[len(cols)-tested_col_idx_from_end]))
-    # tested_negative = int(raw_value(cols[len(cols)-tested_negative_col_idx_from_end]))
-    # total_tested = tested_now + tested_negative
 
     test_data_row = {
         'date': -1,
@@ -87,7 +82,6 @@ def save_test_data_to_csv(data_row: BS, report_date):
     }
     cols_without_suspected_subtotal = cols
 
-    # 2020-02-20 first death
     test_data_row['date'] = report_date
     if date.fromisoformat(report_date) < date.fromisoformat(first_death_date):
         test_data_row['deceased'] = 0
@@ -95,20 +89,14 @@ def save_test_data_to_csv(data_row: BS, report_date):
     if len(cols) == 7:
         print(f'test row with 7 columns in {report_date}')
         return
-        # for i, key in enumerate(iter(test_data_row)): #range(1, len(cols) - 1):
-        #     if i == 0:
-        #         test_data_row['date'] = report_date
-        #     test_data_row[key] = int(raw_value(cols[i+1]))
     if len(cols) == 9:
         cols_without_suspected_subtotal = cols[:subtotal_suspected_col_idx] + cols[subtotal_suspected_col_idx+1:]
-    print(f'inflating row for {report_date}')
     if len(cols_without_suspected_subtotal) != 8:
         print(f'found a table with an unexpected number of columns. {len(cols_without_suspected_subtotal)}, {len(cols)}')
         return
 
-    for i, key in enumerate(iter(test_data_row)): #range(1, len(cols) - 1):
+    for i, key in enumerate(iter(test_data_row)):
         if test_data_row[key] != -1:
-            # test_data_row['date'] = report_date
             continue
         test_data_row[key] = int(raw_value(cols_without_suspected_subtotal[i]))
 
@@ -116,21 +104,12 @@ def save_test_data_to_csv(data_row: BS, report_date):
         writer = csv.DictWriter(csv_file, fieldnames=test_data_row.keys())
         writer.writeheader()
         writer.writerow(test_data_row)
-        # writer.writerow(
-        #     test_data_row = {'date': report_date,
-        #         'under_examination': tested_now,
-        #         'confirmed': confirmed,
-
-        #         'negative': tested_negative, 'total_tested': total_tested}
-        #                  )
         print(f'{test_data_row}')
 
 
 def get_first_table_data(report_soup, report_date):
     table = report_soup.find('table')
     if table is not None:
-
-        # find how many of those tables have the "As of X" row
         rows = table.find_all('tr')
         current_test_row = None
         if len(rows) == 3:
@@ -138,31 +117,10 @@ def get_first_table_data(report_soup, report_date):
         elif len(rows) == 5:
             current_test_row = rows[3]
         else:
-            # print(f"found a table with unexpected number of rows in {report}")
             print(f"found a table with unexpected number of rows in {report_date}")
             return
-            # unexpected_tables += 1
-            # continue
 
         save_test_data_to_csv(current_test_row, report_date)
-
-
-def extract_statistic_data(report_html, report_date, date_filename):
-    """
-    Get the following data from the report:
-        number of severe cases
-        number of isolated people
-        number of tests.
-    and save the data to a csv for this date.
-    """
-
-    # if first table in page:
-    # get the third row.
-    # get the last and second to last column (being tested and negative) and sum the values.
-    # the difference for today: (last and second to last columns summed up)
-    # Not every document has that table and some documents dont have that table with 5 rows.
-
-    pass
 
 
 async def get_single_rep(base_url, report_link, session, queue, i):
@@ -178,7 +136,6 @@ async def get_single_rep(base_url, report_link, session, queue, i):
         save_report_to_file(os.path.join(BASE_OUTPUT_PATH, 'html'),
                             f'{date_filename}.html', report_html)
         get_first_table_data(report, date_filename[:10])
-        # extract_statistic_data(report_html, report_date, date_filename)
         queue.task_done()
 
 
@@ -191,57 +148,6 @@ async def get_reports(base_url, session, queue):
             continue
         asyncio.create_task(get_single_rep(base_url, report_link, session, queue, i))
         i += 1
-
-
-async def main2():
-
-    tables = 0
-    pages_scanned = 0
-    # as_of_cols = 0
-    unexpected_tables = 0
-
-    scan_dir = os.path.join(BASE_OUTPUT_PATH, "html")
-    filenames = os.listdir(scan_dir)
-    filenames.sort()
-
-    for report in filenames:
-        report_date = report.replace('.html', '')
-        pages_scanned += 1
-
-        report_soup = None
-        with open(os.path.join(scan_dir, report), 'r') as report_file:
-            report_soup = BS(report_file.read(), features='lxml')
-
-        table = report_soup.find('table')
-        if table is not None:
-
-            # find how many of those tables have the "As of X" row
-            rows = table.find_all('tr')
-            current_test_row = None
-            if len(rows) == 3:
-                current_test_row = rows[2]
-            elif len(rows) == 5:
-                current_test_row = rows[3]
-                cols_in_test_row = current_test_row.find_all('td')
-                print(f'report {report_date}_{pages_scanned} has {len(cols_in_test_row)}')
-            else:
-                # print(f"found a table with unexpected number of rows in {report}")
-                print(f"found a table with unexpected number of rows in {report_date}")
-                continue
-        # find out how many pages have the first table
-        # get_first_table_data(report_soup, report_date)
-
-        # for row in table.find_all('tr'):
-        #     first_col = row.find('td')
-        #     if first_col is not None:
-        #         first_col_text = first_col.get_text()
-        #         if "as of" in first_col_text.lower():
-        #             as_of_cols += 1
-
-    print(f"scanned {pages_scanned} pages and found {tables} first tables.")
-    print(
-        f'out of those {tables} tables, {unexpected_tables} unexpected tables were found that were not parsed.')
-    # print(f'found {as_of_cols} "as of" columns in {tables} tables')
 
 
 def create_output_dirs():
