@@ -1,2 +1,2 @@
-date,under_examination,negative,total_tested
-2020-04-04,20144,424732,444876
+date,total,confirmed,recovered,isolated,deceased,being_tested,negative
+2020-04-04,455032,10156,6325,3654,177,20144,424732
