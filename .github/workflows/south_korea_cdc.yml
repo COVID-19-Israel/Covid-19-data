@@ -5,7 +5,7 @@ on:
 jobs: 
   download_updates:
     name: Downloads the daily new updates of korean CDC and extracts test data
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
     - name: Access user
       env: 
