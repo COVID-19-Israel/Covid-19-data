@@ -1,0 +1,12 @@
+country,state/province,change_date,changed_field,changed_from,changed_to
+Hong Kong,all,07-01-20,wide_temperature_tests,FALSE,TRUE
+Hong Kong,all,09-01-20,encouragement_using_masks,FALSE,TRUE
+Hong Kong,all,22-01-20,encouragement_using_hand_sanitizers,FALSE,TRUE
+Hong Kong,all,26-01-20,exposure_to_patient_isolation,FALSE,TRUE
+Hong Kong,all,26-01-20,limit_hospital_visits,FALSE,TRUE
+Hong Kong,all,26-02-20,educational_institutions,0,2
+Hong Kong,all,11-02-20,fines_and_incarceration,FALSE,TRUE
+Hong Kong,all,19-03-20,enter_area_isolation,FALSE,TRUE
+Hong Kong,all,25-03-20,prohibition_entering_country,FALSE,TRUE
+Hong Kong,all,29-03-20,congregation_restriction,NONE,4
+Hong Kong,all,29-03-20,unnecessary_business,0,1
