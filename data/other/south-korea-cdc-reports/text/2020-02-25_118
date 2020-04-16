@@ -79,18 +79,17 @@ function popSynapViewer(url){
 
 
 
-60 additional cases of COVID-19 have been confirmed
+The updates of COVID-19 in Republic of Korea
 
-Date2020-02-25 11:55
-Update2020-02-26 10:08
+Date2020-02-25 17:18
+Update2020-02-25 17:18
 DivisionDivision of Risk assessment and International cooperation 
 Tel043-719-7553
-5,888
+6,355
 
 
-60 additional cases of COVID-19 have been confirmed 
-
-○ As of 09:00, 25 February, 2020, 60 additional cases are confirmed, compared to yesterday afternoon (16:00, 24 February).
+○ Compared to yesterday morning (09:00, 24 February, 2020), 130 additional cases are confirmed, which brings the total number of confirmed cases to 893 with 863 cases in isolation. 22,550 turned out to be negative and 13,273 are currently being tested.
+ 
 
 
 
@@ -124,27 +123,27 @@ tested negative
 
 
 
-As of 16:00, 23 Feb. 
+As of 9:00, 24 Feb. 
 
-32,756
+28,615
 
-833
+763
 
-22
+18
 
-804
+738
 
 7
 
-31,923
+27,852
 
-11,631
+8,725
 
-20,292
+19,127
 
 
 
-As of 9:00, 24 Feb.
+As of 9:00, 25 Feb.
 
 36,716
 
@@ -166,81 +165,410 @@ As of 9:00, 24 Feb.
 
 Differences
 
-+3,960
++8,101
 
-+60
++130
 
-0
++4*
 
-+59
++125
 
-+1*
++1**
 
-+3,900
++7,971
 
-+1,642
++4,548
 
-+2,258
++3,423
 
 
 
  
- * The 107th case, a Korean male born in 1953 passed away on 24 February. He belongs to Cheongdo Daenam hospital cluster. And the cause of death is currently being investigated.
- 
-
- 
-○ The 60 newly confirmed cases are classified into the clusters as follows.
+ * The 9th, 13th, 15th, and 20th cases were released from isolation on 24 February.
+** The 107th case, a Korean male born in 1953 passed away on 24 February. He belongs to Cheongdo Daenam hospital cluster. And the cause of death is currently being investigated. The 9th number of deceased will be reflected at next report on today. 
+  
 
 
 
 
-Place 
+Regions
 
-City
+Confirmed cases
 
-Province 
+Remarks
 
-Total
+
+
+sub
+total
+
+Shincheonji
+(Religious sect)
+
+Cheongdo Daenam Hospital
+
+Imported or imported related
+
+Others*
+
+Newly confirmed**
 
 
 
 Seoul
 
-Daegu
-
-Busan
-
-Gyeong-buk
-
-Gyeong-nam
-
-Gyeonggi
-
-
-
-Sub-total 
+36
 
 2
+
+0
+
+18
 
 16
 
 3
 
-33
+Mostly imported or imported related
 
-1
+
+
+Busan
+
+38
 
 5
 
-60
+3
+
+0
+
+30
+
+15
+
+Onchun Church related
 
 
 
+Daegu
+
+499
+
+407
+
+1
+
+0
+
+91
+
+57
+
+Mostly Shincheonji cluster
+
+
+
+Incheon
+
+2
+
+1
+
+0
+
+1
+
+0
+
+0
+
+Mostly Shincheonji cluster
+
+
+
+Gwangju
+
+9
+
+7
+
+0
+
+1
+
+1
+
+0
+
+Mostly Shincheonji cluster
+
+
+
+Daejeon
+
+3
+
+0
+
+0
+
+0
+
+3
+
+1
+
+ 
+
+
+
+Ulsan
+
+2
+
+1
+
+0
+
+0
+
+1
+
+1
+
+Shincheonji cluster
+
+
+
+Sejong
+
+1
+
+1
+
+0
+
+0
+
+0
+
+0
+
+Shincheonji cluster
+
+
+
+Gyeonggi
+
+40
+
+10
+
+0
+
+11
+
+19
+
+7
+
+Mostly imported or imported related
+
+
+
+Gangwon
+
+6
+
+2
+
+0
+
+0
+
+4
+
+0
+
+Mostly Shincheonji cluster
+
+
+
+Chungbuk
+
+3
+
+3
+
+0
+
+0
+
+0
+
+0
+
+Shincheonji cluster
+
+
+
+Chungnam
+
+1
+
+0
+
+0
+
+0
+
+1
+
+0
+
+ 
+
+
+
+Cheonbuk
+
+3
+
+0
+
+0
+
+1
+
+2
+
+0
+
+Imported or imported related
+
+
+
+Cheonnam
+
+2
+
+0
+
+0
+
+1
+
+1
+
+0
+
+Imported or imported related
+
+
+
+Gyeongbuk
+
+225
+
+49
+
+109
+
+0
+
+67
+
+45
+
+Cheongdo Daenam Hospital cluster or travel history to Israel
+
+
+
+Gyeongnam
+
+21
+
+13
+
+0
+
+0
+
+8
+
+1
+
+Mostly Shincheonji cluster
+
+
+
+Jeju
+
+2
+
+0
+
+0
+
+0
+
+2
+
+0
+
+Shincheonji cluster
+
+
+
+Total
+
+893
+
+501
+
+113
+
+33
+
+246
+
+130
+
+68.8% are Shincheonji and Cheongdo Daenam Hospital clusters
+
+
+
+56.1%
+
+12.7%
+
+3.7%
+
+27.5%
+
+
+
+* Not classified into a cluster or under investigation
+** Confirmed from 9:00, 24 February to 9:00 25 February
 ※ The interim classification is based on the KCDC reporting system, which may differ from regional system. It would be changeable depending on further epidemiological investigation.
 
 
 
+Including 130 newly confirmed cases, the total of 893 cases are classified by the clusters and the regions as follows.
  
+ 
+○ In Busan, 22 cases out of 38 confirmed cases in the area are linked to the Shincheongji religious sect. As increased confirmed cases related with Onchon church retreat, it is recommended to have closely monitored and advised to get a consultation with a local health center or KCDC Call Center 1339 when having fever or respiratory symptoms. 
+ 
+ - The case, a Korean female born in 1964 who works at nursing home as a social work in Busan is under epidemiological investigation. She developed muscle pain on 21 February, and nursing home is in cohort isolation. 
+ 
+○ In Daegu, the member list of Shincheonji has been acquired and monitored via phone to check any symptom. Also, the investigation has conducted on the total 514 patients with pneumonia over 19 years old, and total 5 cases are confirmed till 24 Feb. 319 additional hospital ward for isolation was allocated and more professional will be further dispatched. 
+ 
+ 
+○ In Gyeongbuk province, the facilities-oriented cases has confirmed. Government is strengthening the monitoring at nursing home and community facilities. The 6th death case(a Korean male, born in 1953) from COVID-19 is reported. The case has hospitalized for a long time and he died of worsened pneumonia, and it is under investigation the linkage of COVID-19. 
+ 
+ 
+○ As raised the alert level from Orange(Level 3) to Red (Level 4), the special management regions are expanded the guideline.
  
 
 
@@ -250,7 +578,7 @@ Files
 
 
 
-Press_Release_(Feb.25)_Morning.pdf
+Press_Release_(Feb.25)_Afternoon.pdf
 
 View
 

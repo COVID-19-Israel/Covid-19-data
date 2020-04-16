@@ -79,106 +79,21 @@ function popSynapViewer(url){
 
 
 
-84 additional cases have been confirmed
+Updates on COVID-19 in Republic of Korea(as of 17 March)
 
-Date2020-03-17 16:18
-Update2020-03-17 16:20
+Date2020-03-17 20:07
+Update2020-03-17 21:53
 DivisionDivision of Risk assessment and International cooperation
 Tel043-719-7556
-3,854
+7,613
 
 
-The Updates of COVID-19 in Republic of Korea
+Updates on COVID-19 in Republic of Korea
 17 March, 2020
 
 
-○ As of 0:00, 17 March 2020, the total number of confirmed cases is 8,320 with 1,401 cases discharged from isolation. Newly confirmed cases are 84 in total.
+○ As of 0:00, 17 March 2020, a total of 8,320 cases have been confirmed, with 1,401 cases discharged from isolation. Newly confirmed cases are 84 in total. The regional distribution of the confirmed cases are as follows:
  
-
-
-
-
-Period
-(since 3 Jan)
-
-Total
-
-Tested positive
-
-Being tested
-
-Tested negative
-
-
-
-Confirmed
-
-Discharged
-
-Isolated
-
-Deceased
-
-
-
-As of 0:00 
-16 March (Mon)
-
-274,504
-
-8,236
-
-1,137
-
-7,024
-
-75
-
-14,971
-
-251,297
-
-
-
-As of 0:00
-17 March (Sun)
-
-286,716
-
-8,320
-
-1,401
-
-6,838
-
-81
-
-17,291
-
-261,105
-
-
-
-Differences
-
-+12,212
-
-+84
-
-+264
-
--186
-
-+6
-
-+2,320
-
-+9,808
-
-
-
- 
-○ Regional distribution of total confirmed cases:
 
 
 
@@ -303,31 +218,33 @@ Total
 
  
 
-Pr
+Province
+
+Other
 
 
 
  
 
-Gyeong 
--gi
+Gyeonggi
 
-Gang 
--won
+Gangwon
 
-Chung 
+
+Chung
 -buk
 
-Chung 
+Chung
 -nam
 
-Jeon 
+Jeon
 -buk
 
-Jeon 
+Jeon
 -nam
 
-Gyeong-buk
+Gyeong
+-buk
 
 Gyeong-nam
 
@@ -433,32 +350,47 @@ Total
 
 
 
-
-
-○ Confirmed cases by date, by region, by gender and age are shown in the following graph and tables.
-
-
-○ Cases distribution by region
  
+○ Epidemiological links have been found for 80.6% of the total cases; 19.4% are either under investigation or sporadic cases. More details on the epidemiological links within each province or city are shown in Table 1 on the next page. Distribution of the cases by sex and age groups are as indicated in Table 2. A graph of imported cases by period and region of origin is provided in Figure 1.
+ 
+○ Five additional confirmed cases have been reported from the call center located in Guro-gu, Seoul, amounting to a current total of 134 confirmed cases from the call center since 8 March. Investigations of the confirmed cases who are onset of symptom at the end of February revealed that they are not Shincheonji members, have no recent history of overseas travel, and have no known link to other confirmed cases.
+ 
+○ A current total of 47 confirmed cases have been reported from a church (Grace River Church) in Gyeonggi Province since 9 March. Further investigation and contact tracing are underway.
+ 
+○ The KCDC released the data it has collected on the characteristics of pediatric COVID-19 cases (patients aged 18 years old or younger). A total of 352 confirmed pediatric cases have been reported, among whom 56 have been discharged and 296 are currently in isolation. Discharge rate for pediatric patients is 15.9%, compared to 16.8% for all ages. There has been no fatalities. No severe cases occurred. Further detailed analysis of pediatric cases is underway. More data will be made available as soon as the analysis is completed. 
+ 
+○ In light of the recent rise in the number of confirmed cases from airport quarantine, the KCDC announced that the Special Entry Procedure will be extended to all travelers arriving at port beginning at 0:00 of 19 March. The Special Entry Procedure requires the traveler to be checked for fever, provide a confirmed contact information at port entry, and report their symptoms daily for the next 14 days via self-health check mobile app. Travel history of all travelers entering Korea will be provided to healthcare providers via the International Traveler Information System for reference. 
+ 
+○ Travelers who have visited Europe, the U.S., or Asia in the past 14 days are advised to minimize movement, adhere to social distancing personal hygiene measures, since infected persons with mild symptoms in initial stages of the disease may unknowingly transmit the virus to other people. 
+ 
+○ The KCDC will be having a conference meeting with WHO clinical team/COVID-19 advisors, representatives of relevant institutions, and domestic experts and researchers. This meeting, initiated by WHO who expressed interest in participating in the COVID-19 cohort research by domestic healthcare professionals, is expected to be helpful in developing future strategies for responding to the global pandemic.
+ 
+○ The KCDC again reminded everyone that personal hygiene and social distancing practices are effective measures to prevent infections.
+
+[Table 1. Regional distribution and epidemiological links of the confirmed cases]
+
 
 
 
 
 Region
 
-# of cases 
+Sub-
+total
+
+Epidemiological links
+
+Others*
+
+Newly confirmed
+
+
+
+#
 
 (%)
 
-Incidence rate (per 0.1M) 
-
-Region
-
-# of cases 
-
-(%)
-
-Incidence rate (per 0.1M) 
+Details
 
 
 
@@ -466,17 +398,19 @@ Seoul
 
 265
 
-(3.19)
+196
 
-2.72
+(74.0%)
 
-Gyeonggi
+Guro-gu call center (82), Dongan Church-Internet Cafe (18), Eunpyeong St Mary’s Hospital (14), Seongdong-gu Apartments (13), Jongno-gu (10), Shincheonji (6), etc.
 
-262
 
-(3.15)
+69
 
-1.98
+
+(26.0%)
+
+12
 
 
 
@@ -484,17 +418,19 @@ Busan
 
 107
 
-(1.29)
+75
 
-3.14
+(70.1%)
 
-Gangwon
+Onchun Church (32), Shincheonji (8명(4), Daenam Hospital (1), etc.
 
-29
 
-(0.35)
+32
 
-1.88
+
+(29.9%)
+
+0
 
 
 
@@ -502,17 +438,17 @@ Daegu
 
 6,098
 
-(73.29)
+5,021
 
-250.28
+(82.3%)
 
-Chungbuk
+Shincheonji (4,363), contacts of confirmed cases (656), Daenam Hospital (2) 
 
-31
+1,077
 
-(0.37)
+(17.7%)
 
-1.94
+32
 
 
 
@@ -520,17 +456,17 @@ Incheon
 
 31
 
-(0.37)
+27
 
-1.05
+(87.1%)
 
-Chungnam 
+Guro-gu call center (19), contacts of confirmed cases (5), Shincheonji (2), existing imported cases (1)
 
-115
+4
 
-(1.38)
+(12.9%)
 
-5.42
+1
 
 
 
@@ -538,17 +474,17 @@ Gwangju
 
 16
 
-(0.19)
+14
 
-1.10
+(87.5%)
 
-Jeonbuk
+Shincheonji (9), contacts of confirmed cases (4), existing imported cases (1)
 
-7
+2
 
-(0.08)
+(12.5%)
 
-0.39
+0
 
 
 
@@ -556,17 +492,17 @@ Daejeon
 
 22
 
-(0.26)
+12
 
-1.49
+(54.5%)
 
-Jeonnam
+Contacts of confirmed cases (8), Shincheonji (2), Seosan research center (2) 
 
-4
+10
 
-(0.05)
+(45.5%)
 
-0.21
+0
 
 
 
@@ -574,17 +510,17 @@ Ulsan
 
 28
 
-(0.34)
+22
 
-2.44
+(78.6%)
 
-Gyeongbuk
+Shincheonji (16), contacts of confirmed cases (6)
 
-1,169
+6
 
-(14.05)
+(21.4%)
 
-43.91
+0
 
 
 
@@ -592,78 +528,251 @@ Sejong
 
 40
 
-(0.48)
+37
 
-11.68
+(92.5%)
 
-Gyeongnam
+Ministry of Oceans and Fisheries (28), gym facilities (8), Shincheonji (1)
+
+3
+
+(7.5%)
+
+0
+
+
+
+Gyeonggi
+
+262
+
+214
+
+(81.7%)
+
+Seongnam Grace River Church (45), Guro-gu call center-Bucheon Saeng Myeong Su Church (33), Shincheonji (28), Bundang Je-saeng Hospital (26), Suwon Saeng Myeong Saem Church (10), existing imported cases (6), etc.
+
+
+48
+
+
+(18.3%)
+
+31
+
+
+
+Gangwon
+
+29
+
+21
+
+(72.4%)
+
+Shincheonji (20), Cheonan gym facility (1)
+
+8
+
+(27.6%)
+
+0
+
+
+
+Chung-
+buk
+
+31
+
+27
+
+(87.1%)
+
+Shincheonji (10), Goesan-gun Jangyeon-myeon (11), contacts of confirmed cases (6) 
+
+4
+
+(12.9%)
+
+0
+
+
+
+Chung-
+nam
+
+115
+
+112
+
+(97.4%)
+
+Gym facility in Cheonan (104), Seosan research center (8)
+
+3
+
+(2.6%)
+
+0
+
+
+
+Jeon-buk
+
+7
+
+4
+
+(57.1%)
+
+Contacts of confirmed cases (2), existing imported cases (1), Shincheonji (1)
+
+3
+
+(42.9%)
+
+0
+
+
+
+Jeon-
+nam
+
+4
+
+3
+
+(75.0%)
+
+Shincheonji (1), existing imported cases (1), contacts of confirmed cases (1)
+
+1
+
+(25.0%)
+
+0
+
+
+
+Gyeong-
+buk
+
+1,169
+
+848
+
+(72.5%)
+
+Shincheonji (517), Cheongdo Daenam Hospital (119), Bonghwa Pureun Nursing Home (58), pilgrimage to Israel (49), Milal Shelter (27), Gyeongsan Seorin Nursing Home (24), Gyeongsan Jeil Silver Town (17), Gyeongsan Cham Joeun Community Center (18), etc.
+
+321
+
+(27.5%)
+
+5
+
+
+
+Gyeong-
+nam
 
 86
 
-(1.03)
+66
 
-2.56
+(76.7%)
+
+Shincheonji (32), Geochang Church (10), Geochang Woongyang-myeon (8), Hanmaeum Changwon Hospital (7), Changyeong coin karaoke (7), Busan Oncheon Church (2) 
 
 
+20
 
-Airport Screening
 
-6
+(23.3%)
 
-(0.07)
+1
 
- -
+
 
 Jeju
 
 4
 
-(0.05)
+-
 
-0.60
-
-
+-
 
  
 
- 
+4
 
- 
+(100.0%)
 
- 
+0
 
-Total 
+
+
+Airport
+
+6
+
+6
+
+(100.0%)
+
+Imported cases (6)
+
+-
+
+-
+
+2
+
+
+
+Total
 
 8,320
 
-(100)
+6,705
 
-16.05
+(80.6%)
+
+Shincheonji 5,016 (60.3%)
+
+1,615
+
+(19.4%)
+
+84
+
+
+
+* Not classified into a cluster or under investigation
+※ The interim classification is based on the reporting location, which may change depending on further epidemiological investigation.
 
 
 
  
-○ Case distribution by gender and age:
+ [Table 2. Distribution of the cases by sex and age groups]
+
+
+
+
  
 
-
-
-
-Classification 
-
-Confirmed Cases 
-
-(%)
+Confirmed cases 
+# (%)
 
 Deaths
+# (%)
 
-(%)
-
-Fatality rate (%)
-
+Fatality rate %
 
 
-Total 
+
+Total
 
 8,320 
 
@@ -677,7 +786,7 @@ Total
 
 
 
-Sex 
+Sex
 
 Male
 
@@ -693,7 +802,7 @@ Male
 
 
 
-Female 
+Female
 
 5,120 
 
@@ -703,11 +812,12 @@ Female
 
 (45.68) 
 
-0.72
+0.72 
 
 
 
 Age
+Group
 
 80 and above
 
@@ -836,13 +946,106 @@ Age
 
 
  
-   
 
-○ Cases distribution by region
-
+[Table 3. Distribution of pediatric cases by age group]
 
 
 
+
+Age group
+
+Total confirmed cases
+
+Change from previous day
+
+Status
+
+
+
+Discharged from isolation
+
+In isolation
+
+
+
+0-2
+
+27
+
+-
+
+5
+
+22
+
+
+
+3-6
+
+27
+
+-
+
+4
+
+23
+
+
+
+7-12
+
+87
+
++1
+
+14
+
+73
+
+
+
+13-15
+
+83
+
++1
+
+14
+
+69
+
+
+
+16-18
+
+128
+
++2
+
+19
+
+109
+
+
+
+Total
+
+352
+
++4
+
+56
+
+296
+
+
+
+
+
+[Figure 1. Imported confirmed cases by region of origin]
+
+ 
+○ Cases distribution by region:
 
 
 
@@ -858,7 +1061,7 @@ Files
 
 
 
-Press Release (March17)_morning.pdf
+Press Release (March17)_Afternoon.pdf
 
 View
 

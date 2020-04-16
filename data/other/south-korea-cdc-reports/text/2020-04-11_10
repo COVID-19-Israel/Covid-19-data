@@ -79,23 +79,26 @@ function popSynapViewer(url){
 
 
 
-30 additional cases have been confirmed
+The updates on COVID-19 in Korea as of 11 April
 
-Date2020-04-11 11:57
-Update2020-04-11 11:57
+Date2020-04-11 17:15
+Update2020-04-11 17:19
 DivisionDivision of Risk assessment and International cooperation 
 Tel043-719-7556
-1,311
+1,915
 
 
 Updates on COVID-19 in Republic of Korea
 
 11 April 2020
 
- 
+
  
 ○ As of 0:00, 11 April 2020, the total number of confirmed cases is 10,480 (including 886 imported cases), of which 7,243 cases have been discharged from isolation. Newly confirmed cases are 30 in total.
+
  
+[Table 1. Total confirmed and suspected cases]
+
 
 
 
@@ -179,15 +182,9 @@ Difference
 
 
 
- 
- 
-  
-  
- 
-  
 
-
-○ Regional distribution of total confirmed cases:
+ 
+[Table 2. Imported cases in Korea (as of 0:00, 11 April 2020)]
 
 
 
@@ -197,85 +194,389 @@ Difference
 
 Total
 
-City 
+Region/Country
+
+Where confirmed
+
+Nationality
+
+
+
+China
+
+Asia ex-China
+
+Europe
+
+America
+
+Africa
+
+Airport
+
+Community
+
+Korean
+
+Other
+
+
+
+New
+
+12
+
+0
+
+1
+
+3
+
+8
+
+0
+
+6
+
+6
+
+10
+
+2
+
+
+
+Total
+
+886
+
+16
+
+96
+
+414
+
+357
+
+3
+
+358
+
+528
+
+813
+
+73
+
+
+
+(1.8%)
+
+(10.8%)
+
+(46.7%)
+
+(40.3%)
+
+(0.3%)
+
+(40.4%)
+
+(59.6%)
+
+(91.8%)
+
+(8.2%)
+
+
+
+ * Figures may change based on findings from ongoing local epidemiological investigation efforts.
+ 
+○ Epidemiological links have been found for 81.7% of the total cases; 9.8% are either under investigation or sporadic cases. More details on the epidemiological links within each province or city are shown in Table 2.
+ 
+○ From the Second Mi-Ju hospital in Daegu City, 4 additional cases have been confirmed from testing all 144 patients and staffs under cohort isolation. In total, 190 cases(patients = 176; staffs = 14) have been confirmed since 26 March. 
+ 
+○ From Euijeongbu St. Mary’s Hospital in Gyeonggi Province, 7 additional cases have been confirmed from during self-quarantine. In total, 59 cases (patients = 21; staffs = 16; family/contacts = 22) have been confirmed since 29 March. 
+ 
+○ From Gyeongbuk Province, during the epidemiological investigation 3 additional cases have been confirmed. In total, 8 cases have been confirmed since 9 April. (The figures on Table 2 are based on cases reported to KCDC before 0:00 of 11 April and may differ from above).
+ 
+○ As the number of confirmed cases decrease, KCDC urged each medical institutions to actively test for suspected COVID-19 cases in efforts to detect the “silent spread.” 
+KCDC stressed once again that all suspected COVID-19 tests reported to KCDC by the local health centers will be covered by national health insurance and other sources. 
+
+○ KCDC asked for continued participation in the Enhanced Social Distancing campaign which has been extended to 19 April, especially this upcoming weekend. KCDC is advising people to refrain from activities that make it easy to come in close contact with other people in an enclosed space and to maintain good personal hygiene including washing hands and covering coughs/sneezes.
+ 
+○ Also, KCDC asked citizens who will be voting today to stickly comply to the quarantine guidelines at the polling stations as provided below. 
+
+
+ 
+
+
+
+
+ 
+Call to actions for 15 April 2020 General Election voters
+ 
+ 
+ ① Do not bring young children to the polling station if possible.
+ ② Before going to the polling station, wash your hands thoroughly with soap under running water for at least 30 seconds. 
+ 
+ ③ Wear a face mask when you go to the polling station.
+ 
+ ④ Before entering into the polling station, get checked for fever, disinfect your hands, and wear disposable gloves.
+ ⑤ Keep a distance of at least 1 meter between yourself and other voters.
+ ⑥ Refrain from all non-essential conversations in or around polling station.
+ ⑦ If you have fever or respiratory symptoms, go to a separate, temporary location to cast your vote and then visit a public health center.
+ ⑧ When you return home, wash your hands thoroughly with soap under running water for at least 30 seconds.
+ 
+
+
+
+
+
+
+
+Call to actions for all citizens
+ 
+ ① Cancel or postpone all non-essential gatherings, dining out, social events, and travel plans.
+ * There have been numerous reported transmissions abroad by dining together. All meetings and events involving sharing a meal should especially be postponed or canceled.
+ 
+ ② If you have fever, cough, sore throat, muscle pain, or other respiratory symptoms, do not go to work. Stay home and take sufficient rest.
+ 
+ ③ Stay home except to purchase necessities, to get medical care, or to go to work.
+ 
+ ④ Avoid handshakes and other forms of physical contact. Keep 2-meter distance from others.
+ 
+ ⑤ Wash your hands, cover up when you sneeze/cough, and generally maintain strict personal hygiene.
+ 
+ ⑥ Disinfect and ventilate your space every day.
+
+
+
+ 
+ 
+
+[Table 3: Regional distribution and epidemiological links of the confirmed cases]
+
+
+
+
+
+
+Region
+
+Confirmed cases
+
+Other major clusters
+
+
+
+Total
+
+Imported cases
+
+Clusters
+
+Others*
+
+New cases
+
+
+
+Sub-
+total
+
+Shin-
+cheonji
+
+Small clusters
+
+Contacts of confirmed cases
+
+Imported cases
 
 
 
 Seoul
 
+599
+
+222
+
+349
+
+8
+
+258
+
+18
+
+65
+
+28
+
+4
+
+Guro-gu call center (98), Dong-an Church-PC Cafe (20), Manmin Central Church (40), etc.
+
+
+
 Busan
 
-Daegu
+126
 
-Incheon
+15
 
-Gwangju
+81
 
-Daejeon
-
-Ulsan
-
-Sejong
-
-
-
-Isolated 
-
-3,026
-
-402
-
-23
-
-1,398
+12
 
 50
 
-10
+18
 
-17
-
-10
-
-26
-
-
-
-Discharged
-
-7,243
-
-195
-
-100
-
-5,271
-
-35
-
-17
-
-22
+1
 
 30
 
-20
+0
+
+Onchun Church (39), Suyeong-gu Kindergarten (5), etc.
 
 
 
-Deceased 
+Daegu
 
-211
+6,814
+
+13
+
+6,085
+
+4,508
+
+651
+
+922
+
+4
+
+716
+
+7
+
+Second Mi-Ju Hospital (190), Hansarang Convalescent Hospital (126), Daesil Convalescent Hospital (98), Fatima Hospital (35), etc.
+
+
+
+Incheon
+
+85
+
+34
+
+47
 
 2
 
+34
+
+5
+
+6
+
+4
+
+0
+
+Guro-gu call center (20), etc.
+
+
+
+Gwangju
+
+27
+
+11
+
+16
+
+9
+
+0
+
+1
+
+6
+
+0
+
+0
+
+ 
+
+
+
+Daejeon
+
+39
+
+9
+
+21
+
+2
+
+11
+
+8
+
+0
+
+9
+
+0
+
+Korea Forest Engineer Institute (3), etc.
+
+
+
+Ulsan
+
+41
+
+10
+
+24
+
+16
+
+1
+
+4
+
 3
 
-145
+7
 
-0
+1
 
-0
+ 
+
+
+
+Sejong
+
+46
+
+3
+
+42
+
+1
+
+38
+
+3
 
 0
 
@@ -283,35 +584,47 @@ Deceased
 
 0
 
-
-
-Subtotal 
-
-10,480
-
-599
-
-126
-
-6,814
-
-85
-
-27
-
-39
-
-41
-
-46
+Ministry of Oceans and Fisheries (30), gym facilities (8)
 
 
 
-Difference
+Gyeonggi
+
+624
+
+140
+
+439
+
+29
+
+302
+
+58
+
+50
+
+45
+
+9
+
+Grace River Church in Seongnam (72), Guro-gu call center-Bucheon SaengMyeongSu Church (48), Uijeongbu St. Mary’s Hospital (41), etc.
+
+
+
+Gangwon
+
+49
+
+12
 
 30
 
-4
+17
+
+13
+
+0
 
 0
 
@@ -319,101 +632,163 @@ Difference
 
 0
 
+Apartments in Wonju City (3), Euijeongbu St. Mary’s Hospital (8), etc.
+
+
+
+Chung-
+buk
+
+45
+
+5
+
+32
+
+6
+
+18
+
+6
+
+2
+
+8
+
+0
+
+Goesan-gun Jangyeon-myeon (11)
+
+
+
+Chung-
+nam
+
+138
+
+9
+
+120
+
+0
+
+118
+
+1
+
+1
+
+9
+
+0
+
+Gym facilities in Cheonan (103), research center in Seosan (9), etc.
+
+
+
+Jeonbuk
+
+17
+
+8
+
+4
+
+1
+
+3
+
 0
 
 0
+
+5
+
+0
+
+ 
+
+
+
+Jeonnam
+
+15
+
+7
+
+7
+
+1
+
+3
+
+2
+
+1
 
 1
 
 0
 
+Manmin Central Church (2)
 
 
- 
-
-Province 
-
-Other
-
-
-
-Gyeonggi
-
-Gangwon
-
-Chung-buk
-
-Chung-
-nam 
-
-Jeon-
-buk
-
-Jeon-
-nam
 
 Gyeong-
 buk
 
-Gyeong-nam
-
-Jeju
-
-Airport screening
-
-
-
-Isolated 
-
-327
-
-22
-
-17
-
-32
+1,330
 
 9
 
-10
+1,185
 
-278
+566
 
-32
+427
 
-8
+191
 
-355
+1
 
-
-
-Discharged
-
-286
-
-26
-
-28
-
-106
-
-8
-
-5
-
-1,004
-
-83
-
-4
+136
 
 3
 
+Cheongdo Daenam Hospital (120), Bonghwa Pureun Nursing Home (68), pilgrimage to Israel (49), Gyeongsan Seo Convalescent Hospital (65), etc.
 
 
-Deceased 
 
-11
+Gyeong-
+nam
+
+115
+
+14
+
+84
+
+32
+
+45
+
+6
+
+1
+
+17
+
+0
+
+Geochang Church (10), Geochang Woongyang-myeon (8), Wings Tower (10), etc.
+
+
+
+Jeju
+
+12
+
+7
 
 1
 
@@ -423,45 +798,21 @@ Deceased
 
 0
 
-0
+1
 
-48
-
-0
+4
 
 0
 
-0
+ 
 
 
 
-Subtotal 
-
-624
-
-49
-
-45
-
-138
-
-17
-
-15
-
-1,330
-
-115
-
-12
+Airport
 
 358
 
-
-
-Difference
-
-9
+358
 
 0
 
@@ -470,10 +821,6 @@ Difference
 0
 
 0
-
-0
-
-3
 
 0
 
@@ -481,231 +828,63 @@ Difference
 
 6
 
-
-
  
 
 
 
-○ Case distribution and incidence rate by region:
-
-
-
-
-
-Region
-
-# of cases 
-
-(%)
-
-Incidence rate (per 0.1M)
-
-Region
-
-# of cases 
-
-(%)
-
-Incidence rate (per 0.1M) 
-
-
-
-Seoul
-
-599
-
-(5.72)
-
-6.15
-
-Gyeonggi
-
-624
-
-(5.95)
-
-4.71
-
-
-
-Busan
-
-126
-
-(1.20)
-
-3.69
-
-Gangwon
-
-49
-
-(0.47)
-
-3.18
-
-
-
-Daegu
-
-6,814
-
-(65.02)
-
-279.66
-
-Chungbuk
-
-45
-
-(0.43)
-
-2.81
-
-
-
-Incheon
-
-85
-
-(0.81)
-
-2.88
-
-Chungnam 
-
-138
-
-(1.32)
-
-6.50
-
-
-
-Gwangju
-
-27
-
-(0.26)
-
-1.85
-
-Jeonbuk
-
-17
-
-(0.16)
-
-0.94
-
-
-
-Daejeon
-
-39
-
-(0.37)
-
-2.65
-
-Jeonnam
-
-15
-
-(0.14)
-
-0.80
-
-
-
-Ulsan
-
-41
-
-(0.39)
-
-3.57
-
-Gyeongbuk
-
-1,330
-
-(12.69)
-
-49.95
-
-
-
-Sejong
-
-46
-
-(0.44)
-
-13.44
-
-Gyeongnam
-
-115
-
-(1.10)
-
-3.42
-
-
-
-Airport Screening
-
-358
-
-(3.42)
-
--
-
-Jeju
-
-12
-
-(0.11)
-
-1.79
-
-
-
- 
-
- 
-
- 
-
- 
-
-Total 
+Total
 
 10,480
 
-(100)
+886
 
-20.21
+8,567
 
+5,210
 
+1,972
 
- 
- 
- 
-○ Daily case trends by region:
+1,243
 
-  
- 
- 
-  
- 
-  
-  
+142
+
+1,027
+
+30
+
  
 
-○ Case distribution by gender and age group:
+
+
+(8.5)
+
+(81.7)
+
+(49.7)
+
+(18.8)
+
+(11.9)
+
+(1.4)
+
+(9.8)
+
+
+
+* Not classified into a cluster or under investigation
+※ The interim classification is based on the reporting location, which may change depending on further epidemiological investigation.
+
+
+
+
+
+[Figure 1: Distribution of confirmed cases based on location reported]
+*Refer to attachment
+
+ 
+ 
+[Table 4: Age distribution of severe cases]
 
 
 
@@ -897,23 +1076,14 @@ Age
 
 
 
+  
   * Fatality rate = Deaths / Confirmed cases × 100
-
-  
-  
  
 
-○ Incidence rate by age group (per 100,000):
+ 
+[Figure 2: New cases (for last 2 weeks) by chain of transmission]
 
   
- 
- 
-○ Weekly trend of imported cases:
-
-  
-
-  
- 
  
  
  
@@ -925,7 +1095,7 @@ Files
 
 
 
-Press_Release_(April11)_morning.pdf
+Press_Release_(April11)_Afternoon.pdf
 
 View
 

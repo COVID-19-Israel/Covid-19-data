@@ -79,20 +79,19 @@ function popSynapViewer(url){
 
 
 
-94 additional cases have been confirmed
+The updates on COVID-19 in Korea as of 4 April
 
-Date2020-04-04 13:33
-Update2020-04-04 13:33
+Date2020-04-04 17:52
+Update2020-04-04 17:57
 DivisionDivision of Risk assessment and International cooperation 
 Tel043-719-7556
-1,592
+2,551
 
 
 The Updates of COVID-19 in Republic of Korea
 4 April, 2020
+ 
 
- 
- 
 ○ As of 0:00, 4 April 2020, the total number of confirmed cases is 10,156 (including 688 imported cases), of which 6,325 cases have been discharged from isolation. Newly confirmed cases are 94 in total.
 
 
@@ -179,96 +178,264 @@ Difference
 
 
  
+○ Epidemiological links have been found for 82.7% of the total cases; 10.5% are either under investigation or sporadic cases. More details on the epidemiological links within each province or city are shown in Table 2.
  
-○ Regional distribution of total confirmed cases:
+○ From Uijeongbu St. Mary’s Hospital, 8 additional cases have been confirmed, bringing the total number of confirmed cases since 29 March to 35 (patients = 13; staff/workers = 10; family/visitors = 12). The in-patients are under cohort-isolation; the contacts are also in isolation. Investigation on the chain of transmission and contact tracing are underway.
+ 
+○ From the wine bar located in Pyeongtaek, Gyeonggi Province, 13 cases (wine bar = 9, contacts/families = 4) have been confirmed since 1 April. Epidemiological investigation is currently on-going.
+ 
+○ From two health facilities in Daegu, 20 additional cases (Second Mi-Ju Hospital = 17, Daesil Convalescent Hospital = 1) have been confirmed. From Fatima Hospital, 3 more cases were confirmed.
+ 
+○ Taking into account the small clusters continuously reported from Seoul and Gyeonggi Province and the rapid rise of imported cases, KCDC foresaw that the COVID-19 would continue for quite a while. Therefore, it is determined to update the guideline to trace the transmission more thoroughly. The period for contact tracing will change accordingly from one day before the onset of symptom to two days before; Smokers will be considered as high-risk group so that they can be treated more appropriately.
+ 
+○ KCDC also asked the public to keep practicing the enhanced social distancing, which had been extended to 19 April. People should stay home as much as possible during the weekend, avoid any activities that make it easy to come in close contact with others, and maintain good personal hygiene including coughing etiquette and washing hands. Furthermore, KCDC recommended the public to disinfect the environment using a right disinfectant approved by the Ministry of Environment and following a proper guideline. As a preventative measure, the public place and house could be disinfected on a regular basis. It is advised to wipe down the items that people can often use or touch, such as a door knob, elevator button, desk, keyboard, light switch, and armrest while ventilating the space.
+ 
+ 
 
 
+
+
+Call to actions for all citizens
+ 
+ ① Cancel or postpone all non-essential gatherings, dining out, social events, and travel plans.
+     * There have been numerous reports overseas of transmission by eating together. All meetings and events involving sharing a meal should especially be postponed or canceled.
+ 
+ ② If you have fever, cough, sore throat, muscle pain, or other respiratory symptoms, do not go to work. Stay home and get sufficient rest.
+ 
+ ③ Avoid leaving home except to purchase necessities, to get medical care, or to go to work.
+ 
+ ④ Avoid handshakes and other forms of physical contact. Keep a 2-meter distance from each other.
+ 
+ ⑤ Wash your hands, cover up your sneezes/coughs, and generally maintain strict personal hygiene.
+ 
+ ⑥ Disinfect and ventilate your space every day.
 
 
 
  
+ 
+
+[Table 2: Regional distribution and epidemiological links of the confirmed cases]
+
+
+
+
+
+Region
+
+Confirmed cases
+
+Other major clusters
+
+
 
 Total
 
-City 
+Imported cases
+
+Clusters
+
+Other*
+
+New cases
+
+
+
+Sub-
+total
+
+Shin-
+cheonji
+
+Small clusters
+
+Contacts of confirmed cases
+
+Imported cases
 
 
 
 Seoul
 
-Busan
+528
 
-Daegu
+162
 
-Incheon
+321
 
-Gwangju
+7
 
-Daejeon
+240
 
-Ulsan
+26
 
-Sejong
+48
 
-
-
-Isolated 
-
-3,654
-
-384
-
-29
-
-1,966
-
-55
-
-11
-
-18
-
-15
-
-31
-
-
-
-Discharged
-
-6,325
-
-144
-
-90
-
-4,673
+45
 
 22
 
-15
-
-18
-
-24
-
-15
+Guro-gu call center (98), Dong-an Church-PC Cafe (20), Manmin Central Church (38), etc.
 
 
 
-Deceased 
-
-177
-
-0
-
-3
+Busan
 
 122
 
+12
+
+80
+
+12
+
+50
+
+18
+
+0
+
+30
+
+0
+
+Onchun Church (32), Suyeong-gu Kindergarten (5), etc.
+
+
+
+Daegu
+
+6,761
+
+8
+
+6,010
+
+4,480
+
+608
+
+919
+
+3
+
+743
+
+27
+
+Second Mi-Ju Hospital (170), Hansarang Convalescent Hospital (123), Daesil Convalescent Hospital (98), Fatima Hospital(33), etc.
+
+
+
+Incheon
+
+77
+
+29
+
+44
+
+2
+
+34
+
+4
+
+4
+
+4
+
+3
+
+Guro-gu call center (20), etc.
+
+
+
+Gwangju
+
+26
+
+10
+
+16
+
+9
+
+0
+
+1
+
+6
+
 0
 
 0
+
+ 
+
+
+
+Daejeon
+
+36
+
+6
+
+21
+
+2
+
+11
+
+8
+
+0
+
+9
+
+0
+
+Korea Forest Engineer Institute (3), etc.
+
+
+
+Ulsan
+
+40
+
+9
+
+24
+
+16
+
+1
+
+4
+
+3
+
+7
+
+0
+
+ 
+
+
+
+Sejong
+
+46
+
+3
+
+42
+
+1
+
+38
+
+3
 
 0
 
@@ -276,633 +443,557 @@ Deceased
 
 0
 
-
-
-Subtotal 
-
-10,156
-
-528
-
-122
-
-6,761
-
-77
-
-26
-
-36
-
-40
-
-46
-
-
-
-(Difference)
-
-94
-
-22
-
-0
-
-27
-
-3
-
-0
-
-0
-
-0
-
-0
-
-
-
- 
-
-Province 
-
-Other
+Ministry of Oceans and Fisheries (30), gym facilities (8)
 
 
 
 Gyeonggi
 
+562
+
+110
+
+408
+
+29
+
+279
+
+66
+
+34
+
+44
+
+23
+
+Grace River Church in Seongnam (72), Guro-gu call center-Bucheon SaengMyeongSu Church (48), Uijeongbu St. Mary’s Hospital (25), etc.
+
+
+
 Gangwon
 
-Chung-buk
+42
+
+8
+
+26
+
+17
+
+8
+
+1
+
+0
+
+8
+
+1
+
+Apartments in Wonju City (3), Uijeongbu St. Mary’s Hospital (3), etc.
+
+
 
 Chung-
-nam 
+buk
+
+45
+
+5
+
+32
+
+6
+
+18
+
+6
+
+2
+
+8
+
+0
+
+Goesan-gun Jangyeon-myeon (11)
+
+
+
+Chung-
+nam
+
+135
+
+8
+
+119
+
+0
+
+117
+
+1
+
+1
+
+8
+
+1
+
+Gym facilities in Cheonan (103), research center in Seosan (9), etc.
+
+
 
 Jeon-
 buk
+
+15
+
+7
+
+3
+
+1
+
+2
+
+0
+
+0
+
+5
+
+0
+
+ 
+
+
 
 Jeon-
 nam
 
-Gyeong-
-buk
-
-Gyeong-nam
-
-Jeju
-
-Airport screening
-
-
-
-Isolated 
-
-356
-
-18
-
-18
-
-33
-
-8
-
-11
-
-385
-
-33
-
-5
-
-278
-
-
-
-Discharged
-
-200
-
-23
-
-27
-
-102
+15
 
 7
 
-4
-
-881
-
-75
-
-4
+7
 
 1
 
+3
 
+2
 
-Deceased 
-
-6
+1
 
 1
 
 0
 
-0
-
-0
-
-0
-
-44
-
-0
-
-0
-
-0
+Manmin Central Church (2)
 
 
 
-Subtotal 
-
-562
-
-42
-
-45
-
-135
-
-15
-
-15
+Gyeong-
+buk
 
 1,310
 
-108
+8
 
-9
-
-279
-
-
-
-(Difference)
-
-23
-
-1
-
-0
-
-1
-
-0
-
-0
-
-1
-
-1
-
-0
-
-15
-
-
-
- 
-
-○ Case distribution and incidence rate by region:
-
-
-
-
-
-Region
-
-# of cases 
-
-(%)
-
-Incidence rate (per 0.1M) 
-
-Region
-
-# of cases 
-
-(%)
-
-Incidence rate (per 0.1M) 
-
-
-
-Seoul
-
-528
-
-(5.20)
-
-5.42
-
-Gyeonggi
+1,167
 
 562
 
-(5.53)
+414
 
-4.24
+190
 
-
-
-Busan
-
-122
-
-(1.20)
-
-3.58
-
-Gangwon
-
-42
-
-(0.41)
-
-2.73
-
-
-
-Daegu
-
-6,761
-
-(66.57)
-
-277.49
-
-Chungbuk
-
-45
-
-(0.44)
-
-2.81
-
-
-
-Incheon
-
-77
-
-(0.76)
-
-2.60
-
-Chungnam 
+1
 
 135
 
-(1.33)
+1
 
-6.36
-
-
-
-Gwangju
-
-26
-
-(0.26)
-
-1.78
-
-Jeonbuk
-
-15
-
-(0.15)
-
-0.83
+Cheongdo Daenam Hospital (120), Bonghwa Pureun Nursing Home (68), pilgrimage to Israel (49), Gyeongsan Seo Convalescent Hospital (59), etc.
 
 
 
-Daejeon
-
-36
-
-(0.35)
-
-2.44
-
-Jeonnam
-
-15
-
-(0.15)
-
-0.80
-
-
-
-Ulsan
-
-40
-
-(0.39)
-
-3.49
-
-Gyeongbuk
-
-1,310
-
-(12.90)
-
-49.20
-
-
-
-Sejong
-
-46
-
-(0.45)
-
-13.44
-
-Gyeongnam
+Gyeong-
+nam
 
 108
 
-(1.06)
+12
 
-3.21
+79
+
+32
+
+42
+
+5
+
+0
+
+17
+
+1
+
+Geochang Church (10), Geochang Woongyang-myeon (8), Wings Tower (8), etc.
 
 
-
-Airport Screening
-
-279
-
-(2.75)
-
--
 
 Jeju
 
 9
 
-(0.09)
+5
 
-1.34
+0
 
+0
 
+0
+
+0
+
+0
+
+4
+
+0
 
  
 
- 
+
+
+Airport
+
+279
+
+279
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+15
 
  
 
- 
 
-Total 
+
+Total
 
 10,156
 
-(100)
+688
 
-19.59
+8,397
 
+5,178
 
+1,862
 
+1,254
 
- 
+103
 
-
-
-
-○ Daily cases trends by region:
-
-
-
-
-
-
-
-
-
-○ Case distribution by gender and age group:
-
-
-
-
-
- 
-
-Confirmed Cases 
-
-(%)
-
-Deaths
-
-(%)
-
-Fatality rate (%)
-
-
-
-Total 
-
-1,0156 
-
-(100)
-
-177 
-
-(100)
-
-1.74 
-
-
-
-Sex 
-
-Male
-
-4,052
-
-(39.90) 
+1,071
 
 94
 
-(53.11) 
-
-2.32 
+ 
 
 
 
-Female 
+(6.8)
 
-6,104
+(82.7)
 
-(60.10) 
+(51.0)
 
-83
+(18.3)
 
-(46.89) 
+(12.3)
 
-1.36 
+(1.0)
+
+(10.5)
 
 
 
-Age
+* Not classified into a cluster or under investigation
+※ The interim classification is based on the reporting location, which may change depending on further epidemiological investigation.
+
+
+
+
+
+[Figure 1: Distribution of confirmed cases based on location reported]
+ 
+* Refer to attachment
+
+ 
+[Table 3: Age distribution of severe cases]
+
+
+
+
+
+Age group
+
+Total
+
+Severe
+
+(
+
+%
+
+)
+
+Very severe
+
+(
+
+%
+
+)
+
+
+
+Total
+
+80
+
+31
+
+(
+
+100.0
+
+)
+
+50
+
+(
+
+100.0
+
+)
+
+
 
 80 and above
 
-461
+19
 
-(4.54) 
+12
 
-87
+(
 
-(49.15) 
+38.7
 
-18.87 
+)
+
+7
+
+(
+
+14.3
+
+)
 
 
 
 70-79
 
-678
+30
 
-(6.68) 
+7
 
-50
+(
 
-(28.25) 
+22.6
 
-7.37 
+)
+
+23
+
+(
+
+46.9
+
+)
 
 
 
 60-69
 
-1,282
+21
 
-(12.62) 
+7
 
-25
+(
 
-(14.12) 
+22.6
 
-1.95 
+)
+
+14
+
+(
+
+28.6
+
+)
 
 
 
 50-59
 
-1,898
+7
 
-(18.69) 
+4
 
-12
+(
 
-(6.78) 
+12.9
 
-0.63 
+)
+
+3
+
+(
+
+6.1
+
+)
 
 
 
 40-49
 
-1,358
+1
 
-(13.37) 
+0
 
-2
+(
 
-(1.13) 
+0.0
 
-0.15 
+)
+
+1
+
+(
+
+2.0
+
+)
 
 
 
 30-39
 
-1,066
-
-(10.50) 
+1
 
 1
 
-(0.56) 
+(
 
-0.09 
+3.2
+
+)
+
+0
+
+(
+
+0.0
+
+)
 
 
 
 20-29
 
-2,761
-
-(27.19) 
+1
 
 0
 
-(0.00) 
+(
 
--
+0.0
+
+)
+
+1
+
+(
+
+2.0
+
+)
 
 
 
 10-19
 
-530
-
-(5.22) 
+0
 
 0
 
-(0.00) 
+(
 
--
+0.0
+
+)
+
+0
+
+(
+
+0.0
+
+)
 
 
 
 0-9
 
-122
-
-(1.20) 
+0
 
 0
 
-(0.00) 
+(
 
--
+0.0
+
+)
+
+0
+
+(
+
+0.0
+
+)
 
 
 
  
-
-
-
-
-○ Incidence rate by age group (per 100,000):
-
-
-
-○ Weekly trend of imported cases:
-
-
-
  
 
 
@@ -912,7 +1003,7 @@ Files
 
 
 
-Press Release (April4)_morning.pdf
+Press Release (April4)_afternoon.pdf
 
 View
 

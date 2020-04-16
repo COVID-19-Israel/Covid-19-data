@@ -1,0 +1,326 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+123 additional cases have been confirmed
+
+Date2020-02-23 11:09
+Update2020-02-23 11:11
+DivisionDivision of Risk Assessment and International Cooperation 
+Tel043-719-7553
+6,358
+
+
+123 additional cases have been confirmed 
+ 
+○ As of 09:00, 23 February,2020, 123 additional cases have been confirmed, compared to yesterday afternoon (16:00, 22 February). 
+
+
+
+
+Period
+(since 3 January)
+
+Total
+
+Confirmed cases
+
+Suspected cases
+
+
+
+Sub
+total
+
+discharged
+
+isolated
+
+Death 
+
+Sub
+total
+
+being tested
+
+tested negative
+
+
+
+As of 16:00, 22 Feb. 
+
+21,586
+
+433
+
+18
+
+413
+
+2
+
+21,153
+
+6,037
+
+15,116
+
+
+
+As of 9:00, 23 Feb.
+
+22,633
+
+556
+
+18
+
+534
+
+4
+
+22,077
+
+6,039
+
+16,038
+
+
+
+Differences
+
++1,047
+
++123
+
+0
+
++121
+
++2 *
+
++924
+
++2
+
++922
+
+
+
+ 
+* The 443th case : A Korean male, born in 1979, tested positive at Gyeongju, Kyeongbuk province, the cause of death(date: Feb. 22) is under investigation 
+ The 54th case : A Korean male, born in 1963, case confirmed from Cheongdo Daenam hospital. the cause of death(date: Feb. 23) is under investigation 
+
+ 
+○ The 123 newly confirmed cases are classified into the clusters as follows.
+
+
+
+
+Place 
+
+City
+
+Province 
+
+Total
+
+
+
+Daegu
+
+Jeju
+
+Gwang-ju
+
+Busan
+
+Gyeong-
+buk
+
+Gyeong-
+nam
+
+Gyeonggi
+
+
+
+Sub-total 
+
+93
+
+1
+
+1
+
+2
+
+20
+
+4
+
+2
+
+123
+
+
+
+Shincheonji
+(Religious sect) 
+
+63
+
+ 
+
+1
+
+1
+
+7
+
+1
+
+2
+
+75
+
+
+
+Under investigation
+
+30
+
+1
+
+ 
+
+1
+
+13
+
+3
+
+ 
+
+48
+
+
+
+※ The interim classification is based on the reporting location, which may change according to the further epidemiological investigation. 
+
+
+
+ 
+ 
+
+
+Files
+
+
+
+
+
+Press_Release_(Feb.23)_Morning.pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,171 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24th case of novel Coronavirus has been confirmed in Republic of Korea
+
+Date2020-02-07 11:36
+Update2020-02-07 15:08
+DivisionDivision of Risk Assessment and International Cooperation
+Tel043-719-7553
+1,703
+
+
+ 24th case confirmed on the novel Coronavirus 
+in Republic of Korea
+ 
+  
+
+
+
+
+Period
+
+Total
+
+Confirmed cases1) 
+
+Suspected cases2) 
+
+
+
+Sub-total
+
+Under testing
+
+Negative
+
+
+
+3 Jan –6 Feb
+
+1,130
+
+24
+
+1,106
+
+264
+
+842
+
+
+
+ 
+1) A person with laboratory confirmation of 2019-nCoV infection, irrespective of clinical signs and symptoms 
+2) Case definitions are based on the novel coronavirus infection(2019-nCoV) guideline(5th rev.) 
+ 
+About the confirmed case 
+* Case 24th : He is a 28 year old Korean male evacuated from Wuhan and quarantined with sore throat at a public facility. He tested positive and isolated at the national designated isolation hospital 
+
+
+Files
+
+
+
+
+
+The updates(Feb 7) of 2019-nCoV in Korea.pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

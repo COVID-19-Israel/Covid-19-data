@@ -79,20 +79,20 @@ function popSynapViewer(url){
 
 
 
-125 additional cases have been confirmed
+The updates on COVID-19 in Korea as of 31 March
 
-Date2020-03-31 14:44
-Update2020-03-31 14:48
+Date2020-03-31 19:35
+Update2020-03-31 19:40
 DivisionDivision of Risk assessment and International cooperation 
 Tel043-719-7556
-2,397
+4,686
 
 
-The Updates of COVID-19 in Republic of Korea
+Updates on COVID-19 in Republic of Korea
 31 March, 2020
 
 
-○ As of 0:00, 31 March 2020, the total number of confirmed cases is 9,786 (including 518 imported cases), of which 5,408 cases have been discharged from isolation. Newly confirmed cases are 125 in total.
+○ As of 0:00, 31 March 2020, a total of 9,786 cases (including 518 imported cases) have been confirmed, of which 5,408 cases have been discharged from isolation. Newly confirmed cases are 125 in total.
  
 
 
@@ -103,7 +103,7 @@ Period
 
 Total
 
-Tested positive (PCR)
+Tested positive
 
 Being tested
 
@@ -178,14 +178,19 @@ Difference
 
 
  
-
-
-
-
-
-
-
-○ Regional distribution of total confirmed cases:
+○ Epidemiological links have been found for 83.8% of the total cases; 11.0% are either under investigation or sporadic cases. More details on the epidemiological links within each province or city are shown on page 5.
+ 
+○ From Manmin Central Church in Guro-gu, Seoul, 10 additional cases were confirmed. The current total is 33 confirmed cases (church members = 27; family members and other contacts = 6) since 25 March. Investigation into places visited by new confirmed cases and contact tracing are underway.
+ 
+○ From Uijeongbu St. Mary’s Hospital in Gyeonggi Province, 7 cases (inpatients = 4; staff/workers = 3) have been confirmed since 29 March. One patient who was in inpatient care on the 8th floor during 16-25 March was confirmed on 29 March, which prompted investigation into the contacts in the 8th floor ward, which found 6 additional confirmed cases. The 8th floor ward has been temporarily shut down. Testing is underway for around 200 healthcare staff and patients.
+ 
+○ In Daegu, a total of 2,368 caregivers working in 61 hospital-grade healthcare institutions are under investigation. Approximately 97% of them have been tested as of today. All 2,118 test results returned so far have been negative.
+ 
+○ Also in Daegu, a total of 2,415 inpatients admitted to 16 mental health hospitals are undergoing investigation. Approximately 67% of them have been tested as of today. All 273 test results returned so far have been negative.
+ 
+○ Due to the rise in COVID-19 cases in many countries around the world and the rise in the number of imported cases from overseas, starting 0:00 of 1 April, stronger infectious disease control measures will be applied for travelers arriving in from overseas.
+  
+Imported cases in Korea (as of 0:00, 31 March 2020)
 
 
 
@@ -194,316 +199,342 @@ Difference
 
 Total
 
-City 
+Region/Country
 
+Where confirmed
 
+Nationality
 
-Seoul
 
-Busan
 
-Daegu
+China
 
-Incheon
+Asia ex-China
 
-Gwangju
+Europe
 
-Daejeon
+America
 
-Ulsan
+Africa
 
-Sejong
+Airport
 
+Community
 
-
-Isolated 
-
-4,216
-
-343
-
-29
-
-2,624
-
-48
-
-6
-
-18
-
-20
-
-34
-
-
-
-Discharged
-
-5,408
-
-107
-
-87
-
-3,946
-
-16
-
-14
-
-18
-
-19
-
-12
-
-
-
-Deceased 
-
-162
-
-0
-
-3
-
-114
-
-0
-
-0
-
-0
-
-0
-
-0
-
-
-
-Subtotal 
-
-9,786
-
-450
-
-119
-
-6,684
-
-64
-
-20
-
-36
-
-39
-
-46
-
-
-
-(Difference)
-
-(125)
-
-(24)
-
-(1)
-
-(60)
-
-(6)
-
--
-
-(2)
-
--
-
--
-
-
-
- 
-
-Province 
+Korean
 
 Other
 
 
 
-Gyeonggi
-
-Gangwon
-
-Chung-buk
-
-Chung-
-nam 
-
-Jeon-
-buk
-
-Jeon-
-nam
-
-Gyeong-
-buk
-
-Gyeong-nam
-
-Jeju
-
-Airport screening
-
-
-
-Isolated 
-
-304
-
-12
-
-22
-
-38
-
-6
-
-6
-
-454
+New
 
 29
 
-6
-
-217
-
-
-
-Discharged
-
-166
-
-23
-
-22
-
-90
-
-7
-
-3
-
-808
-
-67
-
-3
-
 0
 
-
-
-Deceased 
-
-6
-
-1
-
-0
-
-0
-
-0
-
-0
-
-38
-
-0
-
-0
-
-0
-
-
-
-Subtotal 
-
-476
-
-36
-
-44
-
-128
+2
 
 13
 
-9
+14
 
-1,300
+0
 
-96
+15
 
-9
+14
+
+28
+
+1
+
+
+
+Total
+
+518
+
+17
+
+60
+
+282
+
+157
+
+2
 
 217
 
+301
+
+476
+
+42
 
 
-(Difference)
 
-(13)
+(3.3%)
 
--
+(11.6%)
 
--
+(54.4%)
 
-(1)
+(30.3%)
 
--
+(0.4%)
 
--
+(41.9%)
 
-(2)
+(58.1%)
 
-(1)
+(91.9%)
 
--
+(8.1%)
 
-(15)
+
+
+ * Figures may change based on findings from ongoing local epidemiological investigation efforts.
+ 
+○ As of today, only travelers arriving from Europe or the United States are ordered to self-quarantine. Starting 0:00 of 1 April, all Koreans and foreigners residing in Korea arriving from all overseas countries will be subject to self-quarantine for 14 days upon entry.
+ 
+○ As of today, short-term travelers without domestic residence have been subject to active monitoring rather than self-quarantine. Starting 1 April, all short-term travelers will also be ordered to self-quarantine, with exceptions* allowed only for limited cases:
+  * (1) A-1 (diplomat), A-2 (official duty), or A-3 (agreement) visa types; or
+    (2) A self-quarantine exemption issued in advance by a Korean Embassy prior to entry for one of the following reasons:
+     ▴important business purpose (contract, investment, etc.) 
+     ▴academic purpose (international convention) 
+     ▴other public or humanitarian purpose recognized as valid reason for exemption
+
+○ Short-term travelers who do not have a place of residence or a place to self-quarantine will be allowed to use a quarantine facility provided by national or local government. In this case, the person (regardless of whether Korean or of foreign nationality) will be required to pay for the use of such facility.
+
+○ Persons traveling in from overseas who fail to comply with self-quarantine regulations are subject to imprisonment up to 1 year or fine up to 10 million won (effective 5 April) for violation of Infectious Disease Control and Prevention Act (Paragraph 1 of Article 49 and Article 79-3). Persons of foreign nationality who fail to comply may be subject to measures including deportation and entry ban in accordance with Immigration Act (Articles 11 and 46). 
+
+
+
+
+ 
+Quarantine process for travelers from overseas (effective 0:00, 1 April)
+
+
+
+
+With symptoms
+
+►
+
+Screening (testing) at airport for all nationalities
+
+►
+
+If positive, admitted to hospital or treatment center
 
 
 
  
 
-
-
-○ Case distribution and incidence rate by region:           
+ 
 
 
 
- 
+►
+
+If negative, self-quarantine for 14 days at home (or facility for short-term travelers)
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+Without symptoms
+
+►
+
+Korean
+
+►
+
+From Europe: self-quarantine for 14 days; tested within 3 days
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+►
+
+From other regions: self-quarantine for 14 days; tested if symptoms occur
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+Foreigner
+
+►
+
+Long-term (living in Korea)
+
+►
+
+From Europe: tested at airport; self-quarantine for 14 days
+
+
+
+ 
+
+ 
+
+
+
+►
+
+From other regions: self-quarantine for 14 days; tested if symptoms occur
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+►
+
+Short-term (not living in Korea)
+
+►
+
+From Europe: tested at airport; quarantine at facility for 14 days
+
+
+
+ 
+
+ 
+
+
+
+►
+
+From other regions: quarantine at facility for 14 days; tested if symptoms occur
+
+
+
+ 
+
+ 
+
+
+
+►
+
+Quarantine exemption cases: tested at airport; active monitoring
+
+
+
+ 
+○ Persons arriving from overseas should return home straight after arriving at the airport. They should travel in their own vehicle or designated airport limousine bus or designated KTX train (reserved specifically for this purpose). They are required to sanitize their hands and wear a facemask during movement.
+ 
+○ During the self-quarantine period, the persons under self-quarantine are required to follow the self-quarantine guidelines provided. They must not share their utensils, towels and other personal belongings with their family, refrain from coming in contact with family members, roommates, or cohabitants. If they notice suspected symptoms develop (fever, cough, sore throat, muscle pain, shortness of breath, etc.) they must contact the designated public official or use the self-quarantine app to notify their symptoms and go to a screening center to be tested. 
+
+○ All persons who arrived in Korea from overseas within the last 14 days, even if they are not subject to mandatory self-quarantine, should stay home as much as possible, minimize contact with other people, maintain strict personal hygiene (washing hands, covering sneezes/coughs, etc.) to prevent infecting family members or those sharing living spaces, and call to ask a local public health center, KCDC call center (1339) or local call centers (area code + 120) to be tested at a screening center, and disclose their international travel history to the healthcare professionals. 
+
+○ The KCDC also advised employers to ensure that employees returning from international business trips will not return to their office for the first 2 weeks upon their return. In particular, employers should especially ensure that employees working at publicly used venues who have international travel history are required to work from home or take a short leave.
+ 
+○ In the absence of a scientifically proven method for treatment of COVID-19 patients, KCDC is working on providing guidelines on the use of convalescent plasma of recovered patients in treating severe COVID-19 patients. Convalescent plasma of recovered patient was used in South Korea in 2015 to treat severe MERS patients. Recently, administration of plasma of recovered patients on severe COVID-19 patients in China has been reported to have resulted in improvement in the patients’ clinical status.
+
+○ The Korean government is promoting the Enhanced Social Distancing campaign from 22 March to 5 April. The KCDC is advising high-risk facilities, businesses and sectors to limit operation, advise people to stay home and refrain from going outside, and minimize contact with coworkers at work. The KCDC again urged people to continue to refrain from attending religious gathering, going to indoor fitness or sports facilities, or otherwise engaging in activities that make it easy to come in close contact with other people in an enclosed space, and maintain good personal hygiene including washing hands and covering coughs/sneezes.
+ 
+
+
+
+
+Call to actions for all citizens
+ 
+ ① Cancel or postpone all non-essential gatherings, dining out, social events, and travel plans.
+ * There have been numerous reports overseas of transmission by eating together. All meetings and events involving sharing a meal should especially be postponed or canceled.
+ 
+ ② If you have fever, cough, sore throat, muscle pain, or other respiratory symptoms, do not go to work. Stay home and get sufficient rest.
+ 
+ ③ Avoid leaving home except to purchase necessities, to get medical care, or to go to work.
+ 
+ ④ Avoid handshakes and other forms of physical contact. Keep a 2-meter distance from each other.
+ 
+ ⑤ Wash your hands, cover up your sneezes/coughs, and generally maintain strict personal hygiene.
+ 
+ ⑥ Disinfect and ventilate your space every day.
+
+
+
+ 
+[Regional distribution and epidemiological links of the confirmed cases]
+
+
+
+
+
 Region
- 
-# of cases 
- 
-(%)
- 
-Incidence rate (per 0.1M) 
- 
-Region
- 
-# of cases 
- 
-(%)
- 
-Incidence rate (per 0.1M) 
+
+Confirmed cases
+
+Other major clusters
+
+
+
+Total
+
+Imported cases
+
+Clusters
+
+Other*
+
+New cases
+
+
+
+Sub-
+total
+
+Shin-
+cheonji
+
+Small clusters
+
+Contacts of confirmed cases
+
+Imported cases
 
 
 
@@ -511,17 +542,23 @@ Seoul
 
 450
 
-(4.60)
+119
 
-4.62
+293
 
-Gyeonggi
+7
 
-476
+217
 
-(4.86)
+32
 
-3.59
+37
+
+38
+
+24
+
+Guro-gu call center (96), Dong-an Church-PC Cafe (20), Manmin Central Church (29), etc.
 
 
 
@@ -529,17 +566,24 @@ Busan
 
 119
 
-(1.22)
+8
 
-3.49
+80
 
-Gangwon
+12
 
-36
 
-(0.37)
+50
 
-2.34
+18
+
+0
+
+31
+
+1
+
+Onchun Church (32), Suyeong-gu Kindergarten (5), etc.
 
 
 
@@ -547,17 +591,24 @@ Daegu
 
 6,684
 
-(68.30)
+5
 
-274.33
+5,930
 
-Chungbuk
+4,468
 
-44
+545
 
-(0.45)
+914
 
-2.75
+
+3
+
+749
+
+60
+
+Second Mi-Ju Hospital (113), Hansarang Convalescent Hospital (110), Daesil Convalescent Hospital (91), etc.
 
 
 
@@ -565,17 +616,23 @@ Incheon
 
 64
 
-(0.65)
+21
 
-2.17
+36
 
-Chungnam 
+2
 
-128
+29
 
-(1.31)
+3
 
-6.03
+2
+
+7
+
+6
+
+Guro-gu call center (20), etc.
 
 
 
@@ -583,17 +640,23 @@ Gwangju
 
 20
 
-(0.20)
+5
 
-1.37
+14
 
-Jeonbuk
+9
 
-13
+0
 
-(0.13)
+2
 
-0.72
+3
+
+1
+
+0
+
+ 
 
 
 
@@ -601,17 +664,23 @@ Daejeon
 
 36
 
-(0.37)
+4
 
-2.44
+21
 
-Jeonnam
+2
 
-9
+11
 
-(0.09)
+8
 
-0.48
+0
+
+11
+
+2
+
+Korea Forest Engineer Institute (3), etc.
 
 
 
@@ -619,17 +688,23 @@ Ulsan
 
 39
 
-(0.40)
+8
 
-3.40
+24
 
-Gyeongbuk
+16
 
-1,300
+1
 
-(13.28)
+4
 
-48.83
+3
+
+7
+
+0
+
+ 
 
 
 
@@ -637,25 +712,216 @@ Sejong
 
 46
 
-(0.47)
+3
 
-13.44
+42
 
-Gyeongnam
+1
+
+38
+
+3
+
+0
+
+1
+
+0
+
+Ministry of Oceans and Fisheries (30), gym facilities (8)
+
+
+
+Gyeonggi
+
+476
+
+86
+
+348
+
+29
+
+243
+
+58
+
+18
+
+42
+
+13
+
+Grace River Church in Seongnam (68), Guro-gu call center-Bucheon SaengMyeongSu Church (48), etc.
+
+
+
+Gangwon
+
+36
+
+6
+
+22
+
+17
+
+5
+
+0
+
+0
+
+8
+
+0
+
+Apartments in Wonju City (3), etc.
+
+
+
+Chung-buk
+
+44
+
+4
+
+32
+
+6
+
+11
+
+13
+
+2
+
+8
+
+0
+
+Goesan-gun Jangyeon-myeon (11)
+
+
+
+Chung-nam
+
+128
+
+7
+
+113
+
+0
+
+112
+
+1
+
+0
+
+8
+
+1
+
+Gym facilities in Cheonan (103), research center in Seosan (8), etc.
+
+
+
+Jeon-
+buk
+
+13
+
+6
+
+1
+
+1
+
+0
+
+0
+
+0
+
+6
+
+0
+
+ 
+
+
+
+Jeon-nam
+
+9
+
+2
+
+6
+
+1
+
+2
+
+2
+
+1
+
+1
+
+0
+
+Manmin Central Church (2)
+
+
+
+Gyeong-buk
+
+1,300
+
+5
+
+1,162
+
+559
+
+409
+
+193
+
+1
+
+133
+
+2
+
+Cheongdo Daenam Hospital (120), Bonghwa Pureun Nursing Home (68), pilgrimage to Israel (49), Gyeongsan Seo Convalescent Hospital (46), etc.
+
+
+
+Gyeong-nam
 
 96
 
-(0.98)
+7
 
-2.86
+72
 
+32
 
+35
 
-Airport Screening
+5
 
-217
+0
 
-(2.22)
+17
+
+1
+
+Geochang Church (10), Geochang Woongyang-myeon (8), etc.
 
 
 
@@ -663,242 +929,351 @@ Jeju
 
 9
 
-(0.09)
+5
 
-1.34
+0
 
+0
 
+0
+
+0
+
+0
+
+4
+
+0
 
  
 
- 
+
+
+Airport
+
+217
+
+217
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+15
 
  
 
- 
 
-Total 
+
+Total
 
 9,786
 
-(100)
+518
 
-18.87
+8,196
 
+5,162
 
+1,708
 
+1,256
 
-○ Daily cases trends by region:
+70
 
+1,072
 
-
-
-
-
-
-
-
-○ Case distribution by gender and age group:
-
-
-
+125
 
  
 
-Confirmed Cases 
-
-(%)
-
-Deaths
-
-(%)
-
-Fatality rate (%)
 
 
+(5.3%)
 
-Total 
+(83.8%)
 
-9,786 
+(52.7%)
 
-(100)
+(17.5%)
 
-162 
+(12.8%)
 
-(100)
+(0.7%)
 
-1.66 
+(11.0%)
 
 
 
-Sex 
-
-Male
-
-3,905
-
-(39.90) 
-
-82
-
-(50.62) 
-
-2.10 
+* Not classified into a cluster or under investigation
+※ The interim classification is based on the reporting location, which may change depending on further epidemiological investigation.
 
 
 
-Female 
 
-5,881
 
-(60.10) 
+[Distribution of confirmed cases based on location reported]
 
-80
+* Refer to attachment
 
-(49.38) 
 
-1.36 
+[Age distribution of severe cases]
 
 
 
-Age
+
+
+Age group
+
+Total
+
+Severe
+
+(
+
+%
+
+)
+
+Very severe
+
+(
+
+%
+
+)
+
+
+
+Total
+
+74
+
+23
+
+(
+
+100.0
+
+)
+
+51
+
+(
+
+100.0
+
+)
+
+
 
 80 and above
 
-442
+15
 
-(4.52) 
+9
 
-82
+(
 
-(50.62) 
+39.1
 
-18.55 
+)
+
+6
+
+(
+
+11.8
+
+)
 
 
 
 70-79
 
-651
+29
 
-(6.65) 
+8
 
-46
+(
 
-(28.40) 
+34.8
 
-7.07 
+)
+
+21
+
+(
+
+41.2
+
+)
 
 
 
 60-69
 
-1,235
+20
 
-(12.62) 
+4
 
-22
+(
 
-(13.58) 
+17.4
 
-1.78 
+)
+
+16
+
+(
+
+31.4
+
+)
 
 
 
 50-59
 
-1,851
+6
 
-(18.91) 
+1
 
-10
+(
 
-(6.17) 
+4.3
 
-0.54 
+)
+
+5
+
+(
+
+9.8
+
+)
 
 
 
 40-49
 
-1,312
-
-(13.41) 
+3
 
 1
 
-(0.62) 
+(
 
-0.08 
+4.3
+
+)
+
+2
+
+(
+
+3.9
+
+)
 
 
 
 30-39
 
-1,012
+0
 
-(10.34) 
+0
 
-1
+(
 
-(0.62) 
+0.0
 
-0.10 
+)
+
+0
+
+(
+
+0.0
+
+)
 
 
 
 20-29
 
-2,656
-
-(27.14) 
+1
 
 0
 
-(0.00) 
+(
 
--
+0.0
+
+)
+
+1
+
+(
+
+2.0
+
+)
 
 
 
 10-19
 
-515
-
-(5.26) 
+0
 
 0
 
-(0.00) 
+(
 
--
+0.0
+
+)
+
+0
+
+(
+
+0.0
+
+)
 
 
 
 0-9
 
-112
-
-(1.14) 
+0
 
 0
 
-(0.00) 
+(
 
--
+0.0
+
+)
+
+0
+
+(
+
+0.0
+
+)
 
 
 
-
-
-
-○  Incidence rate by age group (per 100,000):
-
-
-○  Weekly trend of imported cases:
-
-
-
+ 
 
 
 
@@ -908,7 +1283,7 @@ Files
 
 
 
-Press Release (March31)_morning.pdf
+Press Release (March31)_Afternoon.pdf
 
 View
 

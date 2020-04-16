@@ -79,220 +79,304 @@ function popSynapViewer(url){
 
 
 
-438 additional cases have been confirmed
+The updates on COVID-19 in Korea as of 5 March
 
-Date2020-03-05 11:06
-Update2020-03-05 11:06
+Date2020-03-05 18:05
+Update2020-03-05 18:05
 DivisionDivision of Risk assessment and International cooperation
 Tel043-719-7556
-9,031
+8,028
 
 
 The Updates of COVID-19 in Republic of Korea
 As of 5 March, 2020
 
 
-○ As of 0:00, 5 March, 2020, a total of 5,766 cases have been confirmed with 88 cases already discharged from isolation.
+○ As of 5 March, 2020, a total of 5,766 cases have been confirmed with 88 cases already discharged from isolation. The regional distribution and epidemiological links of the confirmed cases are shown in the table below; 69.4% of the total cases have epidemiological links and 30.6% are either under investigation or individual cases.
 
+○ In Daegu, 69.6% of the confirmed cases are Shincheonji cluster. According to the epidemiological investigation, the cases reported in the community centers and health facilities within the city are also related to the Shincheonji members.
 
+○ In Gyeongbuk province, the confirmed cases are identified mainly from community centers and long-term care facilities. 36 cases were newly confirmed in Pureun Nursing Home in Bonghwa. Furthermore, Gyeongsan was designated as Special Management Region due to the recent increase of the confirmed cases.
 
 
+[Table. Regional distribution and epidemiological links of the confirmed cases]
 
-Period
-(since 3 January)
 
-Total
 
-Confirmed cases
 
-Suspected cases
 
+Regions
 
+sub-total
 
-Sub
-total
+Epidemiological links
 
-discharged
+Others*
 
-isolated
+Newly confirmed**
 
-Deceased
 
-Sub
-total
 
-being tested
+n(%)
 
-tested negative
-
-
-
-As of 00:00, 4 March 
-
-136,707
-
-5,328
-
-41
-
-5,255
-
-32
-
-131,379
-
-28,414
-
-102,965
-
-
-
-As of 0:00 5 March
-
-146,541
-
-5,766
-
-88
-
-5,643
-
-35
-
-140,775
-
-21,810
-
-118,965
-
-
-
-Differences
-
-+9,834
-
-+438
-
-+47
-
-+388
-
-+3
-
-+9,396
-
--6,604
-
-+16,000
-
-
-
-
-
-○ The regional distribution of the confirmed cases are as follows.
-
-
-
-
-
-Province 
-
-
-
-Gyeonggi
-
-Gangwon
-
-Chung
--buk
-
-Chung
--nam
-
-Jeon
--buk
-
-Jeon
--nam
-
-Gyeong-buk
-
-Gyeong-nam
-
-Jeju
-
-
-
-110
-
-23
-
-12
-
-86
-
-7
-
-5
-
-861
-
-74
-
-4
-
-
-
-City 
-
-Total
+Details
 
 
 
 Seoul
 
-Busan
-
-Daegu
-
-Incheon
-
-Gwangju
-
-Daejeon
-
-Ulsan
-
-Sejong
-
-
-
 103
+
+65(63.1%)
+
+Eunpyeong St. Mary’s Hospital(14), Seongdong-gu APT(13), Jongno Community Center(10), Shincheonji(4), etc.
+
+38(36.9%)
+
+4
+
+
+
+Busan
 
 92
 
-4326
+67(72.8%)
+
+Onchun Church(33), contacts of the confirmed cases(23), Sbincheonji(11), Daenam Hospital(2)
+
+25(27.2%)
+
+-1
+
+
+
+Daegu
+
+4,327
+
+3,015(69.7%)
+
+Shincheonji(3,013), Daenam Hospital(2), etc.
+
+1,312(30.3%)
+
+321
+
+
+
+Incheon
 
 9
 
+4(44.4%)
+
+Shincheonji(1), contacts of the confirmed cases(2), the existing imported cases(1)
+
+5(55.6%)
+
+0
+
+
+
+Gwangju
+
 14
 
-16
+8(57.1%)
 
-23
+Shincheonji(7), the existing imported cases(1)
+
+6(42.9%)
 
 1
 
-5766
+
+
+Daejeon
+
+16
+
+9(56.3%)
+
+Contacts of the confirmed cases(8), Shincheonji(1) 
+
+7(43.8%)
+
+1
 
 
 
+Ulsan
+
+23
+
+11(47.8%)
+
+Related to Shincheonji(11)
+
+12(52.2%)
+
+0
 
 
 
+Sejong
+
+1
+
+1(100.0%)
+
+Related to Shincheonji(1)
+
+0
+
+0
 
 
-○ The number of cases confirmed each day(orange bar) and in total(blue line) are indicated in the graph below.
+
+Gyeonggi
+
+110
+
+80(72.7%)
+
+Shincheonji(18), Suwon Saeng Myeong Saem Church(10), the existing imported cases(6)
+
+30(27.3%)
+
+9
+
+
+
+Gangwon
+
+23
+
+11(47.8%)
+
+Related to Shincheonji(11)
+
+12(52.2%)
+
+2
+
+
+
+Chungbuk
+
+12
+
+5(41.7%)
+
+Related to Shincheonji(4), contacts of the confirmed cases(1)
+
+7(58.3%)
+
+1
+
+
+
+Chungnam
+
+86
+
+81(94.2%)
+
+The gym in Cheonan(81)
+
+5(5.8%)
+
+4
+
+
+
+Jeonbuk
+
+7
+
+3(42.9%)
+
+Contacts of the confirmed cases(2), Related to the existing imported cases(1)
+
+4(57.1%)
+
+0
+
+
+
+Jeonnam
+
+4
+
+2(50.0%)
+
+Shincheonji(1), the existing imported cases(1)
+
+2(50.0%)
+
+-1
+
+
+
+Gyeongbuk
+
+861
+
+597(69.3%)
+
+Shincheonji(348), Daenam Hospital (115), Pilgrimage to Israel(49), Bonghwa Pureun Nursing Home(36), Milal Shelter(24), Seonrin Nursing Home(13), Gimcheon Juvenile Detention Center(3), Korea Electric Power Corporation regional branch(4), Elim Nursing Home(3), Cham Joeun Community Center(2) 
+
+264(30.7%)
+
+87
+
+
+
+Gyeongnam
+
+74
+
+45(60.8%)
+
+Shincheonji(21), Geochang Church(10), Hanmaeum Changwon Hospital(6), Changnyeong Coin Karaoke(6), Busan Onchun Church(2) 
+
+29(39.2%)
+
+9
+
+
+
+Jeju
+
+4
+
+-
+
+
+4(100.0%)
+
+1
+
+
+
+Total
+
+5,766
+
+4,004(69.4%)
+
+3,452 (59.9%) cases are related to Shincheonji
+
+1,762(30.6%)
+
+438
+
+
+
+* Not classified into a cluster or under investigation
+** Reported from 0:00, 4 March to 0:00, 5 March
+※ The interim classification is based on the reporting location, which may change depending on further epidemiological investigation.
 
 
 
@@ -305,7 +389,7 @@ Files
 
 
 
-Press Release (March5)_Morning.pdf
+Press Release (March5)_Afternoon.pdf
 
 View
 

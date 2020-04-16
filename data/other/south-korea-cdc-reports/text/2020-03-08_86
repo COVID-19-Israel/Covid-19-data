@@ -1,0 +1,230 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+367 additional cases are confirmed
+
+Date2020-03-08 19:33
+Update2020-03-08 19:33
+DivisionDivision of Risk assessment and International cooperation 
+Tel043-719-7553
+3,065
+
+
+367 additional cases are confirmed 
+
+ 
+○ As of 0:00, 8 March, 2020, The total number of confirmed cases is 7,134 and 130 cases were discharged. 
+
+
+
+
+Period
+(since 3 January)
+
+Total
+
+Confirmed cases
+
+Suspected cases
+
+
+
+Sub
+total
+
+discharged
+
+isolated
+
+Deceased
+
+Sub
+total
+
+being tested
+
+tested negative
+
+
+
+As of 0:00, 7. March. 
+
+178,189
+
+6,767
+
+118
+
+6,605
+
+44
+
+171,422
+
+19,620
+
+151,802
+
+
+
+As of 0:00, 8 March
+
+188,518
+
+7,134
+
+130
+
+6,954
+
+50
+
+181,384
+
+19,376
+
+162,008
+
+
+
+Differences
+
++10,329
+
++367
+
++12
+
++349
+
++6
+
++9,962
+
+-244
+
++10,206
+
+
+
+ 
+ 
+※ The regional distribution of total confirmed cases will be released on 14:00 briefing today. 
+ 
+ 
+ 
+ 
+ 
+
+
+Files
+
+
+
+
+
+Press_Release_(March8)_Morning.pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

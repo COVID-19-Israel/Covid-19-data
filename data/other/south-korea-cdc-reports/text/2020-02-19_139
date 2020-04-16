@@ -1,0 +1,220 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The 15 new cases of COVID-19 have been confirmed in Korea
+
+Date2020-02-19 10:48
+Update2020-02-19 16:51
+DivisionDivision of Risk Assessment and International Cooperation
+Tel043-719-7553
+4,076
+
+
+The 15 new cases of COVID-19  have been confirmed as of 19 Feb. in Korea 
+
+○ As of 19 February, 2020, there have been 15 new confirmed cases, and 46 confirmed cases in total. 
+
+
+
+
+
+Period
+(since 3 January)
+
+Total
+
+Confirmed cases
+
+Suspected cases
+
+
+
+Sub-
+total
+
+isolated
+
+discharged
+
+Sub-total
+
+being tested
+
+tested negative
+
+
+
+As of 16:00, 18 Feb. 
+
+9,772
+
+31
+
+19
+
+12
+
+9.741
+
+818
+
+8,923
+
+
+
+As of 9:00, 19 Feb.
+
+10,411
+
+46
+
+34
+
+12
+
+10,365
+
+1,030
+
+9,335
+
+
+
+Differences
+
++639 
+
++15
+
++15
+
+0
+
++624
+
++212
+
++412
+
+
+
+  *The designated case number will be informed later.
+ 
+ ○ The number of 13 newly confirmed cases out of a total 15 cases have been confirmed at Daegu-city and Gyengbuk province. Based on the epidemiological investigation, 11 cases out of 13 newly cases are the contacts of the 31th case; 10 cases are contact from the same church and 1 case is a hospital-contact. 2 cases are under investigation. 
+ 
+ ○ A daughter of the contacts of 20th , Korean female who born in 2009, tested positive while being in self-quarantine. And the additional case, Korean male who born in 1943 has been confirmed at Seoul and currently being isolated in National isolation hospital. 
+ 
+ ○ The central government(MOHW, KCDC) was dispatched a special task force in Daegu-city to implement disease control measure with local government.
+
+
+Files
+
+
+
+
+
+Press_Release_(Feb 19)_morning.pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

@@ -79,13 +79,13 @@ function popSynapViewer(url){
 
 
 
-39 additional cases have been confirmed
+The updates on COVID-19 in Korea as of 9 April
 
-Date2020-04-09 14:38
-Update2020-04-09 14:44
+Date2020-04-09 19:26
+Update2020-04-09 19:30
 DivisionDivision of Risk assessment and International cooperation 
 Tel043-719-7556
-1,403
+2,278
 
 
 Updates on COVID-19 in Republic of Korea
@@ -93,8 +93,9 @@ Updates on COVID-19 in Republic of Korea
 9 April 2020
 
  
-○ As of 0:00, 9 April 2020, the total number of confirmed cases is 10,423 (including 861 imported cases), of which 6,973 cases have been discharged from isolation. Newly confirmed cases are 39 in total.
+○ As of 0:00, 9 April 2020, a total of 10,423 cases (including 861 imported cases) have been confirmed, of which 6,973 cases have been discharged from isolation. Newly confirmed cases are 39 in total.
  
+[Table 1. Total confirmed and suspected cases]
 
 
 
@@ -104,7 +105,7 @@ Period
 
 Total
 
-Tested positive (PCR)
+Tested positive
 
 Being tested
 
@@ -126,7 +127,6 @@ As of 0:00
 8 April (Wed)
 
 486,003
-
 
 10,384
 
@@ -179,15 +179,11 @@ Difference
 
 
 
- 
- 
-  
- 
-  
- 
-  
 
-○ Regional distribution of total confirmed cases:
+ 
+[Table 2. Imported cases in Korea (as of 0:00, 9 April 2020)]
+
+
 
 
 
@@ -196,318 +192,191 @@ Difference
 
 Total
 
-City 
+Region/Country
 
+Where confirmed
 
+Nationality
 
-Seoul
 
-Busan
 
-Daegu
+China
 
-Incheon
+Asia ex-China
 
-Gwangju
+Europe
 
-Daejeon
+America
 
-Ulsan
+Africa
 
-Sejong
+Airport
 
+Community
 
-
-Isolated 
-
-3,246
-
-414
-
-25
-
-1,562
-
-53
-
-12
-
-19
-
-11
-
-30
-
-
-
-Discharged
-
-6,973
-
-174
-
-97
-
-5,106
-
-31
-
-15
-
-20
-
-28
-
-16
-
-
-
-Deceased 
-
-204
-
-2
-
-3
-
-139
-
-0
-
-0
-
-0
-
-1
-
-0
-
-
-
-
-Subtotal 
-
-10,423
-
-590
-
-125
-
-6,807
-
-84
-
-27
-
-39
-
-40
-
-46
-
-
-
-Difference
-
-39
-
-12
-
-0
-
-4
-
-0
-
-0
-
-0
-
-0
-
-0
-
-
-
- 
-
-Province 
+Korean
 
 Other
 
 
 
-Gyeonggi
+New
 
-Gangwon
+23
 
-Chung-buk
+0
 
-Chung-
-nam 
+0
 
-Jeon-
-buk
+5
 
-Jeon-
-nam
+18
 
-Gyeong-
-buk
-
-Gyeong-nam
-
-Jeju
-
-Airport screening
-
-
-
-Isolated 
-
-336
-
-24
-
-15
-
-33
+0
 
 10
 
-11
+13
 
-305
-
-33
-
-8
-
-345
-
-
-
-Discharged
-
-259
-
-24
-
-30
-
-105
-
-7
-
-4
-
-968
-
-82
-
-4
-
-3
-
-
-
-Deceased 
-
-11
-
-1
-
-0
-
-0
-
-0
-
-0
-
-47
-
-0
-
-0
-
-0
-
-
-
-Subtotal 
-
-606
-
-49
-
-45
-
-138
-
-17
-
-15
-
-1,320
-
-115
-
-12
-
-348
-
-
-
-Difference
-
-10
-
-0
-
-0
-
-1
-
-0
-
-0
-
-0
+21
 
 2
 
-0
-
-10
 
 
+Total
 
+861
+
+16
+
+95
+
+408
+
+339
+
+3
+
+348
+
+513
+
+792
+
+69
+
+
+
+(1.9%)
+
+(11.0%)
+
+(47.4%)
+
+(39.4%)
+
+(0.3%)
+
+(0.4%)
+
+(59.6%)
+
+(92.0%)
+
+(8.0%)
+
+
+
+ * Figures may change based on findings from ongoing local epidemiological investigation efforts.
+ 
+○ Epidemiological links have been found for 81.9% of the total cases; 9.8% are either under investigation or sporadic cases. More details on the epidemiological links within each province or city are shown in Table 2.
+ 
+○ From a bar (Liquid Soul) in Seocho-gu, Seoul, 4 cases have been confirmed since 6 April. Epidemiological investigation is underway.
+ 
+○ From a wine bar (UnWined) in Pyeongtaek, Gyeonggi Province, 4 additional cases have been confirmed since 4 April. In total, 17 cases (wine bar = 13; family/acquaintances of confirmed cases = 4) have been confirmed. (The figures on Table 2 are based on cases reported to KCDC before 0:00 of 9 April and may differ from above.)
+ 
+○ In addition, 2 cases were confirmed who were workers at a nightlife entertainment venue in Gangnam-gu, Seoul. Since nightlife venues tend to be closed spaces which make it easier for infectious virus to spread, KCDC asked people to be particularly cautious about such venues.
+Nightlife entertainment venues are under limited operation on the condition that they follow the infectious disease prevention and control guidelines. The venues that remain in operation must strictly comply with the guidelines set forth by the infectious disease prevention and control authorities including disinfection, ventilation, distancing between users, and mandatory mask wearing.
+ 
+○ KCDC is continuously monitoring for any occurrence of gene mutations in the virus responsible for COVID-19.
+To date, no significant gene mutations affecting infectivity or pathogenicity of the virus has been found based on the results of analysis of 73 viral gene sequences obtained from patients in Korea.
+ 
+○ To improve testing efficiency, KCDC and Korean Society for Laboratory Medicine has jointly prepared a protocol for pooled testing.
+Pooled testing (or sample pooling) is a method in which biological samples from multiple people are combined into a testing pool and tested via a single test. In the case of a positive result, individual testing is carried out in previously reserved samples. This method is useful for screening asymptomatic high-risk groups.
+ 
+○ In light of the continued rise in the number of imported cases, KCDC again urged inbound travelers who boarded from overseas to comply with home quarantine guidelines.
+Persons under home quarantine (self-quarantine) are required to follow the self-quarantine guidelines provided. They must not share their utensils, towels and other personal belongings with their family, refrain from coming in contact with family members, roommates, or cohabitants.
+ 
+○ Starting 5 April, stronger penalty is applied to persons who violate mandatory home quarantine (self-quarantine). Failure to comply with mandatory home quarantine is punishable by imprisonment up to 1 year or a fine up to 10 million won in accordance with Infectious Disease Control and Prevention Act. 
+ 
+
+○ KCDC asked people for continued participation in the Enhanced Social Distancing campaign which has been extended to 19 April. KCDC is advising people to refrain from activities that make it easy to come in close contact with other people in an enclosed space and to maintain good personal hygiene including washing hands and covering coughs/sneezes.
  
 
 
 
 
-○ Case distribution and incidence rate by region:
+Call to actions for all citizens
+ 
+ ① Cancel or postpone all non-essential gatherings, dining out, social events, and travel plans.
+ * There have been numerous reports overseas of transmission by eating together. All meetings and events involving sharing a meal should especially be postponed or canceled.
+ 
+ ② If you have fever, cough, sore throat, muscle pain, or other respiratory symptoms, do not go to work. Stay home and get sufficient rest.
+ 
+ ③ Avoid leaving home except to purchase necessities, to get medical care, or to go to work.
+ 
+ ④ Avoid handshakes and other forms of physical contact. Keep a 2-meter distance from each other.
+ 
+ ⑤ Wash your hands, cover up your sneezes/coughs, and generally maintain strict personal hygiene.
+ 
+ ⑥ Disinfect and ventilate your space every day.
+
+
+
+ 
+ 
+ 
+
+[Table 3: Regional distribution and epidemiological links of the confirmed cases]
+
+
 
 
 
 
 Region
 
-# of cases 
+Confirmed cases
 
-(%)
+Other major clusters
 
-Incidence rate (per 0.1M) 
 
-Region
 
-# of cases 
 
-(%)
+Total
 
-Incidence rate (per 0.1M) 
+Imported cases
+
+Clusters
+
+Other*
+
+New cases
+
+
+
+Sub-
+total
+
+Shin-
+cheonji
+
+Small clusters
+
+Contacts of confirmed cases
+
+Imported cases
 
 
 
@@ -515,17 +384,23 @@ Seoul
 
 590
 
-(5.66)
+217
 
-6.06
+347
 
-Gyeonggi
+8
 
-606
+256
 
-(5.81)
+19
 
-4.57
+64
+
+26
+
+12
+
+Guro-gu call center (98), Dong-an Church-PC Cafe (20), Manmin Central Church (40), etc.
 
 
 
@@ -533,17 +408,23 @@ Busan
 
 125
 
-(1.20)
+15
 
-3.66
+81
 
-Gangwon
+12
 
-49
+50
 
-(0.47)
+18
 
-3.18
+1
+
+29
+
+0
+
+Onchun Church (39), Suyeong-gu Kindergarten (5), etc.
 
 
 
@@ -551,17 +432,23 @@ Daegu
 
 6,807
 
-(65.31)
+12
 
-279.38
+6,079
 
-Chungbuk
+4,508
 
-45
+645
 
-(0.43)
+922
 
-2.81
+4
+
+716
+
+4
+
+Second Mi-Ju Hospital (186), Hansarang Convalescent Hospital (126), Daesil Convalescent Hospital (98), Fatima Hospital (35), etc.
 
 
 
@@ -569,17 +456,23 @@ Incheon
 
 84
 
-(0.81)
+33
 
-2.84
+46
 
-Chungnam 
+2
 
-138
+34
 
-(1.32)
+5
 
-6.50
+5
+
+5
+
+0
+
+Guro-gu call center (20), etc.
 
 
 
@@ -587,17 +480,23 @@ Gwangju
 
 27
 
-(0.26)
+11
 
-1.85
+16
 
-Jeonbuk
+9
 
-17
+0
 
-(0.16)
+1
 
-0.94
+6
+
+0
+
+0
+
+ 
 
 
 
@@ -605,17 +504,23 @@ Daejeon
 
 39
 
-(0.37)
+9
 
-2.65
+21
 
-Jeonnam
+2
 
-15
+11
 
-(0.14)
+8
 
-0.80
+0
+
+9
+
+0
+
+Korea Forest Engineer Institute (3), etc.
 
 
 
@@ -623,17 +528,23 @@ Ulsan
 
 40
 
-(0.38)
+9
 
-3.49
+24
 
-Gyeongbuk
+16
 
-1,320
+1
 
-(12.66)
+4
 
-49.58
+3
+
+7
+
+0
+
+ 
 
 
 
@@ -641,280 +552,579 @@ Sejong
 
 46
 
-(0.44)
+3
 
-13.44
+42
 
-Gyeongnam
+1
+
+38
+
+3
+
+0
+
+1
+
+0
+
+Ministry of Oceans and Fisheries (30), gym facilities (8)
+
+
+
+Gyeonggi
+
+606
+
+134
+
+429
+
+29
+
+297
+
+59
+
+44
+
+43
+
+10
+
+Grace River Church in Seongnam (72), Guro-gu call center-Bucheon SaengMyeongSu Church (48), Uijeongbu St. Mary’s Hospital (37), etc.
+
+
+
+Gangwon
+
+49
+
+12
+
+30
+
+17
+
+13
+
+0
+
+0
+
+7
+
+0
+
+Apartments in Wonju City (3), Euijeongbu St. Mary’s Hospital (8), etc.
+
+
+
+Chung-buk
+
+45
+
+5
+
+32
+
+6
+
+18
+
+6
+
+2
+
+8
+
+0
+
+Goesan-gun Jangyeon-myeon (11)
+
+
+
+Chung-nam
+
+138
+
+8
+
+120
+
+0
+
+118
+
+1
+
+1
+
+10
+
+1
+
+Gym facilities in Cheonan (103), research center in Seosan (9), etc.
+
+
+
+Jeonbuk
+
+17
+
+8
+
+4
+
+1
+
+3
+
+0
+
+0
+
+5
+
+0
+
+ 
+
+
+
+Jeonnam
+
+15
+
+7
+
+7
+
+1
+
+3
+
+2
+
+1
+
+1
+
+0
+
+Manmin Central Church (2)
+
+
+
+Gyeong-buk
+
+1,320
+
+9
+
+1,178
+
+566
+
+420
+
+191
+
+1
+
+133
+
+0
+
+Cheongdo Daenam Hospital (120), Bonghwa Pureun Nursing Home (68), pilgrimage to Israel (49), Gyeongsan Seo Convalescent Hospital (61), etc.
+
+
+
+Gyeong-nam
 
 115
 
-(1.10)
+14
 
-3.42
+84
+
+32
+
+45
+
+6
+
+1
+
+17
+
+2
+
+Geochang Church (10), Geochang Woongyang-myeon (8), Wings Tower (10), etc.
 
 
-
-Airport Screening
-
-348
-
-(3.34)
-
--
 
 Jeju
 
 12
 
-(0.12)
+7
 
-1.79
+1
 
+0
 
+0
+
+0
+
+1
+
+4
+
+0
 
  
 
- 
+
+
+Airport
+
+348
+
+348
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+10
 
  
 
- 
 
-Total 
+
+Total
 
 10,423
 
-(100)
+861
 
-20.10
+8,541
 
+5,210
 
+1,952
 
- 
- 
- 
+1,245
 
-○ Daily case trends by region:
- 
-  
- 
- 
-  
- 
- 
-  .
- 
-  
- 
+134
 
+1,021
 
-○ Case distribution by gender and age group:
-
-
-
+39
 
  
 
-Confirmed Cases 
-
-(%)
-
-Deaths
-
-(%)
-
-Fatality rate (%)
 
 
+(8.3)
 
-Total 
+(81.9)
 
-10,423 
+(50.0)
 
-(100)
+(18.7)
 
-204 
+(11.9)
 
-(100)
+(1.3)
 
-1.96 
+(9.8)
 
 
 
-Sex 
-
-Male
-
-4,185
-
-(40.15) 
-
-107
-
-(52.45) 
-
-2.56 
+* Not classified into a cluster or under investigation
+※ The interim classification is based on the reporting location, which may change depending on further epidemiological investigation.
 
 
 
-Female 
 
-6,238
 
-(59.85) 
+[Figure 1: Distribution of confirmed cases based on location reported]
+ 
+* Refer to attachment
+ 
 
-97
-
-(47.55) 
-
-1.55 
+ 
+[Table 4: Age distribution of severe cases]
 
 
 
-Age
+
+
+Age group
+
+Total
+
+Severe
+
+(
+
+%
+
+)
+
+Very severe
+
+(
+
+%
+
+)
+
+
+
+Total
+
+80
+
+31
+
+(
+
+100.0
+
+)
+
+49
+
+(
+
+100.0
+
+)
+
+
 
 80 and above
 
-473
+19
 
-(4.54) 
+11
 
-100
+(
 
-(49.02) 
+35.5
 
-21.14 
+)
+
+8
+
+(
+
+16.3
+
+)
 
 
 
 70-79
 
-692
+28
 
-(6.64) 
+9
 
-60
+(
 
-(29.41) 
+29.0
 
-8.67 
+)
+
+19
+
+(
+
+38.8
+
+)
 
 
 
 60-69
 
-1,314
+20
 
-(12.61) 
+5
 
-27
+(
 
-(13.24) 
+16.1
 
-2.05 
+)
+
+15
+
+(
+
+30.6
+
+)
 
 
 
 50-59
 
-1,917
+8
 
-(18.39) 
+4
 
-13
+(
 
-(6.37) 
+12.9
 
-0.68 
+)
+
+4
+
+
+(
+
+8.2
+
+)
 
 
 
 40-49
 
-1,394
+2
 
-(13.37) 
+0
 
-3
+(
 
-(1.47) 
+0.0
 
-0.22 
+)
+
+2
+
+(
+
+4.1
+
+)
 
 
 
 30-39
 
-1,109
-
-(10.64) 
+1
 
 1
 
-(0.49) 
+(
 
-0.09 
+3.2
+
+)
+
+0
+
+(
+
+0.0
+
+)
 
 
 
 20-29
 
-2,844
+2
 
-(27.29) 
+1
 
-0
+(
 
-(0.00) 
+3.2
 
--
+)
+
+1
+
+(
+
+2.0
+
+)
 
 
 
 10-19
 
-552
-
-(5.30) 
+0
 
 0
 
-(0.00) 
+(
 
--
+0.0
+
+)
+
+0
+
+(
+
+0.0
+
+)
 
 
 
 0-9
 
-128
-
-(1.23) 
+0
 
 0
 
-(0.00) 
+(
 
--
+0.0
+
+)
+
+0
+
+(
+
+0.0
+
+)
 
 
+
+ 
+ 
+
+ 
+[Figure 2: New cases (for last 2 weeks) by chain of transmission]
+ 
 
   
  
-  
- 
-
-
-○ Incidence rate by age group (per 100,000):
-  
  
  
-
-○ Weekly trend of imported cases:
- 
- 
-  
 
 
 Files
@@ -923,7 +1133,7 @@ Files
 
 
 
-Press_Release_(April09)_morning.pdf
+Press_Release_(April09)_Afternoon.pdf
 
 View
 

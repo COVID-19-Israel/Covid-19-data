@@ -79,18 +79,18 @@ function popSynapViewer(url){
 
 
 
-52 new cases of COVID-19 have been confirmed
+The Updates of COVID -19 (as of 21 Feb) in Korea
 
-Date2020-02-21 10:48
-Update2020-02-21 10:48
-DivisionDivision of Risk Assessment and International Cooperation 
+Date2020-02-21 18:25
+Update2020-02-21 18:25
+DivisionDivision of Risk Assessment and International Cooperation
 Tel043-719-7553
-7,192
+4,692
 
 
- 52 new cases of COVID-19 have been confirmed
- 
-○ As of 09:00, 21 February, 2020, 52 additional cases are confirmed, compared to yesterday afternoon (16:00, 20 February). 
+The Updates of COVID -19 (as of 21 Feb) in Korea 
+
+○ As of 09:00, 21 February, 2020, 74 additional cases are confirmed, which brings the total number of confirmed cases to 156. 139 confirmed cases are currently in isolation, 11,953 turned out to be negative, and 2,707 are being tested. 
 
 
 
@@ -122,23 +122,23 @@ tested negative
 
 
 
-As of 16:00, 20 Feb. 
+As of 09:00, 20 Feb. 
 
-13,202
+12,161
 
-104
+82
 
 16
 
-87
+66
 
 1
 
-13,098
+12,079
 
-1,860
+1,633
 
-11,238
+10,446
 
 
 
@@ -148,7 +148,7 @@ As of 9:00, 21 Feb.
 
 156
 
-16
+16*
 
 139
 
@@ -164,27 +164,27 @@ As of 9:00, 21 Feb.
 
 Differences
 
-+1,614
++2,655
 
-+52
-
-0
-
-+52
++74
 
 0
 
-+1,562
++73
 
-+847
+0
 
-+715
++2,581
+
++1,074
+
++1,507
 
 
 
  
+○ Of the 72 cases, 62 cases are identified in Daegu and Gyeongbuk province, and 12 cases from other area. Regardless of region, 44 cases are linked to the Shincheonji Church of Jesus, 14 cases including 1 fatal case are linked to Cheongdo Daenam hospital. And 15 cases are under investigation. 
  
-○ The case classification of 52 new confirmed cases is as below 
 
 
 
@@ -224,15 +224,15 @@ buk
 
 Subtotal 
 
-38
+45
 
-3
-
-1
+4
 
 1
 
-3
+1
+
+17
 
 2
 
@@ -244,14 +244,14 @@ Subtotal
 
 1
 
-52
+74
 
 
 
 Shincheonji
 (Religious organization) 
 
-33
+37
 
  
 
@@ -259,7 +259,7 @@ Shincheonji
 
 1
 
-2
+3
 
 2
 
@@ -271,7 +271,7 @@ Shincheonji
 
  
 
-39
+44
 
 
 
@@ -286,7 +286,7 @@ Daenam hospital
 
  
 
-1
+14
 
  
 
@@ -298,17 +298,17 @@ Daenam hospital
 
  
 
-1
+14
 
 
 
 Under investigation
 
-5
+8
 
-3
+4
 
- 
+1
 
  
 
@@ -324,15 +324,229 @@ Under investigation
 
 1
 
-12
+16
 
 
 
-※ The place where the case was reported. It is changeable. 
+※ This number is counted based on the notification place, and may change if the resident registration address is different. 
+
+
+
+ 
+○ With the rising number of cases in the region, the central government cooperating with local government is to strengthen public health measure in Daegu-Kyeongbuk province. 
+ 
+○ 5 medical staff, 11 patients, 1 fatal case out of 16 total confirmed cases at the Cheongdo Danam Hospital tested positive for COVID-19. Those cases are known to have worked or been hospitalized at the hospital’s psychiatric ward. 92 hospitalized patients would be transferred to isolation hospital according the test results, and the hospital stop to outpatient case and new hospitalization. 
+ 
+ 
+○ The fatal case died of pneumonia after being long-term hospitalized with chronic lung disease. Central Task force team has been assuming a pneumonia caused by COVID-19 to be associated with death. ○ According to the epidemiological investigation of the 31th case, there is no any visiting hisptory at Daenam hospital and fenral, and he visited to Cheongdo  at the beginning of Feb. 
+
+○ Meanwhile, 4 confirmed cases(#29, #56, #83, #136) visited a nursing home at Jongro, Seoul from January 28 to January 31. These cases used the cafeteria at Jongro nursing home at the same time. 
+ 
+○ The 83th case visited the church, located in Jongro at the same time when the 6th case visited at January 26. So it is possibility that the 83th case would be infected from the 6th case. With consideration of onset of symptom, the 29th, 56th, and 136th cases would be infected from the 83th case at Jongro nursing home. 
+ 
+○ The 30th case, a Korean female is a spouse of the 29 case. And the 112th case would be infected from 136th case who is a spouse of the 112th . The epidemiological link is as followed 
+ 
 
 
 
 
+Having travel History to Wuhan
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ ↳
+
+ 
+
+#3 case 
+
+→
+
+#6 case 
+
+→
+
+#83 case
+
+→
+
+#29case
+
+→
+
+#30case
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+→
+
+#56case
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+→
+
+#136case
+
+→
+
+#112case
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+Restaurant
+
+ 
+
+Church
+
+ 
+
+Nursing home
+
+ 
+
+family 
+
+ 
+
+
+
+ 
+○ The 121th case, a spouse of the 40th case has been newly confirmed and isolated in national isolation hospital. 
+ 
+○ As this week’s surge in the number of confirmed cases, KCDC alarmed against the possibility of community transmission. KCDC also advised that anyone who have attended a service at Shincheonji Church or visited Cheongdo Daenam hospital in February should stay home and avoid unnecessary outdoor activities. If they have fever or respiratory symptoms, they should first get a consultation with KCDC Call Center(1339) or a triage health center nearby before going to health care facilities.
+ 
 
 
 Files
@@ -341,7 +555,7 @@ Files
 
 
 
-Press_Release_(Feb.21)_Morning.pdf
+Press_Release_(Feb.21)_afternoon.pdf
 
 View
 

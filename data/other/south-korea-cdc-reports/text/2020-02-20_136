@@ -1,0 +1,215 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Updates of COVID-19 in Republic of Korea
+
+Date2020-02-20 11:10
+Update2020-02-20 11:10
+DivisionDivision of Risk Assessment and International Cooperation
+Tel043-719-7556
+4,272
+
+
+The Updates of COVID-19 in Republic of Korea
+
+○ As of 20 February, 2020, 31 additional cases are confirmed. one of them are identified in Seoul and the rest are in Daegu and Gyeongbuk province. Out of 30 cases from Daegu and Gyeongbuk province, 23 are linked with Shincheonji Church of Jesus, The Temple of the Tabernacle of the Testimony, the one that 31st case is associated with; two are with Cheongdo Daenam hospital and the rest five are curretly being investigated. 
+
+
+
+
+
+Period
+(since 3 January)
+
+Total
+
+Confirmed cases
+
+Suspected cases
+
+
+
+Sub-total
+
+isolated
+
+discharged
+
+Sub-total
+
+being tested
+
+tested negative
+
+
+
+As of 16:00, 19 Feb. 
+
+11,173
+
+51
+
+35
+
+16
+
+11,122
+
+1,149
+
+9,973
+
+
+
+As of 9:00, 20 Feb.
+
+12,161
+
+82
+
+66
+
+16
+
+12,079
+
+1,633
+
+10,446
+
+
+
+Differences
+
++988
+
++31
+
++31
+
+0
+
++957
+
++484
+
++473
+
+
+
+ 
+ 
+○ One case from Seoul is a patient with pneumonia, and the person was confirmed positive at the triage health center in Jongno-gu.
+
+
+Files
+
+
+
+
+
+Press_Release_(Feb.20).pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

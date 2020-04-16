@@ -1,0 +1,322 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+74 additional cases have been confirmed
+
+Date2020-03-16 14:32
+Update2020-03-16 14:32
+DivisionDivision of Risk assessment and International cooperation
+Tel043-719-7556
+4,813
+
+
+Updates on COVID-19 in Republic of Korea
+16 March, 2020
+
+ 
+○ As of 0:00, 13 March 2020, a total of 8,236 cases have been confirmed, with 1,137 cases discharged from isolation. Newly confirmed cases are 74 in total.
+
+
+
+
+Period
+(since 3 Jan)
+
+Total
+
+Tested positive
+
+Being tested
+
+Tested negative
+
+
+
+Confirmed
+
+Discharged
+
+Isolated
+
+Deceased
+
+
+
+As of 0:00 
+15 March (Sun)
+
+268,212
+
+8,162
+
+834
+
+7,253
+
+75
+
+16,272
+
+243,778
+
+
+
+As of 0:00
+16 March (Mon)
+
+274,504
+
+8,236
+
+1,137
+
+7,024
+
+75
+
+14,971
+
+251,297
+
+
+
+Differences
+
++6,292
+
++74
+
++303
+
+-229
+
+0
+
+-1,301
+
++7,519
+
+
+
+ 
+○ Regional distribution of confirmed cases:
+
+
+
+
+Province 
+
+
+
+Gyeonggi
+
+Gangwon
+
+Chung-buk
+
+Chung-nam
+
+Jeon-buk
+
+Jeon-nam
+
+Gyeong-buk
+
+Gyeong-nam
+
+Jeju
+
+
+
+231
+
+29
+
+31
+
+115
+
+7
+
+4
+
+1,164
+
+85
+
+4
+
+
+
+City 
+
+Total
+
+
+
+Seoul
+
+Busan
+
+Daegu
+
+Incheon
+
+Gwangju
+
+Daejeon
+
+Ulsan
+
+Sejong
+
+
+
+253
+
+107
+
+6,066
+
+30
+
+16
+
+22
+
+28
+
+40
+
+8,236*
+
+
+
+* includes 4 additional newly confirmed cases found at airport screening.
+
+○ The number of newly confirmed cases (green bar) and total confirmed cases (blue line) by date:
+
+
+○ The number of confirmed cases in Daegu and Gyeongbuk regions:
+
+
+
+
+○ The number of confirmed cases in Seoul and Gyeonggi regions:
+
+
+
+
+
+
+Files
+
+
+
+
+
+Press Release (March16)_Morning.pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

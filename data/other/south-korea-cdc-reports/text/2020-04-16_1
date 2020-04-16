@@ -79,21 +79,22 @@ function popSynapViewer(url){
 
 
 
-22 additional cases have been confirmed
+The updates on COVID-19 in Korea as of 16 April
 
-Date2020-04-16 14:31
-Update2020-04-16 14:32
+Date2020-04-16 19:54
+Update2020-04-16 19:54
 DivisionDivision of Risk assessment and International cooperation
 Tel043-719-7556
-146
+285
 
 
 Updates on COVID-19 in Republic of Korea
 16 April, 2020
-
-
-○ As of 0:00, 16 April 2020, the total number of confirmed cases is 10,613 (including 967 imported cases), of which 7,757 cases have been discharged from isolation. Newly confirmed cases are 22 in total.
  
+
+○ As of 0:00, 16 April 2020, a total of 10,613 cases (including 967 imported cases) have been confirmed, of which 7,757 cases have been discharged from isolation. Newly confirmed cases are 22 in total.
+ 
+[Table 1. Total confirmed and suspected cases]
 
 
 
@@ -103,7 +104,7 @@ Period
 
 Total
 
-Tested positive (PCR)
+Tested positive
 
 Being tested
 
@@ -178,14 +179,7 @@ Difference
 
 
  
-
-
-
-
-
-
-
-○ Regional distribution of total confirmed cases:
+[Table 2. Imported cases in Korea (as of 0:00, 16 April 2020)]
 
 
 
@@ -194,300 +188,166 @@ Difference
 
 Total
 
-City 
+Region/Country
 
+Where confirmed
 
+Nationality
 
-Seoul
 
-Busan
 
-Daegu
+China
 
-Incheon
+Asia ex-China
 
-Gwangju
+Europe
 
-Daejeon
+Americas
 
-Ulsan
+Africa
 
-Sejong
+Australia
 
+Point of Entry
 
+Community
 
-Isolated 
-
-2,627
-
-367
-
-16
-
-1,083
-
-37
-
-6
-
-14
-
-7
-
-25
-
-
-
-Discharged
-
-7,757
-
-250
-
-111
-
-5,586
-
-51
-
-22
-
-25
-
-34
-
-21
-
-
-
-Deceased 
-
-229
-
-2
-
-3
-
-158
-
-0
-
-0
-
-0
-
-1
-
-0
-
-
-
-Subtotal 
-
-10,613
-
-619
-
-130
-
-6,827
-
-88
-
-28
-
-39
-
-42
-
-46
-
-
-
-New
-(Difference)
-
-22
-
-2
-
-3
-
-4
-
-0
-
-0
-
-0
-
-0
-
-0
-
-
-
- 
-
-Province 
+Korean
 
 Other
 
 
 
-Gyeonggi
-
-Gangwon
-
-Chung-buk
-
-Chung-
-nam 
-
-Jeon-
-buk
-
-Jeon-
-nam
-
-Gyeong-
-buk
-
-Gyeong-nam
-
-Jeju
-
-Airport screening
-
-
-
-Isolated 
-
-305
-
-24
+New
 
 11
 
-24
+0
 
-8
+2
 
-8
-
-258
-
-33
-
-8
-
-393
-
-
-
-Discharged
-
-330
-
-27
-
-34
-
-115
-
-9
+2
 
 7
 
-1,044
+0
 
-82
-
-5
+0
 
 4
 
+7
+
+11
+
+0
 
 
-Deceased 
 
-14
+Total
+
+967
+
+16
+
+104
+
+431
+
+412
+
+3
 
 1
-
-0
-
-0
-
-0
-
-0
-
-50
-
-0
-
-0
-
-0
-
-
-
-Subtotal 
-
-649
-
-52
-
-45
-
-139
-
-17
-
-15
-
-1,352
-
-115
-
-13
 
 397
 
+570
 
+886
 
-New
-(Difference)
-
-4
-
-1
-
-0
-
-0
-
-0
-
-0
-
-4
-
-0
-
-0
-
-4
+81
 
 
 
+(1.7%)
+
+(10.8%)
+
+(44.6%)
+
+(42.6%)
+
+(0.3%)
+
+(0.1%)
+
+(41.1%)
+
+(58.9%)
+
+(91.6%)
+
+(8.4%)
+
+
+
+  * Figures may change based on findings from ongoing local epidemiological investigation efforts.
+ 
+  
+○ Epidemiological links have been found for 81.3% of the total cases; 9.6% are either under investigation or sporadic cases. More details on the epidemiological links within each province or city are shown in Table 3.
+ 
+○ From Love Tree Clinic in Daegu City, 1 case (a discharged patient of the clinic) was confirmed on 12 April. Upon investigation into contacts, 2 additional cases (who worked in the clinic) were confirmed. Further epidemiological investigation is underway. 
+ 
+○ From Euijeongbu St. Mary’s Hospital in Gyeonggi Province, 5 additional cases (patients = 2; staff/worker = 1; family/guardians/other contacts = 2) were confirmed while under quarantine. In total, 69 cases (patients = 26; staff/workers = 17; family/guardians/other contacts = 26) have been confirmed since 29 March.
+ 
+○ From Yecheon-gun, Gyeongbuk Province, 6 additional cases were confirmed during investigation of contacts. In total, 31 cases (including 2 in Andong City and 1 in Mungyeong City) have been confirmed since 9 April. 
+(The figures in Table 3 are based on cases reported to KCDC before 0:00 of 16 April and may differ from above.)
+ 
+○ KCDC published the results of its evaluation of SARS-CoV-2 infectivity through blood and excrement (urine, stool) culture tests from COVID-19 patients.
+ - From culture testing of the 24 samples from which SARS-CoV-2 gene was detected (out of a total of 699 serum, urine, and stool samples obtained from 74 patients), no isolated virus was found. This means that it is highly unlikely that COVID-19 can be transmitted through a path other than the respiratory system.
+ - (More details provided in a separate press release*) (*English translation may not be available)
+ 
+○ KCDC’s National Institute of Health announced its plans to participate in domestic clinical trials of COVID-19 DNA vaccine candidate in cooperation with other organizations including the International Vaccine Institute.
+ - Clinical trials (phases I and II) will be conducted in Korea using Inovio’s COVID-19 vaccine candidate (INO-4800), which is under clinical trial in the US since 6 April.
+ 
+○ Also, an intergovernmental working-level task force on COVID-19 in private-public partnership will launch and have its first meeting on Friday, 17 April.
+ - The working-level task force, co-headed by the Director of National Institute of Health (of KCDC) and the Deputy Minister of R&D Policy (of Ministry of Science and ICT), will support the intergovernmental (high-level) task force in analyzing the entire life cycle of COVID-19 response including research and development, production, national stockpiling, and utilization of COVID-19 treatment, vaccine, infection prevention/control equipment and identifying the challenges on site to develop support measures accordingly.
+ - (More details in separate inter-governmental joint press release**) (**English translation may not be available)
+ 
+○ Although the number of confirmed cases has seen a decline recently, there is still a risk of large-scale outbreak from close contact in enclosed environment if social distancing is loosened. KCDC urged everyone to continue to follow social distancing and personal hygiene guidelines.
+ - KCDC stressed that reducing contact with other people as much as possible, washing hands thoroughly, and if having suspected symptoms, refraining from going to work or leaving home and going to a screening clinic to get tested are the most important and effective measures against COVID-19.
+ - People who cannot avoid visiting an enclosed/crowded place should keep at least 2 meters of distance from other people, wear a facemask, and maintain hand hygiene by washing hands or using hand sanitizers.
+ 
+○ KCDC urged young people to avoid enclosed spaces such as nightclubs, bars, and cafes and to refrain from social gatherings that may involve coming in close contact with other people.
  
 
 
 
 
-○ Case distribution and incidence rate by region:
+ 
+Call to actions for all citizens
+ 
+ 
+ ① Cancel or postpone all non-essential gatherings, dining out, social events, and travel plans.
+    * There have been numerous reports overseas of transmission by eating together. All meetings and events involving sharing a meal should especially be postponed or canceled.
+ 
+ ② If you have fever, cough, sore throat, muscle pain, or other respiratory symptoms, do not go to work. Stay home and get sufficient rest.
+ 
+ ③ Avoid leaving home except to purchase necessities, to get medical care, or to go to work.
+ 
+ ④ Avoid handshakes and other forms of physical contact. Keep a 2-meter distance from each other.
+ 
+ ⑤ Wash your hands, cover up your sneezes/coughs, and generally maintain strict personal hygiene.
+ 
+ ⑥ Disinfect and ventilate your space every day.
+ 
+
+
+
+ 
+  
+[Table 3: Regional distribution and epidemiological links of the confirmed cases]
 
 
 
@@ -495,19 +355,35 @@ New
 
 Region
 
-# of cases 
+Confirmed cases
 
-(%)
+Other major clusters
 
-Incidence rate (per 0.1M) 
 
-Region
 
-# of cases 
+Total
 
-(%)
+Imported cases
 
-Incidence rate (per 0.1M) 
+Clusters
+
+Other*
+
+New cases
+
+
+
+Sub-
+total
+
+Shin-
+cheonji
+
+Small clusters
+
+Contacts of confirmed cases
+
+Imported cases
 
 
 
@@ -515,17 +391,23 @@ Seoul
 
 619
 
-(5.83)
+239
 
-6.36
+357
 
-Gyeonggi
+8
 
-649
+262
 
-(6.12)
+18
 
-4.90
+69
+
+23
+
+2
+
+Guro-gu call center (98), Dong-an Church-PC Cafe (20), Manmin Central Church (41), etc.
 
 
 
@@ -533,17 +415,23 @@ Busan
 
 130
 
-(1.22)
+20
 
-3.81
+81
 
-Gangwon
+12
 
-52
+50
 
-(0.49)
+18
 
-3.38
+1
+
+29
+
+3
+
+Onchun Church (39), Suyeong-gu Kindergarten (5), etc.
 
 
 
@@ -551,17 +439,23 @@ Daegu
 
 6,827
 
-(64.33)
+16
 
-280.20
+6,094
 
-Chungbuk
+4,509
 
-45
+659
 
-(0.42)
+922
 
-2.81
+4
+
+717
+
+4
+
+Second Mi-Ju Hospital (193), Hansarang Convalescent Hospital (127), Daesil Convalescent Hospital (100), Fatima Hospital (36), etc.
 
 
 
@@ -569,17 +463,23 @@ Incheon
 
 88
 
-(0.83)
+37
 
-2.98
+47
 
-Chungnam 
+2
 
-139
+34
 
-(1.31)
+5
 
-6.55
+6
+
+4
+
+0
+
+Guro-gu call center (20), etc.
 
 
 
@@ -587,17 +487,23 @@ Gwangju
 
 28
 
-(0.26)
+12
 
-1.92
+16
 
-Jeonbuk
+9
 
-17
+0
 
-(0.16)
+1
 
-0.94
+6
+
+0
+
+0
+
+ 
 
 
 
@@ -605,17 +511,23 @@ Daejeon
 
 39
 
-(0.37)
+9
 
-2.65
+21
 
-Jeonnam
+2
 
-15
+11
 
-(0.14)
+8
 
-0.80
+0
+
+9
+
+0
+
+Korea Forest Engineer Institute (3), etc.
 
 
 
@@ -623,17 +535,23 @@ Ulsan
 
 42
 
-(0.40)
+11
 
-3.66
+24
 
-Gyeongbuk
+16
 
-1,352
+1
 
-(12.74)
+4
 
-50.78
+3
+
+7
+
+0
+
+ 
 
 
 
@@ -641,269 +559,709 @@ Sejong
 
 46
 
-(0.43)
+3
 
-13.44
+42
 
-Gyeongnam
+1
+
+38
+
+3
+
+0
+
+1
+
+0
+
+Ministry of Oceans and Fisheries (30), gym facilities (8)
+
+
+
+Gyeonggi
+
+649
+
+149
+
+458
+
+29
+
+313
+
+58
+
+58
+
+42
+
+4
+
+Grace River Church in Seongnam (72), Guro-gu call center-Bucheon SaengMyeongSu Church (48), Uijeongbu St. Mary’s Hospital (47), etc.
+
+
+
+Gangwon
+
+52
+
+13
+
+32
+
+17
+
+15
+
+0
+
+0
+
+7
+
+1
+
+Apartments in Wonju City (3), Euijeongbu St. Mary’s Hospital (10), etc.
+
+
+
+Chung-buk
+
+45
+
+5
+
+32
+
+6
+
+18
+
+6
+
+2
+
+8
+
+0
+
+Goesan-gun Jangyeon-myeon (11)
+
+
+
+Chung-nam
+
+139
+
+10
+
+120
+
+0
+
+118
+
+1
+
+1
+
+9
+
+0
+
+Gym facilities in Cheonan (103), research center in Seosan (9), etc.
+
+
+
+Jeonbuk
+
+17
+
+8
+
+4
+
+1
+
+3
+
+0
+
+0
+
+5
+
+0
+
+ 
+
+
+
+Jeonnam
+
+15
+
+7
+
+7
+
+1
+
+3
+
+2
+
+1
+
+1
+
+0
+
+Manmin Central Church (2)
+
+
+
+Gyeong-buk
+
+1,352
+
+9
+
+1,209
+
+566
+
+451
+
+191
+
+1
+
+134
+
+4
+
+Cheongdo Daenam Hospital (120), Bonghwa Pureun Nursing Home (68), pilgrimage to Israel (49), Gyeongsan Seo Convalescent Hospital (66), Yechun-gun (31), etc.
+
+
+
+Gyeong-nam
 
 115
 
-(1.08)
+14
 
-3.42
+84
+
+32
+
+45
+
+6
+
+1
+
+17
+
+0
+
+Geochang Church (10), Geochang Woongyang-myeon (8), Wings Tower (10), etc.
 
 
-
-Airport Screening
-
-397
-
-(3.74)
-
--
 
 Jeju
 
 13
 
-(0.12)
+8
 
-1.94
+1
 
+0
 
+0
+
+0
+
+1
+
+4
+
+0
 
  
 
 
 
+Airport
+
+397
+
+397
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+4
+
+ 
 
 
-Total 
+
+Total
 
 10,613
 
-(100)
+967
 
-20.47
+8,629
 
+5,211
 
+2,021
 
- 
+1,243
 
-○ Daily case trends by region:
+154
 
+1,017
 
-
-
-
-
-
-
-
-
-○ Case distribution by gender and age group:
-
-
-
-
+22
 
  
 
-Confirmed Cases 
-
-(%)
-
-Deaths
-
-(%)
-
-Fatality rate (%)
 
 
+(9.1)
 
-Total 
+(81.3)
 
-10,613 
+(49.1)
 
-(100)
+(19.0)
 
-229 
+(11.7)
 
-(100)
+(1.5)
 
-2.16 
+(9.6)
 
 
 
-Sex 
-
-Male
-
-4,272
-
-(40.25) 
-
-122
-
-(53.28) 
-
-2.86 
+* Not classified into a cluster or under investigation
+※ The interim classification is based on the reporting location, which may change depending on further epidemiological investigation.
 
 
 
-Female 
 
-6,341
 
-(59.75)
+[Figure 1: Distribution of confirmed cases based on location reported]
 
-107
+ * Refer to attachment
 
-(46.72) 
 
-1.69 
+[Table 4: Age distribution of severe cases]
 
 
 
-Age
+
+
+Age group
+
+Total
+
+Severe
+
+(
+
+%
+
+)
+
+Very severe
+
+(
+
+%
+
+)
+
+
+
+Total
+
+61
+
+20
+
+(
+
+100.0
+
+)
+
+41
+
+(
+
+100.0
+
+)
+
+
 
 80 and above
 
-480
+9
 
-(4.52) 
+2
 
-110
+(
 
-(48.03) 
+10.0
 
-22.92 
+)
+
+7
+
+(
+
+17.1
+
+)
 
 
 
 70-79
 
-703
+30
 
-(6.62) 
+11
 
-68
+(
 
-(29.69) 
+55.0
 
-9.67 
+)
+
+19
+
+(
+
+46.3
+
+)
 
 
 
 60-69
 
-1,341
+13
 
-(12.64) 
+4
 
-33
+(
 
-(14.41) 
+20.0
 
-2.46 
+)
+
+9
+
+(
+
+22.0
+
+)
 
 
 
 50-59
 
-1,940
+4
 
-(18.28) 
+1
 
-14
+(
 
-(6.11) 
+5.0
 
-0.72 
+)
+
+3
+
+(
+
+7.3
+
+)
 
 
 
 40-49
 
-1,410
+3
 
-(13.29) 
+0
+
+(
+
+0.0
+
+)
 
 3
 
-(1.31) 
+(
 
-0.21 
+7.3
+
+)
 
 
 
 30-39
 
-1,132
+0
 
-(10.67) 
+0
 
-1
+(
 
-(0.44) 
+0.0
 
-0.09 
+)
+
+0
+
+(
+
+0.0
+
+)
 
 
 
 20-29
 
-2,900
+2
 
-(27.32) 
+2
+
+(
+
+10.0
+
+)
 
 0
 
-(0.00) 
+(
 
--
+0.0
+
+)
 
 
 
 10-19
 
-572
-
-(5.39) 
+0
 
 0
 
-(0.00) 
+(
 
--
+0.0
+
+)
+
+0
+
+(
+
+0.0
+
+)
 
 
 
 0-9
 
-135
-
-(1.27) 
+0
 
 0
 
-(0.00) 
+(
 
--
+0.0
+
+)
+
+0
+
+(
+
+0.0
+
+)
+
+
+
+ 
+ 
+ [Table 5: Age distribution of cases that retested positive]
 
 
 
 
 
+Age group
+
+Total
+
+(
+
+%
+
+)
 
 
-○ Incidence rate by age group (per 100,000):
+
+Total
+
+141
+
+(
+
+ 100.0  
+
+)
+
+
+
+80 and above
+
+13
+
+(
+
+9.3
+
+)
+
+
+
+70-79
+
+5
+
+(
+
+3.5
+
+)
+
+
+
+60-69
+
+16
+
+(
+
+11.3
+
+)
+
+
+
+50-59
+
+26
+
+(
+
+18.4
+
+)
+
+
+
+40-49
+
+17
+
+(
+
+12.1
+
+)
+
+
+
+30-39
+
+21
+
+(
+
+14.9
+
+)
+
+
+
+20-29
+
+34
+
+(
+
+24.1
+
+)
+
+
+
+10-19
+
+6
+
+(
+
+4.3
+
+)
+
+
+
+0-9
+
+3
+
+(
+
+2.1
+
+)
 
 
 
 
-○ Weekly trend of imported cases:
+ 
+[Figure 2: New cases (for last 2 weeks) by chain of transmission]
 
 
 
@@ -915,7 +1273,7 @@ Files
 
 
 
-Press Release (April16)_morning.pdf
+Press Release (April16)_Afternoon.pdf
 
 View
 
