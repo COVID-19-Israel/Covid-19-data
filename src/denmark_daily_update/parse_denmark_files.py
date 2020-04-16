@@ -32,12 +32,14 @@ LEFT_TABLE_SUFFIX = '_x'
 RIGHT_TABLE_SUFFIX = '_y'
 DEFAULT_ADDED_COLUMN_NAME = 'key_0'
 
+REMOVED_DATA_AFTER_SPACE_COLUMNS = ['Dead (%)']
+
 DB_STREAM_TABLE_WANTED_FIELDS = ['Region',
                                  'Hospitalized',
                                  'Critical',
                                  'Ventilated',
                                  'Confirmed COVID-19 cases',
-                                 'Dead (%)',
+                                 'Dead',
                                  'Number of people tested',
                                  'Population']
 
@@ -72,6 +74,28 @@ def merge_tables_by_first_col(tables):
             if DEFAULT_ADDED_COLUMN_NAME == merged_table.columns[0]:
                 del merged_table[merged_table.columns[0]]
     return merged_table
+
+
+def remove_values_after_string(df, columns, substr):
+    """
+    This function removes the values in the given columns after a given sub-string from a given dataframe.
+    :param df - the given dataframe
+    :param columns - the given columns
+    :param substr - the given sub-string
+    :return: the dataframe without the removed values
+    """
+    for column in columns:
+        try:
+            for col_index in range(len(df[column])):
+                if str == type(df[column][col_index]):
+                    df[column].replace(df[column][col_index],
+                                       df[column][col_index].split(substr)[0],
+                                       inplace=True)
+        except KeyError:
+            raise KeyError(f'{column} is not a header in the table')
+
+        df.rename(columns={column: str(column).split(substr)[0]}, inplace=True)
+    return df
 
 
 def remove_unnecessary_fields(df):
@@ -122,7 +146,8 @@ def main():
                 # makes the regions table that I want it to be the init table the first table in the list
                 tables[0], tables[1] = tables[1], tables[0]
                 merged_table = merge_tables_by_first_col(tables)
-                parsed_table = remove_unnecessary_fields(merged_table)
+                full_fields_table = remove_values_after_string(merged_table, REMOVED_DATA_AFTER_SPACE_COLUMNS, ' ')
+                parsed_table = remove_unnecessary_fields(full_fields_table)
                 parsed_table.to_csv(DB_STREAM_TABLES_OUTPUT_DIR
                                     + date.strftime('%d-%m-%Y')
                                     + DB_STREAM_TABLES_OUTPUT_FILE_NAME,
