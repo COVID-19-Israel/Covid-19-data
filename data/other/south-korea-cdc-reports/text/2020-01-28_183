@@ -1,0 +1,149 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Urges cooperation in preventing the spread of 2019-nCoV in community
+
+Date2020-01-28 18:11
+Update2020-01-28 20:37
+DivisionDivision of Risk assessment and International Cooperation 
+Tel043-719-7553
+1,880
+
+
+Urges cooperaion in preventing the spread of 2019-nCoV in community 
+- Conduct a total inspection on travelers from Wuhan city China who entered ROK within 14days-
+ 
+○ As Ministry Health and Welfare, and Korea Centers for Disease Control and Prevention(KCDC) raise the level of ‘orange alert (3 out of 4 level)’ for 2019-nCoV, it will enhance the 2019-nCov response accompanying with local government. 
+ 
+ - The triage health facilities* will be expanded to early detect those who are asymptomatic and find them at community level. Also, KCDC will increase the personnel at call center(1339) and distribute the FAQ to local call center of municipal level to minimize being discomfort for public. 
+   * 288 facilities are running (as of Jan. 28) 
+ 
+ - Currently, there are 29 hospitals and 161 beds are running at the national designated isolation hospitals for confirmed cases and suspected cases. Local designated hospital and Infectious disease management hospital would be ready to mobilize in preparation of expanding the cases. Also, private clinics and medical centers will be set up the diagnosis test system, and it will be implemented from the beginning of February. 
+ 
+○ The total inspection is conducted on travelers from Wuhan city, China who entered ROK within 14days. 
+ 
+ - Based on the immigration records, there are 3,023(domestics:1,166, foreigners: 1,857) inbound passengers from airport at Wuhan city so far. Investigation and monitoring will be conducted with local government, and Health insurance review& assessment service. 
+ 
+ - The domestics who identified with fever or respiratory, visited to Wuhan will be isolated and tested at national designated isolation hospital, and the foreigners who are staying in Korea will be conducted in cooperation with police. 
+ 
+○ According to the fourth confirmed case’s epidemiological findings, there are 172 contacts. One family member of the case with having a symptom were tested as negative. 
+ 
+ - The case has been stayed at home after the onset of symptoms and did not go out except visiting at hospital. The environmental sterilization was completed for airplane, airport buses, and hospital where the case were visited. 
+ 
+○ As of January 28 2020, a total of 116 cases has been tested, then 4 cases have been confirmed for 2019-nCoV, and 97 cases were tested as negative, then they are released from isolation. 
+ 
+* Link to further information of Korean press release: 
+   http://www.mohw.go.kr/react/al/sal0301vw.jsp?PAR_MENU_ID=04&MENU_ID=0403&page=1&CONT_SEQ=352535
+
+
+Files
+
+
+
+
+
+Press_Release_(Jan.28).pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

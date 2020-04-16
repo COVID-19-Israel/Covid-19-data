@@ -1,0 +1,133 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Updates on the confirmed cases of novel Coronavirus and their contacts
+
+Date2020-01-29 16:20
+Update2020-02-02 13:44
+DivisionDivision of Risk assessment and International Cooperation 
+Tel043-719-7556
+2,024
+
+
+○ As of 28 January, 2020, there have been 187 Patient Under Investigation(PUIs) in total, with four confirmed cases being treated in isolation at the national designated isolation hospital, 155 cases already discharged after tested negative, and 28 cases currently being tested. 
+ 
+○ The total number of contacts is 387 (45 contacts from the first case, 75 from the second, 95 from the third, and 172 from the fourth). Out of these contacts, 14 were classified as suspected cases based on the symptoms, but all of them were diagnosed as negative. The third case was initially known to have 74 contacts, but in-depth epidemiological investigation found out 21 more contacts.
+ 
+○ KCDC improved human resource capacity of its Call Center 1339, in cooperation with National Health Insurance Service, to deal with the increased number of consultation calls. KCDC advised to avoid outdoor activities and get a consultation with a local health facility or KCDC Call Center at 1339 if anyone has fever or respiratory symptoms after visiting Hubei provinces, China. KCDC also emphasized that health facilities must follow the distributed guideline to prevent novel Coronavirus infection.
+ 
+* Link to further information in Korean :
+https://www.cdc.go.kr/board/board.es?mid=a20501000000&bid=0015&act=view&list_no=365891&tag=&nPage=1
+
+
+Files
+
+
+
+
+
+Press_Release_(Jan.29).pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

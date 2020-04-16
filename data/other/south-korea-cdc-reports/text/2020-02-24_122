@@ -1,0 +1,327 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+161 additional cases have been confirmed
+
+Date2020-02-24 11:36
+Update2020-02-24 11:42
+DivisionDivision of Risk Assessment and International Cooperation
+Tel043-719-7556
+7,109
+
+
+The Updates of COVID-19 in Republic of Korea
+As of 24 February, 2020
+
+ 
+○ As of 09:00, 24 February, 2020, 161 additional cases are confirmed, compared to yesterday afternoon (16:00, 23 February).
+
+
+
+
+
+Period
+(since 3 January)
+
+Total
+
+Confirmed cases
+
+Suspected cases
+
+
+
+Sub
+total
+
+discharged
+
+isolated
+
+Deceased
+
+Sub
+total
+
+being tested
+
+tested negative
+
+
+
+As of 16:00, 23 Feb. 
+
+26,179
+
+602
+
+18
+
+579
+
+5
+
+25,577
+
+8,057
+
+17,520
+
+
+
+As of 9:00, 24 Feb.
+
+28,615
+
+763
+
+18
+
+738
+
+7
+
+27,852
+
+8,725
+
+19,127
+
+
+
+Differences
+
++2,436
+
++161
+
+0
+
++159
+
++2 *
+
++2,275
+
++668
+
++1,607
+
+
+
+ 
+* Two cases(#55 and #286) passed away on 23 February, and the cause of death is currently being investigated. 55th case is a Korean male born in 1961 and 286th case is a Korean male born in 1958. Both of the deceased belong to Cheongdo Daenam Hospital cluster.
+ 
+ 
+○ The 161 newly confirmed cases are classified into the clusters as follows.
+
+
+
+
+
+Place 
+
+City
+
+Province 
+
+Total
+
+
+
+Seoul
+
+Daegu
+
+Gwang-ju
+
+Busan
+
+Gyeong-buk
+
+Gyeong-nam
+
+Gyeonggi
+
+
+
+Sub-total 
+
+3
+
+131
+
+1
+
+2
+
+11
+
+3
+
+10
+
+161
+
+
+
+Shincheonji
+(Religious sect) 
+
+ 
+
+115
+
+1
+
+ 
+
+8
+
+2
+
+3
+
+129
+
+
+
+Others
+(Inc. under investigation)
+
+3
+
+16
+
+ 
+
+2
+
+3
+
+1
+
+7
+
+32
+
+
+
+※ The interim classification is based on the reporting location, which may change depending on further epidemiological investigation.
+
+
+
+
+
+
+Files
+
+
+
+
+
+Press Release (Feb.24)_Morning.pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,204 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The updates on novel Coronavirus in Korea (since 3 January)
+
+Date2020-02-10 10:32
+Update2020-02-10 10:32
+DivisionDivision of Risk Assessment and International Cooperation
+Tel043-719-7556
+1,941
+
+
+The updates on novel Coronavirus in Korea (since 3 January)
+
+
+
+
+
+Period
+
+Total
+
+Confirmed cases
+
+Suspected cases
+
+
+
+isolated
+
+discharged
+
+Sub-total
+
+being tested
+
+tested negative
+
+
+
+As of 16:30, 9 Feb. 
+
+2,598
+
+24
+
+3
+
+2,571
+
+888
+
+1,683
+
+
+
+As of 9:00, 10 Feb.
+
+2,776
+
+24
+
+3
+
+2,749
+
+809
+
+1,940
+
+
+
+Differences
+
+△178
+
+0
+
+0
+
+△178
+
+▽79
+
+△257
+
+
+
+ 
+ 
+ 
+
+
+Files
+
+
+
+
+
+Press Release (Feb.10).pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,132 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The update on novel Coronavirus infection : One more case has been confirmed in Korea
+
+Date2020-01-31 10:27
+Update2020-02-02 13:46
+DivisionDivision of Risk assessment and International Cooperation 
+Tel043-719-7556
+2,122
+
+
+The update on novel Coronavirus infection : One more case has been confirmed in Korea
+ 
+○ The Korea Centers for Disease Control and Prevention (KCDC) has confirmed 7th case of 2019 novel Coronavirus(2019-nCoV) on 31 January, 2020.
+ 
+○ The case is a 28-year-old Korean male, who had visited Wuhan and returned via Qingdao on 23 January. He developed mild cough on 26th, malaise on 28th and fever(37.7 degree in Celsius), cough and sputum on 29th. He reported to a local public health center on 29th. He was initially isolated in home on 29th after classified as suspected case. After tested positive on 30th, he was isolated in the national designated isolation hospital.
+ 
+○ Contact tracing and in-depth epidemiological investigation is underway, and the results will be shared with the public soon.
+
+
+Files
+
+
+
+
+
+Press Release(Jan.31).pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

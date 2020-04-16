@@ -1,0 +1,231 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Frequently Asked Questions for KCDC on COVID-19 (as of 30 March)
+
+Date2020-04-07 15:03
+Update2020-04-09 09:50
+DivisionDivision of Risk assessment and International cooperation 
+Tel043-719-7556
+Notice2020-04-07 ~ 2020-12-31
+4,539
+
+
+ Frequently Asked Questions for KCDC on COVID-19
+(as of 30 March)
+1. Diagnostic Testing
+Q1. Who can get tested for COVID-19? Do you test asymptomatic persons too?
+We test persons who are “suspected cases” or “Patients Under Investigation (PUI)” as defined by our COVID-19 Response Guidelines (excerpt provided below). 
+
+
+
+
+Excerpt from COVID-19 Response Guidelines:
+ 
+1. Case Definition
+ 
+○ Suspected case:
+A person exhibiting fever (37.5 degrees or above) or respiratory symptoms (coughs, shortness of breath, etc.) within 14 days of contact with a confirmed COVID-19 patient during the confirmed patient’s symptom-exhibiting period.
+ 
+○ Patient Under Investigation (PUI):
+(1) A person suspected of COVID-19 according to a physician’s opinion for reasons such as pneumonia of an unknown cause;
+(2) A person exhibiting fever (37.5 degrees or above) or respiratory symptoms (coughs, shortness of breath, etc.) within 14 days of visiting a country with local transmission* of COVID-19, e.g. China (including Hong Kong, Macau); or
+* Refer to WHO or KCDC website (COVID-19 à Situation reports à Local transmission classification)
+(3) A person exhibiting fever (37.5 degrees or above) or respiratory symptoms (coughs, shortness of breath, etc.) with an epidemiological link to a domestic COVID-19 cluster.
+
+
+
+ 
+We do sometimes apply exceptions for certain high risk groups. For example, we tested all persons linked to certain major clusters (i.e., Shincheonji, Guro-gu call center) regardless of clinical symptoms. We have also recently tested all persons in long-term care facilities in Daegu City regardless of clinical symptoms.
+Q2. What kind of diagnostic tests do you use for COVID-19? How is the test performed?
+Korea uses COVID-19 genetic testing (real-time RT-PCR) to diagnose a patient.
+Specimens are collected by doctors, nurses, or clinical laboratory scientists at designated locations (i.e., screening centers/stations). Upper respiratory tract specimens are required. Lower respiratory tract specimens are also collected if the patient has sputum. Genetic testing may be performed directly at screening centers (if the center is equipped with such capacity), or the specimens may be sent to a testing center.
+
+
+
+
+Excerpt from COVID-19 Response Guidelines:
+Specimen Collection Method
+ 
+○ Upper respiratory tract specimen:
+Nasopharyngeal and oropharyngeal swab mixture (1 tube)
+-          (For nasopharyngeal swab) Insert a cotton swab deep into nostril.
+-          (For oropharyngeal swab) Scrape from the inner wall of the throat with a cotton swab.
+○ Lower respiratory tract specimen:
+Have patient cough deeply and collect the sputum. Ensure that saliva is not included.
+-          If patient does not have sputum, do not induce sputum as spitting forcibly may cause aerosol.
+
+
+
+Q3. What is your current diagnostic testing capacity? How was Korea able to expand testing capacity in a short period of time?
+Currently, there are a total of 118 institutions available for diagnostic tests: Korea Centers for Disease Control and Prevention (1), National Quarantine Stations (4), Institutes of Health and Environment (18), private clinical laboratories and hospitals (95). On average, 15,000 tests (maximum 20,000) can be performed per day.
+The relatively fast expansion of testing capacity was made possible thanks to active collaborative efforts between government, academia, and private sector.
+Korean government (KCDC) quickly developed a test and disclosed it. Based on this, a company developed and produced diagnostic reagent. Upon evaluation by government and medical academic experts, the reagent was granted emergency use authorization by the Ministry of Food and Drug Safety. Testing facilities across the nation then began using the test.
+To ensure accuracy of the tests performed, COVID-19 testing centers were selected by KCDC from testing facilities that had been certified for outstanding quality. They also received additional training and passed accuracy test to qualify. Testing quality of each center is maintained by quality assurance by government and academic experts.
+ 
+2. Epidemiological Investigation
+Q1. What methods of contact tracing do you use for COVID-19?
+Contact tracing is largely divided into 4 stages: (1) investigation, (2) exposure risk assessment, (3) contact classification, and (4) contact management. During the investigation phase, basic information including whereabouts of the patient for a certain period of time is collected through the process of interviewing patients. Family or healthcare workers may also be interviewed if needed. If supplementary information is needed (e.g., due to memory omission or inconsistencies), more objective information (such as medical records, cellular GPS data, credit card transactions, CCTV footages) may be collected during the risk assessment stage. Contacts identified based on the collected information are subject to self-quarantine (home quarantine) along with health education and symptom monitoring.
+Q2. What is the basis on which you collect and/or use personal data in epidemiological investigation?
+Information required for epidemiological investigation can be collected and/or used within the scope permitted by the Infectious Disease Control and Prevention Act.
+
+
+
+
+Excerpt from Infectious Disease Control and Prevention Act:
+ 
+Article 76-2 (Request to Provide Information, etc.)
+(1) If necessary to prevent infectious diseases and block the spread of infection, the Minister of Health and Welfare or the Director of the Korea Centers for Disease Control and Prevention may request the heads of relevant central administrative agencies (including affiliated agencies and responsible administrative agencies thereof), the heads of local governments (including superintendents of education prescribed in Article 18 of the Local Education Autonomy Act), public institutions designated under Article 4 of the Act on the Management of Public Institutions, medical institutions, pharmacies, corporations, organizations, and individuals to provide the following information concerning patients, etc. with infectious diseases and persons likely to be infected by infectious diseases, and persons in receipt of such request shall comply therewith:  
+ 
+1. Personal information, such as names, resident registration numbers prescribed in Article 7-2 (1) of the Resident Registration Act, addresses, and telephone numbers (including cell phone numbers);
+ 
+2. Preions prescribed in Article 17 of the Medical Service Act, records of medical treatment prescribed in Article 22 of the same Act, etc.;
+ 
+3. Records of immigration control during the period determined by the Minister of Health and Welfare; 
+ 
+4. Other information prescribed by Presidential Decree for monitoring the movement paths of patients with infectious diseases.
+ 
+(2) If necessary to prevent infectious diseases and block the spread of infection, the Minister of Health and Welfare may request the relevant head of the National Police Agency, regional police agency, and police station established under Article 2 of the Police Act (hereafter in this Article, referred to as “police agency”) to provide location information of patients, etc. with an infectious disease and persons likely to be infected by an infectious disease. In such cases, notwithstanding Article 15 of the Act on the Protection, Use, etc. of Location Information and Article 3 of the Protection of Communications Secrets Act, the relevant head of a police agency, upon request by the Minister of Health and Welfare, may request any location information provider defined in Article 5 (7) of the Act on the Protection, Use, etc. of Location Information and any telecommunications business operator defined in subparagraph 8 of Article 2 of the Telecommunications Business Act, to provide location information of patients, etc. with an infectious disease and persons likely to be infected by an infectious disease; and the location information provider and the telecommunications business operator in receipt of such request shall comply therewith, except in extenuating circumstances.   
+ 
+(3) The Minister of Health and Welfare may provide information collected pursuant to paragraphs (1) and (2) to the heads of the relevant central administrative agencies, the heads of local governments, the chairperson of the National Health Insurance Corporation, the president of the Health Insurance Review and Assessment Service, and such medical personnel, medical institutions, and other organizations as are performing tasks related to infectious diseases. In such cases, information provided shall be limited to information related to the tasks of the relevant agencies, etc., for preventing infectious diseases and blocking the spread of infection.
+ 
+
+
+
+ 
+3. Contact Management
+Q1. Korea has a relatively low fatality rate for COVID-19 cases. What special strategies do you believe contributed to achieving this?
+As the number of patients rapidly surged in Daegu City and Gyeongbuk Province starting late February (which caused shortage in healthcare resources), we created a new system for allocating hospital beds based on the severity of the patient. This system enabled more medical resources to go to the more severe patients in need of urgent care, allowing more efficient treatment and management of patients.
+In addition, persons who are considered high-risk groups are classified as severe patients regardless of clinical symptoms, so that they can receive timely care if needed.
+
+
+
+
+COVID-19 high-risk groups are:
+-          The elderly 65 years or older;
+-          Persons with underlying chronic conditions, such as diabetes, chronic renal, liver, lung or cardiovascular diseases, or HIV;
+-          Patients with a blood cancer;
+-          Cancer patients receiving chemotherapy;
+-          Patients taking one or more immunosuppressant drugs;
+-          Pregnant women, patients with extreme obesity, dialysis patients, or transplant patients; or
+-            Patients with blood oxygen saturation level below 90%
+
+
+
+ 
+Q2. Are all confirmed COVID-19 patients admitted to and treated at hospitals?
+As mentioned above, patients confirmed with COVID-19 are classified into 4 categories based on severity: Mild, Moderate, Severe, and Extremely Severe. Mild patients (a.k.a., patients with mild symptoms) are placed in home quarantine (self-quarantine) or admitted to a Living Treatment Center and may later be transferred to a hospital if their symptoms aggravate. Moderate patients are admitted to hospitals with capacity to treat infectious disease patients. Severe or Extremely Severe patients are admitted to tertiary hospitals which have greater capacity for treatment. This system allows patients to receive the care they need in a timely manner.
+ 
+
+
+Files
+
+
+
+
+
+Frequently Asked Questions for KCDC on COVID-19_v3_final.pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,224 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Updates of COVID-19 in Republic of Korea
+
+Date2020-02-20 18:08
+Update2020-02-20 18:08
+DivisionDivision of Risk Assessment and International Cooperation
+Tel043-719-7556
+10,018
+
+
+○ As of 16:00, 20 February, 2020, 22 additional cases have been confirmed; 21 were identified in Daegu and Gyeongbuk province, and one were in Seoul.
+
+
+
+
+Period
+(since 3 January)
+
+Total
+
+Confirmed cases
+
+Suspected cases
+
+
+
+Sub
+total
+
+isolated
+
+discharged
+
+deceased
+
+Sub
+total
+
+being tested
+
+tested negative
+
+
+
+As of 9:00, 20 Feb.
+
+12,161
+
+82
+
+66
+
+16
+
+0
+
+12,079
+
+1,633
+
+10,446
+
+
+
+As of 16:00, 20 Feb.
+
+13,202
+
+104
+
+87
+
+16
+
+1
+
+13,098
+
+1,860
+
+11,238
+
+
+
+Differences
+
++1,041
+
++22
+
++21
+
+0
+
++1
+
++1,019
+
++227
+
++792
+
+
+
+ 
+ 
+○ Out of 21 cases in Daegu and Gyeonbuk province, five were linked with Shincheonji Church of Jesus, the Temple of the Tabernacle of the Testimony, one with Saeronan oriental hospital, and 13 with Cheongdo Daenam hospital. Two are currently being investigated. One deceased case is included in the Cheongdon Daenam hospital cluster. The cause of death is under investigation.
+ 
+○ Epidemiological investigation on the case identified in Seould is also underway.
+
+
+Files
+
+
+
+
+
+Press_Release_(Feb.20)_evening.pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+

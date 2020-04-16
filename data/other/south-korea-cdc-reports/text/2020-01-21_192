@@ -1,0 +1,142 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+	
+	if(document.location.protocol == 'http:') {
+		var bid = $("input[name='bid']").val()
+		if(bid=='0030' || bid=='0032' || bid=='0033'){
+			//document.location.href = document.location.href.replace('http:','https:');
+		}
+	}
+});
+
+function popSynapViewer(url){
+	  
+		window.open("","viewPopup","width=850, height=950, scrolling=yes");
+
+		var f = document.viewPopup;
+		f.action = url ;
+		f.method = "post";
+		f.target = "viewPopup";
+		f.submit();
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Update on the confirmed case of the novel coronavirus (2019-nCoV) in Korea
+
+Date2020-01-21 16:48
+Update2020-01-22 10:39
+DivisionDivision of Risk Assessment & International Cooperation
+Tel043-719-7552
+2,355
+
+
+Update on the confirmed case of the novel coronavirus (2019-nCoV) in Korea
+ 
+As of today, 21 January 2020, the first confirmed case of novel coronavirus, currently receiving treatment in isolation, is stable with no signs of pneumonia. In-depth epidemiological investigation on the case has been undertaken, and the contacts of the patient are under active monitoring. 
+ 
+According to the investigation, there are 44 contacts who are either passengers or airport staff. Out of 44 contacts, nine of them have left the country and the rest are under active monitoring through local health facilities. They will be monitored for 14 days from the last day of contact with the patient and receive a call from health authority on first, second, and seventh day for fever or respiratory symptoms. If showing any signs or symptoms of illness, they will be isolated and tested.
+
+The confirmed patient has travelled with five people, and no one has shown any symptoms of illness. Three of them already departed to Japan on 20 January and the rest will leave to China this afternoon.
+ 
+Patient Under Investigation(PUIs) in Korea, as of 21 January, are 11 in total with one confirmed case and three cases currently being tested. The rest of them were diagnosed as negative.
+ 
+KCDC advises travellers to China to avoid unprotected contact with wild animals including poultry. Also it is recommended not to visit local market nor health facilities if unnecessary. In addition, anyone, entering Korea within 14 days after visiting Wuhan, China, should submit the health questionnaire and report to quarantine officer if experiencing fever or respiratory symptoms. If developing such symptoms within 14 days after returning, he or she should call KCDC Call Center at 1339 or get a consultation at a local health facility.
+ 
+Health facilities should take travel history when a patient with respiratory symptoms comes in and report to KCDC Call Center if there are symptoms suggestive of novel coronavirus infection.
+ 
+KCDC also reminds the public of washing their hands frequently, practicing cough etiquette, wearing a mask when visiting health facilities for respiratory symptoms, and providing travel history.
+
+
+
+
+Files
+
+
+
+
+
+Press_Release_(1.21).pdf
+
+View
+
+
+
+
+
+ This public work may be used under the terms of the public interest source + commercial use prohibition + nonrepudiation conditions
+
+
+Prev.
+Next.
+
+
+List
+
+
+
+
+
+
+
+
+
+
+
