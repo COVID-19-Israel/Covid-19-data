@@ -2,7 +2,7 @@
 on:
   schedule:
   # Runs at 22:00 UTC every day (1AM Israel time)
-  - cron: '36 18 * * *'
+  - cron: '0 22 * * *'
 jobs:
   run_script:    
     # This section downloads the git and udpate it
