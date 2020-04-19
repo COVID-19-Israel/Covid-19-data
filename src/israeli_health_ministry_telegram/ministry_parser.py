@@ -19,8 +19,8 @@ TABLE_2_FULL_PREFIX = "table_2_"
 PPTX_SUFFIX = "pptx"
 PDF_SUFFIX = "pdf"
 
-BLACKLIESTED_FILES = ['1200_2020-03-20','2100_2020-03-29',
-                      '1100_2020-03-21','2000_2020-03-28']
+BLACKLIESTED_FILES = ['2020-03-20_1200','2020-03-29_2100',
+                      '2020-03-21_1100','2020-03-28_2000']
 TABLE_0_COLUMNS = ['נפטר','קשה כעת','בינוני']
 RECOVERED_TEXT = 'החלימו ושוחררו'
 PARTS_OF_CONFIRMED = ['Mild','Moderate','Deceased','Critical','Recovered']
@@ -51,7 +51,7 @@ def get_time_from_filename(file_name):
     path_parts = re.split("[_.]", file_name)
     hour = path_parts[path_parts.index(HOUR_STRING) + 1]
     date = path_parts[0]
-    time = '_'.join([hour, date])
+    time = '_'.join([date,hour])
     return time
 
 def connect_csvs(file_1, file1_prefix, file_2, file2_prefix):
@@ -194,13 +194,13 @@ class MinistryFileParser:
         return fixed_critical_confirmed_table.reset_index(drop=True)
 
     def table_1_hotfixes(self,table):
-        if get_time_from_filename(self.file_name) == '2100_2020-03-23':
+        if get_time_from_filename(self.file_name) == '2020-03-23_2100':
             table['קשה כעת'] = [re.sub("[^0-9]", "",table['קשה כעת'][0])]
         return table
 
     def table_2_hotfixes(self,table):
         if get_time_from_filename(self.file_name) in \
-                ['2100_2020-03-24','0800_2020-03-23','2100_2020-03-23','0800_2020-03-25']:
+                ['2020-03-24_2100','2020-03-23_0800','2020-03-23_2100','2020-03-25_0800']:
             return pd.DataFrame(columns=[RECOVERED_TEXT],data=[table.columns[1]])
         return table
 
