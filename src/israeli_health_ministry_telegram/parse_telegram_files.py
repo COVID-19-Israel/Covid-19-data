@@ -1,12 +1,13 @@
 import os
 import logging
 import sys
+import ministry_parser as mp
+import cities_parser as cp
 
 sys.path.append("../files_tables_parser")
 
 from logger import create_log
 import parsers as p
-import ministry_parser as mp
 
 
 FILES_DIR = r"./telegram_files"
@@ -28,6 +29,8 @@ def main():
         parser.run()
         ministry_parser = mp.MinistryFileParser(path, OUTPUT_DIR)
         ministry_parser.run()
+        cities_parser = cp.CitiesFileParser(path, OUTPUT_DIR)
+        cities_parser.run()
 
         counter += 1
 
