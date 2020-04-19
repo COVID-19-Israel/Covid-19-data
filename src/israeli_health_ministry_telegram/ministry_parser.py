@@ -48,8 +48,9 @@ def format_int(value: str) -> int:
 
 def get_time_from_filename(file_name):
     HOUR_STRING = "לשעה"
+    HOURS_FORMAT_SIZE = 4
     path_parts = re.split("[_.]", file_name)
-    hour = path_parts[path_parts.index(HOUR_STRING) + 1]
+    hour = path_parts[path_parts.index(HOUR_STRING) + 1][:HOURS_FORMAT_SIZE]
     date = path_parts[0]
     time = '_'.join([date,hour])
     return time
