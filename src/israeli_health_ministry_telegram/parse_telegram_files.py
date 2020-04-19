@@ -2,11 +2,11 @@ import os
 import logging
 import sys
 
-# TODO:
 sys.path.append("../files_tables_parser")
 
 from logger import create_log
 import parsers as p
+import ministry_parser as mp
 
 
 FILES_DIR = r"./telegram_files"
@@ -26,6 +26,9 @@ def main():
         logging.info(f"{counter}: started parsing {os.path.basename(path)}")
         parser = p.FileParser(path, OUTPUT_DIR)
         parser.run()
+        ministry_parser = mp.MinistryFileParser(path, OUTPUT_DIR)
+        ministry_parser.run()
+
         counter += 1
 
     logging.info("~~~~~~~ FINISHED PARSING FILES ~~~~~~~")
