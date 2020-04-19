@@ -86,7 +86,8 @@ class FileParser:
         elif FileParser.PDF_SUFFIX == file_suffix:
             parser = PdfParser(self.path, self.output_dir)
         elif FileParser.XLSX_SUFFIX == file_suffix:
-            logging.warning("We don't have parser for xlsx files yet") 
+            logging.warning("We don't have parser for xlsx files yet")
+            return
         else:
             raise ValueError(
                 f"This class don't parse files of the type: {file_suffix}, "
