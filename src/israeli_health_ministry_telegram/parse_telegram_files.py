@@ -1,7 +1,6 @@
 import os
 import logging
 import sys
-import ministry_parser as mp
 import cities_parser as cp
 
 sys.path.append("../files_tables_parser")
@@ -27,8 +26,6 @@ def main():
         logging.info(f"{counter}: started parsing {os.path.basename(path)}")
         parser = p.FileParser(path, OUTPUT_DIR)
         parser.run()
-        ministry_parser = mp.MinistryFileParser(path, OUTPUT_DIR)
-        ministry_parser.run()
         cities_parser = cp.CitiesFileParser(path, OUTPUT_DIR)
         cities_parser.run()
 
