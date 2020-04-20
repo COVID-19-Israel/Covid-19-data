@@ -15,6 +15,11 @@ jobs:
         git pull origin master
       shell: bash
 #     This section runs the script
+    - name: Install Dependencies
+      run: |
+        pip install requests
+      shell: bash
+      working-directory: ./src/israeli_health_ministry_telegram
     - name: Run the script
       run: |
         python imh_website_scraper.py
