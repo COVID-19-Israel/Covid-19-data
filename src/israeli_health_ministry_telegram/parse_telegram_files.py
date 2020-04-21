@@ -24,8 +24,11 @@ def main():
     for f in os.listdir(FILES_DIR)[::-1]:
         path = os.path.join(FILES_DIR, f)
         logging.info(f"{counter}: started parsing {os.path.basename(path)}")
-        parser = p.FileParser(path, OUTPUT_DIR)
-        parser.run()
+        try:
+            parser = p.FileParser(path, OUTPUT_DIR)
+            parser.run()
+        except Exception:
+            logging.error(f'Failed to run General FileParser on the file: {os.path.basename(path)}')
         cities_parser = cp.CitiesFileParser(path, OUTPUT_DIR)
         cities_parser.run()
 
