@@ -13,7 +13,7 @@ PDF_SUFFIX = "pdf"
 CITIES_FILE_IDENTIFIER = "ישובים"
 DAILY_UPDATE_OUTPUT_DIR = "cities_new"
 EXCLUDE_STRING = 'ערבים'
-ADDITIONAL_FILES = ['2020-04-05_ללא כותרת']
+ADDITIONAL_FILES = ['2020-04-05_ללא כותרת', '2020-04-20_דוח חדש כלל הארץ - 20.04.20']
 OLD_SCRIPT_FILES = ['2020-04-03','2020-04-05','2020-04-06','2020-04-07',
                    '2020-04-09','2020-04-11',]
 
