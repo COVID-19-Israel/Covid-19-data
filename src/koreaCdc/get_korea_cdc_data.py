@@ -8,19 +8,41 @@ pip install beautifulsoup4 aiohttp cchardet aiodns
 """
 
 import os
+# import sys
 import re
 import timeit
 import asyncio
 import csv
+import logging
+
+# sys.path.append("../files_tables_parser")
+# from files_tables_parser import logger
+# import logger
 from datetime import datetime, date
 import aiohttp
 
 from bs4 import BeautifulSoup as BS
 
-
 BASE_URL = "https://www.cdc.go.kr"
 BASE_OUTPUT_PATH = "data/other/south-korea-cdc-reports"
 
+
+# This code is from files_talbes_parser
+def create_log(logging_level=logging.INFO):
+    logger = logging.getLogger()
+    logger.setLevel(logging_level)
+
+    formatter = logging.Formatter(
+        "[%(asctime)s] %(levelname)s: %(message)s", datefmt="%Y-%m-%d %I:%M:%S"
+    )
+
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(logging_level)
+    console_handler.setFormatter(formatter)
+
+    logger.addHandler(console_handler)
+
+create_log(logging.DEBUG)
 
 async def get_all_report_links(session, base_url, queue):
     current_page = None
@@ -40,7 +62,7 @@ async def get_all_report_links(session, base_url, queue):
                 continue
             if 'list_no=' in report_link:
                 report_links.append(report_link)
-                print(f'adding a link:{report_link}')
+                logging.debug(f'adding a link:{report_link}')
                 # TODO: benchmark asyncio.create_task(queue.put) vs queue.put_nowait vs this.
                 # From quick testing a few times this option was the fastest but it may well be a discrepancy...
                 await queue.put(report_link)
@@ -87,12 +109,12 @@ def save_test_data_to_csv(data_row: BS, report_date):
         test_data_row['deceased'] = 0
 
     if len(cols) == 7:
-        print(f'test row with 7 columns in {report_date}')
+        logging.debug(f'test row with 7 columns in {report_date}')
         return
     if len(cols) == 9:
         cols_without_suspected_subtotal = cols[:subtotal_suspected_col_idx] + cols[subtotal_suspected_col_idx+1:]
     if len(cols_without_suspected_subtotal) != 8:
-        print(f'found a table with an unexpected number of columns. {len(cols_without_suspected_subtotal)}, {len(cols)}')
+        logging.debug(f'found a table with an unexpected number of columns. {len(cols_without_suspected_subtotal)}, {len(cols)}')
         return
 
     for i, key in enumerate(iter(test_data_row)):
@@ -104,7 +126,7 @@ def save_test_data_to_csv(data_row: BS, report_date):
         writer = csv.DictWriter(csv_file, fieldnames=test_data_row.keys())
         writer.writeheader()
         writer.writerow(test_data_row)
-        print(f'{test_data_row}')
+        logging.info(f'{test_data_row}')
 
 
 def get_first_table_data(report_soup, report_date):
@@ -117,14 +139,14 @@ def get_first_table_data(report_soup, report_date):
         elif len(rows) == 5:
             current_test_row = rows[3]
         else:
-            print(f"found a table with unexpected number of rows in {report_date}")
+            logging.debug(f"found a table with unexpected number of rows in {report_date}")
             return
 
         save_test_data_to_csv(current_test_row, report_date)
 
 
 async def get_single_rep(base_url, report_link, session, queue, i):
-    print(f'({datetime.now()} - getting report {i+1}: {report_link}')
+    logging.debug(f'({datetime.now()} - getting report {i+1}: {report_link}')
     async with session.get(f"{base_url}{report_link}") as resp:
         report_html = await resp.text()
         report = BS(report_html, features='lxml')
@@ -157,7 +179,7 @@ def create_output_dirs():
 
 
 async def main():
-    print(f"Getting all the reports, starting now. ({datetime.now()})")
+    logging.info(f"Getting all the reports, starting now. ({datetime.now()})")
     report_queue = asyncio.Queue()
     report_queue.put_nowait(None)
 
@@ -174,7 +196,7 @@ async def main():
         await asyncio.gather(*coros, return_exceptions=True)
 
         end_time = timeit.default_timer()
-        print(f"finished downloading. took {end_time - start_time} sec")
+        logging.info(f"finished downloading. took {end_time - start_time} sec")
 
 
 if __name__ == '__main__':

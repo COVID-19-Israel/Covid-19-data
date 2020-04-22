@@ -34,7 +34,6 @@ jobs:
     - name: Run the south korea cdc scraper
       run: |
         python src/koreaCdc/get_korea_cdc_data.py
-      # working-directory: ./Covid-19-data
     - name: Add the new csv files to git
       env:
         KOREA_CDC_DATA_DIR: ./data/other/south-korea-cdc-reports/csv
