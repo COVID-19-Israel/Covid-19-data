@@ -22,7 +22,7 @@ jobs:
         submodules: true
     - name: Run the south korea cdc scraper
       run: |
-        pip install beautifulsoup4 aiohttp cchardet aiodns
+        pip install beautifulsoup4 aiohttp
         python src/koreaCdc/get_korea_cdc_data.py
       shell: bash
       working-directory: ./Covid-19-data
