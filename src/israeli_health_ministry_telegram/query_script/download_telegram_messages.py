@@ -59,6 +59,7 @@ async def main(channel_name):
                 and (
                     message.file.name.startswith("מכלול_אשפוז_דיווח")
                     or message.file.ext == ".pdf"
+                    or message.file.ext == ".xlsx"
                 )
             ):
                 if message.date.strftime(

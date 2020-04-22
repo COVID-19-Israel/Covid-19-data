@@ -11,9 +11,11 @@ Denmark,all,16/03/2020,educational_institutions,1,2
 Denmark,all,17/03/2020,limit_hospital_visits,FALSE,TRUE
 Denmark,all,17/03/2020,limit_retirement_homes_visits,FALSE,TRUE
 Denmark,all,18/03/2020,partial_quarantine,FALSE,TRUE
+Denmark,all,18/03/2020,unnecessary_business,1,2
 Denmark,all,18/03/2020,distance_saving_instructions,NONE,2
 Denmark,all,18/03/2020,congregation_restriction,100,10
 Denmark,all,18/03/2020,fines_and_incarceration,FALSE,TRUE
 Denmark,all,18/03/2020,police_army_enforcement,FALSE,TRUE
 Denmark,all,15/04/2020,partial_quarantine,TRUE,FALSE
+Denmark,all,15/04/2020,unnecessary_business,2,1
 Denmark,all,15/04/2020,educational_institutions,2,1

@@ -35,14 +35,6 @@ jobs:
         python parse_telegram_files.py
       shell: bash
       working-directory: ./src/israeli_health_ministry_telegram
-    - name: Add the israeli health ministry telegram data with the changes
-      env:
-        TELEGRAM_DATA_DIR: ./data/other/israeli_health_ministry_telegram_data
-      run: |
-        git init
-        git add $TELEGRAM_DATA_DIR
-        git commit -m "Auto update israeli health ministry telegram data"
-      shell: bash
     - name: Pull Changes
       run: |
         git pull origin master

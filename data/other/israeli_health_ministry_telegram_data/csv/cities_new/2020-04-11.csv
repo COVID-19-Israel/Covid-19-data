@@ -1,0 +1,164 @@
+City_Name,Population,Infected
+Jerusalem,914559,1821
+Bnei Brak,195298,1761
+Tel Aviv - Yafo,450192,444
+El'ad,46760,233
+Ashkelon,139032,225
+Petah Tikva,242478,199
+Rishon Lezion,241010,192
+Modi'in Illit,73808,190
+Beit Shemesh,120812,188
+Ashdod,225073,170
+Holon,185741,159
+Netanya,213971,156
+Bat Yam,130523,142
+Beitar Illit,59240,137
+Be'er Sheva,196755,135
+Ramat Gan,143370,135
+Tiberias,44353,129
+Haifa,272584,127
+Modi'in-Maccabim-Re'ut,87108,116
+Or Yehuda,34843,110
+Migdal HaEmek,26058,95
+Herzliya,90900,92
+Rehovot,137178,87
+Ra'anana,73979,87
+Kfar Saba,97412,65
+Efrat,10676,64
+Yehud-Monosson,29104,64
+Afula,50886,56
+Lod,75038,54
+Zefat,35671,52
+Ramla,75246,52
+Kiryat Ono,37112,46
+Kokhav Ya'akov,8602,44
+Kfar Habad,6724,44
+Kiryat Malakhi,23691,44
+Kiryat Ye'arim,5713,38
+Hod HaSharon,59171,35
+Ma'ale Adumim,37469,35
+Ramat HaSharon,44896,35
+Shoham,20041,35
+Zikhron Ya'akov,22341,34
+Giv'at Shmuel,24538,33
+Kiryat Gat,55400,32
+Ofakim,30185,31
+Yavne,45555,31
+Netivot,36511,31
+Rosh Ha'ayin,53965,31
+"Givatayim 55,123",,30
+"Had room 94,104",,30
+"Jasser a-Zarqa 14,732",,29
+"Carmiel 46,596",,29
+"Umm al-Fahm 55,324",,28
+"Area 11,819",,28
+"Nahariya 58,750",,28
+"Ridges 11,841",,28
+"Ganei Tikva 18,930",,27
+"25,891 Boulevard",,27
+"View of the Galilee 43,811",,26
+"Dimona 35,377",,25
+"Ibn Judah 13,263",,24
+"Gan Yavne 22,410",,24
+"Givat Ze&#39;ev 18,510",,22
+"Bees 10,414",,22
+"Gedera 24,633",,21
+"Kiryat Yam 39,556",,21
+"Kiryat Ata 57,108",,19
+"Beer Jacob 24,216",,18
+"Ness Ziona 45,714",,17
+"Acre 50,872",,17
+"Eilat 56,568",,16
+"Jat 11,910",,16
+"Tamra 33,792",,16
+"Baka al-Gharbiya 29,035",,14
+"Castle Carmel 22,243",,14
+"Yokneam Illit 22,711",,14
+"Kfar Yona 21,301",,14
+"Earth 26,763",,14
+"Kadima-Zoran 20,831",,14
+"Tel Mond 12,593",,14
+"Mevaseret Zion 23,093",,13
+"Katzrin 7,373",,13
+"Kiryat Shmona 22,152",,12
+"Kiryat Arba 7,364",,11
+"Kiryat Bialik 39,262",,11
+"Dir Hanna 10,567",,10
+"Tiba 43,144",,10
+"Mazkeret Batya 14,949",,10
+"Maalot-Tarshiha 22,261",,10
+"Nazareth 78,252",,10
+"Omar 8,016",,10
+"Kiryat Motzkin 42,870",,10
+"RHT 64,649",,10
+"Shabali - Umm al-Ganam 6,367",,10
+"Kochav Yair 9,143",,9
+"Pardes Hanna-Karkur 40,622",,8
+"Silverware 16,957",,7
+"Megar 22,364",,7
+"Kiryat Ekron 10,600",,7
+"Shlomi 6,478",,7
+"Ixal 14,655",,6
+"Ariel 18,251",,6
+"Geva Benjamin 5,299",,6
+"Kafr Qara 18,820",,6
+"Blades 6,178",,6
+"Sakhnin 32,089",,6
+"Karni Samaria 7,906",,6
+"Or Akiva 18,893",,5
+"Alfei Menashe 7,771",,5
+"Bir al-Maksur 9,866",,5
+"Bethel 5,767",,5
+"The sons of 6,837",,5
+"Maale Iron 14,861",,5
+"Eagle 22,032",,5
+"Contact Hadassah 7,856",,5
+"Beit Dagan 6,533",,4
+"Jaljulia 10,011",,4
+"Plowing 8,737",,4
+"Castle 26,184",,4
+"Kfar Kasm 23,517",,4
+"Eilab 5,677",,4
+"Contact Isaac 5,954",,4
+"Spray 40,666",,4
+"Oranit 8,822",,3
+"Deir al-Assad 12,435",,3
+"Effie 19,056",,3
+"Jeruham 10,126",,3
+"Village of Roses 5,599",,3
+"String 9,043",,3
+"Nahaf 13,167",,3
+"Ein Mahal 13,388",,3
+"Esfia 12,141",,3
+"Kiryat Tivon 15,831",,3
+"Boina-Nujidat 9,974",,2
+"Buqata 6,586",,2
+"Binyamina-Givat Ada 14,383",,2
+"At 10,532",,2
+"Bassam Tivon 7,833",,2
+"Jedida-sold 20,524",,2
+"Jules 6,147",,2
+"Singer 6,926",,2
+"Winterfish 6,288",,2
+"Hatzor HaGililit 9,722",,2
+"Kfar Yasif 10,577",,2
+"Kfar Kana 22,449",,2
+"Arrested 19,667",,2
+"Atlit 7,442",,2
+"Peki&#39;in (hatching) 5,851",,2
+"Ramat Yishai 7,236",,2
+"Gates of Hope 5,584",,2
+"Abu Ghosh 7,792",,1
+"Abu Rubiya (tribe) 8,446",,1
+"Bena 8,355",,1
+"Bat Hefer 5,124",,1
+"Tuba-Zangaria 6,648",,1
+"Majdal Shams 11,089",,1
+"Masudin al-Azazma 16,644",,1
+"Araba 25,876",,1
+"Arara-Negev 17,465",,1
+"Furidis 13,133",,1
+"Pardesia 6,027",,1
+"Caesarea 5,272",,1
+"Clansua 22,740",,1
+"Tel Sheva 19,850",,1
