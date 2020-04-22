@@ -20,13 +20,14 @@ jobs:
       with:
         token: ${{ secrets.ACCESS_TOKEN }}
         submodules: true
-    - name: Run the south korea cdc scraper
+    - name: Install dependencies
       run: |
         pip install beautifulsoup4 aiohttp
-        python src/koreaCdc/get_korea_cdc_data.py
       shell: bash
+    - name: Run the south korea cdc scraper
+      run: |
+        python src/koreaCdc/get_korea_cdc_data.py
       working-directory: ./Covid-19-data
-
     - name: Add the new csv files to git
       env:
         KOREA_CDC_DATA_DIR: ./data/other/south-korea-cdc-reports/csv
