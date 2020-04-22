@@ -6,6 +6,9 @@ jobs:
   download_updates:
     name: Downloads the daily new updates of korean CDC and extracts test data
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.7]
     steps:
     - name: Access user
       env: 
@@ -20,6 +23,10 @@ jobs:
       with:
         token: ${{ secrets.ACCESS_TOKEN }}
         submodules: true
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v1
+      with:
+        python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
         pip install beautifulsoup4 aiohttp
