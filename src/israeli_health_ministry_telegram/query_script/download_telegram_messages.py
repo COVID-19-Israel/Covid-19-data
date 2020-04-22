@@ -18,7 +18,7 @@ with open("personal_data/personal_data.txt", mode="r") as file:
     api_id = int(personal_data[0].replace("\n", ""))
     api_hash = personal_data[1].replace("\n", "")
     phone_number = personal_data[2]
-    client = TelegramClient(session="mysession", api_id=api_id, api_hash=api_hash)
+    client = TelegramClient(session="personal_data/mysession", api_id=api_id, api_hash=api_hash)
 
 
 async def main(channel_name):
