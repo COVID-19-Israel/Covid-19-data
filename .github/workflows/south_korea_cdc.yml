@@ -1,6 +1,6 @@
-on:
-  schedule:
-  - cron: 0 8,00 * * *
+on: [push, pull_request]
+  # schedule:
+  # - cron: 0 8,00 * * *
 
 jobs: 
   download_updates:
