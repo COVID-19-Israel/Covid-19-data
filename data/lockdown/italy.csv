@@ -41,3 +41,5 @@ Italy,all,09/03/2020,partial_quarantine,FALSE,TRUE
 Italy,all,09/03/2020,religious_institutions,0,2
 Italy,all,28/03/2020,encouragement_using_hand_sanitizers,FALSE,TRUE
 Italy,all,28/03/2020,distance_saving_instructions,NONE,1
+Italy,Lombardia,06/04/2020,encouragement_using_masks,FALSE,TRUE
+Italy,Toscana,06/04/2020,encouragement_using_masks,FALSE,TRUE
