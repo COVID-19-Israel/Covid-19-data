@@ -73,7 +73,7 @@ class ParserTranslator:
     def translate_word(self, word):
         if not ParserTranslator._is_number(word):
             translation = self._translate_using_cache(word)
-            if translation:
+            if str == type(translation):
                 return translation
             translation = self._translate_using_translator(word)
             self._write_translation_to_cache(word, translation)
