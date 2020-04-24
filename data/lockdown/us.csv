@@ -137,3 +137,13 @@ United States of America,Georgia,03/04/2020,police_army_enforcement,FALSE,TRUE
 United States of America,Georgia,27/01/2020,appearance_of_symptoms_isolation,FALSE,TRUE
 United States of America,Georgia,27/01/2020,encouragement_using_hand_sanitizers,FALSE,TRUE
 United States of America,Georgia,02/04/2020,exposure_to_patient_isolation,FALSE,TRUE
+United States of America,Massachusetts,12/03/2020,limit_retirement_homes_visits,FALSE,TRUE
+United States of America,Massachusetts,13/03/2020,concongregation_restriction,NONE,250
+United States of America,Massachusetts,15/03/2020,limit_hospital_visits,FALSE,TRUE
+United States of America,Massachusetts,16/03/2020,concongregation_restriction,250,25
+United States of America,Massachusetts,23/03/2020,unnecessary_business,NONE,2
+United States of America,Massachusetts,16/03/2020,educational_institutions,NONE,1
+United States of America,Massachusetts,18/03/2020,educational_institutions,1,2
+United States of America,Massachusetts,23/03/2020,concongregation_restriction,25,10
+United States of America,Massachusetts,23/03/2020,distance_saving_instructions,NONE,2
+United States of America,Massachusetts,27/03/2020,enter_area_isolation,FALSE,TRUE
