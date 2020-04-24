@@ -274,6 +274,11 @@ United States of America,Washington
 United States of America,New Jersey
 United States of America,Connecticut
 United States of America,Michigan
+United States of America,Georgia
+United States of America,Illinois
+United States of America,Louisiana
+United States of America,Florida
+United States of America,Massachusetts
 Canada,all
 Canada,Alberta
 Canada,British Columbia
@@ -717,6 +722,8 @@ Czechia,Hlavni mesto Praha
 Czechia,Nezjisteno
 Czechia,all
 Japan,all
+Japan,Kanto
 "Taiwan, Province of China",all
 Belgium,all
 Portugal,all
+Hong Kong,all

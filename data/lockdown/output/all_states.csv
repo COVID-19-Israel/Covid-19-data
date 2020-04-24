@@ -1,85 +1,147 @@
 exposure_to_patient_isolation,enter_area_isolation,appearance_of_symptoms_isolation,risk_groups_isolation,full_quarantine,partial_quarantine,unnecessary_business,educational_institutions,religious_institutions,distance_saving_instructions,congregation_restriction,prohibition_entering_country,public_transport_restriction,limit_hospital_visits,limit_retirement_homes_visits,disinfecting_public_spaces,police_army_enforcement,fines_and_incarceration,encouragement_using_masks,encouragement_using_gloves,encouragement_using_hand_sanitizers,wide_temperature_tests,lockdown_level,country,province,start_date
+True,True,True,True,False,False,1,1,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Hlavni mesto Praha,2020-04-20 00:00:00
+True,True,True,True,False,False,1,1,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Jihocesky kraj,2020-04-20 00:00:00
+True,True,True,True,False,False,1,1,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Jihomoravsky kraj,2020-04-20 00:00:00
+True,True,True,True,False,False,1,1,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Karlovarsky kraj,2020-04-20 00:00:00
+True,True,True,True,False,False,1,1,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Kraj Vysocina,2020-04-20 00:00:00
+True,True,True,True,False,False,1,1,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Kralovehradecky kraj,2020-04-20 00:00:00
+True,True,True,True,False,False,1,1,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Liberecky kraj,2020-04-20 00:00:00
+True,True,True,True,False,False,1,1,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Moravskoslezsky kraj,2020-04-20 00:00:00
+True,True,True,True,False,False,1,1,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Nezjisteno,2020-04-20 00:00:00
+True,True,True,True,False,False,1,1,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Olomoucky kraj,2020-04-20 00:00:00
+True,True,True,True,False,False,1,1,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Pardubicky kraj,2020-04-20 00:00:00
+True,True,True,True,False,False,1,1,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Plzensky kraj,2020-04-20 00:00:00
+True,True,True,True,False,False,1,1,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Stredocesky kraj,2020-04-20 00:00:00
+True,True,True,True,False,False,1,1,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Ustecky kraj,2020-04-20 00:00:00
+True,True,True,True,False,False,1,1,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Zlinsky kraj,2020-04-20 00:00:00
+True,True,True,True,False,False,1,1,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,all,2020-04-20 00:00:00
+True,True,True,False,False,False,1,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Baden-Wurttemberg,2020-04-20 00:00:00
+True,True,True,False,False,True,1,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,4,Germany,Bavaria,2020-04-20 00:00:00
+True,True,True,False,False,False,1,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Bayern,2020-04-20 00:00:00
+True,True,True,False,False,False,1,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Berlin,2020-04-20 00:00:00
+True,True,True,False,False,False,1,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Brandenburg,2020-04-20 00:00:00
+True,True,True,False,False,False,1,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Bremen,2020-04-20 00:00:00
+True,True,True,False,False,False,1,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Hamburg,2020-04-20 00:00:00
+True,True,True,False,False,False,1,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Hessen,2020-04-20 00:00:00
+True,True,True,False,False,False,1,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Mecklenburg-Vorpommern,2020-04-20 00:00:00
+True,True,True,False,False,False,1,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Niedersachsen,2020-04-20 00:00:00
+True,True,True,False,False,False,1,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Nordrhein-Westfalen,2020-04-20 00:00:00
+True,True,True,False,False,False,1,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Repatriierte,2020-04-20 00:00:00
+True,True,True,False,False,False,1,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Rheinland-Pfalz,2020-04-20 00:00:00
+True,True,True,False,False,True,1,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,4,Germany,Saarland,2020-04-20 00:00:00
+True,True,True,False,False,False,1,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Sachsen,2020-04-20 00:00:00
+True,True,True,False,False,False,1,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Sachsen-Anhalt,2020-04-20 00:00:00
+True,True,True,False,False,False,1,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Schleswig-Holstein,2020-04-20 00:00:00
+True,True,True,False,False,False,1,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Thuringen,2020-04-20 00:00:00
+True,True,True,False,False,False,1,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,all,2020-04-20 00:00:00
+True,True,False,False,False,False,1,1,0,2,,False,0,False,True,False,False,True,False,False,False,False,3,Norway,all,2020-04-20 00:00:00
+True,True,True,True,False,True,1,2,2,2,2,True,1,True,True,True,True,True,True,False,False,False,4,Israel,all,2020-04-19 00:00:00
+True,True,False,False,False,False,1,2,0,,,False,0,False,False,False,True,True,True,False,True,False,3,South Korea,all,2020-04-19 00:00:00
+True,False,True,True,False,False,2,2,2,1.83,10,False,1,True,True,False,True,True,True,False,True,False,3,United States of America,New York,2020-04-17 00:00:00
 True,True,True,False,False,False,1,1,0,2,10,True,0,True,True,False,True,True,False,False,False,False,3,Denmark,all,2020-04-15 00:00:00
-False,True,False,False,False,False,1,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,3,Austria,Burgenland,2020-04-14 00:00:00
-False,True,False,False,False,False,1,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,3,Austria,Karnten,2020-04-14 00:00:00
-False,True,False,False,False,False,1,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,3,Austria,Niederosterreich,2020-04-14 00:00:00
-False,True,False,False,False,False,1,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,3,Austria,Oberosterreich,2020-04-14 00:00:00
-False,True,False,False,False,False,1,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,3,Austria,Salzburg,2020-04-14 00:00:00
-False,True,False,False,False,False,1,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,3,Austria,Steiermark,2020-04-14 00:00:00
-False,True,False,False,False,False,1,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,3,Austria,Tirol,2020-04-14 00:00:00
-False,True,False,False,False,False,1,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,3,Austria,Vorarlberg,2020-04-14 00:00:00
-False,True,False,False,False,False,1,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,3,Austria,Wien,2020-04-14 00:00:00
-False,True,False,False,False,False,1,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,3,Austria,all,2020-04-14 00:00:00
-True,True,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Hlavni mesto Praha,2020-04-14 00:00:00
-True,True,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Jihocesky kraj,2020-04-14 00:00:00
-True,True,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Jihomoravsky kraj,2020-04-14 00:00:00
-True,True,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Karlovarsky kraj,2020-04-14 00:00:00
-True,True,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Kraj Vysocina,2020-04-14 00:00:00
-True,True,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Kralovehradecky kraj,2020-04-14 00:00:00
-True,True,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Liberecky kraj,2020-04-14 00:00:00
-True,True,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Moravskoslezsky kraj,2020-04-14 00:00:00
-True,True,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Nezjisteno,2020-04-14 00:00:00
-True,True,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Olomoucky kraj,2020-04-14 00:00:00
-True,True,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Pardubicky kraj,2020-04-14 00:00:00
-True,True,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Plzensky kraj,2020-04-14 00:00:00
-True,True,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Stredocesky kraj,2020-04-14 00:00:00
-True,True,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Ustecky kraj,2020-04-14 00:00:00
-True,True,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Zlinsky kraj,2020-04-14 00:00:00
-True,True,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,all,2020-04-14 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Andalucia,2020-04-13 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Aragon,2020-04-13 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Asturias,2020-04-13 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Baleares,2020-04-13 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,CValenciana,2020-04-13 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Canarias,2020-04-13 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Cantabria,2020-04-13 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Castilla-LaMancha,2020-04-13 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,CastillaLaMancha,2020-04-13 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,CastillayLeon,2020-04-13 00:00:00
-True,False,True,False,False,True,1,2,1,1,1000,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Cataluna,2020-04-13 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Ceuta,2020-04-13 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Extremadura,2020-04-13 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Galicia,2020-04-13 00:00:00
-True,False,True,False,False,True,1,2,1,1,1000,True,1,False,False,True,True,True,True,False,True,True,4,Spain,LaRioja,2020-04-13 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Madrid,2020-04-13 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Melilla,2020-04-13 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Murcia,2020-04-13 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Navarra,2020-04-13 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,PaisVasco,2020-04-13 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,all,2020-04-13 00:00:00
-True,False,False,True,False,True,2,2,2,1.83,10,False,0,True,True,True,True,True,True,False,True,False,4,United States of America,New Jersey,2020-04-13 00:00:00
-True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,all,2020-04-10 00:00:00
+True,True,True,True,False,True,2,2,2,1,1,True,1,True,False,False,True,True,True,False,True,True,4,Singapore,all,2020-04-15 00:00:00
+False,True,False,False,False,True,1,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,4,Austria,Burgenland,2020-04-14 00:00:00
+False,True,False,False,False,True,1,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,4,Austria,Karnten,2020-04-14 00:00:00
+False,True,False,False,False,True,1,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,4,Austria,Niederosterreich,2020-04-14 00:00:00
+False,True,False,False,False,True,1,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,4,Austria,Oberosterreich,2020-04-14 00:00:00
+False,True,False,False,False,True,1,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,4,Austria,Salzburg,2020-04-14 00:00:00
+False,True,False,False,False,True,1,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,4,Austria,Steiermark,2020-04-14 00:00:00
+False,True,False,False,False,True,1,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,4,Austria,Tirol,2020-04-14 00:00:00
+False,True,False,False,False,True,1,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,4,Austria,Vorarlberg,2020-04-14 00:00:00
+False,True,False,False,False,True,1,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,4,Austria,Wien,2020-04-14 00:00:00
+False,True,False,False,False,True,1,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,4,Austria,all,2020-04-14 00:00:00
+True,True,True,True,False,False,1,2,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Hlavni mesto Praha,2020-04-14 00:00:00
+True,True,True,True,False,False,1,2,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Jihocesky kraj,2020-04-14 00:00:00
+True,True,True,True,False,False,1,2,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Jihomoravsky kraj,2020-04-14 00:00:00
+True,True,True,True,False,False,1,2,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Karlovarsky kraj,2020-04-14 00:00:00
+True,True,True,True,False,False,1,2,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Kraj Vysocina,2020-04-14 00:00:00
+True,True,True,True,False,False,1,2,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Kralovehradecky kraj,2020-04-14 00:00:00
+True,True,True,True,False,False,1,2,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Liberecky kraj,2020-04-14 00:00:00
+True,True,True,True,False,False,1,2,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Moravskoslezsky kraj,2020-04-14 00:00:00
+True,True,True,True,False,False,1,2,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Nezjisteno,2020-04-14 00:00:00
+True,True,True,True,False,False,1,2,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Olomoucky kraj,2020-04-14 00:00:00
+True,True,True,True,False,False,1,2,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Pardubicky kraj,2020-04-14 00:00:00
+True,True,True,True,False,False,1,2,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Plzensky kraj,2020-04-14 00:00:00
+True,True,True,True,False,False,1,2,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Stredocesky kraj,2020-04-14 00:00:00
+True,True,True,True,False,False,1,2,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Ustecky kraj,2020-04-14 00:00:00
+True,True,True,True,False,False,1,2,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Zlinsky kraj,2020-04-14 00:00:00
+True,True,True,True,False,False,1,2,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,all,2020-04-14 00:00:00
+False,True,True,False,False,False,1,2,0,,,True,1,False,True,False,False,False,True,True,True,True,3,Japan,Kanto,2020-04-14 00:00:00
+False,True,True,False,False,False,0,2,0,,,True,1,False,True,False,False,False,True,True,True,True,2,Japan,all,2020-04-14 00:00:00
+False,True,True,False,False,False,1,2,0,,,True,1,False,True,False,False,False,True,True,True,False,3,Japan,Kanto,2020-04-13 00:00:00
+False,True,True,False,False,False,0,2,0,,,True,1,False,True,False,False,False,True,True,True,False,2,Japan,all,2020-04-13 00:00:00
+True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Andalucia,2020-04-13 00:00:00
+True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Aragon,2020-04-13 00:00:00
+True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Asturias,2020-04-13 00:00:00
+True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Baleares,2020-04-13 00:00:00
+True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,CValenciana,2020-04-13 00:00:00
+True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Canarias,2020-04-13 00:00:00
+True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Cantabria,2020-04-13 00:00:00
+True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Castilla-LaMancha,2020-04-13 00:00:00
+True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,CastillaLaMancha,2020-04-13 00:00:00
+True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,CastillayLeon,2020-04-13 00:00:00
+True,False,True,False,False,True,1,2,1,1,1000,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Cataluna,2020-04-13 00:00:00
+True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Ceuta,2020-04-13 00:00:00
+True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Extremadura,2020-04-13 00:00:00
+True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Galicia,2020-04-13 00:00:00
+True,False,True,False,False,True,1,2,1,1,1000,True,1,False,False,True,True,True,True,False,True,False,4,Spain,LaRioja,2020-04-13 00:00:00
+True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Madrid,2020-04-13 00:00:00
+True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Melilla,2020-04-13 00:00:00
+True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Murcia,2020-04-13 00:00:00
+True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Navarra,2020-04-13 00:00:00
+True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,PaisVasco,2020-04-13 00:00:00
+True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,all,2020-04-13 00:00:00
+True,True,True,True,False,True,2,2,1,1.83,5,False,1,True,True,False,False,False,True,False,True,False,4,United States of America,Connecticut,2020-04-13 00:00:00
+True,False,True,True,False,True,2,2,2,1.83,10,False,1,True,True,True,True,True,True,False,True,False,4,United States of America,New Jersey,2020-04-13 00:00:00
+True,True,True,True,False,True,2,2,2,2,2,True,1,True,True,True,True,True,True,False,False,False,4,Israel,all,2020-04-12 00:00:00
 True,True,False,True,False,True,2,1,2,1.5,500,True,0,False,True,False,True,True,False,False,True,False,4,Australia,Queensland,2020-04-09 00:00:00
-True,False,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Hlavni mesto Praha,2020-04-09 00:00:00
-True,False,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Jihocesky kraj,2020-04-09 00:00:00
-True,False,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Jihomoravsky kraj,2020-04-09 00:00:00
-True,False,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Karlovarsky kraj,2020-04-09 00:00:00
-True,False,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Kraj Vysocina,2020-04-09 00:00:00
-True,False,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Kralovehradecky kraj,2020-04-09 00:00:00
-True,False,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Liberecky kraj,2020-04-09 00:00:00
-True,False,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Moravskoslezsky kraj,2020-04-09 00:00:00
-True,False,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Nezjisteno,2020-04-09 00:00:00
-True,False,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Olomoucky kraj,2020-04-09 00:00:00
-True,False,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Pardubicky kraj,2020-04-09 00:00:00
-True,False,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Plzensky kraj,2020-04-09 00:00:00
-True,False,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Stredocesky kraj,2020-04-09 00:00:00
-True,False,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Ustecky kraj,2020-04-09 00:00:00
-True,False,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Zlinsky kraj,2020-04-09 00:00:00
-True,False,True,True,False,True,1,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,all,2020-04-09 00:00:00
-True,False,False,True,False,False,2,2,1,2,50,False,0,True,True,False,True,False,True,False,False,False,3,United States of America,Louisiana,2020-04-09 00:00:00
-False,True,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,3,Austria,Tirol,2020-04-07 00:00:00
-True,True,True,True,False,False,1,1,2,1,10,True,0,False,False,False,True,True,True,False,True,True,3,Singapore,all,2020-04-07 00:00:00
-True,False,False,True,False,True,2,2,2,1.83,10,False,0,True,True,True,True,True,True,False,True,False,4,United States of America,New Jersey,2020-04-07 00:00:00
-False,True,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,3,Austria,Burgenland,2020-04-06 00:00:00
-False,True,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,3,Austria,Karnten,2020-04-06 00:00:00
-False,True,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,3,Austria,Niederosterreich,2020-04-06 00:00:00
-False,True,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,3,Austria,Oberosterreich,2020-04-06 00:00:00
-False,True,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,3,Austria,Salzburg,2020-04-06 00:00:00
-False,True,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,3,Austria,Steiermark,2020-04-06 00:00:00
-False,True,False,False,False,False,2,2,0,1,5,True,0,True,False,False,True,True,True,False,False,False,3,Austria,Tirol,2020-04-06 00:00:00
-False,True,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,3,Austria,Vorarlberg,2020-04-06 00:00:00
-False,True,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,3,Austria,Wien,2020-04-06 00:00:00
-False,True,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,3,Austria,all,2020-04-06 00:00:00
+True,False,True,True,False,False,1,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Hlavni mesto Praha,2020-04-09 00:00:00
+True,False,True,True,False,False,1,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Jihocesky kraj,2020-04-09 00:00:00
+True,False,True,True,False,False,1,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Jihomoravsky kraj,2020-04-09 00:00:00
+True,False,True,True,False,False,1,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Karlovarsky kraj,2020-04-09 00:00:00
+True,False,True,True,False,False,1,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Kraj Vysocina,2020-04-09 00:00:00
+True,False,True,True,False,False,1,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Kralovehradecky kraj,2020-04-09 00:00:00
+True,False,True,True,False,False,1,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Liberecky kraj,2020-04-09 00:00:00
+True,False,True,True,False,False,1,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Moravskoslezsky kraj,2020-04-09 00:00:00
+True,False,True,True,False,False,1,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Nezjisteno,2020-04-09 00:00:00
+True,False,True,True,False,False,1,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Olomoucky kraj,2020-04-09 00:00:00
+True,False,True,True,False,False,1,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Pardubicky kraj,2020-04-09 00:00:00
+True,False,True,True,False,False,1,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Plzensky kraj,2020-04-09 00:00:00
+True,False,True,True,False,False,1,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Stredocesky kraj,2020-04-09 00:00:00
+True,False,True,True,False,False,1,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Ustecky kraj,2020-04-09 00:00:00
+True,False,True,True,False,False,1,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Zlinsky kraj,2020-04-09 00:00:00
+True,False,True,True,False,False,1,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,all,2020-04-09 00:00:00
+True,True,True,True,False,True,2,2,2,1,1,True,0,True,False,False,True,True,True,False,True,True,4,Singapore,all,2020-04-09 00:00:00
+True,False,True,True,False,False,2,2,1,2,50,False,0,True,True,False,True,False,True,False,False,False,3,United States of America,Louisiana,2020-04-09 00:00:00
+False,True,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,4,Austria,Tirol,2020-04-07 00:00:00
+True,False,True,True,False,False,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Hlavni mesto Praha,2020-04-07 00:00:00
+True,False,True,True,False,False,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Jihocesky kraj,2020-04-07 00:00:00
+True,False,True,True,False,False,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Jihomoravsky kraj,2020-04-07 00:00:00
+True,False,True,True,False,False,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Karlovarsky kraj,2020-04-07 00:00:00
+True,False,True,True,False,False,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Kraj Vysocina,2020-04-07 00:00:00
+True,False,True,True,False,False,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Kralovehradecky kraj,2020-04-07 00:00:00
+True,False,True,True,False,False,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Liberecky kraj,2020-04-07 00:00:00
+True,False,True,True,False,False,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Moravskoslezsky kraj,2020-04-07 00:00:00
+True,False,True,True,False,False,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Nezjisteno,2020-04-07 00:00:00
+True,False,True,True,False,False,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Olomoucky kraj,2020-04-07 00:00:00
+True,False,True,True,False,False,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Pardubicky kraj,2020-04-07 00:00:00
+True,False,True,True,False,False,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Plzensky kraj,2020-04-07 00:00:00
+True,False,True,True,False,False,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Stredocesky kraj,2020-04-07 00:00:00
+True,False,True,True,False,False,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Ustecky kraj,2020-04-07 00:00:00
+True,False,True,True,False,False,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,Zlinsky kraj,2020-04-07 00:00:00
+True,False,True,True,False,False,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,3,Czechia,all,2020-04-07 00:00:00
+True,True,True,True,False,True,2,2,2,1,1,True,0,False,False,False,True,True,True,False,True,True,4,Singapore,all,2020-04-07 00:00:00
+True,False,True,True,False,True,2,2,2,1.83,10,False,0,True,True,True,True,True,True,False,True,False,4,United States of America,New Jersey,2020-04-07 00:00:00
+False,True,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,4,Austria,Burgenland,2020-04-06 00:00:00
+False,True,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,4,Austria,Karnten,2020-04-06 00:00:00
+False,True,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,4,Austria,Niederosterreich,2020-04-06 00:00:00
+False,True,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,4,Austria,Oberosterreich,2020-04-06 00:00:00
+False,True,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,4,Austria,Salzburg,2020-04-06 00:00:00
+False,True,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,4,Austria,Steiermark,2020-04-06 00:00:00
+False,True,False,False,False,True,2,2,0,1,5,True,0,True,False,False,True,True,True,False,False,False,4,Austria,Tirol,2020-04-06 00:00:00
+False,True,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,4,Austria,Vorarlberg,2020-04-06 00:00:00
+False,True,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,4,Austria,Wien,2020-04-06 00:00:00
+False,True,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,True,False,False,False,4,Austria,all,2020-04-06 00:00:00
 False,True,True,False,False,False,2,0,0,2,15,True,1,False,True,False,True,True,True,True,True,False,3,Canada,Alberta,2020-04-06 00:00:00
 False,True,True,False,False,False,1,2,0,,50,True,1,False,False,False,True,True,True,True,True,False,3,Canada,British Columbia,2020-04-06 00:00:00
 False,True,True,False,False,False,0,0,0,,,True,1,False,False,False,True,True,True,True,True,False,2,Canada,"Calgary, Alberta",2020-04-06 00:00:00
@@ -99,16 +161,38 @@ False,True,True,False,False,False,2,0,0,2,10,True,1,False,False,False,True,True,
 False,True,True,False,False,False,0,0,0,,,True,1,False,False,False,True,True,True,True,True,False,2,Canada,"Toronto, ON",2020-04-06 00:00:00
 False,True,True,True,False,False,0,2,0,,10,True,1,False,False,False,True,True,True,True,True,False,2,Canada,Yukon,2020-04-06 00:00:00
 False,True,True,False,False,False,0,0,0,,,True,1,False,False,False,True,True,True,True,True,False,2,Canada,all,2020-04-06 00:00:00
+False,False,False,False,False,True,2,2,2,2,,False,1,False,False,False,True,True,True,False,True,False,4,Italy,Lombardia,2020-04-06 00:00:00
+False,False,False,False,False,True,2,2,2,1,,False,0,False,False,False,True,True,True,False,True,False,4,Italy,Toscana,2020-04-06 00:00:00
+False,True,True,False,False,False,1,1,0,,,True,1,False,True,False,False,False,True,True,True,False,3,Japan,Kanto,2020-04-06 00:00:00
+False,True,True,False,False,False,0,1,0,,,True,1,False,True,False,False,False,True,True,True,False,2,Japan,all,2020-04-06 00:00:00
 True,True,True,True,False,True,1,2,0,1,100,False,1,False,True,False,True,True,True,False,False,False,4,France,Haute-Savoie,2020-04-03 00:00:00
 True,True,True,True,False,True,1,2,0,1,100,False,1,False,True,False,True,True,True,False,False,False,4,France,all,2020-04-03 00:00:00
-True,True,True,True,False,False,1,1,2,1,10,True,0,False,False,False,False,False,True,False,True,True,3,Singapore,all,2020-04-03 00:00:00
-True,False,False,True,False,True,2,2,2,1.83,10,False,1,True,True,False,False,False,True,False,False,False,4,United States of America,California,2020-04-03 00:00:00
-True,False,False,True,False,False,1,1,0,,10,False,0,False,True,False,False,False,True,False,False,False,3,United States of America,Connecticut,2020-04-03 00:00:00
-True,False,False,True,False,False,2,2,1,2,50,False,0,True,True,False,False,False,True,False,False,False,3,United States of America,Louisiana,2020-04-03 00:00:00
-True,False,False,True,False,True,2,2,2,1.83,10,False,0,True,True,False,True,True,True,False,True,False,4,United States of America,New Jersey,2020-04-03 00:00:00
-True,False,True,True,False,False,2,2,2,1.83,10,False,1,False,True,False,True,True,True,False,True,False,3,United States of America,New York,2020-04-03 00:00:00
+False,True,True,False,False,False,1,2,0,,,True,1,False,True,False,False,False,True,True,True,False,3,Japan,Kanto,2020-04-03 00:00:00
+False,True,True,False,False,False,0,2,0,,,True,1,False,True,False,False,False,True,True,True,False,2,Japan,all,2020-04-03 00:00:00
+True,False,True,True,False,True,2,2,2,1.83,10,False,1,True,True,False,False,False,True,False,False,False,4,United States of America,California,2020-04-03 00:00:00
+True,False,True,True,False,True,2,2,1,1.83,5,False,1,True,True,False,False,False,True,False,True,False,4,United States of America,Connecticut,2020-04-03 00:00:00
+True,True,True,True,False,True,2,2,0,,10,False,0,True,True,False,False,True,True,False,False,False,4,United States of America,Florida,2020-04-03 00:00:00
+True,False,True,True,False,True,2,2,2,,10,False,0,True,True,False,True,False,True,False,True,False,4,United States of America,Georgia,2020-04-03 00:00:00
+True,False,True,True,False,True,2,2,2,,10,False,0,True,True,True,False,False,True,False,True,False,4,United States of America,Illinois,2020-04-03 00:00:00
+True,False,True,True,False,False,2,2,1,2,50,False,0,True,True,False,False,False,True,False,False,False,3,United States of America,Louisiana,2020-04-03 00:00:00
+True,True,True,True,False,False,2,2,0,2,10,False,0,True,True,False,False,False,True,False,False,False,3,United States of America,Massachusetts,2020-04-03 00:00:00
+True,False,True,True,False,False,2,2,0,2,50,False,0,True,True,True,True,True,True,False,False,False,3,United States of America,Michigan,2020-04-03 00:00:00
+True,False,True,True,False,True,2,2,2,1.83,10,False,0,True,True,False,True,True,True,False,True,False,4,United States of America,New Jersey,2020-04-03 00:00:00
+True,False,True,True,False,False,2,2,2,1.83,10,False,1,True,True,False,True,True,True,False,True,False,3,United States of America,New York,2020-04-03 00:00:00
 True,True,True,True,False,True,2,2,2,1,10,False,1,True,True,True,True,False,True,False,False,False,4,United States of America,Washington,2020-04-03 00:00:00
-True,False,False,True,False,False,0,1,0,,10,False,0,False,True,False,False,False,True,False,False,False,2,United States of America,all,2020-04-03 00:00:00
+True,False,True,True,False,False,0,1,0,,10,False,0,True,True,False,False,False,True,False,False,False,2,United States of America,all,2020-04-03 00:00:00
+False,False,False,True,False,True,2,2,1,,5,False,1,True,True,False,True,True,False,False,True,False,4,Portugal,all,2020-04-02 00:00:00
+True,False,True,True,False,True,2,2,2,1.83,10,False,1,True,True,False,False,False,False,False,False,False,4,United States of America,California,2020-04-02 00:00:00
+True,False,True,True,False,True,2,2,1,1.83,5,False,1,True,True,False,False,False,False,False,True,False,4,United States of America,Connecticut,2020-04-02 00:00:00
+True,True,True,True,False,False,1,2,0,,10,False,0,True,True,False,False,True,False,False,False,False,3,United States of America,Florida,2020-04-02 00:00:00
+True,False,True,True,False,True,2,2,2,,10,False,0,True,True,False,False,False,False,False,True,False,4,United States of America,Georgia,2020-04-02 00:00:00
+True,False,True,True,False,True,2,2,2,,10,False,0,True,True,True,False,False,False,False,True,False,4,United States of America,Illinois,2020-04-02 00:00:00
+True,False,True,True,False,False,2,2,1,2,50,False,0,True,True,False,False,False,False,False,False,False,3,United States of America,Louisiana,2020-04-02 00:00:00
+True,True,True,True,False,False,2,2,0,2,10,False,0,True,True,False,False,False,False,False,False,False,3,United States of America,Massachusetts,2020-04-02 00:00:00
+True,False,True,True,False,False,2,2,0,2,50,False,0,True,True,False,True,True,False,False,False,False,3,United States of America,Michigan,2020-04-02 00:00:00
+True,False,True,True,False,True,2,2,2,1.83,10,False,0,True,True,False,True,True,False,False,True,False,4,United States of America,New Jersey,2020-04-02 00:00:00
+True,False,True,True,False,False,2,2,2,1.83,10,False,1,True,True,False,True,True,False,False,True,False,3,United States of America,New York,2020-04-02 00:00:00
+True,False,True,True,False,False,0,1,0,,10,False,0,True,True,False,False,False,False,False,False,False,2,United States of America,all,2020-04-02 00:00:00
 True,True,False,True,False,False,2,2,2,1.5,500,True,0,False,True,False,True,True,False,False,True,False,3,Australia,New South Wales,2020-04-01 00:00:00
 True,True,False,True,False,False,2,1,2,1.5,500,True,0,False,True,False,True,True,False,False,True,False,3,Australia,Queensland,2020-04-01 00:00:00
 True,True,False,True,False,False,2,1,2,1.5,10,True,0,False,True,False,True,True,False,False,True,False,3,Australia,South Australia,2020-04-01 00:00:00
@@ -117,7 +201,7 @@ True,True,False,True,False,False,2,1,2,1.5,500,True,0,False,True,False,True,True
 True,True,False,True,False,False,2,1,2,1.5,500,True,0,False,True,False,False,True,False,False,True,False,3,Australia,all,2020-04-01 00:00:00
 False,True,True,False,False,False,1,2,0,,1,True,0,False,True,False,True,True,True,True,True,False,3,Canada,Nunavut,2020-04-01 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Baden-Wurttemberg,2020-04-01 00:00:00
-True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Bavaria,2020-04-01 00:00:00
+True,True,True,False,False,True,2,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,4,Germany,Bavaria,2020-04-01 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Bayern,2020-04-01 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Berlin,2020-04-01 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Brandenburg,2020-04-01 00:00:00
@@ -129,16 +213,17 @@ True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Nordrhein-Westfalen,2020-04-01 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Repatriierte,2020-04-01 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Rheinland-Pfalz,2020-04-01 00:00:00
-True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Saarland,2020-04-01 00:00:00
+True,True,True,False,False,True,2,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,4,Germany,Saarland,2020-04-01 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Sachsen,2020-04-01 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Sachsen-Anhalt,2020-04-01 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Schleswig-Holstein,2020-04-01 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,Thuringen,2020-04-01 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,True,False,False,False,3,Germany,all,2020-04-01 00:00:00
+True,True,True,True,False,True,2,2,2,2,2,True,1,True,True,True,True,True,False,False,False,False,4,Israel,all,2020-04-01 00:00:00
 True,True,False,False,False,False,1,2,0,2,,False,0,False,True,False,False,True,False,False,False,False,3,Norway,all,2020-04-01 00:00:00
 True,True,False,False,False,False,1,2,1,,,False,0,False,False,False,True,True,True,False,True,False,3,South Korea,all,2020-04-01 00:00:00
 True,False,True,True,False,False,0,1,0,1,50,True,0,True,True,False,True,True,False,False,True,False,2,Sweden,Blekinge,2020-04-01 00:00:00
-True,False,True,True,False,False,0,1,0,1,50,True,0,False,False,False,True,True,False,False,True,False,2,Sweden,all,2020-04-01 00:00:00
+True,False,True,True,False,False,0,1,0,1,50,True,0,False,True,False,True,True,False,False,True,False,2,Sweden,all,2020-04-01 00:00:00
 True,True,False,False,False,False,0,0,0,,500,True,0,False,False,True,False,False,True,True,True,True,2,Taiwan,all,2020-04-01 00:00:00
 True,False,False,True,False,True,2,2,2,1.83,10,False,0,True,True,False,True,True,False,False,True,False,4,United States of America,New Jersey,2020-04-01 00:00:00
 False,True,True,False,False,False,2,0,0,2,15,True,0,False,False,False,True,True,True,True,True,False,3,Canada,Alberta,2020-03-31 00:00:00
@@ -160,6 +245,7 @@ False,True,True,False,False,False,2,0,0,2,10,True,0,False,False,False,True,True,
 False,True,True,False,False,False,0,0,0,,,True,0,False,False,False,True,True,True,True,True,False,2,Canada,"Toronto, ON",2020-03-31 00:00:00
 False,True,True,True,False,False,0,2,0,,10,True,0,False,False,False,True,True,True,True,True,False,2,Canada,Yukon,2020-03-31 00:00:00
 False,True,True,False,False,False,0,0,0,,,True,0,False,False,False,True,True,True,True,True,False,2,Canada,all,2020-03-31 00:00:00
+True,True,True,True,False,True,2,2,2,2,10,True,1,True,True,True,True,True,False,False,False,False,4,Israel,all,2020-03-31 00:00:00
 False,True,True,False,False,False,2,0,0,2,15,True,0,False,False,False,True,True,False,False,True,False,3,Canada,Alberta,2020-03-30 00:00:00
 False,True,True,False,False,False,1,2,0,,50,True,0,False,False,False,True,True,False,False,True,False,3,Canada,British Columbia,2020-03-30 00:00:00
 False,True,True,False,False,False,0,0,0,,,True,0,False,False,False,True,True,False,False,True,False,2,Canada,"Calgary, Alberta",2020-03-30 00:00:00
@@ -183,6 +269,7 @@ True,True,False,True,False,False,2,1,2,1.5,10,True,0,False,True,False,True,True,
 True,True,False,True,False,False,2,2,2,1.5,500,True,0,False,True,False,True,True,False,False,False,False,3,Australia,Victoria,2020-03-29 00:00:00
 True,True,False,True,False,False,2,1,2,1.5,500,True,0,False,True,False,True,True,False,False,False,False,3,Australia,Western Australia,2020-03-29 00:00:00
 True,True,False,True,False,False,2,1,2,1.5,500,True,0,False,True,False,False,True,False,False,False,False,3,Australia,all,2020-03-29 00:00:00
+True,True,False,False,False,False,1,2,0,,4,True,0,True,False,False,False,True,True,False,True,True,3,Hong Kong,all,2020-03-29 00:00:00
 True,False,True,True,False,False,0,1,0,,50,True,0,True,True,False,True,True,False,False,True,False,2,Sweden,Blekinge,2020-03-29 00:00:00
 True,False,True,True,False,False,0,1,0,,50,True,0,False,False,False,True,True,False,False,True,False,2,Sweden,all,2020-03-29 00:00:00
 False,True,False,False,False,False,2,2,0,,5,True,0,True,True,False,True,True,False,False,True,False,3,Canada,Ontario,2020-03-28 00:00:00
@@ -208,21 +295,23 @@ False,False,False,False,False,True,2,2,2,1,,False,0,False,False,False,True,True,
 False,False,False,False,False,True,2,2,2,1,,False,0,False,False,False,True,True,False,False,True,False,4,Italy,Valle d'Aosta,2020-03-28 00:00:00
 False,False,False,False,False,True,2,2,2,1,,False,0,False,False,False,True,True,False,False,True,False,4,Italy,Veneto,2020-03-28 00:00:00
 False,False,False,False,False,True,2,2,2,1,,False,0,False,False,False,True,True,False,False,True,False,4,Italy,all,2020-03-28 00:00:00
-True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Andalucia,2020-03-28 00:00:00
-True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Aragon,2020-03-28 00:00:00
-True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Baleares,2020-03-28 00:00:00
-True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,CValenciana,2020-03-28 00:00:00
-True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Canarias,2020-03-28 00:00:00
-True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Castilla-LaMancha,2020-03-28 00:00:00
-True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,CastillaLaMancha,2020-03-28 00:00:00
-True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,CastillayLeon,2020-03-28 00:00:00
-True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Ceuta,2020-03-28 00:00:00
-True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Extremadura,2020-03-28 00:00:00
-True,False,True,False,False,True,2,2,1,1,1000,True,1,False,False,True,True,True,True,False,True,True,4,Spain,LaRioja,2020-03-28 00:00:00
-True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Madrid,2020-03-28 00:00:00
-True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Melilla,2020-03-28 00:00:00
-True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Navarra,2020-03-28 00:00:00
-True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,all,2020-03-28 00:00:00
+False,False,True,False,False,False,1,2,0,,,False,1,False,True,False,False,False,True,True,True,False,3,Japan,Kanto,2020-03-28 00:00:00
+False,False,True,False,False,False,0,2,0,,,False,1,False,True,False,False,False,True,True,True,False,2,Japan,all,2020-03-28 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Andalucia,2020-03-28 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Aragon,2020-03-28 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Baleares,2020-03-28 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,CValenciana,2020-03-28 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Canarias,2020-03-28 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Castilla-LaMancha,2020-03-28 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,CastillaLaMancha,2020-03-28 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,CastillayLeon,2020-03-28 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Ceuta,2020-03-28 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Extremadura,2020-03-28 00:00:00
+True,False,True,False,False,True,2,2,1,1,1000,True,1,False,False,True,True,True,True,False,True,False,4,Spain,LaRioja,2020-03-28 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Madrid,2020-03-28 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Melilla,2020-03-28 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Navarra,2020-03-28 00:00:00
+True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,all,2020-03-28 00:00:00
 False,False,True,True,False,False,2,2,0,2,5,True,1,False,False,False,True,True,False,False,False,False,3,Switzerland,AG,2020-03-28 00:00:00
 False,False,True,True,False,False,2,2,0,2,5,True,1,False,False,False,True,True,False,False,False,False,3,Switzerland,AI,2020-03-28 00:00:00
 False,False,True,True,False,False,2,2,0,2,5,True,1,False,False,False,True,True,False,False,False,False,3,Switzerland,AR,2020-03-28 00:00:00
@@ -256,7 +345,10 @@ False,True,False,False,False,False,2,2,0,,10,True,0,False,False,False,True,True,
 False,True,True,False,False,False,2,2,0,,10,True,0,False,False,False,True,True,False,False,True,False,3,Canada,New Brunswick,2020-03-27 00:00:00
 True,True,False,False,False,False,1,2,0,2,5,True,0,False,True,False,True,True,False,False,True,False,3,Canada,Nova Scotia,2020-03-27 00:00:00
 False,True,False,False,False,False,2,2,0,,50,True,0,True,True,False,True,True,False,False,True,False,3,Canada,Ontario,2020-03-27 00:00:00
+True,True,True,True,False,False,1,1,2,1,10,True,0,False,False,False,True,True,True,False,True,True,3,Singapore,all,2020-03-27 00:00:00
+True,True,False,True,False,False,2,2,0,2,10,False,0,True,True,False,False,False,False,False,False,False,3,United States of America,Massachusetts,2020-03-27 00:00:00
 False,True,False,False,False,False,2,0,0,2,10,True,0,False,False,False,True,True,False,False,True,False,3,Canada,Saskatchewan,2020-03-26 00:00:00
+True,True,True,True,False,False,1,0,2,1,10,True,0,False,False,False,True,True,True,False,True,True,3,Singapore,all,2020-03-26 00:00:00
 True,False,True,True,False,True,2,2,1,2,2,False,1,False,False,True,True,True,False,False,False,False,4,United Kingdom,Aneurin Bevan,2020-03-26 00:00:00
 True,False,True,True,False,True,2,2,1,2,2,False,1,False,False,True,True,True,False,False,False,False,4,United Kingdom,Ayrshire and Arran,2020-03-26 00:00:00
 True,False,True,True,False,True,2,2,1,2,2,False,1,False,False,True,True,True,False,False,False,False,4,United Kingdom,Barking and Dagenham,2020-03-26 00:00:00
@@ -453,6 +545,9 @@ True,False,True,True,False,True,2,2,1,2,2,False,1,False,False,True,True,True,Fal
 True,False,True,True,False,True,2,2,1,2,2,False,1,False,False,True,True,True,False,False,False,False,4,United Kingdom,Wrexham County Borough Council,2020-03-26 00:00:00
 True,False,True,True,False,True,2,2,1,2,2,False,1,False,False,True,True,True,False,False,False,False,4,United Kingdom,York,2020-03-26 00:00:00
 True,False,True,True,False,True,2,2,1,2,2,False,1,False,False,True,True,True,False,False,False,False,4,United Kingdom,all,2020-03-26 00:00:00
+True,False,True,True,False,True,2,2,1,1.83,5,False,1,False,True,False,False,False,False,False,True,False,4,United States of America,Connecticut,2020-03-26 00:00:00
+True,False,True,True,False,False,1,2,0,,10,False,0,False,True,False,False,False,False,False,True,False,3,United States of America,Georgia,2020-03-26 00:00:00
+False,True,True,False,False,True,2,1,2,,2,False,0,False,True,False,True,True,False,False,False,False,4,Belgium,all,2020-03-25 00:00:00
 False,True,False,False,False,False,0,0,0,,50,True,0,False,False,False,True,True,False,False,True,False,2,Canada,Alberta,2020-03-25 00:00:00
 False,True,False,False,False,False,1,2,0,,50,True,0,False,False,False,True,True,False,False,True,False,3,Canada,British Columbia,2020-03-25 00:00:00
 False,True,False,False,False,False,0,0,0,,,True,0,False,False,False,True,True,False,False,True,False,2,Canada,"Calgary, Alberta",2020-03-25 00:00:00
@@ -472,6 +567,9 @@ False,True,False,False,False,False,1,0,0,2,10,True,0,False,False,False,True,True
 False,True,False,False,False,False,0,0,0,,,True,0,False,False,False,True,True,False,False,True,False,2,Canada,"Toronto, ON",2020-03-25 00:00:00
 False,True,False,True,False,False,0,2,0,,10,True,0,False,False,False,True,True,False,False,True,False,2,Canada,Yukon,2020-03-25 00:00:00
 False,True,False,False,False,False,0,0,0,,,True,0,False,False,False,True,True,False,False,True,False,2,Canada,all,2020-03-25 00:00:00
+True,True,False,False,False,False,0,2,0,,,True,0,True,False,False,False,True,True,False,True,True,2,Hong Kong,all,2020-03-25 00:00:00
+False,False,True,False,False,False,1,2,0,,,False,1,False,False,False,False,False,True,True,True,False,3,Japan,Kanto,2020-03-25 00:00:00
+False,False,True,False,False,False,0,2,0,,,False,1,False,False,False,False,False,True,True,True,False,2,Japan,all,2020-03-25 00:00:00
 True,False,False,False,False,False,1,2,1,,,False,0,False,False,False,True,True,True,False,True,False,3,South Korea,all,2020-03-25 00:00:00
 False,False,True,False,False,False,2,2,0,2,5,True,1,False,False,False,True,True,False,False,False,False,3,Switzerland,AG,2020-03-25 00:00:00
 False,False,True,False,False,False,2,2,0,2,5,True,1,False,False,False,True,True,False,False,False,False,3,Switzerland,AI,2020-03-25 00:00:00
@@ -501,32 +599,12 @@ False,False,True,False,False,False,2,2,0,2,5,True,1,False,False,False,True,True,
 False,False,True,False,False,False,2,2,0,2,5,True,1,False,False,False,True,True,False,False,False,False,3,Switzerland,ZH,2020-03-25 00:00:00
 False,False,True,False,False,False,2,2,0,2,5,True,1,False,False,False,True,True,False,False,False,False,3,Switzerland,all,2020-03-25 00:00:00
 True,True,False,False,False,False,0,0,0,,500,True,0,False,False,True,False,False,True,True,True,False,2,Taiwan,all,2020-03-25 00:00:00
+True,True,False,True,False,False,1,2,0,,10,False,0,False,True,False,False,True,False,False,False,False,3,United States of America,Florida,2020-03-25 00:00:00
 True,True,False,False,False,False,2,2,2,1.5,500,True,0,False,True,False,True,True,False,False,False,False,3,Australia,New South Wales,2020-03-24 00:00:00
 True,True,False,False,False,False,2,2,2,1.5,500,True,0,False,True,False,True,True,False,False,False,False,3,Australia,Victoria,2020-03-24 00:00:00
 False,False,False,False,False,False,2,2,0,,50,True,0,True,True,False,False,False,False,False,True,False,3,Canada,Ontario,2020-03-24 00:00:00
 True,True,False,False,False,False,1,2,0,2,,True,0,False,True,False,False,True,False,False,False,False,3,Norway,all,2020-03-24 00:00:00
 True,True,True,True,False,False,1,0,2,1,10,True,0,False,False,False,False,False,True,False,True,True,3,Singapore,all,2020-03-24 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Andalucia,2020-03-24 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Aragon,2020-03-24 00:00:00
-True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Asturias,2020-03-24 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Baleares,2020-03-24 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,CValenciana,2020-03-24 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Canarias,2020-03-24 00:00:00
-True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Cantabria,2020-03-24 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Castilla-LaMancha,2020-03-24 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,CastillaLaMancha,2020-03-24 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,CastillayLeon,2020-03-24 00:00:00
-True,False,True,False,False,True,2,2,1,1,1000,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Cataluna,2020-03-24 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Ceuta,2020-03-24 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Extremadura,2020-03-24 00:00:00
-True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Galicia,2020-03-24 00:00:00
-True,False,True,False,False,True,1,2,1,1,1000,True,1,False,False,True,True,True,True,False,True,True,4,Spain,LaRioja,2020-03-24 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Madrid,2020-03-24 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Melilla,2020-03-24 00:00:00
-True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Murcia,2020-03-24 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,Navarra,2020-03-24 00:00:00
-True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,PaisVasco,2020-03-24 00:00:00
-True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,True,4,Spain,all,2020-03-24 00:00:00
 True,False,True,True,False,True,2,2,1,2,2,False,1,False,False,True,False,False,False,False,False,False,4,United Kingdom,Aneurin Bevan,2020-03-24 00:00:00
 True,False,True,True,False,True,2,2,1,2,2,False,1,False,False,True,False,False,False,False,False,False,4,United Kingdom,Ayrshire and Arran,2020-03-24 00:00:00
 True,False,True,True,False,True,2,2,1,2,2,False,1,False,False,True,False,False,False,False,False,False,4,United Kingdom,Barking and Dagenham,2020-03-24 00:00:00
@@ -723,6 +801,8 @@ True,False,True,True,False,True,2,2,1,2,2,False,1,False,False,True,False,False,F
 True,False,True,True,False,True,2,2,1,2,2,False,1,False,False,True,False,False,False,False,False,False,4,United Kingdom,Wrexham County Borough Council,2020-03-24 00:00:00
 True,False,True,True,False,True,2,2,1,2,2,False,1,False,False,True,False,False,False,False,False,False,4,United Kingdom,York,2020-03-24 00:00:00
 True,False,True,True,False,True,2,2,1,2,2,False,1,False,False,True,False,False,False,False,False,False,4,United Kingdom,all,2020-03-24 00:00:00
+True,True,False,True,False,False,1,2,0,,10,False,0,False,True,False,False,True,False,False,False,False,3,United States of America,Florida,2020-03-24 00:00:00
+True,False,False,True,False,False,2,2,0,2,50,False,0,True,True,False,False,False,False,False,False,False,3,United States of America,Michigan,2020-03-24 00:00:00
 True,True,False,False,False,False,2,1,2,1.5,500,True,0,False,True,False,True,True,False,False,False,False,3,Australia,New South Wales,2020-03-23 00:00:00
 True,True,False,False,False,False,2,1,2,1.5,500,True,0,False,True,False,True,True,False,False,False,False,3,Australia,Queensland,2020-03-23 00:00:00
 True,True,False,False,False,False,2,1,2,1.5,500,True,0,False,True,False,True,True,False,False,False,False,3,Australia,South Australia,2020-03-23 00:00:00
@@ -733,22 +813,22 @@ False,True,False,False,False,False,2,0,0,,10,True,0,False,False,False,False,True
 False,True,False,False,False,False,2,2,0,,0,True,0,False,False,False,False,False,False,False,True,False,3,Canada,Northwest Territories,2020-03-23 00:00:00
 False,True,True,True,False,False,2,2,1,2,1,True,0,True,True,False,False,True,False,False,True,False,3,Canada,Quebec,2020-03-23 00:00:00
 False,True,False,True,False,False,0,2,0,,10,True,0,False,False,False,False,False,False,False,True,False,2,Canada,Yukon,2020-03-23 00:00:00
-True,False,True,True,False,True,2,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Hlavni mesto Praha,2020-03-23 00:00:00
-True,False,True,True,False,True,2,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Jihocesky kraj,2020-03-23 00:00:00
-True,False,True,True,False,True,2,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Jihomoravsky kraj,2020-03-23 00:00:00
-True,False,True,True,False,True,2,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Karlovarsky kraj,2020-03-23 00:00:00
-True,False,True,True,False,True,2,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Kraj Vysocina,2020-03-23 00:00:00
-True,False,True,True,False,True,2,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Kralovehradecky kraj,2020-03-23 00:00:00
-True,False,True,True,False,True,2,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Liberecky kraj,2020-03-23 00:00:00
-True,False,True,True,False,True,2,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Moravskoslezsky kraj,2020-03-23 00:00:00
-True,False,True,True,False,True,2,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Nezjisteno,2020-03-23 00:00:00
-True,False,True,True,False,True,2,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Olomoucky kraj,2020-03-23 00:00:00
-True,False,True,True,False,True,2,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Pardubicky kraj,2020-03-23 00:00:00
-True,False,True,True,False,True,2,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Plzensky kraj,2020-03-23 00:00:00
-True,False,True,True,False,True,2,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Stredocesky kraj,2020-03-23 00:00:00
-True,False,True,True,False,True,2,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Ustecky kraj,2020-03-23 00:00:00
-True,False,True,True,False,True,2,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Zlinsky kraj,2020-03-23 00:00:00
-True,False,True,True,False,True,2,2,2,2,2,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,all,2020-03-23 00:00:00
+True,False,True,True,False,True,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Hlavni mesto Praha,2020-03-23 00:00:00
+True,False,True,True,False,True,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Jihocesky kraj,2020-03-23 00:00:00
+True,False,True,True,False,True,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Jihomoravsky kraj,2020-03-23 00:00:00
+True,False,True,True,False,True,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Karlovarsky kraj,2020-03-23 00:00:00
+True,False,True,True,False,True,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Kraj Vysocina,2020-03-23 00:00:00
+True,False,True,True,False,True,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Kralovehradecky kraj,2020-03-23 00:00:00
+True,False,True,True,False,True,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Liberecky kraj,2020-03-23 00:00:00
+True,False,True,True,False,True,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Moravskoslezsky kraj,2020-03-23 00:00:00
+True,False,True,True,False,True,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Nezjisteno,2020-03-23 00:00:00
+True,False,True,True,False,True,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Olomoucky kraj,2020-03-23 00:00:00
+True,False,True,True,False,True,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Pardubicky kraj,2020-03-23 00:00:00
+True,False,True,True,False,True,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Plzensky kraj,2020-03-23 00:00:00
+True,False,True,True,False,True,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Stredocesky kraj,2020-03-23 00:00:00
+True,False,True,True,False,True,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Ustecky kraj,2020-03-23 00:00:00
+True,False,True,True,False,True,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Zlinsky kraj,2020-03-23 00:00:00
+True,False,True,True,False,True,2,2,2,2,2,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,all,2020-03-23 00:00:00
 True,True,True,False,False,False,2,2,0,1.5,3,True,1,True,True,False,True,True,False,False,True,False,3,Netherlands,'s-Gravenhage,2020-03-23 00:00:00
 True,True,True,False,False,False,2,2,0,1.5,3,True,1,True,True,False,True,True,False,False,True,False,3,Netherlands,'s-Hertogenbosch,2020-03-23 00:00:00
 True,True,True,False,False,False,2,2,0,1.5,3,True,1,True,True,False,True,True,False,False,True,False,3,Netherlands,Aa en Hunze,2020-03-23 00:00:00
@@ -1115,11 +1195,14 @@ True,True,True,False,False,False,2,2,0,1.5,3,True,1,True,True,False,True,True,Fa
 True,True,True,False,False,False,2,2,0,1.5,3,True,1,True,True,False,True,True,False,False,True,False,3,Netherlands,s-Gravenhage,2020-03-23 00:00:00
 True,True,True,True,False,False,0,0,1,1,250,True,0,False,False,False,False,False,True,False,True,True,2,Singapore,all,2020-03-23 00:00:00
 True,False,False,False,False,False,1,2,1,,,False,0,False,False,False,False,False,False,False,False,False,3,South Korea,all,2020-03-23 00:00:00
+True,False,True,True,False,True,2,2,1,1.83,10,False,1,False,True,False,False,False,False,False,True,False,4,United States of America,Connecticut,2020-03-23 00:00:00
 True,False,False,True,False,False,2,2,1,2,50,False,0,True,True,False,False,False,False,False,False,False,3,United States of America,Louisiana,2020-03-23 00:00:00
+True,False,False,True,False,False,2,2,0,2,10,False,0,True,True,False,False,False,False,False,False,False,3,United States of America,Massachusetts,2020-03-23 00:00:00
 True,False,False,True,False,True,2,2,0,1.83,10,False,0,True,True,False,True,True,False,False,True,False,4,United States of America,New Jersey,2020-03-23 00:00:00
+True,True,True,True,False,True,2,2,2,1,10,False,1,True,True,True,True,False,False,False,False,False,4,United States of America,Washington,2020-03-23 00:00:00
 False,True,False,False,False,False,1,2,0,2,5,True,0,False,True,False,False,True,False,False,True,False,3,Canada,Nova Scotia,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,False,False,False,False,3,Germany,Baden-Wurttemberg,2020-03-22 00:00:00
-True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,False,False,False,False,3,Germany,Bavaria,2020-03-22 00:00:00
+True,True,True,False,False,True,2,2,2,1.5,2,False,1,False,False,False,True,True,False,False,False,False,4,Germany,Bavaria,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,False,False,False,False,3,Germany,Bayern,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,False,False,False,False,3,Germany,Berlin,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,False,False,False,False,3,Germany,Brandenburg,2020-03-22 00:00:00
@@ -1131,18 +1214,18 @@ True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,False,False,False,False,3,Germany,Nordrhein-Westfalen,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,False,False,False,False,3,Germany,Repatriierte,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,False,False,False,False,3,Germany,Rheinland-Pfalz,2020-03-22 00:00:00
-True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,False,False,False,False,3,Germany,Saarland,2020-03-22 00:00:00
+True,True,True,False,False,True,2,2,2,1.5,2,False,1,False,False,False,True,True,False,False,False,False,4,Germany,Saarland,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,False,False,False,False,3,Germany,Sachsen,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,False,False,False,False,3,Germany,Sachsen-Anhalt,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,False,False,False,False,3,Germany,Schleswig-Holstein,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,False,False,False,False,3,Germany,Thuringen,2020-03-22 00:00:00
 True,True,True,False,False,False,2,2,2,1.5,2,False,1,False,False,False,True,True,False,False,False,False,3,Germany,all,2020-03-22 00:00:00
 True,False,True,True,False,False,2,2,2,1.83,10,False,1,False,True,False,True,True,False,False,True,False,3,United States of America,New York,2020-03-22 00:00:00
-True,True,True,True,False,True,2,2,2,1,10,False,1,True,True,True,True,False,False,False,False,False,4,United States of America,Washington,2020-03-22 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,True,0,False,True,False,True,True,False,False,False,False,2,Australia,Queensland,2020-03-21 00:00:00
 False,False,False,False,False,False,1,2,0,,50,True,0,False,False,False,False,True,False,False,True,False,3,Canada,British Columbia,2020-03-21 00:00:00
 False,True,True,True,False,False,1,2,1,2,1,True,0,True,True,False,False,True,False,False,True,False,3,Canada,Quebec,2020-03-21 00:00:00
-True,True,True,True,False,False,0,0,1,1,250,False,0,False,False,False,False,False,True,False,True,True,2,Singapore,all,2020-03-21 00:00:00
+True,True,True,False,False,False,1,2,1,,5,False,1,False,False,False,True,True,False,False,False,False,3,Germany,Rheinland-Pfalz,2020-03-21 00:00:00
+True,True,True,False,False,True,1,2,1,,,False,1,False,False,False,True,True,False,False,False,False,4,Germany,Saarland,2020-03-21 00:00:00
 False,False,True,False,False,False,2,2,0,2,5,False,1,False,False,False,True,True,False,False,False,False,3,Switzerland,AG,2020-03-21 00:00:00
 False,False,True,False,False,False,2,2,0,2,5,False,1,False,False,False,True,True,False,False,False,False,3,Switzerland,AI,2020-03-21 00:00:00
 False,False,True,False,False,False,2,2,0,2,5,False,1,False,False,False,True,True,False,False,False,False,3,Switzerland,AR,2020-03-21 00:00:00
@@ -1170,8 +1253,10 @@ False,False,True,False,False,False,2,2,0,2,5,False,1,False,False,False,True,True
 False,False,True,False,False,False,2,2,0,2,5,False,1,False,False,False,True,True,False,False,False,False,3,Switzerland,ZG,2020-03-21 00:00:00
 False,False,True,False,False,False,2,2,0,2,5,False,1,False,False,False,True,True,False,False,False,False,3,Switzerland,ZH,2020-03-21 00:00:00
 False,False,True,False,False,False,2,2,0,2,5,False,1,False,False,False,True,True,False,False,False,False,3,Switzerland,all,2020-03-21 00:00:00
+True,False,True,True,False,True,2,2,2,,10,False,0,False,True,True,False,False,False,False,True,False,4,United States of America,Illinois,2020-03-21 00:00:00
+True,False,False,True,False,False,1,2,0,,50,False,0,True,True,False,False,False,False,False,False,False,3,United States of America,Michigan,2020-03-21 00:00:00
 True,False,False,True,False,True,2,2,0,1.83,10,False,0,True,True,False,False,False,False,False,True,False,4,United States of America,New Jersey,2020-03-21 00:00:00
-True,True,True,True,False,True,2,2,2,1,10,False,1,True,True,True,False,False,False,False,False,False,4,United States of America,Washington,2020-03-21 00:00:00
+True,True,True,True,False,False,1,2,0,1,10,False,1,True,True,True,False,False,False,False,False,False,3,United States of America,Washington,2020-03-21 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,True,0,False,True,False,True,True,False,False,False,False,2,Australia,New South Wales,2020-03-20 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,True,0,False,True,False,False,True,False,False,False,False,2,Australia,Queensland,2020-03-20 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,True,0,False,True,False,True,True,False,False,False,False,2,Australia,South Australia,2020-03-20 00:00:00
@@ -1181,6 +1266,10 @@ True,True,False,False,False,False,0,0,0,1.5,500,True,0,False,True,False,False,Tr
 False,False,False,False,False,False,2,2,0,,50,True,0,False,False,False,False,True,False,False,True,False,3,Canada,Manitoba,2020-03-20 00:00:00
 False,True,False,False,False,False,1,2,0,,1,True,0,False,False,False,False,False,False,False,True,False,3,Canada,Nunavut,2020-03-20 00:00:00
 False,True,False,False,False,False,1,0,0,2,25,True,0,False,False,False,False,True,False,False,True,False,3,Canada,Saskatchewan,2020-03-20 00:00:00
+True,True,True,False,False,False,1,2,1,,3,False,1,False,False,False,True,True,False,False,False,False,3,Germany,Baden-Wurttemberg,2020-03-20 00:00:00
+True,True,True,False,False,True,1,2,1,,,False,1,False,False,False,True,True,False,False,False,False,4,Germany,Bavaria,2020-03-20 00:00:00
+True,True,True,False,False,False,1,2,1,,6,False,1,False,False,False,True,True,False,False,False,False,3,Germany,Hamburg,2020-03-20 00:00:00
+True,True,True,False,False,False,1,2,1,,5,False,1,False,False,False,True,True,False,False,False,False,3,Germany,Hessen,2020-03-20 00:00:00
 True,True,True,False,False,False,2,2,0,1.5,3,True,1,False,True,False,True,True,False,False,True,False,3,Netherlands,'s-Gravenhage,2020-03-20 00:00:00
 True,True,True,False,False,False,2,2,0,1.5,3,True,1,False,True,False,True,True,False,False,True,False,3,Netherlands,'s-Hertogenbosch,2020-03-20 00:00:00
 True,True,True,False,False,False,2,2,0,1.5,3,True,1,False,True,False,True,True,False,False,True,False,3,Netherlands,Aa en Hunze,2020-03-20 00:00:00
@@ -1545,7 +1634,7 @@ True,True,True,False,False,False,2,2,0,1.5,3,True,1,False,True,False,True,True,F
 True,True,True,False,False,False,2,2,0,1.5,3,True,1,False,True,False,True,True,False,False,True,False,3,Netherlands,Zwolle,2020-03-20 00:00:00
 True,True,True,False,False,False,2,2,0,1.5,3,True,1,False,True,False,True,True,False,False,True,False,3,Netherlands,all,2020-03-20 00:00:00
 True,True,True,False,False,False,2,2,0,1.5,3,True,1,False,True,False,True,True,False,False,True,False,3,Netherlands,s-Gravenhage,2020-03-20 00:00:00
-True,False,True,True,False,False,0,0,1,1,250,False,0,False,False,False,False,False,True,False,True,True,2,Singapore,all,2020-03-20 00:00:00
+True,True,True,True,False,False,0,0,1,1,250,False,0,False,False,False,False,False,True,False,True,True,2,Singapore,all,2020-03-20 00:00:00
 False,False,True,False,False,False,2,2,0,2,5,False,1,False,False,False,False,False,False,False,False,False,3,Switzerland,AG,2020-03-20 00:00:00
 False,False,True,False,False,False,2,2,0,2,5,False,1,False,False,False,False,False,False,False,False,False,3,Switzerland,AI,2020-03-20 00:00:00
 False,False,True,False,False,False,2,2,0,2,5,False,1,False,False,False,False,False,False,False,False,False,3,Switzerland,AR,2020-03-20 00:00:00
@@ -1768,23 +1857,23 @@ True,False,True,True,False,False,2,2,0,,,False,1,False,False,False,False,False,F
 True,False,True,True,False,False,2,2,0,,,False,1,False,False,False,False,False,False,False,False,False,3,United Kingdom,Wrexham County Borough Council,2020-03-20 00:00:00
 True,False,True,True,False,False,2,2,0,,,False,1,False,False,False,False,False,False,False,False,False,3,United Kingdom,York,2020-03-20 00:00:00
 True,False,True,True,False,False,2,2,0,,,False,1,False,False,False,False,False,False,False,False,False,3,United Kingdom,all,2020-03-20 00:00:00
-True,False,True,True,False,False,2,2,0,1,10,False,1,True,True,True,False,False,False,False,False,False,3,United States of America,Washington,2020-03-20 00:00:00
+True,False,False,True,False,False,1,2,0,,10,False,0,False,True,False,False,False,False,False,False,False,3,United States of America,Florida,2020-03-20 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,True,False,True,True,False,False,False,False,1,Australia,New South Wales,2020-03-19 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,True,False,False,True,False,False,False,False,1,Australia,Queensland,2020-03-19 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,True,False,True,True,False,False,False,False,1,Australia,South Australia,2020-03-19 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,True,False,True,True,False,False,False,False,1,Australia,Victoria,2020-03-19 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,True,False,True,True,False,False,False,False,1,Australia,Western Australia,2020-03-19 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,True,False,False,True,False,False,False,False,1,Australia,all,2020-03-19 00:00:00
-False,True,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Burgenland,2020-03-19 00:00:00
-False,True,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Karnten,2020-03-19 00:00:00
-False,True,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Niederosterreich,2020-03-19 00:00:00
-False,True,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Oberosterreich,2020-03-19 00:00:00
-False,True,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Salzburg,2020-03-19 00:00:00
-False,True,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Steiermark,2020-03-19 00:00:00
-False,True,False,False,False,False,2,2,0,1,5,True,0,True,False,False,True,True,False,False,False,False,3,Austria,Tirol,2020-03-19 00:00:00
-False,True,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Vorarlberg,2020-03-19 00:00:00
-False,True,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Wien,2020-03-19 00:00:00
-False,True,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,all,2020-03-19 00:00:00
+False,True,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Burgenland,2020-03-19 00:00:00
+False,True,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Karnten,2020-03-19 00:00:00
+False,True,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Niederosterreich,2020-03-19 00:00:00
+False,True,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Oberosterreich,2020-03-19 00:00:00
+False,True,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Salzburg,2020-03-19 00:00:00
+False,True,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Steiermark,2020-03-19 00:00:00
+False,True,False,False,False,True,2,2,0,1,5,True,0,True,False,False,True,True,False,False,False,False,4,Austria,Tirol,2020-03-19 00:00:00
+False,True,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Vorarlberg,2020-03-19 00:00:00
+False,True,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Wien,2020-03-19 00:00:00
+False,True,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,all,2020-03-19 00:00:00
 False,True,False,False,False,False,0,0,0,,50,True,0,False,False,False,False,True,False,False,True,False,2,Canada,Alberta,2020-03-19 00:00:00
 False,False,False,False,False,False,0,2,0,,50,True,0,False,False,False,False,True,False,False,True,False,2,Canada,British Columbia,2020-03-19 00:00:00
 False,False,False,False,False,False,0,0,0,,,True,0,False,False,False,False,False,False,False,True,False,2,Canada,"Calgary, Alberta",2020-03-19 00:00:00
@@ -1804,23 +1893,24 @@ False,True,False,False,False,False,1,0,0,2,50,True,0,False,False,False,False,Tru
 False,False,False,False,False,False,0,0,0,,,True,0,False,False,False,False,False,False,False,True,False,2,Canada,"Toronto, ON",2020-03-19 00:00:00
 False,False,False,False,False,False,0,0,0,,,True,0,False,False,False,False,False,False,False,True,False,2,Canada,Yukon,2020-03-19 00:00:00
 False,False,False,False,False,False,0,0,0,,,True,0,False,False,False,False,False,False,False,True,False,2,Canada,all,2020-03-19 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Hlavni mesto Praha,2020-03-19 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Jihocesky kraj,2020-03-19 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Jihomoravsky kraj,2020-03-19 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Karlovarsky kraj,2020-03-19 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Kraj Vysocina,2020-03-19 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Kralovehradecky kraj,2020-03-19 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Liberecky kraj,2020-03-19 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Moravskoslezsky kraj,2020-03-19 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Nezjisteno,2020-03-19 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Olomoucky kraj,2020-03-19 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Pardubicky kraj,2020-03-19 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Plzensky kraj,2020-03-19 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Stredocesky kraj,2020-03-19 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Ustecky kraj,2020-03-19 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,Zlinsky kraj,2020-03-19 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,True,True,True,True,4,Czechia,all,2020-03-19 00:00:00
-True,True,True,False,False,True,2,2,1,2,10,True,1,False,False,True,True,True,False,False,False,False,4,Israel,all,2020-03-19 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Hlavni mesto Praha,2020-03-19 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Jihocesky kraj,2020-03-19 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Jihomoravsky kraj,2020-03-19 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Karlovarsky kraj,2020-03-19 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Kraj Vysocina,2020-03-19 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Kralovehradecky kraj,2020-03-19 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Liberecky kraj,2020-03-19 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Moravskoslezsky kraj,2020-03-19 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Nezjisteno,2020-03-19 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Olomoucky kraj,2020-03-19 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Pardubicky kraj,2020-03-19 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Plzensky kraj,2020-03-19 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Stredocesky kraj,2020-03-19 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Ustecky kraj,2020-03-19 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,Zlinsky kraj,2020-03-19 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,True,True,True,True,4,Czechia,all,2020-03-19 00:00:00
+True,True,False,False,False,False,0,2,0,,,False,0,True,False,False,False,True,True,False,True,True,2,Hong Kong,all,2020-03-19 00:00:00
+True,True,True,True,False,True,2,2,1,2,10,True,1,True,True,True,True,True,False,False,False,False,4,Israel,all,2020-03-19 00:00:00
 True,False,True,False,False,False,2,2,0,1.5,3,True,1,False,True,False,True,True,False,False,True,False,3,Netherlands,'s-Gravenhage,2020-03-19 00:00:00
 True,False,True,False,False,False,2,2,0,1.5,3,True,1,False,True,False,True,True,False,False,True,False,3,Netherlands,'s-Hertogenbosch,2020-03-19 00:00:00
 True,False,True,False,False,False,2,2,0,1.5,3,True,1,False,True,False,True,True,False,False,True,False,3,Netherlands,Aa en Hunze,2020-03-19 00:00:00
@@ -2186,26 +2276,29 @@ True,False,True,False,False,False,2,2,0,1.5,3,True,1,False,True,False,True,True,
 True,False,True,False,False,False,2,2,0,1.5,3,True,1,False,True,False,True,True,False,False,True,False,3,Netherlands,all,2020-03-19 00:00:00
 True,False,True,False,False,False,2,2,0,1.5,3,True,1,False,True,False,True,True,False,False,True,False,3,Netherlands,s-Gravenhage,2020-03-19 00:00:00
 False,True,False,False,False,False,1,2,0,2,,True,0,False,True,False,False,True,False,False,False,False,3,Norway,all,2020-03-19 00:00:00
+False,False,False,True,False,True,2,2,1,,,False,1,True,True,False,True,True,False,False,True,False,4,Portugal,all,2020-03-19 00:00:00
 True,True,False,False,False,False,0,0,0,,,True,0,False,False,True,False,False,True,True,True,False,2,Taiwan,all,2020-03-19 00:00:00
 True,False,False,True,False,True,2,2,2,1.83,10,False,1,True,True,False,False,False,False,False,False,False,4,United States of America,California,2020-03-19 00:00:00
+True,False,True,True,False,False,1,1,0,,10,False,0,False,True,True,False,False,False,False,True,False,3,United States of America,Illinois,2020-03-19 00:00:00
 True,False,True,True,False,False,1,2,0,1,10,False,1,True,True,True,False,False,False,False,False,False,3,United States of America,Washington,2020-03-19 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,False,False,True,True,False,False,False,False,1,Australia,South Australia,2020-03-18 00:00:00
-False,False,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Burgenland,2020-03-18 00:00:00
-False,False,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Karnten,2020-03-18 00:00:00
-False,False,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Niederosterreich,2020-03-18 00:00:00
-False,False,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Oberosterreich,2020-03-18 00:00:00
-False,False,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Salzburg,2020-03-18 00:00:00
-False,False,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Steiermark,2020-03-18 00:00:00
-False,False,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Tirol,2020-03-18 00:00:00
-False,False,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Vorarlberg,2020-03-18 00:00:00
-False,False,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Wien,2020-03-18 00:00:00
-False,False,False,False,False,False,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,all,2020-03-18 00:00:00
+False,False,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Burgenland,2020-03-18 00:00:00
+False,False,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Karnten,2020-03-18 00:00:00
+False,False,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Niederosterreich,2020-03-18 00:00:00
+False,False,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Oberosterreich,2020-03-18 00:00:00
+False,False,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Salzburg,2020-03-18 00:00:00
+False,False,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Steiermark,2020-03-18 00:00:00
+False,False,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Tirol,2020-03-18 00:00:00
+False,False,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Vorarlberg,2020-03-18 00:00:00
+False,False,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Wien,2020-03-18 00:00:00
+False,False,False,False,False,True,2,2,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,all,2020-03-18 00:00:00
+False,False,True,False,False,True,2,1,2,,2,False,0,False,True,False,True,True,False,False,False,False,4,Belgium,all,2020-03-18 00:00:00
 False,False,False,False,False,False,0,2,0,,50,True,0,False,False,False,False,True,False,False,False,False,2,Canada,British Columbia,2020-03-18 00:00:00
 False,True,False,False,False,False,1,0,0,,10,True,0,False,False,False,False,True,False,False,False,False,3,Canada,Newfoundland and Labrador,2020-03-18 00:00:00
 False,True,False,False,False,False,2,2,0,,0,True,0,False,False,False,False,False,False,False,False,False,3,Canada,Northwest Territories,2020-03-18 00:00:00
 False,True,False,False,False,False,2,2,0,2,,True,0,False,False,False,False,True,False,False,False,False,3,Canada,Prince Edward Island,2020-03-18 00:00:00
 False,True,False,False,False,False,1,0,0,2,50,True,0,False,False,False,False,True,False,False,False,False,3,Canada,Saskatchewan,2020-03-18 00:00:00
-True,True,True,False,False,True,1,2,0,2,10,True,0,True,True,False,True,True,False,False,False,False,4,Denmark,all,2020-03-18 00:00:00
+True,True,True,False,False,True,2,2,0,2,10,True,0,True,True,False,True,True,False,False,False,False,4,Denmark,all,2020-03-18 00:00:00
 True,True,True,True,False,True,1,2,0,1,100,False,1,False,True,False,True,True,False,False,False,False,4,France,Haute-Savoie,2020-03-18 00:00:00
 True,True,True,True,False,True,1,2,0,1,100,False,1,False,True,False,True,True,False,False,False,False,4,France,all,2020-03-18 00:00:00
 True,True,True,False,False,False,1,2,1,,,False,1,False,False,False,True,True,False,False,False,False,3,Germany,Baden-Wurttemberg,2020-03-18 00:00:00
@@ -2425,6 +2518,7 @@ True,False,True,True,False,False,1,1,0,,,False,0,False,False,False,False,False,F
 True,False,True,True,False,False,1,1,0,,,False,0,False,False,False,False,False,False,False,False,False,3,United Kingdom,Wrexham County Borough Council,2020-03-18 00:00:00
 True,False,True,True,False,False,1,1,0,,,False,0,False,False,False,False,False,False,False,False,False,3,United Kingdom,York,2020-03-18 00:00:00
 True,False,True,True,False,False,1,1,0,,,False,0,False,False,False,False,False,False,False,False,False,3,United Kingdom,all,2020-03-18 00:00:00
+True,False,False,True,False,False,0,2,0,,10,False,0,True,True,False,False,False,False,False,False,False,2,United States of America,Massachusetts,2020-03-18 00:00:00
 True,False,False,True,False,False,1,2,0,,10,False,0,True,True,False,False,False,False,False,True,False,3,United States of America,New Jersey,2020-03-18 00:00:00
 True,False,True,True,False,False,1,2,0,1,10,False,0,True,True,False,False,False,False,False,False,False,3,United States of America,Washington,2020-03-18 00:00:00
 False,True,False,False,False,False,0,0,0,,50,True,0,False,False,False,False,True,False,False,False,False,2,Canada,Alberta,2020-03-17 00:00:00
@@ -2453,7 +2547,7 @@ True,True,True,False,False,False,1,2,1,,,False,1,False,False,False,False,False,F
 True,True,True,False,False,False,1,2,1,,,False,1,False,False,False,False,False,False,False,False,False,3,Germany,Schleswig-Holstein,2020-03-17 00:00:00
 True,True,True,False,False,False,1,2,1,,,False,1,False,False,False,False,False,False,False,False,False,3,Germany,Thuringen,2020-03-17 00:00:00
 True,True,True,False,False,False,1,2,1,,,False,1,False,False,False,False,False,False,False,False,False,3,Germany,all,2020-03-17 00:00:00
-True,True,True,False,False,True,2,2,1,2,10,True,1,False,False,True,False,False,False,False,False,False,4,Israel,all,2020-03-17 00:00:00
+True,True,True,True,False,True,2,2,1,2,10,True,1,True,True,True,False,False,False,False,False,False,4,Israel,all,2020-03-17 00:00:00
 True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Andalucia,2020-03-17 00:00:00
 True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Aragon,2020-03-17 00:00:00
 True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,Asturias,2020-03-17 00:00:00
@@ -2477,20 +2571,25 @@ True,False,True,False,False,True,2,2,1,1,,True,1,False,False,True,True,True,True
 True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,True,False,True,False,4,Spain,all,2020-03-17 00:00:00
 True,False,True,True,False,False,0,0,0,,500,False,0,True,True,False,False,True,False,False,True,False,1,Sweden,Blekinge,2020-03-17 00:00:00
 True,False,True,True,False,False,0,0,0,,500,False,0,False,False,False,False,True,False,False,True,False,1,Sweden,all,2020-03-17 00:00:00
+True,False,False,True,False,False,1,2,1,,10,False,0,False,True,False,False,False,False,False,False,False,3,United States of America,Connecticut,2020-03-17 00:00:00
+True,False,False,True,False,False,0,2,0,,10,False,0,False,True,False,False,False,False,False,False,False,2,United States of America,Florida,2020-03-17 00:00:00
+True,False,True,True,False,False,0,1,0,,10,False,0,False,True,True,False,False,False,False,True,False,2,United States of America,Illinois,2020-03-17 00:00:00
 True,False,False,True,False,False,1,2,0,,50,False,0,True,True,False,False,False,False,False,False,False,3,United States of America,Louisiana,2020-03-17 00:00:00
+True,False,False,True,False,False,0,2,0,,50,False,0,True,True,False,False,False,False,False,False,False,2,United States of America,Michigan,2020-03-17 00:00:00
 True,False,True,True,False,False,1,2,0,1,10,False,0,True,True,False,False,False,False,False,False,False,3,United States of America,Washington,2020-03-17 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,False,False,True,True,False,False,False,False,1,Australia,Victoria,2020-03-16 00:00:00
 True,True,False,False,False,False,0,0,0,1.5,500,False,0,False,False,False,True,True,False,False,False,False,1,Australia,Western Australia,2020-03-16 00:00:00
-False,False,False,False,False,False,2,1,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Burgenland,2020-03-16 00:00:00
-False,False,False,False,False,False,2,1,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Karnten,2020-03-16 00:00:00
-False,False,False,False,False,False,2,1,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Niederosterreich,2020-03-16 00:00:00
-False,False,False,False,False,False,2,1,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Oberosterreich,2020-03-16 00:00:00
-False,False,False,False,False,False,2,1,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Salzburg,2020-03-16 00:00:00
-False,False,False,False,False,False,2,1,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Steiermark,2020-03-16 00:00:00
-False,False,False,False,False,False,2,1,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Tirol,2020-03-16 00:00:00
-False,False,False,False,False,False,2,1,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Vorarlberg,2020-03-16 00:00:00
-False,False,False,False,False,False,2,1,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,Wien,2020-03-16 00:00:00
-False,False,False,False,False,False,2,1,0,1,5,False,0,True,False,False,True,True,False,False,False,False,3,Austria,all,2020-03-16 00:00:00
+False,False,False,False,False,True,2,1,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Burgenland,2020-03-16 00:00:00
+False,False,False,False,False,True,2,1,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Karnten,2020-03-16 00:00:00
+False,False,False,False,False,True,2,1,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Niederosterreich,2020-03-16 00:00:00
+False,False,False,False,False,True,2,1,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Oberosterreich,2020-03-16 00:00:00
+False,False,False,False,False,True,2,1,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Salzburg,2020-03-16 00:00:00
+False,False,False,False,False,True,2,1,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Steiermark,2020-03-16 00:00:00
+False,False,False,False,False,True,2,1,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Tirol,2020-03-16 00:00:00
+False,False,False,False,False,True,2,1,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Vorarlberg,2020-03-16 00:00:00
+False,False,False,False,False,True,2,1,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,Wien,2020-03-16 00:00:00
+False,False,False,False,False,True,2,1,0,1,5,False,0,True,False,False,True,True,False,False,False,False,4,Austria,all,2020-03-16 00:00:00
+False,False,True,False,False,False,1,1,2,,1000,False,0,False,True,False,False,False,False,False,False,False,3,Belgium,all,2020-03-16 00:00:00
 False,True,False,False,False,False,0,0,0,,250,True,0,False,False,False,False,False,False,False,False,False,2,Canada,Alberta,2020-03-16 00:00:00
 False,False,False,False,False,False,0,0,0,,250,True,0,False,False,False,False,False,False,False,False,False,2,Canada,British Columbia,2020-03-16 00:00:00
 False,False,False,False,False,False,0,0,0,,,True,0,False,False,False,False,False,False,False,False,False,2,Canada,"Calgary, Alberta",2020-03-16 00:00:00
@@ -2510,22 +2609,22 @@ False,False,False,False,False,False,0,0,0,,,True,0,False,False,False,False,False
 False,False,False,False,False,False,0,0,0,,,True,0,False,False,False,False,False,False,False,False,False,2,Canada,"Toronto, ON",2020-03-16 00:00:00
 False,False,False,False,False,False,0,0,0,,,True,0,False,False,False,False,False,False,False,False,False,2,Canada,Yukon,2020-03-16 00:00:00
 False,False,False,False,False,False,0,0,0,,,True,0,False,False,False,False,False,False,False,False,False,2,Canada,all,2020-03-16 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,False,True,True,True,4,Czechia,Hlavni mesto Praha,2020-03-16 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,False,True,True,True,4,Czechia,Jihocesky kraj,2020-03-16 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,False,True,True,True,4,Czechia,Jihomoravsky kraj,2020-03-16 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,False,True,True,True,4,Czechia,Karlovarsky kraj,2020-03-16 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,False,True,True,True,4,Czechia,Kraj Vysocina,2020-03-16 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,False,True,True,True,4,Czechia,Kralovehradecky kraj,2020-03-16 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,False,True,True,True,4,Czechia,Liberecky kraj,2020-03-16 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,False,True,True,True,4,Czechia,Moravskoslezsky kraj,2020-03-16 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,False,True,True,True,4,Czechia,Nezjisteno,2020-03-16 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,False,True,True,True,4,Czechia,Olomoucky kraj,2020-03-16 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,False,True,True,True,4,Czechia,Pardubicky kraj,2020-03-16 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,False,True,True,True,4,Czechia,Plzensky kraj,2020-03-16 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,False,True,True,True,4,Czechia,Stredocesky kraj,2020-03-16 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,False,True,True,True,4,Czechia,Ustecky kraj,2020-03-16 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,False,True,True,True,4,Czechia,Zlinsky kraj,2020-03-16 00:00:00
-True,False,True,True,False,True,2,2,2,,30,True,0,True,True,False,True,True,False,True,True,True,4,Czechia,all,2020-03-16 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,False,True,True,True,4,Czechia,Hlavni mesto Praha,2020-03-16 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,False,True,True,True,4,Czechia,Jihocesky kraj,2020-03-16 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,False,True,True,True,4,Czechia,Jihomoravsky kraj,2020-03-16 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,False,True,True,True,4,Czechia,Karlovarsky kraj,2020-03-16 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,False,True,True,True,4,Czechia,Kraj Vysocina,2020-03-16 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,False,True,True,True,4,Czechia,Kralovehradecky kraj,2020-03-16 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,False,True,True,True,4,Czechia,Liberecky kraj,2020-03-16 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,False,True,True,True,4,Czechia,Moravskoslezsky kraj,2020-03-16 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,False,True,True,True,4,Czechia,Nezjisteno,2020-03-16 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,False,True,True,True,4,Czechia,Olomoucky kraj,2020-03-16 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,False,True,True,True,4,Czechia,Pardubicky kraj,2020-03-16 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,False,True,True,True,4,Czechia,Plzensky kraj,2020-03-16 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,False,True,True,True,4,Czechia,Stredocesky kraj,2020-03-16 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,False,True,True,True,4,Czechia,Ustecky kraj,2020-03-16 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,False,True,True,True,4,Czechia,Zlinsky kraj,2020-03-16 00:00:00
+True,False,True,True,False,True,2,2,2,,30,True,1,True,True,False,True,True,False,True,True,True,4,Czechia,all,2020-03-16 00:00:00
 True,True,True,False,False,False,1,2,0,,100,True,0,False,False,False,False,False,False,False,False,False,3,Denmark,all,2020-03-16 00:00:00
 True,True,True,True,False,False,0,2,0,1,100,False,0,False,True,False,False,True,False,False,False,False,2,France,Haute-Savoie,2020-03-16 00:00:00
 True,True,True,True,False,False,0,2,0,1,100,False,0,False,True,False,False,True,False,False,False,False,2,France,all,2020-03-16 00:00:00
@@ -2913,6 +3012,7 @@ True,False,True,False,False,False,2,2,0,1.5,3,False,1,False,False,False,True,Tru
 True,False,True,False,False,False,2,2,0,1.5,3,False,1,False,False,False,True,True,False,False,True,False,3,Netherlands,all,2020-03-16 00:00:00
 True,False,True,False,False,False,2,2,0,1.5,3,False,1,False,False,False,True,True,False,False,True,False,3,Netherlands,s-Gravenhage,2020-03-16 00:00:00
 False,True,False,False,False,False,1,2,0,2,,True,0,False,True,False,False,False,False,False,False,False,3,Norway,all,2020-03-16 00:00:00
+False,False,False,False,False,False,1,2,0,,,False,0,True,True,False,False,False,False,False,True,False,3,Portugal,all,2020-03-16 00:00:00
 True,False,True,True,False,False,0,0,1,,,False,0,False,False,False,False,False,True,False,True,True,2,Singapore,all,2020-03-16 00:00:00
 True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,False,False,False,False,4,Spain,Andalucia,2020-03-16 00:00:00
 True,False,True,False,False,True,1,2,1,1,,True,1,False,False,True,True,True,False,False,False,False,4,Spain,Aragon,2020-03-16 00:00:00
@@ -2965,8 +3065,13 @@ False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,F
 False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,False,False,False,False,3,Switzerland,ZH,2020-03-16 00:00:00
 False,False,True,False,False,False,2,2,0,2,100,False,1,False,False,False,False,False,False,False,False,False,3,Switzerland,all,2020-03-16 00:00:00
 True,False,False,True,False,False,1,1,0,1.83,10,False,0,False,True,False,False,False,False,False,False,False,3,United States of America,California,2020-03-16 00:00:00
-True,False,False,True,False,False,1,1,0,,10,False,0,False,True,False,False,False,False,False,False,False,3,United States of America,Connecticut,2020-03-16 00:00:00
+True,False,False,True,False,False,0,1,0,,10,False,0,False,True,False,False,False,False,False,False,False,2,United States of America,Connecticut,2020-03-16 00:00:00
+True,False,False,True,False,False,0,1,0,,10,False,0,False,True,False,False,False,False,False,False,False,2,United States of America,Florida,2020-03-16 00:00:00
+True,False,True,True,False,False,1,1,0,,10,False,0,False,True,False,False,False,False,False,True,False,3,United States of America,Georgia,2020-03-16 00:00:00
+True,False,True,True,False,False,0,1,0,,10,False,0,False,True,True,False,False,False,False,True,False,2,United States of America,Illinois,2020-03-16 00:00:00
 True,False,False,True,False,False,0,2,0,,10,False,0,True,True,False,False,False,False,False,False,False,2,United States of America,Louisiana,2020-03-16 00:00:00
+True,False,False,True,False,False,0,1,0,,10,False,0,True,True,False,False,False,False,False,False,False,2,United States of America,Massachusetts,2020-03-16 00:00:00
+True,False,False,True,False,False,0,2,0,,10,False,0,True,True,False,False,False,False,False,False,False,2,United States of America,Michigan,2020-03-16 00:00:00
 True,False,False,True,False,False,1,1,0,,10,False,0,True,True,False,False,False,False,False,True,False,3,United States of America,New Jersey,2020-03-16 00:00:00
 True,False,True,True,False,False,1,1,0,,10,False,0,False,True,False,False,False,False,False,False,False,3,United States of America,New York,2020-03-16 00:00:00
 True,False,True,True,False,False,1,1,0,1,10,False,0,True,True,False,False,False,False,False,False,False,3,United States of America,Washington,2020-03-16 00:00:00
@@ -3008,7 +3113,7 @@ True,True,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,F
 True,True,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,False,False,False,False,3,Germany,Schleswig-Holstein,2020-03-15 00:00:00
 True,True,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,False,False,False,False,3,Germany,Thuringen,2020-03-15 00:00:00
 True,True,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,False,False,False,False,3,Germany,all,2020-03-15 00:00:00
-True,True,True,False,False,False,2,2,1,2,10,True,0,False,False,False,False,False,False,False,False,False,3,Israel,all,2020-03-15 00:00:00
+True,True,True,True,False,False,2,2,1,2,10,True,0,True,True,False,False,False,False,False,False,False,3,Israel,all,2020-03-15 00:00:00
 True,False,True,False,False,False,1,2,0,,100,False,0,False,False,False,False,False,False,False,True,False,3,Netherlands,'s-Gravenhage,2020-03-15 00:00:00
 True,False,True,False,False,False,1,2,0,,100,False,0,False,False,False,False,False,False,False,True,False,3,Netherlands,'s-Hertogenbosch,2020-03-15 00:00:00
 True,False,True,False,False,False,1,2,0,,100,False,0,False,False,False,False,False,False,False,True,False,3,Netherlands,Aa en Hunze,2020-03-15 00:00:00
@@ -3590,8 +3695,17 @@ True,False,True,True,False,False,1,0,0,,,False,0,False,False,False,False,False,F
 True,False,True,True,False,False,1,0,0,,,False,0,False,False,False,False,False,False,False,False,False,3,United Kingdom,Wrexham County Borough Council,2020-03-15 00:00:00
 True,False,True,True,False,False,1,0,0,,,False,0,False,False,False,False,False,False,False,False,False,3,United Kingdom,York,2020-03-15 00:00:00
 True,False,True,True,False,False,1,0,0,,,False,0,False,False,False,False,False,False,False,False,False,3,United Kingdom,all,2020-03-15 00:00:00
-False,False,False,True,False,False,0,1,0,1.83,250,False,0,False,False,False,False,False,False,False,False,False,2,United States of America,California,2020-03-15 00:00:00
-False,False,False,False,False,False,0,1,0,,250,False,0,True,False,False,False,False,False,False,True,False,2,United States of America,New Jersey,2020-03-15 00:00:00
+False,False,False,True,False,False,0,1,0,1.83,50,False,0,False,False,False,False,False,False,False,False,False,2,United States of America,California,2020-03-15 00:00:00
+False,False,False,False,False,False,0,0,0,,50,False,0,False,False,False,False,False,False,False,False,False,2,United States of America,Connecticut,2020-03-15 00:00:00
+False,False,False,False,False,False,0,0,0,,50,False,0,False,False,False,False,False,False,False,False,False,2,United States of America,Florida,2020-03-15 00:00:00
+False,False,True,False,False,False,0,0,0,,50,False,0,False,True,True,False,False,False,False,True,False,2,United States of America,Illinois,2020-03-15 00:00:00
+False,False,False,False,False,False,0,2,0,,50,False,0,True,False,False,False,False,False,False,False,False,2,United States of America,Louisiana,2020-03-15 00:00:00
+False,False,False,False,False,False,0,0,0,,50,False,0,True,True,False,False,False,False,False,False,False,2,United States of America,Massachusetts,2020-03-15 00:00:00
+False,False,False,False,False,False,0,2,0,,50,False,0,True,True,False,False,False,False,False,False,False,2,United States of America,Michigan,2020-03-15 00:00:00
+False,False,False,False,False,False,0,1,0,,50,False,0,True,False,False,False,False,False,False,True,False,2,United States of America,New Jersey,2020-03-15 00:00:00
+True,False,True,False,False,False,0,1,0,,50,False,0,False,True,False,False,False,False,False,False,False,2,United States of America,New York,2020-03-15 00:00:00
+True,False,True,False,False,False,1,1,0,1,50,False,0,True,True,False,False,False,False,False,False,False,3,United States of America,Washington,2020-03-15 00:00:00
+False,False,False,False,False,False,0,0,0,,50,False,0,False,False,False,False,False,False,False,False,False,2,United States of America,all,2020-03-15 00:00:00
 False,True,False,False,False,False,0,0,0,,250,False,0,False,False,False,False,False,False,False,False,False,1,Canada,Alberta,2020-03-14 00:00:00
 False,False,False,False,False,False,0,2,0,,250,False,0,True,True,False,False,False,False,False,False,False,2,Canada,Ontario,2020-03-14 00:00:00
 False,True,True,True,False,False,0,2,0,2,250,False,0,True,True,False,False,True,False,False,False,False,2,Canada,Quebec,2020-03-14 00:00:00
@@ -3611,7 +3725,9 @@ True,False,True,True,False,False,2,1,0,,30,False,0,True,True,False,True,True,Fal
 True,False,True,True,False,False,2,1,0,,30,False,0,True,True,False,True,True,False,True,True,True,3,Czechia,Ustecky kraj,2020-03-14 00:00:00
 True,False,True,True,False,False,2,1,0,,30,False,0,True,True,False,True,True,False,True,True,True,3,Czechia,Zlinsky kraj,2020-03-14 00:00:00
 True,False,True,True,False,False,2,1,0,,30,False,0,True,True,False,True,True,False,True,True,True,3,Czechia,all,2020-03-14 00:00:00
-True,True,True,False,False,False,1,1,0,,100,True,0,False,False,False,False,False,False,False,False,False,3,Denmark,all,2020-03-14 00:00:00
+True,True,True,False,False,False,1,1,0,,1000,True,0,False,False,False,False,False,False,False,False,False,3,Denmark,all,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,,False,1,False,False,False,False,False,True,True,False,False,2,Japan,Kanto,2020-03-14 00:00:00
+False,False,True,False,False,False,0,2,0,,,False,1,False,False,False,False,False,True,True,False,False,2,Japan,all,2020-03-14 00:00:00
 True,False,True,False,False,False,2,2,0,,,False,0,False,False,False,False,False,False,False,False,False,3,Spain,Asturias,2020-03-14 00:00:00
 True,False,True,False,False,False,2,2,0,,,False,0,False,False,False,False,False,False,False,False,False,3,Spain,Cantabria,2020-03-14 00:00:00
 True,False,True,False,False,False,2,2,0,,1000,False,0,False,False,False,False,False,False,False,False,False,3,Spain,Cataluna,2020-03-14 00:00:00
@@ -3645,7 +3761,10 @@ False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,Fa
 False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,False,False,False,False,2,Switzerland,ZG,2020-03-14 00:00:00
 False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,False,False,False,False,2,Switzerland,ZH,2020-03-14 00:00:00
 False,False,True,False,False,False,0,2,0,,100,False,1,False,False,False,False,False,False,False,False,False,2,Switzerland,all,2020-03-14 00:00:00
+False,False,True,True,False,False,1,0,0,,10,False,0,False,False,False,False,False,False,False,True,False,3,United States of America,Georgia,2020-03-14 00:00:00
+False,False,False,False,False,False,0,2,0,,250,False,0,True,True,False,False,False,False,False,False,False,2,United States of America,Michigan,2020-03-14 00:00:00
 True,False,True,False,False,False,1,1,0,1,250,False,0,True,True,False,False,False,False,False,False,False,3,United States of America,Washington,2020-03-14 00:00:00
+False,False,True,False,False,False,1,0,2,,1000,False,0,False,True,False,False,False,False,False,False,False,3,Belgium,all,2020-03-13 00:00:00
 False,False,False,False,False,False,0,0,0,,250,False,0,False,False,False,False,False,False,False,False,False,1,Canada,Alberta,2020-03-13 00:00:00
 False,False,False,False,False,False,0,0,0,,250,False,0,False,False,False,False,False,False,False,False,False,1,Canada,British Columbia,2020-03-13 00:00:00
 False,False,False,False,False,False,0,2,0,,250,False,0,False,False,False,False,False,False,False,False,False,2,Canada,Manitoba,2020-03-13 00:00:00
@@ -3668,7 +3787,7 @@ True,False,True,True,False,False,1,1,0,,30,False,0,True,True,False,True,True,Fal
 True,False,True,True,False,False,1,1,0,,30,False,0,True,True,False,True,True,False,False,True,True,3,Czechia,Ustecky kraj,2020-03-13 00:00:00
 True,False,True,True,False,False,1,1,0,,30,False,0,True,True,False,True,True,False,False,True,True,3,Czechia,Zlinsky kraj,2020-03-13 00:00:00
 True,False,True,True,False,False,1,1,0,,30,False,0,True,True,False,True,True,False,False,True,True,3,Czechia,all,2020-03-13 00:00:00
-True,True,True,False,False,False,1,1,0,,100,False,0,False,False,False,False,False,False,False,False,False,3,Denmark,all,2020-03-13 00:00:00
+True,True,True,False,False,False,1,1,0,,1000,False,0,False,False,False,False,False,False,False,False,False,3,Denmark,all,2020-03-13 00:00:00
 True,True,True,True,False,False,0,0,0,1,100,False,0,False,True,False,False,False,False,False,False,False,2,France,Haute-Savoie,2020-03-13 00:00:00
 True,True,True,True,False,False,0,0,0,1,100,False,0,False,True,False,False,False,False,False,False,False,2,France,all,2020-03-13 00:00:00
 True,True,True,False,False,False,0,2,0,,,False,0,False,False,False,False,False,False,False,False,False,2,Germany,Baden-Wurttemberg,2020-03-13 00:00:00
@@ -3915,6 +4034,8 @@ True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,
 True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,False,False,False,False,3,United Kingdom,all,2020-03-13 00:00:00
 False,False,False,False,False,False,0,1,0,1.83,250,False,0,False,False,False,False,False,False,False,False,False,2,United States of America,California,2020-03-13 00:00:00
 False,False,False,False,False,False,0,2,0,,,False,0,True,False,False,False,False,False,False,False,False,2,United States of America,Louisiana,2020-03-13 00:00:00
+False,False,False,False,False,False,0,0,0,,250,False,0,False,True,False,False,False,False,False,False,False,1,United States of America,Massachusetts,2020-03-13 00:00:00
+False,False,False,False,False,False,0,2,0,,250,False,0,False,False,False,False,False,False,False,False,False,2,United States of America,Michigan,2020-03-13 00:00:00
 False,False,False,False,False,False,0,0,0,,250,False,0,True,False,False,False,False,False,False,True,False,1,United States of America,New Jersey,2020-03-13 00:00:00
 True,False,True,False,False,False,0,1,0,,500,False,0,False,True,False,False,False,False,False,False,False,2,United States of America,New York,2020-03-13 00:00:00
 False,False,False,False,False,False,1,1,0,,500,False,0,True,False,False,False,False,False,False,False,False,3,Austria,Burgenland,2020-03-12 00:00:00
@@ -3927,6 +4048,7 @@ False,False,False,False,False,False,1,1,0,,500,False,0,True,False,False,False,Fa
 False,False,False,False,False,False,1,1,0,,500,False,0,True,False,False,False,False,False,False,False,False,3,Austria,Vorarlberg,2020-03-12 00:00:00
 False,False,False,False,False,False,1,1,0,,500,False,0,True,False,False,False,False,False,False,False,False,3,Austria,Wien,2020-03-12 00:00:00
 False,False,False,False,False,False,1,1,0,,500,False,0,True,False,False,False,False,False,False,False,False,3,Austria,all,2020-03-12 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,True,False,False,False,False,False,False,False,1,Belgium,all,2020-03-12 00:00:00
 False,True,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,1,Canada,New Brunswick,2020-03-12 00:00:00
 True,False,True,True,False,False,0,1,0,,100,False,0,True,True,False,True,True,False,False,True,True,2,Czechia,Hlavni mesto Praha,2020-03-12 00:00:00
 True,False,True,True,False,False,0,1,0,,100,False,0,True,True,False,True,True,False,False,True,True,2,Czechia,Jihocesky kraj,2020-03-12 00:00:00
@@ -3946,7 +4068,7 @@ True,False,True,True,False,False,0,1,0,,100,False,0,True,True,False,True,True,Fa
 True,False,True,True,False,False,0,1,0,,100,False,0,True,True,False,True,True,False,False,True,True,2,Czechia,all,2020-03-12 00:00:00
 True,True,True,True,False,False,0,0,0,1,1000,False,0,False,True,False,False,False,False,False,False,False,1,France,Haute-Savoie,2020-03-12 00:00:00
 True,True,True,True,False,False,0,0,0,1,1000,False,0,False,True,False,False,False,False,False,False,False,1,France,all,2020-03-12 00:00:00
-True,True,True,False,False,False,0,2,0,,100,True,0,False,False,False,False,False,False,False,False,False,2,Israel,all,2020-03-12 00:00:00
+True,True,True,True,False,False,0,2,0,,100,True,0,True,True,False,False,False,False,False,False,False,2,Israel,all,2020-03-12 00:00:00
 True,False,True,False,False,False,1,1,0,,100,False,0,False,False,False,False,False,False,False,True,False,3,Netherlands,'s-Gravenhage,2020-03-12 00:00:00
 True,False,True,False,False,False,1,1,0,,100,False,0,False,False,False,False,False,False,False,True,False,3,Netherlands,'s-Hertogenbosch,2020-03-12 00:00:00
 True,False,True,False,False,False,1,1,0,,100,False,0,False,False,False,False,False,False,False,True,False,3,Netherlands,Aa en Hunze,2020-03-12 00:00:00
@@ -4312,6 +4434,7 @@ True,False,True,False,False,False,1,1,0,,100,False,0,False,False,False,False,Fal
 True,False,True,False,False,False,1,1,0,,100,False,0,False,False,False,False,False,False,False,True,False,3,Netherlands,all,2020-03-12 00:00:00
 True,False,True,False,False,False,1,1,0,,100,False,0,False,False,False,False,False,False,False,True,False,3,Netherlands,s-Gravenhage,2020-03-12 00:00:00
 False,True,False,False,False,False,1,2,0,2,,False,0,False,True,False,False,False,False,False,False,False,3,Norway,all,2020-03-12 00:00:00
+False,False,False,False,False,False,1,0,0,,,False,0,True,True,False,False,False,False,False,True,False,3,Portugal,all,2020-03-12 00:00:00
 True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,False,False,False,False,3,Spain,Andalucia,2020-03-12 00:00:00
 True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,False,False,False,False,3,Spain,Aragon,2020-03-12 00:00:00
 True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,False,False,False,False,3,Spain,Asturias,2020-03-12 00:00:00
@@ -4335,6 +4458,10 @@ True,False,True,False,False,False,1,2,0,,,False,0,False,False,False,False,False,
 True,False,True,False,False,False,0,0,0,,500,False,0,True,True,False,False,True,False,False,False,False,1,Sweden,Blekinge,2020-03-12 00:00:00
 True,False,True,False,False,False,0,0,0,,500,False,0,False,False,False,False,True,False,False,False,False,1,Sweden,all,2020-03-12 00:00:00
 False,False,False,False,False,False,0,0,0,1.83,250,False,0,False,False,False,False,False,False,False,False,False,1,United States of America,California,2020-03-12 00:00:00
+False,False,False,False,False,False,0,0,0,,250,False,0,False,False,False,False,False,False,False,False,False,1,United States of America,Connecticut,2020-03-12 00:00:00
+False,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,False,False,True,False,3,United States of America,Georgia,2020-03-12 00:00:00
+False,False,True,False,False,False,0,0,0,,250,False,0,False,True,True,False,False,False,False,True,False,1,United States of America,Illinois,2020-03-12 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,True,False,False,False,False,False,False,False,1,United States of America,Massachusetts,2020-03-12 00:00:00
 False,False,False,False,False,False,0,0,0,,250,False,0,False,False,False,False,False,False,False,True,False,1,United States of America,New Jersey,2020-03-12 00:00:00
 False,False,False,False,False,False,1,1,0,,500,False,0,False,False,False,False,False,False,False,False,False,3,Austria,Burgenland,2020-03-11 00:00:00
 False,False,False,False,False,False,1,1,0,,500,False,0,False,False,False,False,False,False,False,False,False,3,Austria,Karnten,2020-03-11 00:00:00
@@ -4362,8 +4489,7 @@ True,False,False,False,False,False,0,1,0,,100,False,0,True,True,False,True,True,
 True,False,False,False,False,False,0,1,0,,100,False,0,True,True,False,True,True,False,False,True,True,2,Czechia,Ustecky kraj,2020-03-11 00:00:00
 True,False,False,False,False,False,0,1,0,,100,False,0,True,True,False,True,True,False,False,True,True,2,Czechia,Zlinsky kraj,2020-03-11 00:00:00
 True,False,False,False,False,False,0,1,0,,100,False,0,True,True,False,True,True,False,False,True,True,2,Czechia,all,2020-03-11 00:00:00
-True,True,True,False,False,False,0,0,0,,100,False,0,False,False,False,False,False,False,False,False,False,2,Denmark,all,2020-03-11 00:00:00
-True,True,True,False,False,False,0,0,0,,100,True,0,False,False,False,False,False,False,False,False,False,2,Israel,all,2020-03-11 00:00:00
+True,True,True,True,False,False,0,0,0,,100,True,0,True,True,False,False,False,False,False,False,False,2,Israel,all,2020-03-11 00:00:00
 True,False,True,True,False,False,0,0,0,,,False,0,False,False,False,False,False,True,False,True,True,1,Singapore,all,2020-03-11 00:00:00
 True,False,True,False,False,False,1,0,0,,1000,False,0,False,False,False,False,False,False,False,False,False,3,Spain,Cataluna,2020-03-11 00:00:00
 True,False,True,False,False,False,0,0,0,,,False,0,True,True,False,False,True,False,False,False,False,1,Sweden,Blekinge,2020-03-11 00:00:00
@@ -4379,6 +4505,7 @@ False,False,False,False,False,False,0,1,0,,500,False,0,False,False,False,False,F
 False,False,False,False,False,False,0,1,0,,500,False,0,False,False,False,False,False,False,False,False,False,2,Austria,Vorarlberg,2020-03-10 00:00:00
 False,False,False,False,False,False,0,1,0,,500,False,0,False,False,False,False,False,False,False,False,False,2,Austria,Wien,2020-03-10 00:00:00
 False,False,False,False,False,False,0,1,0,,500,False,0,False,False,False,False,False,False,False,False,False,2,Austria,all,2020-03-10 00:00:00
+False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,False,False,False,False,1,Belgium,all,2020-03-10 00:00:00
 True,False,False,False,False,False,0,0,0,,100,False,0,True,True,False,True,True,False,False,True,True,2,Czechia,Hlavni mesto Praha,2020-03-10 00:00:00
 True,False,False,False,False,False,0,0,0,,100,False,0,True,True,False,True,True,False,False,True,True,2,Czechia,Jihocesky kraj,2020-03-10 00:00:00
 True,False,False,False,False,False,0,0,0,,100,False,0,True,True,False,True,True,False,False,True,True,2,Czechia,Jihomoravsky kraj,2020-03-10 00:00:00
@@ -4395,7 +4522,7 @@ True,False,False,False,False,False,0,0,0,,100,False,0,True,True,False,True,True,
 True,False,False,False,False,False,0,0,0,,100,False,0,True,True,False,True,True,False,False,True,True,2,Czechia,Ustecky kraj,2020-03-10 00:00:00
 True,False,False,False,False,False,0,0,0,,100,False,0,True,True,False,True,True,False,False,True,True,2,Czechia,Zlinsky kraj,2020-03-10 00:00:00
 True,False,False,False,False,False,0,0,0,,100,False,0,True,True,False,True,True,False,False,True,True,2,Czechia,all,2020-03-10 00:00:00
-True,True,False,False,False,False,0,0,0,,2000,True,0,False,False,False,False,False,False,False,False,False,2,Israel,all,2020-03-10 00:00:00
+True,True,False,False,False,False,0,0,0,,2000,True,0,True,False,False,False,False,False,False,False,False,2,Israel,all,2020-03-10 00:00:00
 True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,False,False,False,False,3,Spain,Andalucia,2020-03-10 00:00:00
 True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,False,False,False,False,3,Spain,Aragon,2020-03-10 00:00:00
 True,False,True,False,False,False,1,0,0,,,False,0,False,False,False,False,False,False,False,False,False,3,Spain,Asturias,2020-03-10 00:00:00
@@ -4441,10 +4568,12 @@ False,False,False,False,False,True,2,2,2,,,False,0,False,False,False,True,True,F
 False,False,False,False,False,True,2,2,2,,,False,0,False,False,False,True,True,False,False,False,False,4,Italy,Valle d'Aosta,2020-03-09 00:00:00
 False,False,False,False,False,True,2,2,2,,,False,0,False,False,False,True,True,False,False,False,False,4,Italy,Veneto,2020-03-09 00:00:00
 False,False,False,False,False,True,2,2,2,,,False,0,False,False,False,True,True,False,False,False,False,4,Italy,all,2020-03-09 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,True,False,False,False,False,False,False,True,False,1,Portugal,all,2020-03-09 00:00:00
 True,False,True,False,False,False,0,1,0,,,False,0,False,False,False,False,False,False,False,False,False,2,Spain,CastillaLaMancha,2020-03-09 00:00:00
 True,False,True,False,False,False,0,1,0,,,False,0,False,False,False,False,False,False,False,False,False,2,Spain,PaisVasco,2020-03-09 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,1,Sweden,Blekinge,2020-03-09 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,1,Sweden,all,2020-03-09 00:00:00
+False,False,True,False,False,False,0,0,0,,,False,0,False,True,False,False,False,False,False,True,False,1,United States of America,Illinois,2020-03-09 00:00:00
 True,False,True,False,False,False,0,1,0,,,False,0,False,False,False,False,False,False,False,False,False,2,United States of America,New York,2020-03-09 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,True,True,False,False,True,True,1,Czechia,Hlavni mesto Praha,2020-03-08 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,True,True,False,False,True,True,1,Czechia,Jihocesky kraj,2020-03-08 00:00:00
@@ -4563,9 +4692,11 @@ False,False,False,False,False,False,0,2,0,,,False,0,False,False,False,False,Fals
 False,False,False,False,False,False,0,2,0,,,False,0,False,False,False,False,False,False,False,False,False,2,Italy,all,2020-03-04 00:00:00
 True,False,False,False,False,False,1,1,0,,,False,0,False,True,False,False,False,False,False,False,False,3,United States of America,Washington,2020-03-04 00:00:00
 True,False,False,False,False,False,0,1,0,,,False,0,False,True,False,False,False,False,False,False,False,2,United States of America,Washington,2020-03-03 00:00:00
+False,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,1,Belgium,all,2020-03-02 00:00:00
 True,True,False,False,False,False,0,0,0,,5000,False,0,False,False,False,False,False,False,False,False,False,1,France,Haute-Savoie,2020-03-02 00:00:00
 False,True,False,False,False,False,0,0,0,,5000,False,0,False,False,False,False,False,False,False,False,False,1,France,all,2020-03-02 00:00:00
-False,False,False,False,False,False,0,2,0,,,False,0,False,False,False,False,False,False,False,False,False,2,Japan,all,2020-03-02 00:00:00
+False,False,True,False,False,False,0,2,0,,,False,0,False,False,False,False,False,True,True,False,False,2,Japan,Kanto,2020-03-02 00:00:00
+False,False,True,False,False,False,0,2,0,,,False,0,False,False,False,False,False,True,True,False,False,2,Japan,all,2020-03-02 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,True,False,1,Netherlands,'s-Gravenhage,2020-03-02 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,True,False,1,Netherlands,'s-Hertogenbosch,2020-03-02 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,True,False,1,Netherlands,Aa en Hunze,2020-03-02 00:00:00
@@ -4958,6 +5089,8 @@ False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,F
 False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,False,False,False,False,1,Switzerland,ZG,2020-03-02 00:00:00
 False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,False,False,False,False,1,Switzerland,ZH,2020-03-02 00:00:00
 False,False,True,False,False,False,0,0,0,,1000,False,0,False,False,False,False,False,False,False,False,False,1,Switzerland,all,2020-03-02 00:00:00
+False,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,True,True,False,False,1,Japan,Kanto,2020-03-01 00:00:00
+False,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,True,True,False,False,1,Japan,all,2020-03-01 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,1,Netherlands,'s-Gravenhage,2020-03-01 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,1,Netherlands,'s-Hertogenbosch,2020-03-01 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,1,Netherlands,Aa en Hunze,2020-03-01 00:00:00
@@ -5557,8 +5690,12 @@ False,False,False,False,False,False,1,2,0,,,False,0,False,False,False,False,Fals
 False,False,False,False,False,False,0,2,0,,,False,0,False,False,False,False,False,False,False,False,False,2,Italy,P.A. Trento,2020-02-27 00:00:00
 False,False,False,False,False,False,0,1,0,2,,False,0,False,False,False,False,False,False,False,False,False,2,Italy,Puglia,2020-02-27 00:00:00
 False,False,False,False,False,False,0,2,2,,,False,0,False,False,False,False,False,False,False,False,False,2,Italy,Veneto,2020-02-27 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,True,False,1,Portugal,all,2020-02-27 00:00:00
+True,False,False,False,False,False,0,2,0,,,False,0,True,False,False,False,True,True,False,True,True,2,Hong Kong,all,2020-02-26 00:00:00
 False,False,False,False,False,False,0,1,0,,,False,0,False,False,False,False,False,False,False,False,False,2,Italy,Campania,2020-02-26 00:00:00
 False,False,False,False,False,False,0,1,0,,,False,0,False,False,False,False,False,False,False,False,False,2,Italy,Sicilia,2020-02-26 00:00:00
+False,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,1,Japan,Kanto,2020-02-25 00:00:00
+False,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,1,Japan,all,2020-02-25 00:00:00
 False,True,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,1,Italy,Basilicata,2020-02-24 00:00:00
 False,False,False,False,False,False,0,1,0,,,False,0,False,False,False,False,False,False,False,False,False,2,Italy,Friuli Venezia Giulia,2020-02-24 00:00:00
 False,True,False,False,False,False,1,2,0,,,False,0,False,False,False,False,False,False,False,False,False,3,Italy,Liguria,2020-02-24 00:00:00
@@ -5572,6 +5709,7 @@ False,False,False,False,False,False,0,1,0,,,False,0,False,False,False,False,Fals
 False,False,False,False,False,False,1,1,1,,,False,1,False,False,False,False,False,False,False,False,False,3,Italy,Lombardia,2020-02-21 00:00:00
 True,True,False,False,False,False,0,0,0,,,False,0,False,False,True,False,False,True,False,True,False,1,Taiwan,all,2020-02-19 00:00:00
 True,True,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,True,False,True,False,1,Taiwan,all,2020-02-15 00:00:00
+True,False,False,False,False,False,0,0,0,,,False,0,True,False,False,False,True,True,False,True,True,1,Hong Kong,all,2020-02-11 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,1,France,Haute-Savoie,2020-02-08 00:00:00
 True,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,True,False,True,True,1,Singapore,all,2020-02-07 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,1,South Korea,all,2020-02-02 00:00:00
@@ -5793,16 +5931,22 @@ True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,1,United Kingdom,Wrexham County Borough Council,2020-01-31 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,1,United Kingdom,York,2020-01-31 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,1,United Kingdom,all,2020-01-31 00:00:00
+False,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,True,False,1,United States of America,Illinois,2020-01-30 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,True,False,False,False,False,1,Australia,New South Wales,2020-01-29 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,True,False,False,False,False,1,Australia,Queensland,2020-01-29 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,True,False,False,False,False,1,Australia,South Australia,2020-01-29 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,True,False,False,False,False,1,Australia,Victoria,2020-01-29 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,True,False,False,False,False,1,Australia,Western Australia,2020-01-29 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,True,False,False,False,False,1,Australia,all,2020-01-29 00:00:00
+False,False,True,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,True,False,1,United States of America,Georgia,2020-01-27 00:00:00
+True,False,False,False,False,False,0,0,0,,,False,0,True,False,False,False,False,True,False,True,True,1,Hong Kong,all,2020-01-26 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,True,False,True,False,1,Singapore,all,2020-01-24 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,1,United States of America,Washington,2020-01-24 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,1,Singapore,all,2020-01-23 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,True,False,True,True,1,Hong Kong,all,2020-01-22 00:00:00
 True,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,1,Taiwan,all,2020-01-21 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,True,False,False,True,1,Hong Kong,all,2020-01-09 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,True,1,Hong Kong,all,2020-01-07 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Australia,New South Wales,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Australia,Queensland,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Australia,South Australia,2019-01-01 00:00:00
@@ -5819,6 +5963,7 @@ False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,Fals
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Austria,Vorarlberg,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Austria,Wien,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Austria,all,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Belgium,all,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Canada,Alberta,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Canada,British Columbia,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Canada,"Calgary, Alberta",2019-01-01 00:00:00
@@ -5876,6 +6021,7 @@ False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,Fals
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Germany,Schleswig-Holstein,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Germany,Thuringen,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Germany,all,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Hong Kong,all,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Israel,all,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Italy,Abruzzo,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Italy,Basilicata,2019-01-01 00:00:00
@@ -5899,6 +6045,7 @@ False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,Fals
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Italy,Valle d'Aosta,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Italy,Veneto,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Italy,all,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Japan,Kanto,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Japan,all,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Netherlands,'s-Gravenhage,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Netherlands,'s-Hertogenbosch,2019-01-01 00:00:00
@@ -6265,6 +6412,7 @@ False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,Fals
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Netherlands,all,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Netherlands,s-Gravenhage,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Norway,all,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Portugal,all,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Singapore,all,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,South Korea,all,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,Spain,Andalucia,2019-01-01 00:00:00
@@ -6517,7 +6665,12 @@ False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,Fals
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,United Kingdom,all,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,United States of America,California,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,United States of America,Connecticut,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,United States of America,Florida,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,United States of America,Georgia,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,United States of America,Illinois,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,United States of America,Louisiana,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,United States of America,Massachusetts,2019-01-01 00:00:00
+False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,United States of America,Michigan,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,United States of America,New Jersey,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,United States of America,New York,2019-01-01 00:00:00
 False,False,False,False,False,False,0,0,0,,,False,0,False,False,False,False,False,False,False,False,False,0,United States of America,Washington,2019-01-01 00:00:00

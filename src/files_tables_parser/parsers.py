@@ -39,7 +39,8 @@ class FileParser:
 
     PPTX_SUFFIX = "pptx"
     PDF_SUFFIX = "pdf"
-
+    XLSX_SUFFIX = "xlsx"
+    
     def __init__(self, path, output_dir=str()):
         """
         Saves 3 parameters about a the file:
@@ -87,6 +88,9 @@ class FileParser:
             parser = PptxParser(self.path, self.output_dir)
         elif FileParser.PDF_SUFFIX == file_suffix:
             parser = PdfParser(self.path, self.output_dir)
+        elif FileParser.XLSX_SUFFIX == file_suffix:
+            logging.warning("We don't have parser for xlsx files yet")
+            return
         else:
             raise ValueError(
                 f"This class don't parse files of the type: {file_suffix}, "

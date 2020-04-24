@@ -8,9 +8,15 @@ Germany,all,16/03/2020,religious_institutions,0,1
 Germany,all,17/03/2020,public_transport_restriction,0,1
 Germany,all,18/03/2020,police_army_enforcement,FALSE,TRUE
 Germany,all,18/03/2020,fines_and_incarceration,FALSE,TRUE
+Germany,Bavaria,20/03/2020,partial_quarantine,FALSE,TRUE
+Germany,Baden-Wurttemberg,20/03/2020,congregation_restriction,NONE,3
+Germany,Hessen,20/03/2020,congregation_restriction,NONE,5
+Germany,Hamburg,20/03/2020,congregation_restriction,NONE,6
+Germany,Rheinland-Pfalz,21/03/2020,congregation_restriction,NONE,5
+Germany,Saarland,21/03/2020,partial_quarantine,FALSE,TRUE
 Germany,all,22/03/2020,unnecessary_business,1,2
 Germany,all,22/03/2020,congregation_restriction,NONE,2
 Germany,all,22/03/2020,distance_saving_instructions,NONE,1.5
 Germany,all,22/03/2020,religious_institutions,1,2
 Germany,all,01/04/2020,encouragement_using_masks,FALSE,TRUE
-Germany,all,10/04/2020,enter_area_isolation,FALSE,TRUE
+Germany,all,20/04/2020,unnecessary_business,2,1
