@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 date,total,confirmed,recovered,isolated,deceased,being_tested,negative
 2020-04-19,559109,10661,8042,2385,234,12243,536205
+=======
+date,total,confirmed,recovered,isolated,deceased,being_tested,negative
+2020-04-19,559109,10661,8042,2385,234,12243,536205
+>>>>>>> 6268bc1c4c65b46af82c24ca49d561e10adc6af0
