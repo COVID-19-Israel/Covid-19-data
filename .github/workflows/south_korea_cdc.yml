@@ -1,6 +1,6 @@
-on:
-  schedule:
-  - cron: 0 8,00 * * *
+on: [push, pull_request]
+  # schedule:
+  # - cron: 0 8,00 * * *
 
 jobs: 
   download_updates:
@@ -22,7 +22,7 @@ jobs:
         submodules: true
     - name: Run the south korea cdc scraper
       run: |
-        pip install beautifulsoup4 aiohttp
+        pip install lxml beautifulsoup4 aiohttp
         python src/koreaCdc/get_korea_cdc_data.py
       shell: bash
       working-directory: ./Covid-19-data
