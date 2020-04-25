@@ -22,7 +22,11 @@ jobs:
       uses: actions/checkout@v2
       with:
         token: ${{ secrets.ACCESS_TOKEN }}
-        submodules: true
+        # submodules: true
+        run:
+          git pull origin master --allow-unrelated-histories
+        shell:
+          bash
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v1
       with:
@@ -38,13 +42,12 @@ jobs:
       env:
         KOREA_CDC_DATA_DIR: ./data/other/south-korea-cdc-reports/csv
       run: |
-        git init
         git add $KOREA_CDC_DATA_DIR
         git commit -m "Auto update south-korean cdc data"
       shell: bash
-    - name: Pull Changes
-      run: |
-        git pull origin master --allow-unrelated-histories
+    # - name: Pull Changes
+    #   run: |
+    #     git pull origin master --allow-unrelated-histories
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v2
       with:
