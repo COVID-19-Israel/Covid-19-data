@@ -49,6 +49,7 @@ async def get_all_report_links(session, base_url, queue):
     report_links = []
     oldest_report_number = 'list_no=365797'
     first_page_url = "/board/board.es?mid=&bid=0030&nPage=1"
+    gathered_list_numbers = set()
 
     async with session.get(f"{base_url}{first_page_url}") as resp:
         html = await resp.text()
@@ -61,6 +62,13 @@ async def get_all_report_links(session, base_url, queue):
             if 'rss' in report_link:
                 continue
             if 'list_no=' in report_link:
+                list_no_re = re.search('(list_no=)(\d+)', report_link)
+                if list_no_re is not None:
+                    list_no = int(list_no_re.groups()[1])
+                    if list_no in gathered_list_numbers:
+                        logging.info(f'Skipping already gathered page: {report_link}')
+                        continue
+                    gathered_list_numbers.add(list_no)
                 report_links.append(report_link)
                 logging.debug(f'adding a link:{report_link}')
                 # TODO: benchmark asyncio.create_task(queue.put) vs queue.put_nowait vs this.
