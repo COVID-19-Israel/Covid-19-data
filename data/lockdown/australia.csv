@@ -1,23 +1,23 @@
 country,state/province,change_date,changed_field,changed_from,changed_to
-Australia,all,29-01-20,exposure_to_patient_isolation,FALSE,TRUE
-Australia,all,15-03-20,congregation_restriction,NONE,500
-Australia,all,15-03-20,enter_area_isolation,FALSE,TRUE
-Australia,all,20-03-20,prohibition_entering_country,FALSE,TRUE
-Australia,all,23-03-20,unnecessary_business,0,2
-Australia,all,23-03-20,religious_institutions,0,2
-Australia,all,23-03-20,educational_institutions,0,1
-Australia,Victoria,24-03-20,educational_institutions,1,2
-Australia,New South Wales,24-03-20,educational_institutions,1,2
-Australia,all,15-03-20,distance_saving_instructions,NONE,1.5
-Australia,all,19-03-20,limit_retirement_homes_visits,FALSE,TRUE
-Australia,Queensland,21-03-20,police_army_enforcement,FALSE,TRUE
-Australia,New South Wales,15-03-20,police_army_enforcement,FALSE,TRUE
-Australia,Victoria,16-03-20,police_army_enforcement,FALSE,TRUE
-Australia,Western Australia,16-03-20,police_army_enforcement,FALSE,TRUE
-Australia,South Australia,18-03-20,police_army_enforcement,FALSE,TRUE
-Australia,all,29-01-20,fines_and_incarceration,FALSE,TRUE
-Australia,all,29-03-20,risk_groups_isolation,FALSE,TRUE
-Australia,Queensland,09-04-20,partial_quarantine,FALSE,TRUE
-Australia,South Australia,27-03-20,congregation_restriction,500,10
-Australia,all,01-04-20,encouragement_using_hand_sanitizers,FALSE,TRUE
-Australia,all,15-04-20,educational_institutions,2,1
+Australia,all,29/01/2020,exposure_to_patient_isolation,FALSE,TRUE
+Australia,all,15/03/2020,congregation_restriction,NONE,500
+Australia,all,15/03/2020,enter_area_isolation,FALSE,TRUE
+Australia,all,20/03/2020,prohibition_entering_country,FALSE,TRUE
+Australia,all,23/03/2020,unnecessary_business,0,2
+Australia,all,23/03/2020,religious_institutions,0,2
+Australia,all,23/03/2020,educational_institutions,0,1
+Australia,Victoria,24/03/2020,educational_institutions,1,2
+Australia,New South Wales,24/03/2020,educational_institutions,1,2
+Australia,all,15/03/2020,distance_saving_instructions,NONE,1.5
+Australia,all,19/03/2020,limit_retirement_homes_visits,FALSE,TRUE
+Australia,Queensland,21/03/2020,police_army_enforcement,FALSE,TRUE
+Australia,New South Wales,15/03/2020,police_army_enforcement,FALSE,TRUE
+Australia,Victoria,16/03/2020,police_army_enforcement,FALSE,TRUE
+Australia,Western Australia,16/03/2020,police_army_enforcement,FALSE,TRUE
+Australia,South Australia,18/03/2020,police_army_enforcement,FALSE,TRUE
+Australia,all,29/01/2020,fines_and_incarceration,FALSE,TRUE
+Australia,all,29/03/2020,risk_groups_isolation,FALSE,TRUE
+Australia,Queensland,09/04/2020,partial_quarantine,FALSE,TRUE
+Australia,South Australia,27/03/2020,congregation_restriction,500,10
+Australia,all,01/04/2020,encouragement_using_hand_sanitizers,FALSE,TRUE
+Australia,all,15/04/2020,educational_institutions,2,1
