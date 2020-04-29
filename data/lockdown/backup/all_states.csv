@@ -1,4 +1,6 @@
 exposure_to_patient_isolation,enter_area_isolation,appearance_of_symptoms_isolation,risk_groups_isolation,full_quarantine,partial_quarantine,unnecessary_business,educational_institutions,religious_institutions,distance_saving_instructions,congregation_restriction,prohibition_entering_country,public_transport_restriction,limit_hospital_visits,limit_retirement_homes_visits,disinfecting_public_spaces,police_army_enforcement,fines_and_incarceration,encouragement_using_masks,encouragement_using_gloves,encouragement_using_hand_sanitizers,wide_temperature_tests,lockdown_level,country,province,start_date
+True,False,True,True,False,True,1,2,2,,10,False,0,True,True,False,True,False,True,False,True,False,4,United States of America,Georgia,2020-04-24 00:00:00
+True,False,True,True,False,False,1,2,0,2,50,False,0,True,True,True,True,True,True,False,False,False,3,United States of America,Michigan,2020-04-24 00:00:00
 True,True,True,True,False,False,1,1,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Hlavni mesto Praha,2020-04-20 00:00:00
 True,True,True,True,False,False,1,1,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Jihocesky kraj,2020-04-20 00:00:00
 True,True,True,True,False,False,1,1,2,2,2,False,1,True,True,False,True,True,True,True,True,True,3,Czechia,Jihomoravsky kraj,2020-04-20 00:00:00
