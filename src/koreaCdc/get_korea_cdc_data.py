@@ -4,7 +4,7 @@
 This crawler downloads the reports from the board of the Korean CDC (https://www.cdc.go.kr/board/board.es?mid=&bid=0030&nPage=1)
 and saves text from all those reports as files which can then be searched for relevant data.
 Install the dependencies before running:
-pip install beautifulsoup4 aiohttp cchardet aiodns
+pip install lxml beautifulsoup4 aiohttp cchardet aiodns
 """
 
 import os
@@ -49,6 +49,7 @@ async def get_all_report_links(session, base_url, queue):
     report_links = []
     oldest_report_number = 'list_no=365797'
     first_page_url = "/board/board.es?mid=&bid=0030&nPage=1"
+    gathered_list_numbers = set()
 
     async with session.get(f"{base_url}{first_page_url}") as resp:
         html = await resp.text()
@@ -61,6 +62,13 @@ async def get_all_report_links(session, base_url, queue):
             if 'rss' in report_link:
                 continue
             if 'list_no=' in report_link:
+                list_no_re = re.search('(list_no=)(\d+)', report_link)
+                if list_no_re is not None:
+                    list_no = int(list_no_re.groups()[1])
+                    if list_no in gathered_list_numbers:
+                        logging.info(f'Skipping already gathered page: {report_link}')
+                        continue
+                    gathered_list_numbers.add(list_no)
                 report_links.append(report_link)
                 logging.debug(f'adding a link:{report_link}')
                 # TODO: benchmark asyncio.create_task(queue.put) vs queue.put_nowait vs this.
@@ -85,7 +93,7 @@ def save_report_to_file(path, filename, report):
         report_file.write(report)
 
 
-def save_test_data_to_csv(data_row: BS, report_date):
+def save_test_data_to_csv(data_row: BS, report_date, report_time):
     subtotal_suspected_col_idx = 6
     first_death_date = '2020-02-20'
 
@@ -94,6 +102,7 @@ def save_test_data_to_csv(data_row: BS, report_date):
 
     test_data_row = {
         'date': -1,
+        'cdc_report_time':-1,
         'total': -1,
         'confirmed' : -1,
         'recovered': -1,
@@ -105,6 +114,7 @@ def save_test_data_to_csv(data_row: BS, report_date):
     cols_without_suspected_subtotal = cols
 
     test_data_row['date'] = report_date
+    test_data_row['cdc_report_time'] = report_time
     if date.fromisoformat(report_date) < date.fromisoformat(first_death_date):
         test_data_row['deceased'] = 0
 
@@ -117,19 +127,26 @@ def save_test_data_to_csv(data_row: BS, report_date):
         logging.debug(f'found a table with an unexpected number of columns. {len(cols_without_suspected_subtotal)}, {len(cols)}')
         return
 
+    cols_without_suspected_subtotal.insert(0, None) # Skip the report time field without overflow
     for i, key in enumerate(iter(test_data_row)):
         if test_data_row[key] != -1:
             continue
         test_data_row[key] = int(raw_value(cols_without_suspected_subtotal[i]))
 
-    with open(os.path.join(BASE_OUTPUT_PATH, 'csv', f'{report_date}.csv'), 'w', newline='') as csv_file:
-        writer = csv.DictWriter(csv_file, fieldnames=test_data_row.keys())
-        writer.writeheader()
-        writer.writerow(test_data_row)
-        logging.info(f'{test_data_row}')
+    csv_path = os.path.join(BASE_OUTPUT_PATH, 'csv', f'{report_date}.csv')
+    if os.path.exists(csv_path):
+        with open(csv_path, 'at+', newline='') as csv_file:
+            writer = csv.DictWriter(csv_file, fieldnames=test_data_row.keys())
+            writer.writerow(test_data_row)
+    else:
+        with open(csv_path, 'w', newline='') as csv_file:
+            writer = csv.DictWriter(csv_file, fieldnames=test_data_row.keys())
+            writer.writeheader()
+            writer.writerow(test_data_row)
+    logging.info(f'{test_data_row}')
 
 
-def get_first_table_data(report_soup, report_date):
+def get_first_table_data(report_soup, report_date, report_time):
     table = report_soup.find('table')
     if table is not None:
         rows = table.find_all('tr')
@@ -142,7 +159,7 @@ def get_first_table_data(report_soup, report_date):
             logging.debug(f"found a table with unexpected number of rows in {report_date}")
             return
 
-        save_test_data_to_csv(current_test_row, report_date)
+        save_test_data_to_csv(current_test_row, report_date, report_time)
 
 
 async def get_single_rep(base_url, report_link, session, queue, i):
@@ -152,12 +169,14 @@ async def get_single_rep(base_url, report_link, session, queue, i):
         report = BS(report_html, features='lxml')
         report_text = report.get_text()
 
-        report_date = re.search(r'Date\d{4}-\d{2}-\d{2}', report_text)
-        date_filename = str(i) if not report_date else f'{report_date.group()[4:]}_{i}'
+        report_datetime_re = re.search(r'Date(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2})', report_text)
+        report_date = report_datetime_re.groups()[0]
+        report_time = report_datetime_re.groups()[1]
+        date_filename = str(i) if not report_date else f'{report_date}_{i}'
         save_report_to_file(os.path.join(BASE_OUTPUT_PATH, 'text'), date_filename, report_text)
         save_report_to_file(os.path.join(BASE_OUTPUT_PATH, 'html'),
                             f'{date_filename}.html', report_html)
-        get_first_table_data(report, date_filename[:10])
+        get_first_table_data(report, report_date, report_time)
         queue.task_done()
 
 

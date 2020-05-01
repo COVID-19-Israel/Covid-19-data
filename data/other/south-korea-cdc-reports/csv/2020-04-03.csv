@@ -1,2 +1,3 @@
-date,total,confirmed,recovered,isolated,deceased,being_tested,negative
-2020-04-03,443273,10062,6021,3867,174,18908,414303
+date,cdc_report_time,total,confirmed,recovered,isolated,deceased,being_tested,negative
+2020-04-03,14:08,443273,10062,6021,3867,174,18908,414303
+2020-04-03,17:54,443273,10062,6021,3867,174,18908,414303
