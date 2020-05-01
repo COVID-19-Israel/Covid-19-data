@@ -29,8 +29,11 @@ def main():
             parser.run()
         except Exception:
             logging.error(f'Failed to run General FileParser on the file: {os.path.basename(path)}')
-        cities_parser = cp.CitiesFileParser(path, OUTPUT_DIR)
-        cities_parser.run()
+        try:
+            cities_parser = cp.CitiesFileParser(path, OUTPUT_DIR)
+            cities_parser.run()
+        except Exception:
+            logging.error(f'Failed to run Cities FileParser on the file: {os.path.basename(path)}')
 
         counter += 1
 

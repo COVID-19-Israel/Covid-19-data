@@ -15,7 +15,7 @@ try:
 except ImportError:
     print("No module named 'google' found")
 
-START_DATE = datetime.date(2020,4,3)
+START_DATE = datetime.date(2020,4,19)
 
 DOWNLOADED_FILES_PATH = 'denmark_files\\'
 DENMARK_FILE_PREFIX = '_covid19-overvaagningsrapport-'

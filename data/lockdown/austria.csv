@@ -15,3 +15,7 @@ Austria,Tirol,19/03/2020,prohibition_entering_country,FALSE,TRUE
 Austria,all,06/04/2020,encouragement_using_masks,FALSE,TRUE
 Austria,all,14/04/2020,unnecessary_business,2,1
 Austria,Tirol,07/04/2020,prohibition_entering_country,TRUE,FALSE
+Austria,all,01/05/2020,partial_quarantine,TRUE,FALSE
+Austria,all,01/05/2020,congregation_restriction,5,10
+Austria,all,04/05/2020,educational_institutions,2,1
+Austria,all,04/05/2020,limit_retirement_homes_visits,TRUE,FALSE
