@@ -6,7 +6,7 @@ name: worldmeterScrapeRunner
 # events but only for the master branch
 on:
   schedule:
-  - cron: "7 7 * * *"
+  - cron: "15 9 * * *"
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -20,8 +20,8 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - name: Access user
       env: 
-        USER_EMAIL: "eyald@my.hit.co.il"
-        USER_NAME: "eyaldvir"
+        USER_EMAIL: "github-action@users.noreply.github.com"
+        USER_NAME: "GitHub Action"
       run: |
         git config --global user.email $USER_EMAIL
         git config --global user.name $USER_NAME
